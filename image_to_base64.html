@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <title>图片转base64</title>
+</head>
+<body>
+<p>
+    <input type="file" id="file"/> <input type="text" id="output" placeholder="结果"/> <span id="info"></span>
+</p>
+<p>
+    <input type="text" id="filename" placeholder="文件名" value="base64.txt"/>
+    <button id="download">下载txt</button>
+</p>
+<p>
+    <img id="image" src="" alt="预览"/>
+</p>
+<script>
+    var el = document.getElementById('file')
+    var output = document.getElementById('output')
+    var download = document.getElementById('download')
+    var image = document.getElementById('image')
+    var filename = document.getElementById('filename')
+    var info = document.getElementById('info')
+    var result
+    el.onchange = function (ev) {
+        var file = el.files[0]
+        var fr = new FileReader()
+        fr.onload = function (ev1) {
+            result = ev1.target.result
+            console.debug(result)
+            image.src = result
+            output.value = result
+            output.select()
+            document.execCommand('copy', false)
+            info.innerHTML = '按Ctrl+C复制'
+        }
+        fr.readAsDataURL(file)
+    }
+    download.onclick = function (ev) {
+        downloadText(result, filename.value || 'base64.txt')
+    }
+
+    function downloadText (text, filename) {
+        var link = document.createElement('a')
+        link.setAttribute('style', 'display:none')
+        link.href = 'data:text/plain;charset=utf-8,\ufeff' + text
+        link.download = filename
+        document.body.appendChild(link)
+        link.click()
+        document.body.removeChild(link)
+    }
+</script>
+</body>
+</html>
