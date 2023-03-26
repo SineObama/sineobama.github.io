@@ -25,5 +25,9 @@
     "hexo-theme-butterfly": "^4.7.0",
     "hexo-theme-landscape": "^0.0.3",
     "hexo-wordcount": "^6.0.1"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "url": "^0.11.0"
   }
 }
