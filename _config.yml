@@ -136,3 +136,10 @@ sitemap:
   rel: false
   tags: true
   categories: true
+
+# 以下自定义脚本
+forbidden_word_check:
+  enable: true
+  # regular expression
+  reg_exp:
+    - ["\u79d1\u5b66\u4e0a\u7f51", 道理上网]
