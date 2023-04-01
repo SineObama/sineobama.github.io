@@ -138,6 +138,14 @@ sitemap:
   categories: true
 
 # 以下自定义脚本
+## 解决内链问题
+replace_internal_link:
+  enable: true
+  # 在渲染前替换
+  replace_before_render: true
+  # 本地可以开启内部链接有效性检查，提供警告信息
+  valid_check: true
+
 forbidden_word_check:
   enable: true
   # regular expression
