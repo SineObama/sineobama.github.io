@@ -103,3 +103,36 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# 以下新增插件推荐 https://butterfly.js.org/posts/4073eda/#%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%96%A6
+## https://github.com/hexojs/hexo-filter-nofollow 加强网站SEO和防止权重流失
+nofollow:
+  enable: true
+  field: site
+  exclude:
+
+## https://github.com/hexojs/hexo-generator-feed
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
+
+## https://github.com/hexojs/hexo-generator-sitemap
+sitemap:
+  path:
+    - sitemap.xml
+    - sitemap.txt
+  template:
+  template_txt:
+  rel: false
+  tags: true
+  categories: true
