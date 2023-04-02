@@ -3,8 +3,7 @@ title: 'Eclipse快捷键'
 date: '2016-03-04 22:47'
 updated: '2016-03-04 22:47'
 tags:
-  - Eclipse
-  - 快捷键
+  - 学习笔记/快捷键
 alias: []
 ---
 

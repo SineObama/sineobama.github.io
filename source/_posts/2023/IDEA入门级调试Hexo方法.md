@@ -3,8 +3,6 @@ title: 'Hexo入门级调试方法'
 date: '2023-03-25 09:10'
 updated: '2023-03-25 09:10'
 tags:
-  - Node.js
-  - IntelliJ-IDEA
   - Hexo
 alias: []
 ---

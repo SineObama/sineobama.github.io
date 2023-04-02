@@ -3,7 +3,6 @@ title: 'Nginx location匹配顺序简单总结'
 date: '2020-05-21 22:04'
 updated: '2020-05-21 22:10'
 tags:
-  - Nginx
 alias: []
 ---
 

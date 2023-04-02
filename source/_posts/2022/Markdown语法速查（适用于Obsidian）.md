@@ -4,7 +4,6 @@ date: '2022-10-30 13:11'
 updated: '2022-10-30 13:11'
 tags:
   - Obsidian
-  - Markdown
 alias: []
 copyright: false
 ---

@@ -5,7 +5,7 @@ updated: '2023-03-20 22:42'
 tags:
   - Obsidian
   - Hexo
-  - 管理方法
+  - 解决方案/管理方法
 alias: []
 ---
 
