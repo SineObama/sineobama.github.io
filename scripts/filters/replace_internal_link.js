@@ -12,6 +12,7 @@
  *     文章渲染后，在{@link https://hexo.io/zh-cn/api/rendering#after-render-过滤器 after_render:html}过滤器使用第三方插件解析Html中的超链接元素，修复拓展名，
  *     解析链接时，会碰到外部链接、内部资源链接，需要进行排除，
  *     统一排除条件：以绝对路径/开头、协议+冒号开头、#开头的链接，只匹配内部相对链接，
+ *     外加排除条件：包含'${'因为会匹配到js代码中的模板变量
  *     再检查是否有路由，因为没有针对markdown拓展名，比如碰到内部资源已有路由可以跳过，无则尝试修复，
  *     根据永久链接的拓展名来修复（估计只能是.html），
  *     修复后仍然没有路由的，可能是源文件缺失文章或其他错误，会给予警告，提醒修复链接，
@@ -68,7 +69,7 @@ if (!replace_before_render || valid_check) {
         // 标签处理参考 hexo-filter-nofollow/lib/filter.js
         return html.replace(/<a.*?(href=['"](.*?)['"]).*?>/gi, (aTag, hrefStr, href) => {
             // 排除条件
-            if (!href || href.startsWith('/') || protocolExp.test(href) || href.startsWith('#')) return aTag;
+            if (!href || href.startsWith('/') || protocolExp.test(href) || href.startsWith('#') || href.indexOf('${') !== -1) return aTag;
             // 如果已经有路由了，不需要修复，比如除了文章以外的资源
             if (getRoute(data.path, href)) return aTag;
 
