@@ -161,6 +161,9 @@ forbidden_word_check:
     - ["\u79d1\u5b66\u4e0a\u7f51", 道理上网]
     - ["\u8f6e\u76d8", 转盘]
 
+replace_external_link:
+  enable: true
+
 ## 外部链接检查，配置排除可信的域名，可用二级域名匹配后缀，出现列表外的域名会发出警告，部署时关闭或许可以提高一点速度
 external_link_check:
   enable: false
