@@ -3,10 +3,9 @@ title: 'Hexo+Obsidian自定义front-matter与打标管理方法'
 date: '2023-03-25 11:48'
 updated: '2023-03-25 11:48'
 tags:
+  - 计算机/管理方法
   - Hexo
   - Obsidian
-  - 学习笔记/笔记系统
-  - 解决方案/管理方法
 alias: []
 ---
 

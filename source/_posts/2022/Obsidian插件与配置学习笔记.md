@@ -3,7 +3,7 @@ title: 'Obsidian插件与配置笔记'
 date: '2022-10-28 23:11'
 updated: '2023-03-21 22:46'
 tags:
-  - 学习笔记/配置记录
+  - 实例记录/静态博客
   - Obsidian
 alias: []
 ---

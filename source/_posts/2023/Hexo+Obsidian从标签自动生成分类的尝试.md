@@ -5,7 +5,7 @@ updated: '2023-03-25 09:23'
 tags:
   - Hexo
   - Obsidian
-  - 解决方案/代码存档
+  - 计算机/代码存档
 alias: []
 ---
 

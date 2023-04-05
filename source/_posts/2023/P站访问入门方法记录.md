@@ -3,13 +3,13 @@ title: 'P站访问入门方法整理'
 date: '2023-03-18 09:45'
 updated: '2023-03-18 09:45'
 tags:
-  - 解决方案/娱乐法
+  - 计算机/备忘录
 alias: []
 ---
 
 ## 加速代理
 
-[Watt Toolkit「原名 Steam++」](../2022/Watt%20Toolkit「原名%20Steam++」.md)
+[Watt Toolkit「原名 Steam++」](../2022/Watt%20Toolkit「原名%20Steam++」介绍.md)
 
 ## 镜像代理网站
 
