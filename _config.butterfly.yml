@@ -821,8 +821,9 @@ note:
 # Pjax
 # It may contain bugs and unstable, give feedback when you find the bugs.
 # https://github.com/MoOx/pjax
+## 本地server发现404页面会引起问题
 pjax:
-  enable: true
+  enable: false
   exclude:
     # - xxxx
     # - xxxx
