@@ -1,6 +1,6 @@
 /**
- * 对没有设置分类的文章，从该文章的标签生成多级分类。
- * 具体做法是找到包含斜杠'/'的多级标签，拆分转换成多级分类。
+ * 对没有设置分类的文章，将该文章的“多级”标签转为多级分类。
+ * 具体做法是找到包含斜杠'/'的多级标签，拆分转换成多级分类，并删除这些标签。
  * 这么做是因为在 Obsidian 编写文章时没有分类的概念，但是有使用斜杠'/'划分的多级标签功能，恰好可以对应 Hexo 的多级分类的概念。
  */
 
@@ -14,14 +14,8 @@ hexo.extend.filter.register('before_post_render', function (data) {
         return data;
     }
 
-    // 文章设置generate_categories_from_tags=false时不进行处理
-    if (data.generate_categories_from_tags === false) {
-        return data;
-    }
-
-    // 文章设置generate_categories_from_tags=true时必定进行处理，否则
     // 文章已经有分类的，保留，不作修改
-    if (data.generate_categories_from_tags !== true && data.categories.length > 0) {
+    if (data.categories.length > 0) {
         return data;
     }
 
@@ -30,6 +24,7 @@ hexo.extend.filter.register('before_post_render', function (data) {
     // 取所有标签名称
     let tags = data.tags.data.map(i => i.name);
     // 支持多级的分类是个双层数组
+    let tagsNew = [];
     let categories = [];
     logger.debug(`title: ${data.title}, reading tags:`, tags);
     for (let i = 0; i < tags.length; i++) {
@@ -41,10 +36,15 @@ hexo.extend.filter.register('before_post_render', function (data) {
         let items = tag.split('/');
         // 单级标签不转换
         if (items.length < 2) {
+            // 标签只保留单级
+            tagsNew.push(tag);
             continue;
         }
         categories.push(items);
     }
+
+    data.setTags(tagsNew);
+    logger.debug(`title: ${data.title}, set tags:`, tagsNew);
 
     if (categories.length > 0) {
         data.setCategories(categories);

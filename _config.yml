@@ -103,3 +103,68 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+# 以下新增插件推荐 https://butterfly.js.org/posts/4073eda/#%E6%8F%92%E4%BB%B6%E6%8E%A8%E8%96%A6
+## https://github.com/hexojs/hexo-filter-nofollow 加强网站SEO和防止权重流失
+nofollow:
+  enable: true
+  field: site
+  exclude:
+
+## https://github.com/hexojs/hexo-generator-feed
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
+
+## https://github.com/hexojs/hexo-generator-sitemap
+sitemap:
+  path:
+    - sitemap.xml
+    - sitemap.txt
+  template:
+  template_txt:
+  rel: false
+  tags: true
+  categories: true
+
+## https://github.com/wzpan/hexo-generator-search
+search:
+  path: search.xml
+  field: all
+  content: true
+  template:
+
+# 以下自定义脚本
+## 解决内链问题
+replace_internal_link:
+  enable: true
+  # 在渲染前替换
+  replace_before_render: true
+  # 本地可以开启内部链接有效性检查，提供警告信息
+  valid_check: true
+
+## 检测用词并警告，部署时关闭或许可以提高一点速度
+forbidden_word_check:
+  enable: true
+  # regular expression
+  reg_exp:
+    - ["\u79d1\u5b66\u4e0a\u7f51", 道理上网]
+    - ["\u8f6e\u76d8", 转盘]
+
+replace_external_link:
+  enable: true
+
+## 外部链接检查，配置排除可信的域名，可用二级域名匹配后缀，出现列表外的域名会发出警告，部署时关闭或许可以提高一点速度
+external_link_check:
+  enable: false
+  trusted:
