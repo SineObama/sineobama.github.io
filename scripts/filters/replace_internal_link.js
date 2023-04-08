@@ -24,7 +24,6 @@
 'use strict';
 
 const pathFn = require('path');
-const url = require('url');
 const logger = hexo.log;
 
 hexo.config.replace_internal_link = Object.assign({
@@ -71,14 +70,22 @@ if (!replace_before_render || valid_check) {
             // 排除条件
             if (!href || href.startsWith('/') || protocolExp.test(href) || href.startsWith('#') || href.indexOf('${') !== -1) return aTag;
             // 如果已经有路由了，不需要修复，比如除了文章以外的资源
-            if (getRoute(data.path, href)) return aTag;
+            let from = encodeURI(data.path);
+            if (getRoute(from, href)) return aTag;
 
             // 截取掉原拓展名，使用永久链接的拓展名来尝试修复
             const extname = pathFn.extname(href);
             let hrefNew = href.substr(0, href.length - extname.length) + permalinkExtname;
-            if (!getRoute(data.path, href)) {
+            if (!getRoute(from, hrefNew)) {
                 // 修复失败也可能是链接的文章不在源文件中，这个也用来警告无效文章链接
-                logger.warn('page "' + (data.page.title || data.page.source) + '" invalid link: ' + decodeURIComponent(href));
+                let baseUrl = config.url.endsWith('/') ? config.url : config.url + '/';
+                hrefNew = limitRelativeLink(from, href, baseUrl);
+                if (hrefNew && href !== hrefNew) {
+                    aTag = aTag.replace(href, hrefNew);
+                    logger.warn('page "' + (data.page.title || data.page.source) + '" invalid link: ' + decodeURIComponent(hrefNew) + ' (limited in site url)');
+                } else {
+                    logger.warn('page "' + (data.page.title || data.page.source) + '" invalid link: ' + decodeURIComponent(href));
+                }
                 return aTag;
             }
 
@@ -95,11 +102,45 @@ if (!replace_before_render || valid_check) {
 
 /**
  * 根据当前文章路径与相对路径，计算最终路径，获取路由对象
- * @param source 当前文章路径
- * @param relative 相对路径链接地址
+ * @param source 当前文章路径（已编码）
+ * @param relative 相对路径链接地址（已编码）
  */
 function getRoute(source, relative) {
     // 转换方式参考 hexo-server/lib/middlewares/route.js
-    const finalHref = route.format(decodeURIComponent(url.resolve(source, relative)));
+    const finalHref = route.format(decodeURIComponent(resolve(source, relative)));
     return route.get(finalHref);
+}
+
+/**
+ * @see @deprecated require('url').resolve
+ */
+function resolve(from, to) {
+    const resolvedUrl = new URL(to, new URL(from, 'resolve://'));
+    if (resolvedUrl.protocol === 'resolve:') {
+        // `from` is a relative URL.
+        const {pathname, search, hash} = resolvedUrl;
+        return pathname + search + hash;
+    }
+    return resolvedUrl.toString();
+}
+
+/**
+ * 如果相对路径链接指向本网站之外，尝试减少寻路路径将其限定在当前网站url寻址之内。
+ * 当前用于针对找不到路由的相对路径链接，其实际情况可能指向发布文件之外的位置，会对应访问到网站之外。例如网站 example.com/blog 中有一个相对路径链接 ../other 最终导向了 example.com/other 即跳出了url路径范围，这种一般是不应该出现的，限制之后便于展示本站内的自定义404页面。
+ *
+ * @param from 当前位置（已编码）
+ * @param href 链接（已编码）
+ * @param baseUrl 网站根目录
+ * @returns 更新后的链接或者undefined
+ */
+function limitRelativeLink(from, href, baseUrl) {
+    if (!href.startsWith('../')) {
+        return undefined;
+    }
+    let absolute = resolve(baseUrl, from);
+    let target = resolve(absolute, href);
+    if (target.startsWith(baseUrl)) {
+        return href;
+    }
+    return limitRelativeLink(from, href.substr(3), baseUrl);
 }
