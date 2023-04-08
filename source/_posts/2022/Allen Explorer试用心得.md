@@ -1,5 +1,5 @@
 ---
-title: 'Allen Explorer'
+title: 'Allen Explorer试用心得'
 date: '2022-11-12 23:52'
 updated: '2022-11-13 01:08'
 tags:
