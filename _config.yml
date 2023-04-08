@@ -45,7 +45,7 @@ relative_link: false
 future: true
 highlight:
   enable: true
-  line_number: false
+  line_number: true
   auto_detect: false
   tab_replace: ''
   wrap: true
@@ -160,6 +160,7 @@ forbidden_word_check:
   reg_exp:
     - ["\u79d1\u5b66\u4e0a\u7f51", 道理上网]
     - ["\u8f6e\u76d8", 转盘]
+    - ["UU\u52a0\u901f\u5668", UU网游加速器]
 
 replace_external_link:
   enable: true
