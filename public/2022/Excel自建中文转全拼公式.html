@@ -1,0 +1,244 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>【转载】Excel自建中文转全拼公式 | SineObama的博客</title><meta name="author" content="SineObama"><meta name="copyright" content="SineObama"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="原文：excel中提取中文拼音_牛老师讲GIS的博客-CSDN博客_excel提取拼音公式 该方法存在缺点，无法识别多音字，还存在一些错误拼音。 主要步骤： alt+F11调出vba编写窗口，写入以下函数： 12345678910111213141516171819202122232425262728293031323334353637383940414243Function PinYin2(Hz">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【转载】Excel自建中文转全拼公式">
+<meta property="og:url" content="https://sine1995.gitee.io/2022/Excel%E8%87%AA%E5%BB%BA%E4%B8%AD%E6%96%87%E8%BD%AC%E5%85%A8%E6%8B%BC%E5%85%AC%E5%BC%8F.html">
+<meta property="og:site_name" content="SineObama的博客">
+<meta property="og:description" content="原文：excel中提取中文拼音_牛老师讲GIS的博客-CSDN博客_excel提取拼音公式 该方法存在缺点，无法识别多音字，还存在一些错误拼音。 主要步骤： alt+F11调出vba编写窗口，写入以下函数： 12345678910111213141516171819202122232425262728293031323334353637383940414243Function PinYin2(Hz">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://sine1995.gitee.io/img/my_cat_400.jpg">
+<meta property="article:published_time" content="2022-10-06T00:00:00.000Z">
+<meta property="article:modified_time" content="2022-10-06T00:00:00.000Z">
+<meta property="article:author" content="SineObama">
+<meta property="article:tag" content="Office">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://sine1995.gitee.io/img/my_cat_400.jpg"><link rel="shortcut icon" href="/img/my_cat_400.jpg"><link rel="canonical" href="https://sine1995.gitee.io/2022/Excel%E8%87%AA%E5%BB%BA%E4%B8%AD%E6%96%87%E8%BD%AC%E5%85%A8%E6%8B%BC%E5%85%AC%E5%BC%8F.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: {"limitDay":500,"position":"top","messagePrev":"这篇文章已经是","messageNext":"天之前更新的了捏ω"},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":400},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-left"},
+  source: {
+    justifiedGallery: {
+      js: 'https://fastly.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://fastly.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: true,
+  isAnchor: true,
+  percent: {
+    toc: true,
+    rightside: true,
+  }
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '【转载】Excel自建中文转全拼公式',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2022-10-06 08:00:00'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="SineObama的博客" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/my_cat_400.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">75</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">13</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">29</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/3.2-%E7%BA%B3%E8%A5%BF%E5%A6%B2KV1920-1080-Q80.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="SineObama的博客"><span class="site-name">SineObama的博客</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">【转载】Excel自建中文转全拼公式</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-10-06T00:00:00.000Z" title="发表于 2022-10-06 08:00:00">2022-10-06</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-10-06T00:00:00.000Z" title="更新于 2022-10-06 08:00:00">2022-10-06</time></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">1.1k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>6分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="【转载】Excel自建中文转全拼公式"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>原文：<a target="_blank" rel="noopener external nofollow noreferrer" href="https://blog.csdn.net/GISShiXiSheng/article/details/44566307">excel中提取中文拼音_牛老师讲GIS的博客-CSDN博客_excel提取拼音公式</a></p>
+<p><strong>该方法存在缺点，无法识别多音字，还存在一些错误拼音。</strong></p>
+<p>主要步骤：</p>
+<p>alt+F11调出vba编写窗口，写入以下函数：</p>
+<figure class="highlight vbscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Function</span> PinYin2(Hz As String)</span><br><span class="line">    <span class="keyword">Dim</span> PinMa As String</span><br><span class="line">    <span class="keyword">Dim</span> MyPinMa As Variant</span><br><span class="line">    <span class="keyword">Dim</span> Temp As Integer, i As Integer, j As Integer</span><br><span class="line">    PinMa = <span class="string">&quot;a,20319,ai,20317,an,20304,ang,20295,ao,20292,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;ba,20283,bai,20265,ban,20257,bang,20242,bao,20230,bei,20051,ben,20036,beng,20032,bi,20026,bian,20002,biao,19990,bie,19986,bin,19982,bing,19976,bo,19805,bu,19784,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;ca,19775,cai,19774,can,19763,cang,19756,cao,19751,ce,19746,ceng,19741,cha,19739,chai,19728,chan,19725,chang,19715,chao,19540,che,19531,chen,19525,cheng,19515,chi,19500,chong,19484,chou,19479,chu,19467,chuai,19289,chuan,19288,chuang,19281,chui,19275,chun,19270,chuo,19263,ci,19261,cong,19249,cou,19243,cu,19242,cuan,19238,cui,19235,cun,19227,cuo,19224,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;da,19218,dai,19212,dan,19038,dang,19023,dao,19018,de,19006,deng,19003,di,18996,dian,18977,diao,18961,die,18952,ding,18783,diu,18774,dong,18773,dou,18763,du,18756,duan,18741,dui,18735,dun,18731,duo,18722,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;e,18710,en,18697,er,18696,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;fa,18526,fan,18518,fang,18501,fei,18490,fen,18478,feng,18463,fo,18448,fou,18447,fu,18446,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;ga,18239,gai,18237,gan,18231,gang,18220,gao,18211,ge,18201,gei,18184,gen,18183,geng,18181,gong,18012,gou,17997,gu,17988,gua,17970,guai,17964,guan,17961,guang,17950,gui,17947,gun,17931,guo,17928,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;ha,17922,hai,17759,han,17752,hang,17733,hao,17730,he,17721,hei,17703,hen,17701,heng,17697,hong,17692,hou,17683,hu,17676,hua,17496,huai,17487,huan,17482,huang,17468,hui,17454,hun,17433,huo,17427,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;ji,17417,jia,17202,jian,17185,jiang,16983,jiao,16970,jie,16942,jin,16915,jing,16733,jiong,16708,jiu,16706,ju,16689,juan,16664,jue,16657,jun,16647,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;ka,16474,kai,16470,kan,16465,kang,16459,kao,16452,ke,16448,ken,16433,keng,16429,kong,16427,kou,16423,ku,16419,kua,16412,kuai,16407,kuan,16403,kuang,16401,kui,16393,kun,16220,kuo,16216,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;la,16212,lai,16205,lan,16202,lang,16187,lao,16180,le,16171,lei,16169,leng,16158,li,16155,lia,15959,lian,15958,liang,15944,liao,15933,lie,15920,lin,15915,ling,15903,liu,15889,long,15878,lou,15707,lu,15701,lv,15681,luan,15667,lue,15661,lun,15659,luo,15652,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;ma,15640,mai,15631,man,15625,mang,15454,mao,15448,me,15436,mei,15435,men,15419,meng,15416,mi,15408,mian,15394,miao,15385,mie,15377,min,15375,ming,15369,miu,15363,mo,15362,mou,15183,mu,15180,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;na,15165,nai,15158,nan,15153,nang,15150,nao,15149,ne,15144,nei,15143,nen,15141,neng,15140,ni,15139,nian,15128,niang,15121,niao,15119,nie,15117,nin,15110,ning,15109,niu,14941,nong,14937,nu,14933,nv,14930,nuan,14929,nue,14928,nuo,14926,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;o,14922,ou,14921,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;pa,14914,pai,14908,pan,14902,pang,14894,pao,14889,pei,14882,pen,14873,peng,14871,pi,14857,pian,14678,piao,14674,pie,14670,pin,14668,ping,14663,po,14654,pu,14645,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;qi,14630,qia,14594,qian,14429,qiang,14407,qiao,14399,qie,14384,qin,14379,qing,14368,qiong,14355,qiu,14353,qu,14345,quan,14170,que,14159,qun,14151,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;ran,14149,rang,14145,rao,14140,re,14137,ren,14135,reng,14125,ri,14123,rong,14122,rou,14112,ru,14109,ruan,14099,rui,14097,run,14094,ruo,14092,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;sa,14090,sai,14087,san,14083,sang,13917,sao,13914,se,13910,sen,13907,seng,13906,sha,13905,shai,13896,shan,13894,shang,13878,shao,13870,she,13859,shen,13847,sheng,13831,shi,13658,shou,13611,shu,13601,shua,13406,shuai,13404,shuan,13400,shuang,13398,shui,13395,shun,13391,shuo,13387,si,13383,song,13367,sou,13359,su,13356,suan,13343,sui,13340,sun,13329,suo,13326,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;ta,13318,tai,13147,tan,13138,tang,13120,tao,13107,te,13096,teng,13095,ti,13091,tian,13076,tiao,13068,tie,13063,ting,13060,tong,12888,tou,12875,tu,12871,tuan,12860,tui,12858,tun,12852,tuo,12849,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;wa,12838,wai,12831,wan,12829,wang,12812,wei,12802,wen,12607,weng,12597,wo,12594,wu,12585,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;xi,12556,xia,12359,xian,12346,xiang,12320,xiao,12300,xie,12120,xin,12099,xing,12089,xiong,12074,xiu,12067,xu,12058,xuan,12039,xue,11867,xun,11861,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;ya,11847,yan,11831,yang,11798,yao,11781,ye,11604,yi,11589,yin,11536,ying,11358,yo,11340,yong,11339,you,11324,yu,11303,yuan,11097,yue,11077,yun,11067,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;za,11055,zai,11052,zan,11045,zang,11041,zao,11038,ze,11024,zei,11020,zen,11019,zeng,11018,zha,11014,zhai,10838,zhan,10832,zhang,10815,zhao,10800,zhe,10790,zhen,10780,zheng,10764,zhi,10587,zhong,10544,zhou,10533,zhu,10519,zhua,10331,zhuai,10329,zhuan,10328,zhuang,10322,zhui,10315,zhun,10309,zhuo,10307,zi,10296,zong,10281,zou,10274,zu,10270,zuan,10262,zui,10260,zun,10256,zuo,10254&quot;</span></span><br><span class="line">    MyPinMa = <span class="built_in">Split</span>(PinMa, <span class="string">&quot;,&quot;</span>)</span><br><span class="line">   </span><br><span class="line">    <span class="keyword">For</span> i = <span class="number">1</span> <span class="keyword">To</span> <span class="built_in">Len</span>(Hz)</span><br><span class="line">    Temp = <span class="built_in">Asc</span>(<span class="built_in">Mid</span>(Hz, i, <span class="number">1</span>))</span><br><span class="line">        <span class="keyword">If</span> Temp &lt; <span class="number">0</span> <span class="keyword">Then</span></span><br><span class="line">          Temp = <span class="built_in">Abs</span>(Temp)</span><br><span class="line">          <span class="keyword">For</span> j = <span class="number">791</span> <span class="keyword">To</span> <span class="number">1</span> <span class="keyword">Step</span> <span class="number">-2</span></span><br><span class="line">              <span class="keyword">If</span> Temp &lt;= Val(MyPinMa(j)) <span class="keyword">Then</span></span><br><span class="line">                  PinYin2 = PinYin2 &amp; MyPinMa(j - <span class="number">1</span>) &amp; <span class="string">&quot;&quot;</span></span><br><span class="line">                  <span class="keyword">Exit</span> <span class="keyword">For</span></span><br><span class="line">              <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line">          <span class="keyword">Next</span></span><br><span class="line">        <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line">    <span class="keyword">Next</span></span><br><span class="line">    PinYin2 = <span class="built_in">Trim</span>(PinYin2)</span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br></pre></td></tr></table></figure>
+</article><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/Office/">Office</a></div><div class="post_share"><div class="social-share" data-image="/img/my_cat_400.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://fastly.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2022/%E5%8E%9F%E7%A5%9E%E8%A7%92%E8%89%B2%E5%B1%95%E6%9F%9C%E8%AE%BE%E7%BD%AE%E5%8E%9F%E5%88%99.html" title="原神角色展柜设置原则"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">原神角色展柜设置原则</div></div></a></div><div class="next-post pull-right"><a href="/2022/%E8%80%81%E4%BA%BA%E7%9C%8B%E6%8A%A4%E9%A1%B9%E7%9B%AE%EF%BC%9A%E5%92%8C%E5%AE%87%E6%99%BA%E6%8A%A4App.html" title="老人看护项目：和宇智护App"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">老人看护项目：和宇智护App</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2022/Excel%E3%80%81Word%E4%BD%BF%E7%94%A8%E5%92%8C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html" title="Excel、Word使用和学习笔记"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="fas fa-history fa-fw"></i> 2022-09-15</div><div class="title">Excel、Word使用和学习笔记</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="waline-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/my_cat_400.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">SineObama</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">75</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">13</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">29</div></a></div><a id="card-info-btn" target="_blank" rel="noopener external nofollow noreferrer" href="https://gitee.com/sine1995"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/SineObama" rel="external nofollow noreferrer" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="https://gitee.com/sine1995/sine1995" rel="external nofollow noreferrer" target="_blank" title="Source code"><i class="fa-solid fa-file-code"></i></a><a class="social-icon" href="/714186139@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://space.bilibili.com/30987652" rel="external nofollow noreferrer" target="_blank" title="Bilibili"><i class="fa-brands fa-bilibili"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">刚建站没多久，还在持续发布公开笔记</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/Hexo%E5%8D%9A%E5%AE%A2jsdelivr%20CDN%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95.html" title="Hexo博客jsdelivr CDN无法访问解决方法">Hexo博客jsdelivr CDN无法访问解决方法</a><time datetime="2023-04-08T08:44:00.000Z" title="更新于 2023-04-08 16:44:00">2023-04-08</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/HTML%E9%80%9A%E7%94%A8%E8%BD%AC%E4%B9%89%E8%A7%84%E5%88%99,%E8%BD%AC%E4%B9%89%E4%BB%BB%E6%84%8FUnicode%E5%AD%97%E7%AC%A6.html" title="HTML通用转义规则,转义任意Unicode字符">HTML通用转义规则,转义任意Unicode字符</a><time datetime="2023-04-08T08:41:00.000Z" title="更新于 2023-04-08 16:41:00">2023-04-08</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2022/%E5%A4%96%E5%8D%96%E5%B9%B3%E5%8F%B0%E9%A2%86%E5%88%B8%E7%82%B9%E9%A4%90%E7%BA%A2%E5%8C%85%E6%95%B4%E7%90%86.html" title="外卖平台领券点餐红包整理">外卖平台领券点餐红包整理</a><time datetime="2023-04-05T02:00:00.000Z" title="更新于 2023-04-05 10:00:00">2023-04-05</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2022/%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6%E7%9A%84%E6%80%BB%E4%BD%93%E5%8E%86%E7%A8%8B.html" title="使用笔记软件的总体历程">使用笔记软件的总体历程</a><time datetime="2023-04-02T14:25:00.000Z" title="更新于 2023-04-02 22:25:00">2023-04-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2021/%E3%80%8A%E5%8E%9F%E7%A5%9E%E3%80%8B%E9%9A%8F%E7%AC%94%E6%97%A5%E8%AE%B0.html" title="《原神》随笔日记">《原神》随笔日记</a><time datetime="2023-04-02T14:04:00.000Z" title="更新于 2023-04-02 22:04:00">2023-04-02</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/img/3.2-%E7%BA%B3%E8%A5%BF%E5%A6%B2KV1920-1080-Q80.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2023 By SineObama</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://fastly.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="https://fastly.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://fastly.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="https://fastly.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"><script>(() => {
+  const $mermaidWrap = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaidWrap.length) {
+    window.runMermaid = () => {
+      window.loadMermaid = true
+      const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+      Array.from($mermaidWrap).forEach((item, index) => {
+        const mermaidSrc = item.firstElementChild
+        const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+        const mermaidID = 'mermaid-' + index
+        const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+        mermaid.mermaidAPI.render(mermaidID, mermaidDefinition, (svgCode) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svgCode)
+        })
+      })
+    }
+
+    const loadMermaid = () => {
+      window.loadMermaid ? runMermaid() : getScript('https://fastly.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(runMermaid)
+    }
+
+    window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+  }
+})()</script><script>function loadWaline () {
+  function initWaline () {
+    const waline = Waline.init(Object.assign({
+      el: '#waline-wrap',
+      serverURL: 'https://waline-1-y0737510.deta.app',
+      pageview: false,
+      dark: 'html[data-theme="dark"]',
+      path: window.location.pathname,
+      comment: false,
+    }, null))
+  }
+
+  const walineCSSLoad = document.getElementById('waline-css')
+
+  if (typeof Waline === 'object') {
+    walineCSSLoad ? initWaline() : getCSS('https://fastly.jsdelivr.net/npm/@waline/client/dist/waline.min.css','waline-css').then(initWaline)
+  }
+  else {
+    getCSS('https://fastly.jsdelivr.net/npm/@waline/client/dist/waline.min.css','waline-css').then(() => {
+      getScript('https://fastly.jsdelivr.net/npm/@waline/client/dist/waline.min.js').then(initWaline)
+    })
+  }
+}
+
+if ('Waline' === 'Waline' || !true) {
+  if (true) btf.loadComment(document.getElementById('waline-wrap'),loadWaline)
+  else setTimeout(loadWaline, 0)
+} else {
+  function loadOtherComment () {
+    loadWaline()
+  }
+}</script></div><script defer="defer" id="ribbon" src="https://fastly.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="true"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></body></html>

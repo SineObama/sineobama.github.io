@@ -1,0 +1,450 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"><title>python中win32con常量列表 | SineObama的博客</title><meta name="author" content="SineObama"><meta name="copyright" content="SineObama"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="6 win32con.WM_ACTIVATE 28 win32con.WM_ACTIVATEAPP 864 win32con.WM_AFXFIRST 895 win32con.WM_AFXLAST 32768 win32con.WM_APP 780 win32con.WM_ASKCBFORMATNAME 75 win32con.WM_CANCELJOURNAL 31 win32con.WM_CAN">
+<meta property="og:type" content="article">
+<meta property="og:title" content="python中win32con常量列表">
+<meta property="og:url" content="https://sine1995.gitee.io/2018/python%E4%B8%ADwin32con%E5%B8%B8%E9%87%8F%E5%88%97%E8%A1%A8.html">
+<meta property="og:site_name" content="SineObama的博客">
+<meta property="og:description" content="6 win32con.WM_ACTIVATE 28 win32con.WM_ACTIVATEAPP 864 win32con.WM_AFXFIRST 895 win32con.WM_AFXLAST 32768 win32con.WM_APP 780 win32con.WM_ASKCBFORMATNAME 75 win32con.WM_CANCELJOURNAL 31 win32con.WM_CAN">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://sine1995.gitee.io/img/my_cat_400.jpg">
+<meta property="article:published_time" content="2018-10-03T06:23:00.000Z">
+<meta property="article:modified_time" content="2018-10-03T06:23:00.000Z">
+<meta property="article:author" content="SineObama">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://sine1995.gitee.io/img/my_cat_400.jpg"><link rel="shortcut icon" href="/img/my_cat_400.jpg"><link rel="canonical" href="https://sine1995.gitee.io/2018/python%E4%B8%ADwin32con%E5%B8%B8%E9%87%8F%E5%88%97%E8%A1%A8.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"簡"},
+  noticeOutdate: {"limitDay":500,"position":"top","messagePrev":"这篇文章已经是","messageNext":"天之前更新的了捏ω"},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":400},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-left"},
+  source: {
+    justifiedGallery: {
+      js: 'https://fastly.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://fastly.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: true,
+  isAnchor: true,
+  percent: {
+    toc: true,
+    rightside: true,
+  }
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'python中win32con常量列表',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2018-10-03 14:23:00'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="SineObama的博客" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/my_cat_400.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">75</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">13</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">29</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('/img/3.2-%E7%BA%B3%E8%A5%BF%E5%A6%B2KV1920-1080-Q80.jpg')"><nav id="nav"><span id="blog-info"><a href="/" title="SineObama的博客"><span class="site-name">SineObama的博客</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">python中win32con常量列表</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2018-10-03T06:23:00.000Z" title="发表于 2018-10-03 14:23:00">2018-10-03</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2018-10-03T06:23:00.000Z" title="更新于 2018-10-03 14:23:00">2018-10-03</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/">编程语言</a><i class="fas fa-angle-right post-meta-separator"></i><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/Python/">Python</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">636</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>3分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="python中win32con常量列表"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>6 win32con.WM_ACTIVATE</p>
+<p>28 win32con.WM_ACTIVATEAPP</p>
+<p>864 win32con.WM_AFXFIRST</p>
+<p>895 win32con.WM_AFXLAST</p>
+<p>32768 win32con.WM_APP</p>
+<p>780 win32con.WM_ASKCBFORMATNAME</p>
+<p>75 win32con.WM_CANCELJOURNAL</p>
+<p>31 win32con.WM_CANCELMODE</p>
+<p>533 win32con.WM_CAPTURECHANGED</p>
+<p>781 win32con.WM_CHANGECBCHAIN</p>
+<p>258 win32con.WM_CHAR</p>
+<p>47 win32con.WM_CHARTOITEM</p>
+<p>34 win32con.WM_CHILDACTIVATE</p>
+<p>1025 win32con.WM_CHOOSEFONT_GETLOGFONT</p>
+<p>1126 win32con.WM_CHOOSEFONT_SETFLAGS</p>
+<p>1125 win32con.WM_CHOOSEFONT_SETLOGFONT</p>
+<p>771 win32con.WM_CLEAR</p>
+<p>16 win32con.WM_CLOSE</p>
+<p>273 win32con.WM_COMMAND</p>
+<p>68 win32con.WM_COMMNOTIFY</p>
+<p>65 win32con.WM_COMPACTING</p>
+<p>57 win32con.WM_COMPAREITEM</p>
+<p>123 win32con.WM_CONTEXTMENU</p>
+<p>769 win32con.WM_COPY</p>
+<p>74 win32con.WM_COPYDATA</p>
+<p>1 win32con.WM_CREATE</p>
+<p>309 win32con.WM_CTLCOLORBTN</p>
+<p>310 win32con.WM_CTLCOLORDLG</p>
+<p>307 win32con.WM_CTLCOLOREDIT</p>
+<p>308 win32con.WM_CTLCOLORLISTBOX</p>
+<p>306 win32con.WM_CTLCOLORMSGBOX</p>
+<p>311 win32con.WM_CTLCOLORSCROLLBAR</p>
+<p>312 win32con.WM_CTLCOLORSTATIC</p>
+<p>768 win32con.WM_CUT</p>
+<p>259 win32con.WM_DEADCHAR</p>
+<p>45 win32con.WM_DELETEITEM</p>
+<p>2 win32con.WM_DESTROY</p>
+<p>775 win32con.WM_DESTROYCLIPBOARD</p>
+<p>537 win32con.WM_DEVICECHANGE</p>
+<p>27 win32con.WM_DEVMODECHANGE</p>
+<p>126 win32con.WM_DISPLAYCHANGE</p>
+<p>776 win32con.WM_DRAWCLIPBOARD</p>
+<p>43 win32con.WM_DRAWITEM</p>
+<p>563 win32con.WM_DROPFILES</p>
+<p>10 win32con.WM_ENABLE</p>
+<p>22 win32con.WM_ENDSESSION</p>
+<p>289 win32con.WM_ENTERIDLE</p>
+<p>529 win32con.WM_ENTERMENULOOP</p>
+<p>561 win32con.WM_ENTERSIZEMOVE</p>
+<p>20 win32con.WM_ERASEBKGND</p>
+<p>530 win32con.WM_EXITMENULOOP</p>
+<p>562 win32con.WM_EXITSIZEMOVE</p>
+<p>29 win32con.WM_FONTCHANGE</p>
+<p>135 win32con.WM_GETDLGCODE</p>
+<p>49 win32con.WM_GETFONT</p>
+<p>51 win32con.WM_GETHOTKEY</p>
+<p>127 win32con.WM_GETICON</p>
+<p>36 win32con.WM_GETMINMAXINFO</p>
+<p>61 win32con.WM_GETOBJECT</p>
+<p>13 win32con.WM_GETTEXT</p>
+<p>14 win32con.WM_GETTEXTLENGTH</p>
+<p>856 win32con.WM_HANDHELDFIRST</p>
+<p>863 win32con.WM_HANDHELDLAST</p>
+<p>83 win32con.WM_HELP</p>
+<p>786 win32con.WM_HOTKEY</p>
+<p>276 win32con.WM_HSCROLL</p>
+<p>782 win32con.WM_HSCROLLCLIPBOARD</p>
+<p>39 win32con.WM_ICONERASEBKGND</p>
+<p>646 win32con.WM_IME_CHAR</p>
+<p>271 win32con.WM_IME_COMPOSITION</p>
+<p>644 win32con.WM_IME_COMPOSITIONFULL</p>
+<p>643 win32con.WM_IME_CONTROL</p>
+<p>270 win32con.WM_IME_ENDCOMPOSITION</p>
+<p>656 win32con.WM_IME_KEYDOWN</p>
+<p>271 win32con.WM_IME_KEYLAST</p>
+<p>657 win32con.WM_IME_KEYUP</p>
+<p>642 win32con.WM_IME_NOTIFY</p>
+<p>648 win32con.WM_IME_REQUEST</p>
+<p>645 win32con.WM_IME_SELECT</p>
+<p>641 win32con.WM_IME_SETCONTEXT</p>
+<p>269 win32con.WM_IME_STARTCOMPOSITION</p>
+<p>272 win32con.WM_INITDIALOG</p>
+<p>278 win32con.WM_INITMENU</p>
+<p>279 win32con.WM_INITMENUPOPUP</p>
+<p>81 win32con.WM_INPUTLANGCHANGE</p>
+<p>80 win32con.WM_INPUTLANGCHANGEREQUEST</p>
+<p>256 win32con.WM_KEYDOWN</p>
+<p>256 win32con.WM_KEYFIRST</p>
+<p>264 win32con.WM_KEYLAST</p>
+<p>257 win32con.WM_KEYUP</p>
+<p>8 win32con.WM_KILLFOCUS</p>
+<p>515 win32con.WM_LBUTTONDBLCLK</p>
+<p>513 win32con.WM_LBUTTONDOWN</p>
+<p>514 win32con.WM_LBUTTONUP</p>
+<p>521 win32con.WM_MBUTTONDBLCLK</p>
+<p>519 win32con.WM_MBUTTONDOWN</p>
+<p>520 win32con.WM_MBUTTONUP</p>
+<p>546 win32con.WM_MDIACTIVATE</p>
+<p>551 win32con.WM_MDICASCADE</p>
+<p>544 win32con.WM_MDICREATE</p>
+<p>545 win32con.WM_MDIDESTROY</p>
+<p>553 win32con.WM_MDIGETACTIVE</p>
+<p>552 win32con.WM_MDIICONARRANGE</p>
+<p>549 win32con.WM_MDIMAXIMIZE</p>
+<p>548 win32con.WM_MDINEXT</p>
+<p>564 win32con.WM_MDIREFRESHMENU</p>
+<p>547 win32con.WM_MDIRESTORE</p>
+<p>560 win32con.WM_MDISETMENU</p>
+<p>550 win32con.WM_MDITILE</p>
+<p>44 win32con.WM_MEASUREITEM</p>
+<p>288 win32con.WM_MENUCHAR</p>
+<p>294 win32con.WM_MENUCOMMAND</p>
+<p>291 win32con.WM_MENUDRAG</p>
+<p>292 win32con.WM_MENUGETOBJECT</p>
+<p>290 win32con.WM_MENURBUTTONUP</p>
+<p>287 win32con.WM_MENUSELECT</p>
+<p>33 win32con.WM_MOUSEACTIVATE</p>
+<p>512 win32con.WM_MOUSEFIRST</p>
+<p>673 win32con.WM_MOUSEHOVER</p>
+<p>522 win32con.WM_MOUSELAST</p>
+<p>675 win32con.WM_MOUSELEAVE</p>
+<p>512 win32con.WM_MOUSEMOVE</p>
+<p>522 win32con.WM_MOUSEWHEEL</p>
+<p>3 win32con.WM_MOVE</p>
+<p>534 win32con.WM_MOVING</p>
+<p>134 win32con.WM_NCACTIVATE</p>
+<p>131 win32con.WM_NCCALCSIZE</p>
+<p>129 win32con.WM_NCCREATE</p>
+<p>130 win32con.WM_NCDESTROY</p>
+<p>132 win32con.WM_NCHITTEST</p>
+<p>163 win32con.WM_NCLBUTTONDBLCLK</p>
+<p>161 win32con.WM_NCLBUTTONDOWN</p>
+<p>162 win32con.WM_NCLBUTTONUP</p>
+<p>169 win32con.WM_NCMBUTTONDBLCLK</p>
+<p>167 win32con.WM_NCMBUTTONDOWN</p>
+<p>168 win32con.WM_NCMBUTTONUP</p>
+<p>160 win32con.WM_NCMOUSEMOVE</p>
+<p>133 win32con.WM_NCPAINT</p>
+<p>166 win32con.WM_NCRBUTTONDBLCLK</p>
+<p>164 win32con.WM_NCRBUTTONDOWN</p>
+<p>165 win32con.WM_NCRBUTTONUP</p>
+<p>40 win32con.WM_NEXTDLGCTL</p>
+<p>531 win32con.WM_NEXTMENU</p>
+<p>78 win32con.WM_NOTIFY</p>
+<p>85 win32con.WM_NOTIFYFORMAT</p>
+<p>0 win32con.WM_NULL</p>
+<p>15 win32con.WM_PAINT</p>
+<p>777 win32con.WM_PAINTCLIPBOARD</p>
+<p>38 win32con.WM_PAINTICON</p>
+<p>785 win32con.WM_PALETTECHANGED</p>
+<p>784 win32con.WM_PALETTEISCHANGING</p>
+<p>528 win32con.WM_PARENTNOTIFY</p>
+<p>770 win32con.WM_PASTE</p>
+<p>896 win32con.WM_PENWINFIRST</p>
+<p>911 win32con.WM_PENWINLAST</p>
+<p>72 win32con.WM_POWER</p>
+<p>536 win32con.WM_POWERBROADCAST</p>
+<p>791 win32con.WM_PRINT</p>
+<p>792 win32con.WM_PRINTCLIENT</p>
+<p>1029 win32con.WM_PSD_ENVSTAMPRECT</p>
+<p>1025 win32con.WM_PSD_FULLPAGERECT</p>
+<p>1028 win32con.WM_PSD_GREEKTEXTRECT</p>
+<p>1027 win32con.WM_PSD_MARGINRECT</p>
+<p>1026 win32con.WM_PSD_MINMARGINRECT</p>
+<p>1024 win32con.WM_PSD_PAGESETUPDLG</p>
+<p>1030 win32con.WM_PSD_YAFULLPAGERECT</p>
+<p>55 win32con.WM_QUERYDRAGICON</p>
+<p>17 win32con.WM_QUERYENDSESSION</p>
+<p>783 win32con.WM_QUERYNEWPALETTE</p>
+<p>19 win32con.WM_QUERYOPEN</p>
+<p>35 win32con.WM_QUEUESYNC</p>
+<p>18 win32con.WM_QUIT</p>
+<p>518 win32con.WM_RBUTTONDBLCLK</p>
+<p>516 win32con.WM_RBUTTONDOWN</p>
+<p>517 win32con.WM_RBUTTONUP</p>
+<p>774 win32con.WM_RENDERALLFORMATS</p>
+<p>773 win32con.WM_RENDERFORMAT</p>
+<p>32 win32con.WM_SETCURSOR</p>
+<p>7 win32con.WM_SETFOCUS</p>
+<p>48 win32con.WM_SETFONT</p>
+<p>50 win32con.WM_SETHOTKEY</p>
+<p>128 win32con.WM_SETICON</p>
+<p>11 win32con.WM_SETREDRAW</p>
+<p>12 win32con.WM_SETTEXT</p>
+<p>26 win32con.WM_SETTINGCHANGE</p>
+<p>24 win32con.WM_SHOWWINDOW</p>
+<p>5 win32con.WM_SIZE</p>
+<p>779 win32con.WM_SIZECLIPBOARD</p>
+<p>532 win32con.WM_SIZING</p>
+<p>42 win32con.WM_SPOOLERSTATUS</p>
+<p>125 win32con.WM_STYLECHANGED</p>
+<p>124 win32con.WM_STYLECHANGING</p>
+<p>136 win32con.WM_SYNCPAINT</p>
+<p>262 win32con.WM_SYSCHAR</p>
+<p>21 win32con.WM_SYSCOLORCHANGE</p>
+<p>274 win32con.WM_SYSCOMMAND</p>
+<p>263 win32con.WM_SYSDEADCHAR</p>
+<p>260 win32con.WM_SYSKEYDOWN</p>
+<p>261 win32con.WM_SYSKEYUP</p>
+<p>82 win32con.WM_TCARD</p>
+<p>30 win32con.WM_TIMECHANGE</p>
+<p>275 win32con.WM_TIMER</p>
+<p>772 win32con.WM_UNDO</p>
+<p>293 win32con.WM_UNINITMENUPOPUP</p>
+<p>1024 win32con.WM_USER</p>
+<p>84 win32con.WM_USERCHANGED</p>
+<p>46 win32con.WM_VKEYTOITEM</p>
+<p>277 win32con.WM_VSCROLL</p>
+<p>778 win32con.WM_VSCROLLCLIPBOARD</p>
+<p>71 win32con.WM_WINDOWPOSCHANGED</p>
+<p>70 win32con.WM_WINDOWPOSCHANGING</p>
+<p>26 win32con.WM_WININICHANGE</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://sine1995.gitee.io">SineObama</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://sine1995.gitee.io/2018/python%E4%B8%ADwin32con%E5%B8%B8%E9%87%8F%E5%88%97%E8%A1%A8.html">https://sine1995.gitee.io/2018/python%E4%B8%ADwin32con%E5%B8%B8%E9%87%8F%E5%88%97%E8%A1%A8.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://sine1995.gitee.io" target="_blank">SineObama的博客</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="/img/my_cat_400.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://fastly.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2018/%E6%A0%87%E7%82%B9%E7%AC%A6%E5%8F%B7%E8%8B%B1%E6%96%87%E5%A4%87%E5%BF%98%E5%BD%95.html" title="标点符号英文备忘录"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">标点符号英文备忘录</div></div></a></div><div class="next-post pull-right"><a href="/2018/python%E4%B8%ADlogging%E6%A8%A1%E5%9D%97%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B%E5%92%8C%E8%AE%BE%E7%BD%AE%E6%A0%BC%E5%BC%8F.html" title="python中logging模块使用示例和设置格式"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">python中logging模块使用示例和设置格式</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="waline-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="/img/my_cat_400.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">SineObama</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">75</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">13</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">29</div></a></div><a id="card-info-btn" target="_blank" rel="noopener external nofollow noreferrer" href="https://gitee.com/sine1995"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/SineObama" rel="external nofollow noreferrer" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="https://gitee.com/sine1995/sine1995" rel="external nofollow noreferrer" target="_blank" title="Source code"><i class="fa-solid fa-file-code"></i></a><a class="social-icon" href="/714186139@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://space.bilibili.com/30987652" rel="external nofollow noreferrer" target="_blank" title="Bilibili"><i class="fa-brands fa-bilibili"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">刚建站没多久，还在持续发布公开笔记</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/Hexo%E5%8D%9A%E5%AE%A2jsdelivr%20CDN%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95.html" title="Hexo博客jsdelivr CDN无法访问解决方法">Hexo博客jsdelivr CDN无法访问解决方法</a><time datetime="2023-04-08T08:44:00.000Z" title="更新于 2023-04-08 16:44:00">2023-04-08</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2023/HTML%E9%80%9A%E7%94%A8%E8%BD%AC%E4%B9%89%E8%A7%84%E5%88%99,%E8%BD%AC%E4%B9%89%E4%BB%BB%E6%84%8FUnicode%E5%AD%97%E7%AC%A6.html" title="HTML通用转义规则,转义任意Unicode字符">HTML通用转义规则,转义任意Unicode字符</a><time datetime="2023-04-08T08:41:00.000Z" title="更新于 2023-04-08 16:41:00">2023-04-08</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2022/%E5%A4%96%E5%8D%96%E5%B9%B3%E5%8F%B0%E9%A2%86%E5%88%B8%E7%82%B9%E9%A4%90%E7%BA%A2%E5%8C%85%E6%95%B4%E7%90%86.html" title="外卖平台领券点餐红包整理">外卖平台领券点餐红包整理</a><time datetime="2023-04-05T02:00:00.000Z" title="更新于 2023-04-05 10:00:00">2023-04-05</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2022/%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6%E7%9A%84%E6%80%BB%E4%BD%93%E5%8E%86%E7%A8%8B.html" title="使用笔记软件的总体历程">使用笔记软件的总体历程</a><time datetime="2023-04-02T14:25:00.000Z" title="更新于 2023-04-02 22:25:00">2023-04-02</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2021/%E3%80%8A%E5%8E%9F%E7%A5%9E%E3%80%8B%E9%9A%8F%E7%AC%94%E6%97%A5%E8%AE%B0.html" title="《原神》随笔日记">《原神》随笔日记</a><time datetime="2023-04-02T14:04:00.000Z" title="更新于 2023-04-02 22:04:00">2023-04-02</time></div></div></div></div></div></div></main><footer id="footer" style="background-image: url('/img/3.2-%E7%BA%B3%E8%A5%BF%E5%A6%B2KV1920-1080-Q80.jpg')"><div id="footer-wrap"><div class="copyright">&copy;2023 By SineObama</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://fastly.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="https://fastly.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://fastly.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="https://fastly.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"><script>(() => {
+  const $mermaidWrap = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaidWrap.length) {
+    window.runMermaid = () => {
+      window.loadMermaid = true
+      const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+      Array.from($mermaidWrap).forEach((item, index) => {
+        const mermaidSrc = item.firstElementChild
+        const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+        const mermaidID = 'mermaid-' + index
+        const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+        mermaid.mermaidAPI.render(mermaidID, mermaidDefinition, (svgCode) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svgCode)
+        })
+      })
+    }
+
+    const loadMermaid = () => {
+      window.loadMermaid ? runMermaid() : getScript('https://fastly.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(runMermaid)
+    }
+
+    window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+  }
+})()</script><script>function loadWaline () {
+  function initWaline () {
+    const waline = Waline.init(Object.assign({
+      el: '#waline-wrap',
+      serverURL: 'https://waline-1-y0737510.deta.app',
+      pageview: false,
+      dark: 'html[data-theme="dark"]',
+      path: window.location.pathname,
+      comment: false,
+    }, null))
+  }
+
+  const walineCSSLoad = document.getElementById('waline-css')
+
+  if (typeof Waline === 'object') {
+    walineCSSLoad ? initWaline() : getCSS('https://fastly.jsdelivr.net/npm/@waline/client/dist/waline.min.css','waline-css').then(initWaline)
+  }
+  else {
+    getCSS('https://fastly.jsdelivr.net/npm/@waline/client/dist/waline.min.css','waline-css').then(() => {
+      getScript('https://fastly.jsdelivr.net/npm/@waline/client/dist/waline.min.js').then(initWaline)
+    })
+  }
+}
+
+if ('Waline' === 'Waline' || !true) {
+  if (true) btf.loadComment(document.getElementById('waline-wrap'),loadWaline)
+  else setTimeout(loadWaline, 0)
+} else {
+  function loadOtherComment () {
+    loadWaline()
+  }
+}</script></div><script defer="defer" id="ribbon" src="https://fastly.jsdelivr.net/npm/butterfly-extsrc/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="true"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></body></html>

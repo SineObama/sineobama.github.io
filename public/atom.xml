@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>SineObama的博客</title>
+  <icon>https://sine1995.gitee.io/icon.png</icon>
+  
+  <link href="https://sine1995.gitee.io/atom.xml" rel="self"/>
+  
+  <link href="https://sine1995.gitee.io/"/>
+  <updated>2023-04-08T08:44:00.000Z</updated>
+  <id>https://sine1995.gitee.io/</id>
+  
+  <author>
+    <name>SineObama</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo博客jsdelivr CDN无法访问解决方法</title>
+    <link href="https://sine1995.gitee.io/2023/Hexo%E5%8D%9A%E5%AE%A2jsdelivr%20CDN%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95.html"/>
+    <id>https://sine1995.gitee.io/2023/Hexo%E5%8D%9A%E5%AE%A2jsdelivr%20CDN%E6%97%A0%E6%B3%95%E8%AE%BF%E9%97%AE%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95.html</id>
+    <published>2023-04-05T14:22:00.000Z</published>
+    <updated>2023-04-08T08:44:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;自己写代码替换&quot;&gt;&lt;a href=&quot;#自己写代码替换&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="计算机" scheme="https://sine1995.gitee.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="代码存档" scheme="https://sine1995.gitee.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E4%BB%A3%E7%A0%81%E5%AD%98%E6%A1%A3/"/>
+    
+    
+    <category term="Hexo" scheme="https://sine1995.gitee.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HTML通用转义规则,转义任意Unicode字符</title>
+    <link href="https://sine1995.gitee.io/2023/HTML%E9%80%9A%E7%94%A8%E8%BD%AC%E4%B9%89%E8%A7%84%E5%88%99,%E8%BD%AC%E4%B9%89%E4%BB%BB%E6%84%8FUnicode%E5%AD%97%E7%AC%A6.html"/>
+    <id>https://sine1995.gitee.io/2023/HTML%E9%80%9A%E7%94%A8%E8%BD%AC%E4%B9%89%E8%A7%84%E5%88%99,%E8%BD%AC%E4%B9%89%E4%BB%BB%E6%84%8FUnicode%E5%AD%97%E7%AC%A6.html</id>
+    <published>2023-04-03T16:05:00.000Z</published>
+    <updated>2023-04-08T08:41:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;转义格式：&lt;code&gt;&amp;amp;#字符编码;&lt;/code&gt;，其中&lt;code&gt;字符编码&lt;/code&gt;就是Unicode编码的十进制数字。例如&lt;code&gt;&amp;amp;#36718;&amp;amp;#30424;&lt;/code&gt;是个gitee违禁词。（我勒个去）&lt;/p&gt;
+&lt;blockquo</summary>
+        
+      
+    
+    
+    
+    <category term="编程语言" scheme="https://sine1995.gitee.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/"/>
+    
+    <category term="HTML" scheme="https://sine1995.gitee.io/categories/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80/HTML/"/>
+    
+    
+    <category term="Unicode" scheme="https://sine1995.gitee.io/tags/Unicode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo静态博客配置与管理发布流程</title>
+    <link href="https://sine1995.gitee.io/2023/Hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%8E%E7%AE%A1%E7%90%86%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B.html"/>
+    <id>https://sine1995.gitee.io/2023/Hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%8E%E7%AE%A1%E7%90%86%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B.html</id>
+    <published>2023-03-26T11:01:00.000Z</published>
+    <updated>2023-03-26T11:01:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;发布需求&quot;&gt;&lt;a href=&quot;#发布需求&quot; class=&quot;headerlink&quot; title=&quot;发布需求&quot;&gt;&lt;/a&gt;发布需求&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;本地电脑使用 Obsidian 编写笔记文章（和以前一样）。&lt;/li&gt;
+&lt;li&gt;定期将需要发布的文章提交到</summary>
+        
+      
+    
+    
+    
+    <category term="计算机" scheme="https://sine1995.gitee.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="实例记录" scheme="https://sine1995.gitee.io/categories/%E5%AE%9E%E4%BE%8B%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="静态博客" scheme="https://sine1995.gitee.io/categories/%E5%AE%9E%E4%BE%8B%E8%AE%B0%E5%BD%95/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="管理方法" scheme="https://sine1995.gitee.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E7%AE%A1%E7%90%86%E6%96%B9%E6%B3%95/"/>
+    
+    
+    <category term="Hexo" scheme="https://sine1995.gitee.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>测试内链</title>
+    <link href="https://sine1995.gitee.io/test/%E6%B5%8B%E8%AF%95%E5%86%85%E9%93%BE.html"/>
+    <id>https://sine1995.gitee.io/test/%E6%B5%8B%E8%AF%95%E5%86%85%E9%93%BE.html</id>
+    <published>2023-03-26T03:09:00.000Z</published>
+    <updated>2023-03-26T03:09:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;../hello-world.html&quot;&gt;测试能正常跳转hello-world&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="静态博客单元测试" scheme="https://sine1995.gitee.io/tags/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo压缩插件必要性测试</title>
+    <link href="https://sine1995.gitee.io/2023/Hexo%E5%8E%8B%E7%BC%A9%E6%8F%92%E4%BB%B6%E5%BF%85%E8%A6%81%E6%80%A7%E6%B5%8B%E8%AF%95.html"/>
+    <id>https://sine1995.gitee.io/2023/Hexo%E5%8E%8B%E7%BC%A9%E6%8F%92%E4%BB%B6%E5%BF%85%E8%A6%81%E6%80%A7%E6%B5%8B%E8%AF%95.html</id>
+    <published>2023-03-25T16:52:00.000Z</published>
+    <updated>2023-03-26T00:45:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;配置&quot;&gt;&lt;a href=&quot;#配置&quot; class=&quot;headerlink&quot; title=&quot;配置&quot;&gt;&lt;/a&gt;配置&lt;/h2&gt;&lt;p&gt;参考了文章：&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Hexo" scheme="https://sine1995.gitee.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo网站文章内链转换问题</title>
+    <link href="https://sine1995.gitee.io/2023/Hexo%E7%BD%91%E7%AB%99%E6%96%87%E7%AB%A0%E5%86%85%E9%93%BE%E8%BD%AC%E6%8D%A2%E9%97%AE%E9%A2%98.html"/>
+    <id>https://sine1995.gitee.io/2023/Hexo%E7%BD%91%E7%AB%99%E6%96%87%E7%AB%A0%E5%86%85%E9%93%BE%E8%BD%AC%E6%8D%A2%E9%97%AE%E9%A2%98.html</id>
+    <published>2023-03-25T08:00:00.000Z</published>
+    <updated>2023-03-25T08:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;需求描述&quot;&gt;&lt;a href=&quot;#需求描述&quot; class=&quot;headerlink&quot; title=&quot;需求描述&quot;&gt;&lt;/a&gt;需求描述&lt;/h2&gt;&lt;p&gt;背景：编写文章使用本地软件，内部链接使用 Markdown</summary>
+        
+      
+    
+    
+    
+    <category term="计算机" scheme="https://sine1995.gitee.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="代码存档" scheme="https://sine1995.gitee.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E4%BB%A3%E7%A0%81%E5%AD%98%E6%A1%A3/"/>
+    
+    
+    <category term="Hexo" scheme="https://sine1995.gitee.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+Obsidian自定义front-matter与打标管理方法</title>
+    <link href="https://sine1995.gitee.io/2023/Hexo+Obsidian%E8%87%AA%E5%AE%9A%E4%B9%89front-matter%E4%B8%8E%E6%89%93%E6%A0%87%E7%AE%A1%E7%90%86%E6%96%B9%E6%B3%95.html"/>
+    <id>https://sine1995.gitee.io/2023/Hexo+Obsidian%E8%87%AA%E5%AE%9A%E4%B9%89front-matter%E4%B8%8E%E6%89%93%E6%A0%87%E7%AE%A1%E7%90%86%E6%96%B9%E6%B3%95.html</id>
+    <published>2023-03-25T03:48:00.000Z</published>
+    <updated>2023-03-25T03:48:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;转载标记&quot;&gt;&lt;a href=&quot;#转载标记&quot; class=&quot;headerlink&quot; title=&quot;转载标记&quot;&gt;&lt;/a&gt;转载标记&lt;/h2&gt;&lt;p&gt;复用 butterfly 主题中使用的版权变量 &lt;code&gt;copyright&lt;/code&gt;，没有设置或为 false</summary>
+        
+      
+    
+    
+    
+    <category term="计算机" scheme="https://sine1995.gitee.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="管理方法" scheme="https://sine1995.gitee.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E7%AE%A1%E7%90%86%E6%96%B9%E6%B3%95/"/>
+    
+    
+    <category term="Obsidian" scheme="https://sine1995.gitee.io/tags/Obsidian/"/>
+    
+    <category term="Hexo" scheme="https://sine1995.gitee.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+Obsidian从标签自动生成分类的尝试</title>
+    <link href="https://sine1995.gitee.io/2023/Hexo+Obsidian%E4%BB%8E%E6%A0%87%E7%AD%BE%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E5%88%86%E7%B1%BB%E7%9A%84%E5%B0%9D%E8%AF%95.html"/>
+    <id>https://sine1995.gitee.io/2023/Hexo+Obsidian%E4%BB%8E%E6%A0%87%E7%AD%BE%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E5%88%86%E7%B1%BB%E7%9A%84%E5%B0%9D%E8%AF%95.html</id>
+    <published>2023-03-25T01:23:00.000Z</published>
+    <updated>2023-03-25T01:23:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;最新进展&quot;&gt;&lt;a href=&quot;#最新进展&quot; class=&quot;headerlink&quot; title=&quot;最新进展&quot;&gt;&lt;/a&gt;最新进展&lt;/h2&gt;&lt;p&gt;使用 Hexo 脚本插件功能可以实现在生成网站时自动生成分类，而不用人工写在文件里：&lt;/p&gt;
+&lt;figure</summary>
+        
+      
+    
+    
+    
+    <category term="计算机" scheme="https://sine1995.gitee.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="代码存档" scheme="https://sine1995.gitee.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E4%BB%A3%E7%A0%81%E5%AD%98%E6%A1%A3/"/>
+    
+    
+    <category term="Obsidian" scheme="https://sine1995.gitee.io/tags/Obsidian/"/>
+    
+    <category term="Hexo" scheme="https://sine1995.gitee.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo入门级调试方法</title>
+    <link href="https://sine1995.gitee.io/2023/IDEA%E5%85%A5%E9%97%A8%E7%BA%A7%E8%B0%83%E8%AF%95Hexo%E6%96%B9%E6%B3%95.html"/>
+    <id>https://sine1995.gitee.io/2023/IDEA%E5%85%A5%E9%97%A8%E7%BA%A7%E8%B0%83%E8%AF%95Hexo%E6%96%B9%E6%B3%95.html</id>
+    <published>2023-03-25T01:10:00.000Z</published>
+    <updated>2023-03-25T01:10:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;根据 Hexo 官方 &lt;a href=&quot;https://hexo.io/zh-cn/api/&quot;&gt;API&lt;/a&gt; 编写 js 脚本来启动。比如调用控制台执行命令，生成网站：&lt;/p&gt;
+&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Hexo" scheme="https://sine1995.gitee.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Obsidian+Hexo标签分类管理办法</title>
+    <link href="https://sine1995.gitee.io/2023/Obsidian+Hexo%E6%A0%87%E7%AD%BE%E4%B8%8E%E5%88%86%E7%B1%BB%E7%BC%96%E5%86%99%E7%AE%A1%E7%90%86%E6%96%B9%E6%B3%95.html"/>
+    <id>https://sine1995.gitee.io/2023/Obsidian+Hexo%E6%A0%87%E7%AD%BE%E4%B8%8E%E5%88%86%E7%B1%BB%E7%BC%96%E5%86%99%E7%AE%A1%E7%90%86%E6%96%B9%E6%B3%95.html</id>
+    <published>2023-03-20T14:42:00.000Z</published>
+    <updated>2023-03-20T14:42:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h2&gt;&lt;p&gt;使用 Obsidian 写笔记并配合 Hexo 做发布时，Obsidian 的标签功能与 Hexo 的标签 (tags)</summary>
+        
+      
+    
+    
+    
+    <category term="计算机" scheme="https://sine1995.gitee.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="管理方法" scheme="https://sine1995.gitee.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E7%AE%A1%E7%90%86%E6%96%B9%E6%B3%95/"/>
+    
+    
+    <category term="Obsidian" scheme="https://sine1995.gitee.io/tags/Obsidian/"/>
+    
+    <category term="Hexo" scheme="https://sine1995.gitee.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【作废】公开博客与私有笔记的存储目录结构合并方案</title>
+    <link href="https://sine1995.gitee.io/2023/%E5%85%AC%E5%BC%80%E5%8D%9A%E5%AE%A2%E4%B8%8E%E7%A7%81%E6%9C%89%E7%AC%94%E8%AE%B0%E7%9A%84%E5%AD%98%E5%82%A8%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E5%90%88%E5%B9%B6%E6%96%B9%E6%A1%88.html"/>
+    <id>https://sine1995.gitee.io/2023/%E5%85%AC%E5%BC%80%E5%8D%9A%E5%AE%A2%E4%B8%8E%E7%A7%81%E6%9C%89%E7%AC%94%E8%AE%B0%E7%9A%84%E5%AD%98%E5%82%A8%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E5%90%88%E5%B9%B6%E6%96%B9%E6%A1%88.html</id>
+    <published>2023-03-18T04:08:00.000Z</published>
+    <updated>2023-03-19T08:49:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;废案说明&quot;&gt;&lt;a href=&quot;#废案说明&quot; class=&quot;headerlink&quot; title=&quot;废案说明&quot;&gt;&lt;/a&gt;废案说明&lt;/h2&gt;&lt;p&gt;两个目录会有分别提交管理的需求，也更清晰分明，不需要合并。&lt;/p&gt;
+&lt;h2 id=&quot;概览&quot;&gt;&lt;a href=&quot;#概览&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Obsidian" scheme="https://sine1995.gitee.io/tags/Obsidian/"/>
+    
+    <category term="Hexo" scheme="https://sine1995.gitee.io/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>P站访问入门方法整理</title>
+    <link href="https://sine1995.gitee.io/2023/P%E7%AB%99%E8%AE%BF%E9%97%AE%E5%85%A5%E9%97%A8%E6%96%B9%E6%B3%95%E8%AE%B0%E5%BD%95.html"/>
+    <id>https://sine1995.gitee.io/2023/P%E7%AB%99%E8%AE%BF%E9%97%AE%E5%85%A5%E9%97%A8%E6%96%B9%E6%B3%95%E8%AE%B0%E5%BD%95.html</id>
+    <published>2023-03-18T01:45:00.000Z</published>
+    <updated>2023-03-18T01:45:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;加速代理&quot;&gt;&lt;a href=&quot;#加速代理&quot; class=&quot;headerlink&quot; title=&quot;加速代理&quot;&gt;&lt;/a&gt;加速代理&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="计算机" scheme="https://sine1995.gitee.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="备忘录" scheme="https://sine1995.gitee.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E5%A4%87%E5%BF%98%E5%BD%95/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>父母辈买手机浏览记录</title>
+    <link href="https://sine1995.gitee.io/2023/%E7%88%B6%E6%AF%8D%E8%BE%88%E4%B9%B0%E6%89%8B%E6%9C%BA%E6%B5%8F%E8%A7%88%E8%AE%B0%E5%BD%95.html"/>
+    <id>https://sine1995.gitee.io/2023/%E7%88%B6%E6%AF%8D%E8%BE%88%E4%B9%B0%E6%89%8B%E6%9C%BA%E6%B5%8F%E8%A7%88%E8%AE%B0%E5%BD%95.html</id>
+    <published>2023-03-13T13:48:00.000Z</published>
+    <updated>2023-03-13T13:48:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;2023年3月&quot;&gt;&lt;a href=&quot;#2023年3月&quot; class=&quot;headerlink&quot; title=&quot;2023年3月&quot;&gt;&lt;/a&gt;2023年3月&lt;/h2&gt;&lt;p&gt;参考每月更新指南:&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="生活经验" scheme="https://sine1995.gitee.io/categories/%E7%94%9F%E6%B4%BB%E7%BB%8F%E9%AA%8C/"/>
+    
+    <category term="商品选购" scheme="https://sine1995.gitee.io/categories/%E7%94%9F%E6%B4%BB%E7%BB%8F%E9%AA%8C/%E5%95%86%E5%93%81%E9%80%89%E8%B4%AD/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>原神圣遗物清理记录</title>
+    <link href="https://sine1995.gitee.io/2023/%E5%8E%9F%E7%A5%9E%E5%9C%A3%E9%81%97%E7%89%A9%E6%B8%85%E7%90%86%E8%AE%B0%E5%BD%95.html"/>
+    <id>https://sine1995.gitee.io/2023/%E5%8E%9F%E7%A5%9E%E5%9C%A3%E9%81%97%E7%89%A9%E6%B8%85%E7%90%86%E8%AE%B0%E5%BD%95.html</id>
+    <published>2023-03-04T12:03:00.000Z</published>
+    <updated>2023-04-01T12:08:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;起因&quot;&gt;&lt;a href=&quot;#起因&quot; class=&quot;headerlink&quot; title=&quot;起因&quot;&gt;&lt;/a&gt;起因&lt;/h2&gt;&lt;p&gt;一方面游戏限制了1500圣遗物上限，一方面天天刷圣遗物，狗粮也经常溢出。&lt;/p&gt;
+&lt;h2 id=&quot;待强化圣遗物&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="游戏" scheme="https://sine1995.gitee.io/categories/%E6%B8%B8%E6%88%8F/"/>
+    
+    <category term="原神" scheme="https://sine1995.gitee.io/categories/%E6%B8%B8%E6%88%8F/%E5%8E%9F%E7%A5%9E/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://sine1995.gitee.io/hello-world.html"/>
+    <id>https://sine1995.gitee.io/hello-world.html</id>
+    <published>2023-02-28T15:41:00.000Z</published>
+    <updated>2023-02-28T15:41:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>静态博客入门试用</title>
+    <link href="https://sine1995.gitee.io/2023/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E5%85%A5%E9%97%A8%E8%AF%95%E7%94%A8.html"/>
+    <id>https://sine1995.gitee.io/2023/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E5%85%A5%E9%97%A8%E8%AF%95%E7%94%A8.html</id>
+    <published>2023-02-25T14:18:00.000Z</published>
+    <updated>2023-03-31T16:05:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;初识&quot;&gt;&lt;a href=&quot;#初识&quot; class=&quot;headerlink&quot; title=&quot;初识&quot;&gt;&lt;/a&gt;初识&lt;/h2&gt;&lt;p&gt;今天突然知道静态博客这个东西（尽管已经火星很多年了），从网络文章有了初步了解：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="实例记录" scheme="https://sine1995.gitee.io/categories/%E5%AE%9E%E4%BE%8B%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="静态博客" scheme="https://sine1995.gitee.io/categories/%E5%AE%9E%E4%BE%8B%E8%AE%B0%E5%BD%95/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>StrokesPlus使用配置与脚本笔记</title>
+    <link href="https://sine1995.gitee.io/2023/StrokesPlus%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE%E4%B8%8E%E8%84%9A%E6%9C%AC%E7%AC%94%E8%AE%B0.html"/>
+    <id>https://sine1995.gitee.io/2023/StrokesPlus%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE%E4%B8%8E%E8%84%9A%E6%9C%AC%E7%AC%94%E8%AE%B0.html</id>
+    <published>2023-02-19T13:05:00.000Z</published>
+    <updated>2023-02-19T13:05:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;对 &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="实例记录" scheme="https://sine1995.gitee.io/categories/%E5%AE%9E%E4%BE%8B%E8%AE%B0%E5%BD%95/"/>
+    
+    <category term="静态博客" scheme="https://sine1995.gitee.io/categories/%E5%AE%9E%E4%BE%8B%E8%AE%B0%E5%BD%95/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【转载】关闭win11开始菜单的网络搜索</title>
+    <link href="https://sine1995.gitee.io/2023/%E5%85%B3%E9%97%ADwin11%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95%E7%9A%84%E7%BD%91%E7%BB%9C%E6%90%9C%E7%B4%A2.html"/>
+    <id>https://sine1995.gitee.io/2023/%E5%85%B3%E9%97%ADwin11%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95%E7%9A%84%E7%BD%91%E7%BB%9C%E6%90%9C%E7%B4%A2.html</id>
+    <published>2023-02-18T04:02:00.000Z</published>
+    <updated>2023-02-18T04:02:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://guanjia.qq.com/web_clinic/s7/2445.html&quot;&gt;关闭win11_开始菜单_的网络_搜索_-腾讯电脑管家官网&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Windows" scheme="https://sine1995.gitee.io/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Win11图片.png格式无法设置默认应用，右键没有打开菜单问题</title>
+    <link href="https://sine1995.gitee.io/2023/Win11%E5%9B%BE%E7%89%87.png%E6%A0%BC%E5%BC%8F%E6%97%A0%E6%B3%95%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E5%BA%94%E7%94%A8%EF%BC%8C%E5%8F%B3%E9%94%AE%E6%B2%A1%E6%9C%89%E6%89%93%E5%BC%80%E8%8F%9C%E5%8D%95%E9%97%AE%E9%A2%98.html"/>
+    <id>https://sine1995.gitee.io/2023/Win11%E5%9B%BE%E7%89%87.png%E6%A0%BC%E5%BC%8F%E6%97%A0%E6%B3%95%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E5%BA%94%E7%94%A8%EF%BC%8C%E5%8F%B3%E9%94%AE%E6%B2%A1%E6%9C%89%E6%89%93%E5%BC%80%E8%8F%9C%E5%8D%95%E9%97%AE%E9%A2%98.html</id>
+    <published>2023-02-18T03:09:00.000Z</published>
+    <updated>2023-02-18T03:09:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;想在 Win11 电脑上使用图片浏览软件 irfanview，不想使用原装自带的软件，但双击图片文件无法默认使用该软件。&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Windows" scheme="https://sine1995.gitee.io/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>冰河剧集网PC遮挡删除</title>
+    <link href="https://sine1995.gitee.io/2023/%E5%86%B0%E6%B2%B3%E5%89%A7%E9%9B%86%E7%BD%91PC%E9%81%AE%E6%8C%A1%E5%88%A0%E9%99%A4.html"/>
+    <id>https://sine1995.gitee.io/2023/%E5%86%B0%E6%B2%B3%E5%89%A7%E9%9B%86%E7%BD%91PC%E9%81%AE%E6%8C%A1%E5%88%A0%E9%99%A4.html</id>
+    <published>2023-01-27T15:52:00.000Z</published>
+    <updated>2023-01-27T15:52:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+        
+      
+    
+    
+    
+    <category term="计算机" scheme="https://sine1995.gitee.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="代码存档" scheme="https://sine1995.gitee.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E4%BB%A3%E7%A0%81%E5%AD%98%E6%A1%A3/"/>
+    
+    
+    <category term="Tampermonkey" scheme="https://sine1995.gitee.io/tags/Tampermonkey/"/>
+    
+  </entry>
+  
+</feed>
