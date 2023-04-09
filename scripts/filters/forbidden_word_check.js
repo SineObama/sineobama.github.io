@@ -29,7 +29,7 @@ if (enable) {
         for (let j = 0; j < lastIdx; j++) {
             regExps.push({
                 word: replacement[j],
-                searchValue: new RegExp(replacement[j], 'g'),
+                searchValue: new RegExp(replacement[j], 'gi'),
                 replacer: replacement[lastIdx]
             });
         }

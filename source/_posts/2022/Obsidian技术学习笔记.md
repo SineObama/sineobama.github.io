@@ -3,7 +3,7 @@ title: 'Obsidian技术学习笔记'
 date: '2022-10-28 23:10'
 updated: '2022-10-30 11:44'
 tags:
-  - 实例记录/Obsidian
+  - 计算机/备忘录
   - Obsidian
 alias: []
 ---
