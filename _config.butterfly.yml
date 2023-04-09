@@ -42,7 +42,7 @@ copy:
 #   icon: link || the description
 social:
    fab fa-github: https://github.com/SineObama || Github
-   fa-solid fa-file-code: https://gitee.com/sine1995/blog || Source code
+   fa-solid fa-file-code: https://gitee.com/sine1995/sine1995 || Source code
    fas fa-envelope: 714186139@qq.com || Email
    fa-brands fa-bilibili: https://space.bilibili.com/30987652 || Bilibili
 
@@ -334,7 +334,7 @@ valine:
 # https://waline.js.org/
 waline:
   serverURL: https://waline-1-y0737510.deta.app # Waline server address url
-  bg: /blog/img/cat_tail.gif # waline background
+  bg: /img/cat_tail.gif # waline background
   pageview: false
   option:
 
