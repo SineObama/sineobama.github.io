@@ -6,7 +6,7 @@
   <link href="https://sine1995.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://sine1995.gitee.io/"/>
-  <updated>2023-04-08T08:44:00.000Z</updated>
+  <updated>2023-08-12T03:08:00.000Z</updated>
   <id>https://sine1995.gitee.io/</id>
   
   <author>
@@ -15,6 +15,126 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>海尔移动空调 Haier KY-20／J 说明书（文字识别）</title>
+    <link href="https://sine1995.gitee.io/2023/%E6%B5%B7%E5%B0%94%E7%A7%BB%E5%8A%A8%E7%A9%BA%E8%B0%83%20Haier%20KY-20%EF%BC%8FJ%20%E8%AF%B4%E6%98%8E%E4%B9%A6.html"/>
+    <id>https://sine1995.gitee.io/2023/%E6%B5%B7%E5%B0%94%E7%A7%BB%E5%8A%A8%E7%A9%BA%E8%B0%83%20Haier%20KY-20%EF%BC%8FJ%20%E8%AF%B4%E6%98%8E%E4%B9%A6.html</id>
+    <published>2023-08-12T03:08:00.000Z</published>
+    <updated>2023-08-12T03:08:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>直接下载Steam创意工坊Mod方法</title>
+    <link href="https://sine1995.gitee.io/2023/%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BDSteam%E5%88%9B%E6%84%8F%E5%B7%A5%E5%9D%8AMod%E6%96%B9%E6%B3%95.html"/>
+    <id>https://sine1995.gitee.io/2023/%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BDSteam%E5%88%9B%E6%84%8F%E5%B7%A5%E5%9D%8AMod%E6%96%B9%E6%B3%95.html</id>
+    <published>2023-08-05T01:55:00.000Z</published>
+    <updated>2023-08-05T01:55:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://steamworkshopdownloader.io/&quot;&gt;Steam Workshop Downloader :: IO 下载mod&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;安装steamcmd，输入命令&lt;code&gt;login</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>视频码率换算（速记备忘）</title>
+    <link href="https://sine1995.gitee.io/2023/%E8%A7%86%E9%A2%91%E7%A0%81%E7%8E%87%E6%8D%A2%E7%AE%97%EF%BC%88%E9%80%9F%E8%AE%B0%E5%A4%87%E5%BF%98%EF%BC%89.html"/>
+    <id>https://sine1995.gitee.io/2023/%E8%A7%86%E9%A2%91%E7%A0%81%E7%8E%87%E6%8D%A2%E7%AE%97%EF%BC%88%E9%80%9F%E8%AE%B0%E5%A4%87%E5%BF%98%EF%BC%89.html</id>
+    <published>2023-07-23T09:45:00.000Z</published>
+    <updated>2023-07-23T09:45:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;1Mbps&lt;ul&gt;
+&lt;li&gt;1MB &amp;#x2F; 8s&lt;/li&gt;
+&lt;li&gt;7.5MB &amp;#x2F; min&lt;/li&gt;
+&lt;li&gt;450MB &amp;#x2F; hour&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;2Mbps&lt;ul&gt;
+&lt;li&gt;MB &amp;#x2F;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>电脑版TIM一直打开好友动态窗口</title>
+    <link href="https://sine1995.gitee.io/2023/%E7%94%B5%E8%84%91%E7%89%88TIM%E4%B8%80%E7%9B%B4%E6%89%93%E5%BC%80%E5%A5%BD%E5%8F%8B%E5%8A%A8%E6%80%81%E7%AA%97%E5%8F%A3%E9%97%AE%E9%A2%98.html"/>
+    <id>https://sine1995.gitee.io/2023/%E7%94%B5%E8%84%91%E7%89%88TIM%E4%B8%80%E7%9B%B4%E6%89%93%E5%BC%80%E5%A5%BD%E5%8F%8B%E5%8A%A8%E6%80%81%E7%AA%97%E5%8F%A3%E9%97%AE%E9%A2%98.html</id>
+    <published>2023-07-20T16:03:00.000Z</published>
+    <updated>2023-07-20T16:03:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;问题描述：说说评论被回复后，电脑版TIM出现了回复提醒，之后使用“提取消息”快捷键会自动打开好友动态的页面窗口，每次使用快捷键，只要没有其他新消息都会一直打开它，很烦。&lt;/p&gt;
+&lt;p&gt;背景：推测TIM有好友动态功能，但是被隐藏了，至少平常我就找不到入口，但偏偏会有这个问题。</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>崩坏星穹铁道抽卡导出方法</title>
+    <link href="https://sine1995.gitee.io/2023/%E5%B4%A9%E5%9D%8F%E6%98%9F%E7%A9%B9%E9%93%81%E9%81%93%E6%8A%BD%E5%8D%A1%E5%AF%BC%E5%87%BA%E6%96%B9%E6%B3%95.html"/>
+    <id>https://sine1995.gitee.io/2023/%E5%B4%A9%E5%9D%8F%E6%98%9F%E7%A9%B9%E9%93%81%E9%81%93%E6%8A%BD%E5%8D%A1%E5%AF%BC%E5%87%BA%E6%96%B9%E6%B3%95.html</id>
+    <published>2023-05-03T13:06:00.000Z</published>
+    <updated>2023-05-03T13:06:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;PC软件导出-star-rail-warp-export&quot;&gt;&lt;a href=&quot;#PC软件导出-star-rail-warp-export&quot; class=&quot;headerlink&quot; title=&quot;PC软件导出</summary>
+        
+      
+    
+    
+    
+    <category term="游戏" scheme="https://sine1995.gitee.io/categories/%E6%B8%B8%E6%88%8F/"/>
+    
+    <category term="崩坏星穹铁道" scheme="https://sine1995.gitee.io/categories/%E6%B8%B8%E6%88%8F/%E5%B4%A9%E5%9D%8F%E6%98%9F%E7%A9%B9%E9%93%81%E9%81%93/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Hexo博客jsdelivr CDN无法访问解决方法</title>
@@ -411,132 +531,6 @@
     
     
     
-    
-  </entry>
-  
-  <entry>
-    <title>静态博客入门试用</title>
-    <link href="https://sine1995.gitee.io/2023/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E5%85%A5%E9%97%A8%E8%AF%95%E7%94%A8.html"/>
-    <id>https://sine1995.gitee.io/2023/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E5%85%A5%E9%97%A8%E8%AF%95%E7%94%A8.html</id>
-    <published>2023-02-25T14:18:00.000Z</published>
-    <updated>2023-03-31T16:05:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;初识&quot;&gt;&lt;a href=&quot;#初识&quot; class=&quot;headerlink&quot; title=&quot;初识&quot;&gt;&lt;/a&gt;初识&lt;/h2&gt;&lt;p&gt;今天突然知道静态博客这个东西（尽管已经火星很多年了），从网络文章有了初步了解：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="实例记录" scheme="https://sine1995.gitee.io/categories/%E5%AE%9E%E4%BE%8B%E8%AE%B0%E5%BD%95/"/>
-    
-    <category term="静态博客" scheme="https://sine1995.gitee.io/categories/%E5%AE%9E%E4%BE%8B%E8%AE%B0%E5%BD%95/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>StrokesPlus使用配置与脚本笔记</title>
-    <link href="https://sine1995.gitee.io/2023/StrokesPlus%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE%E4%B8%8E%E8%84%9A%E6%9C%AC%E7%AC%94%E8%AE%B0.html"/>
-    <id>https://sine1995.gitee.io/2023/StrokesPlus%E4%BD%BF%E7%94%A8%E9%85%8D%E7%BD%AE%E4%B8%8E%E8%84%9A%E6%9C%AC%E7%AC%94%E8%AE%B0.html</id>
-    <published>2023-02-19T13:05:00.000Z</published>
-    <updated>2023-02-19T13:05:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;对 &lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="实例记录" scheme="https://sine1995.gitee.io/categories/%E5%AE%9E%E4%BE%8B%E8%AE%B0%E5%BD%95/"/>
-    
-    <category term="静态博客" scheme="https://sine1995.gitee.io/categories/%E5%AE%9E%E4%BE%8B%E8%AE%B0%E5%BD%95/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>【转载】关闭win11开始菜单的网络搜索</title>
-    <link href="https://sine1995.gitee.io/2023/%E5%85%B3%E9%97%ADwin11%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95%E7%9A%84%E7%BD%91%E7%BB%9C%E6%90%9C%E7%B4%A2.html"/>
-    <id>https://sine1995.gitee.io/2023/%E5%85%B3%E9%97%ADwin11%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95%E7%9A%84%E7%BD%91%E7%BB%9C%E6%90%9C%E7%B4%A2.html</id>
-    <published>2023-02-18T04:02:00.000Z</published>
-    <updated>2023-02-18T04:02:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;原文：&lt;a href=&quot;https://guanjia.qq.com/web_clinic/s7/2445.html&quot;&gt;关闭win11_开始菜单_的网络_搜索_-腾讯电脑管家官网&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Windows" scheme="https://sine1995.gitee.io/tags/Windows/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Win11图片.png格式无法设置默认应用，右键没有打开菜单问题</title>
-    <link href="https://sine1995.gitee.io/2023/Win11%E5%9B%BE%E7%89%87.png%E6%A0%BC%E5%BC%8F%E6%97%A0%E6%B3%95%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E5%BA%94%E7%94%A8%EF%BC%8C%E5%8F%B3%E9%94%AE%E6%B2%A1%E6%9C%89%E6%89%93%E5%BC%80%E8%8F%9C%E5%8D%95%E9%97%AE%E9%A2%98.html"/>
-    <id>https://sine1995.gitee.io/2023/Win11%E5%9B%BE%E7%89%87.png%E6%A0%BC%E5%BC%8F%E6%97%A0%E6%B3%95%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E5%BA%94%E7%94%A8%EF%BC%8C%E5%8F%B3%E9%94%AE%E6%B2%A1%E6%9C%89%E6%89%93%E5%BC%80%E8%8F%9C%E5%8D%95%E9%97%AE%E9%A2%98.html</id>
-    <published>2023-02-18T03:09:00.000Z</published>
-    <updated>2023-02-18T03:09:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;想在 Win11 电脑上使用图片浏览软件 irfanview，不想使用原装自带的软件，但双击图片文件无法默认使用该软件。&lt;/p&gt;
-&lt;h2</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Windows" scheme="https://sine1995.gitee.io/tags/Windows/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>冰河剧集网PC遮挡删除</title>
-    <link href="https://sine1995.gitee.io/2023/%E5%86%B0%E6%B2%B3%E5%89%A7%E9%9B%86%E7%BD%91PC%E9%81%AE%E6%8C%A1%E5%88%A0%E9%99%A4.html"/>
-    <id>https://sine1995.gitee.io/2023/%E5%86%B0%E6%B2%B3%E5%89%A7%E9%9B%86%E7%BD%91PC%E9%81%AE%E6%8C%A1%E5%88%A0%E9%99%A4.html</id>
-    <published>2023-01-27T15:52:00.000Z</published>
-    <updated>2023-01-27T15:52:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span</summary>
-        
-      
-    
-    
-    
-    <category term="计算机" scheme="https://sine1995.gitee.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
-    
-    <category term="代码存档" scheme="https://sine1995.gitee.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E4%BB%A3%E7%A0%81%E5%AD%98%E6%A1%A3/"/>
-    
-    
-    <category term="Tampermonkey" scheme="https://sine1995.gitee.io/tags/Tampermonkey/"/>
     
   </entry>
   
