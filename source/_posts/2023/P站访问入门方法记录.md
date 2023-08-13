@@ -13,6 +13,8 @@ alias: []
 
 ## 镜像代理网站
 
+### pixiv.cat
+
 https://pixiv.nl/
 https://pixiv.re/
 
@@ -43,3 +45,10 @@ https://pixiv.re/
 >
 > ※ 若您的項目需要存取Pixiv上的圖片，且可以直接向Pixiv API抓取原始圖片網址，請使用[反向代理](https://pixiv.cat/reverseproxy.html)。
 >
+
+### pixiv.moe
+
+https://pixiv.moe/
+
+需要登录。
+我还是问AI才知道这个的。
