@@ -13,3 +13,6 @@ _multiconfig.yml
 yarn.lock
 package-lock.json
 node_modules.zip
+
+# user custom
+tmp/
