@@ -162,6 +162,7 @@ forbidden_word_check:
     - ["\u8f6e\u76d8", 转盘]
     - ["UU\u52a0\u901f\u5668", UU网游加速器]
 
+## 目前用于替换外部的cdn域名
 replace_external_link:
   enable: true
 
@@ -169,3 +170,7 @@ replace_external_link:
 external_link_check:
   enable: false
   trusted:
+
+## 支撑图片使用相对路径
+replace_relative_image_src:
+  enable: true
