@@ -37,6 +37,7 @@ const {permalink, replace_internal_link: {enable, replace_before_render, valid_c
 
 if (!enable) return;
 
+// opt: 可能使用 hexo.render.getOutput(filename) 替代静态拓展名（算是优化）
 const permalinkExtname = pathFn.extname(permalink);
 
 // 官方文档的几个示例中，不是以/结尾就是以.html结尾，
