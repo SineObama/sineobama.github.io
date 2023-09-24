@@ -43,7 +43,7 @@ copy:
 social:
    fab fa-github: https://github.com/SineObama || Github
    fa-solid fa-file-code: https://gitee.com/sine1995/sine1995 || Source code
-   fas fa-envelope: 714186139@qq.com || Email
+   fas fa-envelope: mailto:714186139@qq.com || Email
    fa-brands fa-bilibili: https://space.bilibili.com/30987652 || Bilibili
 
 # search (搜索)
