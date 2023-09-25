@@ -174,3 +174,7 @@ external_link_check:
 ## 支撑图片使用相对路径
 replace_relative_image_src:
   enable: true
+
+## 拷贝_posts文件夹中的资源
+generate_assets_in_posts:
+  enable: true
