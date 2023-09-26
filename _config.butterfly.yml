@@ -1,5 +1,5 @@
-# Main menu navigation (導航目錄)
-# see https://butterfly.js.org/posts/4aa8abbe/#導航菜單
+# Navigation bar settings (導航欄設置)
+# see https://butterfly.js.org/posts/4aa8abbe/##導航欄設置-Navigation-bar-settings
 # --------------------------------------
 
 menu:
@@ -29,9 +29,9 @@ highlight_shrink: false # true: shrink the code blocks / false: expand the code 
 highlight_height_limit: 400 # unit: px
 code_word_wrap: false
 
-# social settings (社交圖標設置)
+# Social Settings (社交圖標設置)
 # formal:
-#   icon: link || the description
+#   icon: link || the description || color
 social:
    fab fa-github: https://github.com/SineObama || Github
    fa-solid fa-file-code: https://gitee.com/sine1995/sine1995 || Source code
@@ -326,6 +326,9 @@ darkmode:
   # autoChangeMode: 2  Switch dark mode between 6 pm to 6 am
   # autoChangeMode: false
   autoChangeMode: 1
+  # Set the light mode time. The value is between 0 and 24. If not set, the default value is 6 and 18
+  start: # 8
+  end: # 22
 
 # show scroll percent in scroll-to-top button
 rightside_scroll_percent: true
@@ -370,6 +373,10 @@ algolia_search:
 local_search:
   enable: true
   preload: false
+  # Show top n results per article, show all results by setting to -1
+  top_n_per_article: 1
+  # Unescape html strings to the readable one.
+  unescape: false
   CDN:
 
 # Docsearch
@@ -381,7 +388,7 @@ docsearch:
   indexName:
   option:
 
-# Share System (分享功能)
+# Share System (分享)
 # --------------------------------------
 
 # AddThis
@@ -546,12 +553,6 @@ daovoice:
   enable: false
   app_id:
 
-# gitter
-# https://gitter.im/
-gitter:
-  enable: false
-  room:
-
 # crisp
 # https://crisp.chat/en/
 crisp:
@@ -654,6 +655,11 @@ background:
 
 # Footer Background
 footer_bg: true
+
+# Add mask to header or footer (为 header 或 footer 添加黑色半透遮罩)
+mask:
+  header: true
+  footer: true
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
 rightside-bottom:
@@ -795,11 +801,17 @@ preloader:
 medium_zoom: false
 
 # fancybox
-# http://fancyapps.com/fancybox/3/
+# https://fancyapps.com/fancybox/
 fancybox: true
 
 # Tag Plugins settings (標籤外掛)
 # --------------------------------------
+
+# abcjs (樂譜渲染)
+# See https://github.com/paulrosen/abcjs
+abcjs:
+  enable: false
+  per_page: true
 
 # mermaid
 # see https://github.com/mermaid-js/mermaid
@@ -920,7 +932,7 @@ CDN:
   # when set it to local, you need to install hexo-butterfly-extjs
   third_party_provider: jsdelivr
 
-  # Add version number to CDN, true or false
+  # Add version number to url, true or false
   version: false
 
   # Custom format
@@ -934,8 +946,8 @@ CDN:
     # translate:
     # local_search:
     # algolia_js:
-    # algolia_search_v4:
-    # instantsearch_v4:
+    # algolia_search:
+    # instantsearch:
     # docsearch_js:
     # docsearch_css:
     # pjax:
@@ -948,6 +960,7 @@ CDN:
     # twikoo:
     # waline_js:
     # waline_css:
+    # giscus:
     # sharejs:
     # sharejs_css:
     # mathjax:
@@ -961,8 +974,8 @@ CDN:
     # instantpage:
     # typed:
     # pangu:
-    # fancybox_css_v4:
-    # fancybox_v4:
+    # fancybox_css:
+    # fancybox:
     # medium_zoom:
     # snackbar_css:
     # snackbar:
@@ -970,7 +983,7 @@ CDN:
     # fireworks:
     # click_heart:
     # ClickShowText:
-    # fontawesomeV6:
+    # fontawesome:
     # flickr_justified_gallery_js:
     # flickr_justified_gallery_css:
     # aplayer_css:
@@ -982,3 +995,4 @@ CDN:
     # artalk_js:
     # artalk_css:
     # busuanzi:
+    # abcjs_basic_js:
