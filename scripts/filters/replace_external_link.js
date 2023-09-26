@@ -8,7 +8,7 @@ const { parse } = require('url');
 const logger = hexo.log;
 
 hexo.config.replace_external_link = Object.assign({
-    enable: true
+    enable: false
 }, hexo.config.replace_external_link);
 
 const {config} = hexo;

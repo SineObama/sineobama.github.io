@@ -178,3 +178,11 @@ replace_relative_image_src:
 ## 拷贝_posts文件夹中的资源
 generate_assets_in_posts:
   enable: true
+
+## 对没有设置分类的文章，将该文章的“多级”标签转为多级分类。
+generate_categories_from_tags:
+  enable: true
+
+## 根据文章变量，在标题前面加上文字标记。
+post_title_mark:
+  enable: true

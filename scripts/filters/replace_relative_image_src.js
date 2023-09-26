@@ -9,7 +9,7 @@ const pathFn = require('path');
 const logger = hexo.log;
 
 hexo.config.replace_relative_image_src = Object.assign({
-    enable: true
+    enable: false
 }, hexo.config.replace_relative_image_src);
 
 const {config, route} = hexo;

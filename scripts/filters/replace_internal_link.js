@@ -27,9 +27,9 @@ const pathFn = require('path');
 const logger = hexo.log;
 
 hexo.config.replace_internal_link = Object.assign({
-    enable: true,
+    enable: false,
     replace_before_render: true,
-    valid_check: true
+    valid_check: false
 }, hexo.config.replace_internal_link);
 
 const {config, route} = hexo;
