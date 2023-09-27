@@ -6,7 +6,7 @@
   <link href="https://sine1995.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://sine1995.gitee.io/"/>
-  <updated>2023-08-12T03:08:00.000Z</updated>
+  <updated>2023-09-24T11:55:00.000Z</updated>
   <id>https://sine1995.gitee.io/</id>
   
   <author>
@@ -15,6 +15,82 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>海尔移动空调 Haier KY-20／J 说明书（图片版）</title>
+    <link href="https://sine1995.gitee.io/2023/%E6%B5%B7%E5%B0%94%E7%A7%BB%E5%8A%A8%E7%A9%BA%E8%B0%83%20Haier%20KY-20%EF%BC%8FJ%20%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88%E5%9B%BE%E7%89%87%E7%89%88%EF%BC%89.html"/>
+    <id>https://sine1995.gitee.io/2023/%E6%B5%B7%E5%B0%94%E7%A7%BB%E5%8A%A8%E7%A9%BA%E8%B0%83%20Haier%20KY-20%EF%BC%8FJ%20%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88%E5%9B%BE%E7%89%87%E7%89%88%EF%BC%89.html</id>
+    <published>2023-09-24T11:55:00.000Z</published>
+    <updated>2023-09-24T11:55:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/img/IMG_2258.webp&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/IMG_2259.webp&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/img/IMG_2260.webp&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="扫描件" scheme="https://sine1995.gitee.io/categories/%E6%89%AB%E6%8F%8F%E4%BB%B6/"/>
+    
+    <category term="图片" scheme="https://sine1995.gitee.io/categories/%E6%89%AB%E6%8F%8F%E4%BB%B6/%E5%9B%BE%E7%89%87/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>图片大幅有损压缩经验总结</title>
+    <link href="https://sine1995.gitee.io/2023/%E5%9B%BE%E7%89%87%E5%A4%A7%E5%B9%85%E6%9C%89%E6%8D%9F%E5%8E%8B%E7%BC%A9%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93.html"/>
+    <id>https://sine1995.gitee.io/2023/%E5%9B%BE%E7%89%87%E5%A4%A7%E5%B9%85%E6%9C%89%E6%8D%9F%E5%8E%8B%E7%BC%A9%E7%BB%8F%E9%AA%8C%E6%80%BB%E7%BB%93.html</id>
+    <published>2023-09-24T09:32:00.000Z</published>
+    <updated>2023-09-24T09:32:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="图片压缩" scheme="https://sine1995.gitee.io/tags/%E5%9B%BE%E7%89%87%E5%8E%8B%E7%BC%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【经验】QQ、TIM聊天记录文件Msg3.0.db瘦身变小方法</title>
+    <link href="https://sine1995.gitee.io/2023/%E3%80%90%E7%BB%8F%E9%AA%8C%E3%80%91QQ%E3%80%81TIM%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95%E6%96%87%E4%BB%B6Msg3.0.db%E7%98%A6%E8%BA%AB%E5%8F%98%E5%B0%8F%E6%96%B9%E6%B3%95.html"/>
+    <id>https://sine1995.gitee.io/2023/%E3%80%90%E7%BB%8F%E9%AA%8C%E3%80%91QQ%E3%80%81TIM%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95%E6%96%87%E4%BB%B6Msg3.0.db%E7%98%A6%E8%BA%AB%E5%8F%98%E5%B0%8F%E6%96%B9%E6%B3%95.html</id>
+    <published>2023-08-15T12:45:00.000Z</published>
+    <updated>2023-08-15T12:45:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;用的电脑端TIM，想删除一些不用但体积大的群消息，保留其他消息。&lt;/p&gt;
+&lt;p&gt;根据百度的方法大概是：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;打开TIM，正常在消息管理器删除群消息。此时文件不会变小。如果不放心可以单独备份一些重要的记录，导出即可。&lt;/li&gt;
+&lt;li&gt;关闭TIM。移走&lt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>海尔移动空调 Haier KY-20／J 说明书（文字识别）</title>
@@ -33,6 +109,10 @@
       
     
     
+    
+    <category term="扫描件" scheme="https://sine1995.gitee.io/categories/%E6%89%AB%E6%8F%8F%E4%BB%B6/"/>
+    
+    <category term="文字" scheme="https://sine1995.gitee.io/categories/%E6%89%AB%E6%8F%8F%E4%BB%B6/%E6%96%87%E5%AD%97/"/>
     
     
   </entry>
@@ -442,7 +522,7 @@
     <link href="https://sine1995.gitee.io/2023/P%E7%AB%99%E8%AE%BF%E9%97%AE%E5%85%A5%E9%97%A8%E6%96%B9%E6%B3%95%E8%AE%B0%E5%BD%95.html"/>
     <id>https://sine1995.gitee.io/2023/P%E7%AB%99%E8%AE%BF%E9%97%AE%E5%85%A5%E9%97%A8%E6%96%B9%E6%B3%95%E8%AE%B0%E5%BD%95.html</id>
     <published>2023-03-18T01:45:00.000Z</published>
-    <updated>2023-03-18T01:45:00.000Z</updated>
+    <updated>2023-06-15T00:00:00.000Z</updated>
     
     
       
@@ -458,78 +538,6 @@
     <category term="计算机" scheme="https://sine1995.gitee.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
     
     <category term="备忘录" scheme="https://sine1995.gitee.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E5%A4%87%E5%BF%98%E5%BD%95/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>父母辈买手机浏览记录</title>
-    <link href="https://sine1995.gitee.io/2023/%E7%88%B6%E6%AF%8D%E8%BE%88%E4%B9%B0%E6%89%8B%E6%9C%BA%E6%B5%8F%E8%A7%88%E8%AE%B0%E5%BD%95.html"/>
-    <id>https://sine1995.gitee.io/2023/%E7%88%B6%E6%AF%8D%E8%BE%88%E4%B9%B0%E6%89%8B%E6%9C%BA%E6%B5%8F%E8%A7%88%E8%AE%B0%E5%BD%95.html</id>
-    <published>2023-03-13T13:48:00.000Z</published>
-    <updated>2023-03-13T13:48:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;2023年3月&quot;&gt;&lt;a href=&quot;#2023年3月&quot; class=&quot;headerlink&quot; title=&quot;2023年3月&quot;&gt;&lt;/a&gt;2023年3月&lt;/h2&gt;&lt;p&gt;参考每月更新指南:&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="生活经验" scheme="https://sine1995.gitee.io/categories/%E7%94%9F%E6%B4%BB%E7%BB%8F%E9%AA%8C/"/>
-    
-    <category term="商品选购" scheme="https://sine1995.gitee.io/categories/%E7%94%9F%E6%B4%BB%E7%BB%8F%E9%AA%8C/%E5%95%86%E5%93%81%E9%80%89%E8%B4%AD/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>原神圣遗物清理记录</title>
-    <link href="https://sine1995.gitee.io/2023/%E5%8E%9F%E7%A5%9E%E5%9C%A3%E9%81%97%E7%89%A9%E6%B8%85%E7%90%86%E8%AE%B0%E5%BD%95.html"/>
-    <id>https://sine1995.gitee.io/2023/%E5%8E%9F%E7%A5%9E%E5%9C%A3%E9%81%97%E7%89%A9%E6%B8%85%E7%90%86%E8%AE%B0%E5%BD%95.html</id>
-    <published>2023-03-04T12:03:00.000Z</published>
-    <updated>2023-04-01T12:08:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;起因&quot;&gt;&lt;a href=&quot;#起因&quot; class=&quot;headerlink&quot; title=&quot;起因&quot;&gt;&lt;/a&gt;起因&lt;/h2&gt;&lt;p&gt;一方面游戏限制了1500圣遗物上限，一方面天天刷圣遗物，狗粮也经常溢出。&lt;/p&gt;
-&lt;h2 id=&quot;待强化圣遗物&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="游戏" scheme="https://sine1995.gitee.io/categories/%E6%B8%B8%E6%88%8F/"/>
-    
-    <category term="原神" scheme="https://sine1995.gitee.io/categories/%E6%B8%B8%E6%88%8F/%E5%8E%9F%E7%A5%9E/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://sine1995.gitee.io/hello-world.html"/>
-    <id>https://sine1995.gitee.io/hello-world.html</id>
-    <published>2023-02-28T15:41:00.000Z</published>
-    <updated>2023-02-28T15:41:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
-    
-    
     
     
   </entry>
