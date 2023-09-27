@@ -7,7 +7,7 @@
 const logger = hexo.log;
 
 const {enable, reg_exp} = hexo.config.forbidden_word_check = Object.assign({
-    enable: true,
+    enable: false,
     reg_exp: []
 }, hexo.config.forbidden_word_check);
 

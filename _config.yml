@@ -162,6 +162,7 @@ forbidden_word_check:
     - ["\u8f6e\u76d8", 转盘]
     - ["UU\u52a0\u901f\u5668", UU网游加速器]
 
+## 目前用于替换外部的cdn域名
 replace_external_link:
   enable: true
 
@@ -169,3 +170,19 @@ replace_external_link:
 external_link_check:
   enable: false
   trusted:
+
+## 支撑图片使用相对路径
+replace_relative_image_src:
+  enable: true
+
+## 拷贝_posts文件夹中的资源
+generate_assets_in_posts:
+  enable: true
+
+## 对没有设置分类的文章，将该文章的“多级”标签转为多级分类。
+generate_categories_from_tags:
+  enable: true
+
+## 根据文章变量，在标题前面加上文字标记。
+post_title_mark:
+  enable: true
