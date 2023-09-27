@@ -1,9 +1,10 @@
 ---
-title: '海尔移动空调 Haier KY-20／J 说明书（文字识别）'
-date: '2023-08-12 11:08'
-updated: '2023-08-12 11:08'
+title: 海尔移动空调 Haier KY-20／J 说明书（文字识别）
+date: 2023-08-12 11:08
+updated: 2023-08-12 11:08
 tags:
-alias: []
+  - 扫描件/文字
+aliases:
 ---
 
  Haier

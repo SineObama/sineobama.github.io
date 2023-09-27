@@ -6,7 +6,19 @@
 
 'use strict';
 
-hexo.extend.filter.register('before_post_render', function (data) {
+const {config} = hexo;
+
+hexo.config.generate_categories_from_tags = Object.assign({
+    enable: false
+}, hexo.config.generate_categories_from_tags);
+
+const {generate_categories_from_tags: {enable}} = config;
+
+if (enable) {
+    hexo.extend.filter.register('before_post_render', generateCategoriesFromTags);
+}
+
+function generateCategoriesFromTags(data) {
     const logger = hexo.log;
 
     // 没有标签和分类的，不是文章（post），不进行处理
@@ -52,4 +64,4 @@ hexo.extend.filter.register('before_post_render', function (data) {
     }
 
     return data;
-});
+};

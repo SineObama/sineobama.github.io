@@ -7,7 +7,7 @@ const { parse } = require('url');
 const logger = hexo.log;
 
 hexo.config.external_link_check = Object.assign({
-    enable: true,
+    enable: false,
     trusted: []
 }, hexo.config.external_link_check);
 

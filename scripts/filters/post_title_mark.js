@@ -7,9 +7,18 @@
 'use strict';
 
 const logger = hexo.log;
+const {config} = hexo;
 
-hexo.extend.filter.register('before_post_render', generateMarker('【转载】', noCopyright));
-hexo.extend.filter.register('before_post_render', generateMarker('【作废】', isInvalid));
+hexo.config.post_title_mark = Object.assign({
+    enable: false
+}, hexo.config.post_title_mark);
+
+const {post_title_mark: {enable}} = config;
+
+if (enable) {
+    hexo.extend.filter.register('before_post_render', generateMarker('【转载】', noCopyright));
+    hexo.extend.filter.register('before_post_render', generateMarker('【作废】', isInvalid));
+}
 
 function noCopyright(data) {
     // 版权参考：https://butterfly.js.org/posts/4aa8abbe/#%E6%96%87%E7%AB%A0%E7%89%88%E6%AC%8A
