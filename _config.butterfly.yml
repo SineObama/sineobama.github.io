@@ -35,8 +35,8 @@ code_word_wrap: false
 social:
    fab fa-github: https://github.com/SineObama || Github
    fa-solid fa-file-code: https://gitee.com/sine1995/sine1995 || Source code
-   fas fa-envelope: mailto:714186139@qq.com || Email
-   fa-brands fa-bilibili: https://space.bilibili.com/30987652 || Bilibili
+   fas fa-envelope: mailto:714186139@qq.com || Email || '#FFB601'
+   fa-brands fa-bilibili: https://space.bilibili.com/30987652 || Bilibili || '#00AAE2'
 
 # Image (圖片設置)
 # --------------------------------------
@@ -239,8 +239,8 @@ aside:
     description:
     button:
       enable: true
-      icon: fab fa-github
-      text: Follow Me
+      icon: fa-solid fa-g
+      text: gitee home
       link: https://gitee.com/sine1995
   card_announcement:
     enable: true
@@ -376,7 +376,7 @@ local_search:
   # Show top n results per article, show all results by setting to -1
   top_n_per_article: 1
   # Unescape html strings to the readable one.
-  unescape: false
+  unescape: true
   CDN:
 
 # Docsearch
