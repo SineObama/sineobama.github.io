@@ -1,7 +1,7 @@
 ---
 title: 'win10笔记本睡眠的离开模式'
 date: '2022-01-13'
-updated: '2022-01-28'
+updated: '2023-07-02'
 tags:
   - Windows
 alias: []
