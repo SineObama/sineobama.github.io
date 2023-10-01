@@ -24,16 +24,28 @@
 'use strict';
 
 const pathFn = require('path');
+const {Pattern} = require('hexo-util');
 const logger = hexo.log;
 
 hexo.config.replace_internal_link = Object.assign({
     enable: false,
     replace_before_render: true,
-    valid_check: false
+    valid_check: {
+        enable: false,
+        remove_link: true,
+        suppress_warning_rules: []
+    }
 }, hexo.config.replace_internal_link);
 
 const {config, route} = hexo;
-const {permalink, replace_internal_link: {enable, replace_before_render, valid_check}} = config;
+const {
+    permalink,
+    replace_internal_link: {
+        enable,
+        replace_before_render,
+        valid_check: {enable: valid_check, remove_link, suppress_warning_rules}
+    }
+} = config;
 
 if (!enable) return;
 
@@ -78,14 +90,22 @@ if (!replace_before_render || valid_check) {
             const extname = pathFn.extname(href);
             let hrefNew = href.substr(0, href.length - extname.length) + permalinkExtname;
             if (!getRoute(from, hrefNew)) {
-                // 修复失败也可能是链接的文章不在源文件中，这个也用来警告无效文章链接
+                // 修复失败也可能是链接的文章不在源文件中，此时也警告提示无效文章链接
+
+                // 如果选择直接删除，可以中止处理
+                if (remove_link) {
+                    aTag = aTag.replace(hrefStr, '');
+                    warnInvalidLink(data, hrefNew, '(removed)')
+                    return aTag;
+                }
+
                 let baseUrl = config.url.endsWith('/') ? config.url : config.url + '/';
                 hrefNew = limitRelativeLink(from, href, baseUrl);
                 if (hrefNew && href !== hrefNew) {
                     aTag = aTag.replace(href, hrefNew);
-                    logger.warn('page "' + (data.page.title || data.page.source) + '" invalid link: ' + decodeURIComponent(hrefNew) + ' (limited in site url)');
+                    warnInvalidLink(data, hrefNew, '(limited in site url)');
                 } else {
-                    logger.warn('page "' + (data.page.title || data.page.source) + '" invalid link: ' + decodeURIComponent(href));
+                    warnInvalidLink(data, href);
                 }
                 return aTag;
             }
@@ -99,6 +119,24 @@ if (!replace_before_render || valid_check) {
             return aTag.replace(href, hrefNew);
         });
     });
+}
+
+let suppress_warning_patterns = [];
+if (valid_check) {
+    for (let i = 0; i < suppress_warning_rules.length; i++) {
+        suppress_warning_patterns.push(new Pattern((suppress_warning_rules[i])));
+    }
+}
+
+function warnInvalidLink(data, href, addMsg) {
+    let href0 = decodeURIComponent(href);
+    for (let i = 0; i < suppress_warning_patterns.length; i++) {
+        if (suppress_warning_patterns[i].match(href0)) {
+            logger.debug('suppressed warning for invalid link: ' + href0)
+            return;
+        }
+    }
+    logger.warn('page "' + (data.page.title || data.page.source) + '" invalid link: ' + href0 + ' ' + (addMsg || ''));
 }
 
 /**
