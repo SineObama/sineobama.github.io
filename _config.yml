@@ -150,8 +150,20 @@ replace_internal_link:
   enable: true
   # 在渲染前替换
   replace_before_render: true
-  # 本地可以开启内部链接有效性检查，提供警告信息
-  valid_check: true
+  # 开启内部链接有效性检查，做相应处理并提供警告信息
+  valid_check:
+    enable: true
+    # 直接删除无效链接地址（不可跳转）
+    remove_link: true
+    # 屏蔽以下规则的链接的警告（常用“包含”关系）。使用 https://github.com/hexojs/hexo-util#patternrule
+    suppress_warning_rules:
+      # 功能单元测试，稳定后不需要提示
+      - Sine测试
+      # 统一管理的私人资料不开放
+      - 231_用户账号
+      - 232_社会关系
+      # 转载的外部资料不进行发布
+      - 300_资源
 
 ## 检测用词并警告，部署时关闭或许可以提高一点速度
 forbidden_word_check:
