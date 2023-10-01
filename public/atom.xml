@@ -68,6 +68,32 @@
   </entry>
   
   <entry>
+    <title>批量重命名媒体（视频）文件统一添加媒体日期（powershell）</title>
+    <link href="https://sine1995.gitee.io/2023/%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D%E5%AA%92%E4%BD%93%EF%BC%88%E8%A7%86%E9%A2%91%EF%BC%89%E6%96%87%E4%BB%B6%E7%BB%9F%E4%B8%80%E6%B7%BB%E5%8A%A0%E5%AA%92%E4%BD%93%E6%97%A5%E6%9C%9F%EF%BC%88powershell%EF%BC%89.html"/>
+    <id>https://sine1995.gitee.io/2023/%E6%89%B9%E9%87%8F%E9%87%8D%E5%91%BD%E5%90%8D%E5%AA%92%E4%BD%93%EF%BC%88%E8%A7%86%E9%A2%91%EF%BC%89%E6%96%87%E4%BB%B6%E7%BB%9F%E4%B8%80%E6%B7%BB%E5%8A%A0%E5%AA%92%E4%BD%93%E6%97%A5%E6%9C%9F%EF%BC%88powershell%EF%BC%89.html</id>
+    <published>2023-09-09T15:53:00.000Z</published>
+    <updated>2023-09-09T15:53:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;为了将下载的视频文件统一加上文件对应的日期（原名称规则不统一），今天问了几次ChatGPT捣鼓出来了一个脚本，优先按照&lt;strong&gt;文件属性中的媒体日期&lt;/strong&gt;来，其次使用文件修改时间。&lt;/p&gt;
+&lt;figure class=&quot;highlight</summary>
+        
+      
+    
+    
+    
+    <category term="计算机" scheme="https://sine1995.gitee.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
+    
+    <category term="代码存档" scheme="https://sine1995.gitee.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E4%BB%A3%E7%A0%81%E5%AD%98%E6%A1%A3/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>【经验】QQ、TIM聊天记录文件Msg3.0.db瘦身变小方法</title>
     <link href="https://sine1995.gitee.io/2023/%E3%80%90%E7%BB%8F%E9%AA%8C%E3%80%91QQ%E3%80%81TIM%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95%E6%96%87%E4%BB%B6Msg3.0.db%E7%98%A6%E8%BA%AB%E5%8F%98%E5%B0%8F%E6%96%B9%E6%B3%95.html"/>
     <id>https://sine1995.gitee.io/2023/%E3%80%90%E7%BB%8F%E9%AA%8C%E3%80%91QQ%E3%80%81TIM%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95%E6%96%87%E4%BB%B6Msg3.0.db%E7%98%A6%E8%BA%AB%E5%8F%98%E5%B0%8F%E6%96%B9%E6%B3%95.html</id>
@@ -276,7 +302,7 @@
     <link href="https://sine1995.gitee.io/2023/Hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%8E%E7%AE%A1%E7%90%86%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B.html"/>
     <id>https://sine1995.gitee.io/2023/Hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%8E%E7%AE%A1%E7%90%86%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B.html</id>
     <published>2023-03-26T11:01:00.000Z</published>
-    <updated>2023-03-26T11:01:00.000Z</updated>
+    <updated>2023-10-01T09:48:31.000Z</updated>
     
     
       
@@ -514,31 +540,6 @@
     <category term="Obsidian" scheme="https://sine1995.gitee.io/tags/Obsidian/"/>
     
     <category term="Hexo" scheme="https://sine1995.gitee.io/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>P站访问入门方法整理</title>
-    <link href="https://sine1995.gitee.io/2023/P%E7%AB%99%E8%AE%BF%E9%97%AE%E5%85%A5%E9%97%A8%E6%96%B9%E6%B3%95%E8%AE%B0%E5%BD%95.html"/>
-    <id>https://sine1995.gitee.io/2023/P%E7%AB%99%E8%AE%BF%E9%97%AE%E5%85%A5%E9%97%A8%E6%96%B9%E6%B3%95%E8%AE%B0%E5%BD%95.html</id>
-    <published>2023-03-18T01:45:00.000Z</published>
-    <updated>2023-06-15T00:00:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;加速代理&quot;&gt;&lt;a href=&quot;#加速代理&quot; class=&quot;headerlink&quot; title=&quot;加速代理&quot;&gt;&lt;/a&gt;加速代理&lt;/h2&gt;&lt;p&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="计算机" scheme="https://sine1995.gitee.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/"/>
-    
-    <category term="备忘录" scheme="https://sine1995.gitee.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA/%E5%A4%87%E5%BF%98%E5%BD%95/"/>
-    
     
   </entry>
   
