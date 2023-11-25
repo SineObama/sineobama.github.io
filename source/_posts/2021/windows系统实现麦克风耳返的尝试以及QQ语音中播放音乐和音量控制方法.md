@@ -1,11 +1,12 @@
 ---
-title: 'windows系统实现麦克风耳返的尝试以及QQ语音中播放音乐和音量控制方法'
-date: '2021-02-14'
-updated: '2022-01-01'
+title: windows系统实现麦克风耳返的尝试以及QQ语音中播放音乐和音量控制方法
+date: 2021-02-14
+updated: 2022-01-01
 tags:
   - Windows
   - 电脑耳返
-alias: []
+  - 计算机/备忘录
+aliases: 
 invalid: true
 ---
 

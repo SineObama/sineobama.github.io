@@ -1,10 +1,11 @@
 ---
-title: 'Excel自建中文转全拼公式'
-date: '2022-10-06'
-updated: '2022-10-06'
+title: Excel自建中文转全拼公式
+date: 2022-10-06
+updated: 2022-10-06
 tags:
   - Office
-alias: []
+  - 计算机/备忘录
+aliases: 
 copyright: false
 ---
 

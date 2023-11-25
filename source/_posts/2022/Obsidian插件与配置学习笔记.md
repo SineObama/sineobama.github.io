@@ -56,15 +56,15 @@ markdown 格式转换，能用的话优先用软件自带的，其次用插件�
 
 #### icon-folder
 
-估计是箱中的插件版本比较旧与 ob 不匹配，提示需要人为修正目录路径，从 `plugins/obsidian-icon-folder/icons` 修复为 `.obsidian/plugins/obsidian-icon-folder/icons`（一开始我并不理解此提示的意思，后来找到源码 v1.2.2 版本的发布说明才看懂）
+```
+[obsidian-icon-folder] Due to a change in version v1.2.2, the icon pack folder changed. Please change it in the settings to not be directly in /plugins.
+```
 
-![弹窗的提示内容](../../../笔记附件/Pasted%20image%2020221029090240.png)
+碰到上述错误信息，估计是箱中的插件版本比较旧与 ob 不匹配，提示需要人为修正目录路径，从 `plugins/obsidian-icon-folder/icons` 修复为 `.obsidian/plugins/obsidian-icon-folder/icons`（一开始我并不理解此提示的意思，后来找到源码 v1.2.2 版本的发布说明才看懂）
 
 #### Outliner
 
-它限制了光标使其难以移动到列表符号位置，导致不便于调整列表缩进等操作，故关闭了此设置。
-
-![设置项预览](../../../笔记附件/Pasted%20image%2020221028211226.png)
+设置项`Stick the cursor to the content`限制了光标使其难以移动到列表符号位置，导致不便于调整列表缩进等操作，故关闭了此设置。
 
 #### templater
 

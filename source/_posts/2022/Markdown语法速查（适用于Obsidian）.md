@@ -1,10 +1,11 @@
 ---
-title: 'Markdown语法速查（适用于Obsidian）'
-date: '2022-10-30 13:11'
-updated: '2022-10-30 13:11'
+title: Markdown语法速查（适用于Obsidian）
+date: 2022-10-30 13:11
+updated: 2022-10-30 13:11
 tags:
   - Obsidian
-alias: []
+  - 计算机/备忘录
+aliases: 
 copyright: false
 ---
 

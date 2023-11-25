@@ -1,10 +1,11 @@
 ---
-title: '关闭win11开始菜单的网络搜索'
-date: '2023-02-18 12:02'
-updated: '2023-02-18 12:02'
+title: 关闭win11开始菜单的网络搜索
+date: 2023-02-18 12:02
+updated: 2023-02-18 12:02
 tags:
   - Windows
-alias: []
+  - 计算机/备忘录
+aliases: 
 copyright: false
 ---
 
