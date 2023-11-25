@@ -194,6 +194,8 @@ generate_assets_in_posts:
 ## 对没有设置分类的文章，将该文章的“多级”标签转为多级分类。
 generate_categories_from_tags:
   enable: true
+  warnNoTag: true
+  warnNoCategory: false
 
 ## 根据文章变量，在标题前面加上文字标记。
 post_title_mark:

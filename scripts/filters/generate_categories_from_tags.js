@@ -9,10 +9,12 @@
 const {config} = hexo;
 
 hexo.config.generate_categories_from_tags = Object.assign({
-    enable: false
+    enable: false,
+    warnNoTag: false,
+    warnNoCategory: false
 }, hexo.config.generate_categories_from_tags);
 
-const {generate_categories_from_tags: {enable}} = config;
+const {generate_categories_from_tags: {enable,warnNoTag,warnNoCategory}} = config;
 
 if (enable) {
     hexo.extend.filter.register('before_post_render', generateCategoriesFromTags);
@@ -61,6 +63,10 @@ function generateCategoriesFromTags(data) {
     if (categories.length > 0) {
         data.setCategories(categories);
         logger.debug(`title: ${data.title}, set categories:`, categories);
+    } else if (warnNoCategory) {
+        logger.warn('post has no category: ' + data.title);
+    } else if (warnNoTag && tags.length === 0) {
+        logger.warn('post has no tag: ' + data.title);
     }
 
     return data;

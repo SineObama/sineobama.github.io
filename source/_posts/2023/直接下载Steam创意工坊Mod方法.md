@@ -1,9 +1,11 @@
 ---
-title: '直接下载Steam创意工坊Mod方法'
-date: '2023-08-05 09:55'
-updated: '2023-08-05 09:55'
+title: 直接下载Steam创意工坊Mod方法
+date: 2023-08-05 09:55
+updated: 2023-08-05 09:55
 tags:
-alias: []
+  - 计算机/备忘录
+  - Steam
+aliases:
 ---
 
 [Steam Workshop Downloader :: IO 下载mod](https://steamworkshopdownloader.io)
