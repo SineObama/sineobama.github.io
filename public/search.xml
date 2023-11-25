@@ -4,6 +4,48 @@
   
     
     <entry>
+      <title>低风险投资与定期存款利率的简单计算与选择</title>
+      <link href="/2023/%E4%BD%8E%E9%A3%8E%E9%99%A9%E6%8A%95%E8%B5%84%E4%B8%8E%E5%AE%9A%E6%9C%9F%E5%AD%98%E6%AC%BE%E5%88%A9%E7%8E%87%E7%9A%84%E7%AE%80%E5%8D%95%E8%AE%A1%E7%AE%97%E4%B8%8E%E9%80%89%E6%8B%A9.html"/>
+      <url>/2023/%E4%BD%8E%E9%A3%8E%E9%99%A9%E6%8A%95%E8%B5%84%E4%B8%8E%E5%AE%9A%E6%9C%9F%E5%AD%98%E6%AC%BE%E5%88%A9%E7%8E%87%E7%9A%84%E7%AE%80%E5%8D%95%E8%AE%A1%E7%AE%97%E4%B8%8E%E9%80%89%E6%8B%A9.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>2023年末，经济不景气啊（？）。</p><p>基于以下背景：</p><ul><li>如今灵活存取的低风险投资利率可能还<strong>不如定期存款</strong>，需要反过来考虑是否进行投资。</li><li>现在定期存款一般支持整存零取，可以只取部分。</li><li>现实中会有用钱需求，全部存定期容易出现提前取出导致亏损利息。</li></ul><p>所以需要考虑将多少存款放在多少利率的低风险投资中。这里仅限于考虑低风险投资，不做太多考虑，希望得出一个相对简单的计算方式与结论。</p><h2 id="定期存款"><a href="#定期存款" class="headerlink" title="定期存款"></a>定期存款</h2><p>定期存款要考虑的是提前取出问题，提前取出会导致利息亏损，这里定义两种估算模式：</p><ul><li>平均模式：取出时间随机，利息亏损的时间按照定期周期的一半计算。例如2年定期，平均就是在存入1年时取出，相当于亏损1年（一半）利息了。（姑且忽略活期利率）</li><li>平滑模式：假设收入与存款都很平滑，例如每个月稳定存入一万元，定期存款的周期很平滑，想取出时可以优先选择存入时间短的存款，可以减少利息亏损。</li></ul><p>先考虑几个简单情况，假定取出周期和定期周期一致，例如2年定期，平均每2年取出一次，此时取出数量与亏损挂钩：</p><ul><li>平均模式下，取出所有时，亏损1&#x2F;2；取出1&#x2F;2时，亏损1&#x2F;4。这里的亏损即可换算成利率，取出1&#x2F;2时相当于利率减少1&#x2F;4。</li><li>平滑模式下，越少量的取出，亏损越少得厉害。例如2年定期，取出1&#x2F;2时只需要选取存入时间在1年之内的存款，如此平均亏损的存入时间就只有0.5年，再加上与取出数量挂钩，总体只亏损1&#x2F;8。同理，取出1&#x2F;4则亏损1&#x2F;32。</li></ul><p>以上主要讨论取出数量的影响，同时取出周期也和亏损成反比。</p><h2 id="低风险投资"><a href="#低风险投资" class="headerlink" title="低风险投资"></a>低风险投资</h2><p>基于取出的需求量，我们可能会把这部分存款放在相对灵活的低风险投资中。</p><p>理想情况下，把取出数量直接从定期存款变为其他投资，可以直接去除这部分的利息亏损，这种情况下，可以拿平均模式的结果做简单的等价计算——例如当平均模式下取出为1&#x2F;2，利息亏损1&#x2F;4时，选择把1&#x2F;2的存款放在比定期利率低1&#x2F;4或更高利率的投资中，最终效果会等于或优于全部存款代入平滑模式下定期存款的结果。</p><h2 id="简单结论"><a href="#简单结论" class="headerlink" title="简单结论"></a>简单结论</h2><p>以上理想情况也只是在每2&#x2F;3年左右需要取出1&#x2F;2的条件下，如果以次为基准，用钱少的时候一般来说就不需要考虑低利率投资了，例如现在三年期2.6%，灵活低风险投资只有2%，基本不需要考虑投资了，但相对的需要维持平滑的定期存款存入（例如招商银行有月月存功能，定时自动存入）。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活经验 </category>
+          
+          <category> 投资理财 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>概率用词</title>
+      <link href="/2023/%E6%A6%82%E7%8E%87%E7%94%A8%E8%AF%8D.html"/>
+      <url>/2023/%E6%A6%82%E7%8E%87%E7%94%A8%E8%AF%8D.html</url>
+      
+        <content type="html"><![CDATA[<table><thead><tr><th>悲观概率</th><th>其他表述</th></tr></thead><tbody><tr><td>大于10%</td><td>很容易、极容易</td></tr><tr><td>小于10%</td><td>容易、不难</td></tr><tr><td>小于1%</td><td>偶见、较少</td></tr><tr><td>小于0.1%</td><td>罕见、难、不容易</td></tr><tr><td>小于0.01%</td><td>十分罕见、非常难</td></tr></tbody></table><p>（参考了药物不良反应概率的定义）</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机 </category>
+          
+          <category> 备忘录 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>海尔移动空调 Haier KY-20／J 说明书（图片版）</title>
       <link href="/2023/%E6%B5%B7%E5%B0%94%E7%A7%BB%E5%8A%A8%E7%A9%BA%E8%B0%83%20Haier%20KY-20%EF%BC%8FJ%20%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88%E5%9B%BE%E7%89%87%E7%89%88%EF%BC%89.html"/>
       <url>/2023/%E6%B5%B7%E5%B0%94%E7%A7%BB%E5%8A%A8%E7%A9%BA%E8%B0%83%20Haier%20KY-20%EF%BC%8FJ%20%E8%AF%B4%E6%98%8E%E4%B9%A6%EF%BC%88%E5%9B%BE%E7%89%87%E7%89%88%EF%BC%89.html</url>
@@ -31,6 +73,14 @@
       
         <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>主要针对图片质量要求低、希望极大压缩文件大小的场景。例如使用说明书的图片，直接拍照会很大，只需要能大概看清楚图示和文字即可。</p><h2 id="简述"><a href="#简述" class="headerlink" title="简述"></a>简述</h2><ul><li>图片格式选择：主流已经支持的jpg或者webp，一般webp更小。</li><li>图片分辨率：尽可能小，但保持在一个质量中等的程度。</li></ul><h2 id="使用IrfanView个人经验"><a href="#使用IrfanView个人经验" class="headerlink" title="使用IrfanView个人经验"></a>使用IrfanView个人经验</h2><ul><li>尝试了几种图片格式和参数场景，开启重采样（更好质量）会有更小的体积。</li><li>对于文字类图片，webp使用灰度图像（大概是黑白）体积会减小一点，但gif可能会反增，可能是由于256色和黑白体积相近。</li></ul><h3 id="webp参数"><a href="#webp参数" class="headerlink" title="webp参数"></a>webp参数</h3><ul><li>文字类图片可以使用<code>text</code>预设，虽然体积会大一点但质量也好一些。</li><li>压缩等级自然拉满最好（不过和默认值也差不了多少）。</li><li>其他参数没怎么设置过，一般默认就差不多了，比如文字类图片使用推荐的75质量即可，再低效果相差不大。</li></ul>]]></content>
       
+      
+      <categories>
+          
+          <category> 计算机 </category>
+          
+          <category> 备忘录 </category>
+          
+      </categories>
       
       
         <tags>
@@ -72,6 +122,22 @@
         <content type="html"><![CDATA[<p>用的电脑端TIM，想删除一些不用但体积大的群消息，保留其他消息。</p><p>根据百度的方法大概是：</p><ol><li>打开TIM，正常在消息管理器删除群消息。此时文件不会变小。如果不放心可以单独备份一些重要的记录，导出即可。</li><li>关闭TIM。移走<code>Msg3.0.db</code>文件。我还顺便移走了比较大的<code>Msg3.0index.db</code>，现在第二天看起来没什么影响。</li><li>打开TIM，导入聊天记录，选择<code>Msg3.0.db</code>文件即可，其他一些记录能回来（我聊的不多）。</li></ol><p>方法溯源：2023年8月14日百度搜索<code>msg3.0不会缩小</code> - <a href="https://www.52pojie.cn/thread-1601546-1-1.html">QQ的 msg3.0文件过大，求瘦身方法 - 『悬赏问答区』 - 吾爱破解 - LCG - LSG |安卓破解|病毒分析|www.52pojie.cn</a></p>]]></content>
       
       
+      <categories>
+          
+          <category> 计算机 </category>
+          
+          <category> 备忘录 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> QQ </tag>
+            
+            <tag> TIM </tag>
+            
+        </tags>
       
     </entry>
     
@@ -106,6 +172,20 @@
         <content type="html"><![CDATA[<p><a href="https://steamworkshopdownloader.io/">Steam Workshop Downloader :: IO 下载mod</a></p><blockquote><p>安装steamcmd，输入命令<code>login anonymous</code>登录，用<a href="https://steamworkshopdownloader.io/">Steam Workshop Downloader :: IO 下载mod</a>网站获取下载命令<code>workshop_download_item 281990 2576362573</code>，281990是群星的游戏ID，2576362573是MOD编号，下载后的文件在根目录的<code>steamapps\workshop\content\281990</code>里面 </p></blockquote><p><a href="https://www.bilibili.com/video/BV1q7411P76H">【参考】2个方便你下载Steam创意工坊Mod的网站_哔哩哔哩_bilibili</a><br><a href="https://greasyfork.org/zh-CN/scripts/389588-steam-mod-workshop-download-button-steam%E5%88%9B%E6%84%8F%E5%B7%A5%E5%9D%8A%E6%B7%BB%E5%8A%A0mod%E4%B8%8B%E8%BD%BD%E6%8C%89%E9%92%AE">【备用&#x2F;没成功】Steam Mod Workshop Download Button（Steam创意工坊添加mod下载按钮）</a></p>]]></content>
       
       
+      <categories>
+          
+          <category> 计算机 </category>
+          
+          <category> 备忘录 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Steam </tag>
+            
+        </tags>
       
     </entry>
     
@@ -118,6 +198,14 @@
       
         <content type="html"><![CDATA[<ul><li>1Mbps<ul><li>1MB &#x2F; 8s</li><li>7.5MB &#x2F; min</li><li>450MB &#x2F; hour</li></ul></li><li>2Mbps<ul><li>MB &#x2F; 4s</li><li>15MB &#x2F; min</li><li>900MB &#x2F; hour</li></ul></li></ul>]]></content>
       
+      
+      <categories>
+          
+          <category> 计算机 </category>
+          
+          <category> 备忘录 </category>
+          
+      </categories>
       
       
     </entry>
@@ -132,6 +220,20 @@
         <content type="html"><![CDATA[<p>问题描述：说说评论被回复后，电脑版TIM出现了回复提醒，之后使用“提取消息”快捷键会自动打开好友动态的页面窗口，每次使用快捷键，只要没有其他新消息都会一直打开它，很烦。</p><p>背景：推测TIM有好友动态功能，但是被隐藏了，至少平常我就找不到入口，但偏偏会有这个问题。TIM似乎没什么人维护软件，在<a href="https://support.qq.com/product/79335">网站</a>反馈似乎也没有回复。</p><p>无奈只能自己试试排查，最后发现把“个人文件夹(用于保存消息记录等数据)”里面qq号文件夹下面的Info.db文件删除后就正常了（重新启动TIM）。</p>]]></content>
       
       
+      <categories>
+          
+          <category> 计算机 </category>
+          
+          <category> 问题经验 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> TIM </tag>
+            
+        </tags>
       
     </entry>
     
@@ -226,9 +328,9 @@
           
           <category> 实例记录 </category>
           
-          <category> 静态博客 </category>
-          
           <category> 管理方法 </category>
+          
+          <category> 静态博客 </category>
           
       </categories>
       
@@ -327,9 +429,9 @@
       
         <tags>
             
-            <tag> Obsidian </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> Obsidian </tag>
             
         </tags>
       
@@ -356,9 +458,9 @@
       
         <tags>
             
-            <tag> Obsidian </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> Obsidian </tag>
             
         </tags>
       
@@ -404,9 +506,9 @@
       
         <tags>
             
-            <tag> Obsidian </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> Obsidian </tag>
             
         </tags>
       
@@ -422,12 +524,20 @@
         <content type="html"><![CDATA[<h2 id="废案说明"><a href="#废案说明" class="headerlink" title="废案说明"></a>废案说明</h2><p>两个目录会有分别提交管理的需求，也更清晰分明，不需要合并。</p><h2 id="概览"><a href="#概览" class="headerlink" title="概览"></a>概览</h2><h3 id="管理原则"><a href="#管理原则" class="headerlink" title="管理原则"></a>管理原则</h3><ul><li>使用文件系统 + 纯文本的 Markdown 格式文件，开放式的存储方式，享受全平台同步、检索和查看的便利。</li><li>使用自己喜欢的 Markdown 编辑器写笔记文章，不用被限制在专用笔记软件之中。</li><li>使用博客框架系统将（部分）文章输出成网页格式，方便公开发布到其它平台。</li></ul><h3 id="使用需求"><a href="#使用需求" class="headerlink" title="使用需求"></a>使用需求</h3><ul><li>核心聚焦文本笔记内容，集中在一个文件夹。如此可以方便自动同步和备份；根据同步工具的不同，体积最好小一些，图片资源不一定在此范围内。（暂没有图床的需求与使用经验）</li><li>博客框架一般要求文章内容在项目文件之内，设定一个或多个文件夹昨晚原始文件存放位置。</li><li>【核心】笔记文件（或其他文件）之间有链接关系，个人选择使用 Markdown 原生的相对路径引用，并希望发布后也能正常（使用相对路径）完成链接展示或跳转。</li></ul><h3 id="使用的工具-x2F-框架"><a href="#使用的工具-x2F-框架" class="headerlink" title="使用的工具&#x2F;框架"></a>使用的工具&#x2F;框架</h3><ul><li>Obsidian 基于文件系统的 Markdown 笔记软件</li><li>坚果云 基于文件系统的文件自动同步</li><li>Git 基于文件系统的版本管理（全自定义排除文件）</li><li>Hexo 博客框架</li><li>Gitee Git 远程仓库，用于发布公开的静态博客</li></ul><h3 id="核心技术预览"><a href="#核心技术预览" class="headerlink" title="核心技术预览"></a>核心技术预览</h3><ul><li>得益于 Hexo 基础框架及其高度自定义的功能：<a href="https://hexo.io/zh-cn/docs/plugins">插件系统</a> 之 <a href="https://hexo.io/zh-cn/api/filter#server-middleware">过滤器（Filter）</a> 对 <a href="https://hexo.io/zh-cn/api/router">路由</a> 的入门级定制使用，博客页面路径可以实现“所见即所得”。</li></ul><h2 id="组织结构"><a href="#组织结构" class="headerlink" title="组织结构"></a>组织结构</h2><h3 id="目录结构"><a href="#目录结构" class="headerlink" title="目录结构"></a>目录结构</h3><p>划定一个文件夹来存放所有内容，根目录是一个 Hexo 网站项目，主要文件有：</p><ul><li>_config.yml</li><li>package.json</li><li>source&#x2F;     <em>Hexo 资源目录，存放用户个人文件资源的地方</em><ul><li>_posts&#x2F;       <em>Hexo 发布文章的固定存放位置，我们也把它作为自动同步目录</em><ul><li>pub&#x2F;          <em>正式的公开发布内容（根目录）</em></li><li>notes&#x2F;        <em>私有笔记（根目录）</em></li></ul></li><li>att&#x2F;            <em>私有附件图片</em></li><li>.git&#x2F;           <em>个人文件的版本管理；冗余存储发布内容</em></li><li>.obsidian&#x2F;  <em>Obsidian 软件的配置与插件</em><ul><li>.git&#x2F;         <em>配置与插件的版本管理（非必须，个人强迫症存档需要）</em></li></ul></li></ul></li><li>.git&#x2F;          <em>Hexo 项目与正式发布内容的版本管理</em></li></ul><h3 id="目录结构技术基础"><a href="#目录结构技术基础" class="headerlink" title="目录结构技术基础"></a>目录结构技术基础</h3><p>Hexo 默认会包括 <code>source/</code> 下的文件和文件夹，但贴心的自动排除了 <code>.</code> 开头的文件和目录，支持配置 <a href="https://hexo.io/zh-cn/docs/configuration#%E5%8C%85%E6%8B%AC%E6%88%96%E4%B8%8D%E5%8C%85%E6%8B%AC%E7%9B%AE%E5%BD%95%E5%92%8C%E6%96%87%E4%BB%B6">包括或不包括目录和文件</a> 这使得我们可以将个人文件存放于此，并且划分。</p><p>由于坚果云不支持排除文件，总体的目录层级最少有：</p><ul><li>Hexo 项目目录<ul><li>个人文件目录<ul><li>坚果云同步目录<ul><li>公开发布内容目录</li></ul></li><li>.git 目录</li></ul></li></ul></li></ul><h4 id="遗留问题与技术风险"><a href="#遗留问题与技术风险" class="headerlink" title="遗留问题与技术风险"></a>遗留问题与技术风险</h4><ul><li>我的文章和附件（图片）使用相对路径引用，但是 Hexo 项目中相隔了一层 <code>_posts</code> 文件夹导致路径不正确，想到有种方法是将附件也放在这个文件夹里，但试验发现需要在 <code>include</code> 配置里添加，否则它似乎只会识别文章。但 Hexo 这样设计可能也有其他理由，我们这样搞可能有风险。</li><li>目录合并后，本地文件会很多，本地 Hexo 构建时变慢，试验发现把排除的文件设置在 <code>ignore</code> 选项里比在 <code>include</code> 中能有效提高性能。</li></ul><h3 id="公开发布文章"><a href="#公开发布文章" class="headerlink" title="公开发布文章"></a>公开发布文章</h3><p>根据年份归档文章，按每年可能会有不同的组织结构</p>]]></content>
       
       
+      <categories>
+          
+          <category> 计算机 </category>
+          
+          <category> 管理方法 </category>
+          
+      </categories>
+      
       
         <tags>
             
-            <tag> Obsidian </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> Obsidian </tag>
             
         </tags>
       
@@ -507,6 +617,12 @@
       
       
       
+        <tags>
+            
+            <tag> demo </tag>
+            
+        </tags>
+      
     </entry>
     
     
@@ -561,6 +677,14 @@
         <content type="html"><![CDATA[<p>原文：<a href="https://guanjia.qq.com/web_clinic/s7/2445.html">关闭win11_开始菜单_的网络_搜索_-腾讯电脑管家官网</a> （百度<code>开始菜单不搜索网页</code>结果）</p><blockquote><p>[!note]- 文章摘要</p><p>在开始菜单直接键入文字可以搜索程序、文件或者直接运行某些系统命令，但是如果没有相关的搜索结果则会展示网络搜索结果，这个网络搜索强行使用bing搜索引擎且如果点击搜索结果会使用edge浏览器打开，很多小伙伴表示根本不需要这种网络搜索，那么如何将其关闭呢？1.    打开开始菜单，输入“regedit”回车打开注册表编辑器2.    在注册表编辑器中找到位置“计算机\HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows”3.    在左侧窗格中的“Windows”上点击右键，新建一项4.    将其命名为“Explorer”，选中该项，在右侧新建一个“DOWRD（32位）值”5.    将其命名为“DisableSearchBoxSuggestions”，双击打开，修改数值数据为“1”6.    保存后在任务管理器中重新启动资源管理器即可生效7.    这样开始菜单的网络搜索功能就禁用了，不再出现没有用的搜索结果，增加流畅度</p></blockquote>]]></content>
       
       
+      <categories>
+          
+          <category> 计算机 </category>
+          
+          <category> 备忘录 </category>
+          
+      </categories>
+      
       
         <tags>
             
@@ -579,6 +703,14 @@
       
         <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>想在 Win11 电脑上使用图片浏览软件 irfanview，不想使用原装自带的软件，但双击图片文件无法默认使用该软件。</p><h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><ul><li>Windows 设置里的 应用&gt;默认应用&gt;按文件类型选择默认值 中没有.png 格式的设置选项。后来甚至.jpg 格式也不见了，原因不明。</li><li>对图片文件 右键&gt;打开方式 选择应用时，没有“默认使用此应用”的选项。</li><li>最后演变成，图片文件右键直接没有了“打开”的菜单选项，首选项是“打印”。双击文件变成了打印。</li></ul><h2 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h2><h3 id="最新方法"><a href="#最新方法" class="headerlink" title="最新方法"></a>最新方法</h3><p>突然间随手百度到了：<a href="https://wenku.baidu.com/view/05993fcdbad528ea81c758f5f61fb7360a4c2b4d.html?_wkts_=1685883423872&bdQuery=win11%E5%9B%BE%E7%89%87%E6%96%87%E4%BB%B6%E6%97%A0%E6%B3%95%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E5%BA%94%E7%94%A8">修复Windows11中无法更改部分图片格式的默认应用 - 百度文库</a><br>文中的其中一个方法，删除或重命名注册表项：          <code>HKEY_CLASSES_ROOT\AppX43hnxtbyyps62jhe9sqpdzxn1790zetc</code>下的<code>NoOpenWith</code>对我是有效的。而这个项目就是在irfanview中尝试修改注册表后产生的，教训啊。</p><h3 id="旧的方法"><a href="#旧的方法" class="headerlink" title="旧的方法"></a>旧的方法</h3><p>碰巧想到通过设置右键菜单的方式，使用软件 <a href="../2022/ContextMenuManager%EF%BC%88Windows%E7%B3%BB%E7%BB%9F%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7%EF%BC%89%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97.html">ContextMenuManager（Windows系统右键菜单管理工具）</a>，找到 文件类型&gt;感知类型&gt;选择图像文件&gt;新建一个菜单项目。具体设置是默认的 Shell 类型，文本为“打开”，菜单命令选择图片软件，参数是默认填写的%1 即可。顺便把打印选项隐藏调，然后双击图片就正常了，不再是打印了。</p><p>但存在遗留问题：但这样没有解决根本问题，又发现在一些应用中无法打开，例如在 everything 中会默认查找关联应用来打开文件，但是 png 还是没有关联应用。</p>]]></content>
       
+      
+      <categories>
+          
+          <category> 计算机 </category>
+          
+          <category> 问题经验 </category>
+          
+      </categories>
       
       
         <tags>
@@ -862,9 +994,9 @@
       
       <categories>
           
-          <category> 编程语言 </category>
-          
           <category> 计算机 </category>
+          
+          <category> 编程语言 </category>
           
           <category> Shell </category>
           
@@ -905,6 +1037,14 @@
       
         <content type="html"><![CDATA[<hr><h2 id="1-1-字体格式测试"><a href="#1-1-字体格式测试" class="headerlink" title="1.1 字体格式测试"></a>1.1 字体格式测试</h2><table><thead><tr><th align="center">显示效果</th><th align="center">写法</th><th align="center">备注</th></tr></thead><tbody><tr><td align="center"><del>删除线</del></td><td align="center"><code>~~删除线~~</code></td><td align="center"></td></tr><tr><td align="center">&#x3D;&#x3D;高亮&#x3D;&#x3D;</td><td align="center"><code>==高亮==</code></td><td align="center"></td></tr><tr><td align="center"><em>斜体</em></td><td align="center"><code>*斜体*</code></td><td align="center"></td></tr><tr><td align="center"><strong>粗体</strong></td><td align="center"><code>**粗体**</code></td><td align="center"></td></tr><tr><td align="center"><u>下划线</u></td><td align="center"><code>&lt;u&gt;下划线&lt;/u&gt;</code></td><td align="center"></td></tr></tbody></table><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">title:注意下面的部分语法，Obsidian的Markdown编辑器并不支持这种写法</span><br></pre></td></tr></table></figure><table><thead><tr><th align="center">显示效果</th><th align="center">写法</th><th align="center">备注</th></tr></thead><tbody><tr><td align="center">4 的平方 4^2^</td><td align="center"><code>4^2^</code></td><td align="center">Obsidian 不支持此种写法</td></tr><tr><td align="center">4 的平方 4<sup>2</sup></td><td align="center"><code>4&lt;sup&gt;2&lt;/sup&gt;</code></td><td align="center"></td></tr><tr><td align="center">下标 a<del>1</del></td><td align="center"><code>a~1~</code></td><td align="center">Obsidian 不支持此种写法</td></tr><tr><td align="center">下标 a<sub>1</sub></td><td align="center"><code>a&lt;sub&gt;1&lt;/sub&gt;</code></td><td align="center"></td></tr></tbody></table><h2 id="1-2-代码块测试"><a href="#1-2-代码块测试" class="headerlink" title="1.2 代码块测试"></a>1.2 代码块测试</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">title:这是一段C语言代码</span><br><span class="line">~~~C</span><br><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main(void)</span><br><span class="line">&#123;</span><br><span class="line">printf(&quot;Hello, world!!!\n&quot;);</span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br><span class="line">~~~</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">title: 笔记（嵌套提示演示，信息折叠状态为：常开，点击此标题栏可以折叠信息）</span><br><span class="line">collapse: open</span><br><span class="line"></span><br><span class="line">这是一个测试信息栏01。</span><br><span class="line"></span><br><span class="line">````ad-tip</span><br><span class="line">title: 提示</span><br><span class="line"></span><br><span class="line">这是一个测试信息栏02。</span><br><span class="line"></span><br><span class="line">```ad-warning</span><br><span class="line">title: 警告（信息折叠状态为：常闭，点击此标题栏可以打开信息）</span><br><span class="line">collapse: close</span><br><span class="line"></span><br><span class="line">这是一个测试信息栏03。</span><br><span class="line"></span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">````</span><br><span class="line"></span><br><span class="line">这是一个测试信息栏04。</span><br><span class="line"></span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">```ad-bug</span><br><span class="line">title: I&#x27;m Nested!</span><br><span class="line">~~~javascript</span><br><span class="line">throw new Error(&quot;Oops, I&#x27;m a bug.&quot;);</span><br><span class="line">~~~</span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">```C</span><br><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main(void)</span><br><span class="line">&#123;</span><br><span class="line">printf(&quot;Hello, world!!!\n&quot;);</span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br><span class="line">```</span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="1-3-无序列表和有序列表"><a href="#1-3-无序列表和有序列表" class="headerlink" title="1.3 无序列表和有序列表"></a>1.3 无序列表和有序列表</h2><ul><li>无序列表 01</li><li>无序列表 02</li><li>无序列表 03</li></ul><ol><li>有序列表 01</li><li>有序列表 02</li><li>有序列表 03</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title:123</span><br><span class="line"></span><br><span class="line">这是一个测试通知栏。</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>目前支持的关键字类型，如下表：</p><table><thead><tr><th align="center">类型</th><th align="center">别名</th><th align="center">中文翻译</th></tr></thead><tbody><tr><td align="center">note</td><td align="center">note, seealso</td><td align="center">笔记</td></tr><tr><td align="center">abstract</td><td align="center">abstract, summary, tldr</td><td align="center">摘要</td></tr><tr><td align="center">info</td><td align="center">info, todo</td><td align="center">信息</td></tr><tr><td align="center">tip</td><td align="center">tip, hint, important</td><td align="center">提示</td></tr><tr><td align="center">success</td><td align="center">success, check, done</td><td align="center">成功</td></tr><tr><td align="center">question</td><td align="center">question, help, faq</td><td align="center">问题</td></tr><tr><td align="center">warning</td><td align="center">warning, caution, attention</td><td align="center">警告</td></tr><tr><td align="center">failure</td><td align="center">failure, fail, missing</td><td align="center">失败</td></tr><tr><td align="center">danger</td><td align="center">danger, error</td><td align="center">危险</td></tr><tr><td align="center">bug</td><td align="center">bug</td><td align="center">漏洞</td></tr><tr><td align="center">example</td><td align="center">example</td><td align="center">示例</td></tr><tr><td align="center">quote</td><td align="center">quote, cite</td><td align="center">引用</td></tr></tbody></table><h2 id="一些待解答的疑问"><a href="#一些待解答的疑问" class="headerlink" title="一些待解答的疑问"></a>一些待解答的疑问</h2><ol><li>Typora 和 Obsidian 分别导出 PDF 文档后，你会发现 Typora 导出的有 PDF 章节标签而 Obsidian 没有，这个 Typora 是如何实现的？</li><li>两个软件导出 PDF 的效果都和实时预览效果天差地别，它们的 PDF 是靠什么渲染生成的？可以修改吗？</li><li>Obsidian 的表格在阅读视图中没有表格线，这个如何解决？</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title:猜想</span><br><span class="line"></span><br><span class="line">我猜测应该是在主题文件中修改</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>Emoji 测试：😀👍👎</p><table><thead><tr><th align="center">1</th><th align="center">1</th><th align="center">1</th></tr></thead><tbody><tr><td align="center">1</td><td align="center">1</td><td align="center">1</td></tr><tr><td align="center">3242</td><td align="center">wrwr</td><td align="center">ete</td></tr></tbody></table><table><thead><tr><th>测试</th><th>信息</th><th></th></tr></thead><tbody><tr><td>序号</td><td>姓名</td><td>语文</td></tr><tr><td>1</td><td>张三</td><td>98</td></tr><tr><td>2</td><td>李四</td><td>78</td></tr><tr><td>3</td><td>王五</td><td>89</td></tr></tbody></table><p>立白&amp;reg</p><p>30&amp;deg</p><p>&amp;emsp;&amp;emsp; 表最后说一下每段前面的两个空格怎么打，因为在 markdown 里直接打空格的话是不行的，直接按键盘的空格，三个以内都没有效果，从第四个开始就变成了代码片段了，那么要怎么愉快得打空格呢？</p><p>答案是用 HTML 的 <code>&amp;emsp;</code></p><p>　　的风格的股份的的复古风蛋糕东港饭店</p><p><kbd>⬇️</kbd>和⬇️</p><!-- 这是一条注释，只在本 Markdown 文档中才能看得见，导出为 PDF 和 HTML 文档后，里面是看不到本注释的 --><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">title: 标识标注嵌套使用使用说明&lt;!--此行必须顶着开头书写--&gt;</span><br><span class="line">collapse: open&lt;!--此行必须顶着开头书写--&gt;</span><br><span class="line"></span><br><span class="line">正文测试内容01&lt;!--正文内容不必顶着开头书写，但最好距离参数头最后一行空一行--&gt;</span><br><span class="line">```` ad-tip</span><br><span class="line">title: This admonition is nested.</span><br><span class="line">collapse: open</span><br><span class="line"></span><br><span class="line">正文测试内容02</span><br><span class="line">~~~ ad-warning</span><br><span class="line">title: This admonition is closed.</span><br><span class="line">collapse: close</span><br><span class="line"></span><br><span class="line">正文测试内容03</span><br><span class="line">~~~</span><br><span class="line">````</span><br><span class="line"></span><br><span class="line">正文测试内容04</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><figcaption><span># Admonition type. See below for a list of available types.</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">title:                  # Admonition title.</span><br><span class="line">collapse:               # Create a collapsible admonition.</span><br><span class="line">icon:                   # Override the icon.</span><br><span class="line">color:                  # Override the color.</span><br><span class="line"></span><br><span class="line">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla.</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>&amp;emsp;&amp;emsp; 行首中文空格测试</p><p>行首中文空格测试。</p><p><a href="https://www.hao123.com/" title="hao123网站">测试链接</a></p><p><font color=teal><strong>这是一段加粗的水鸭色文本</strong></font></p><p><strong style="color:teal;">这是一段加粗的水鸭色文本</strong></p><p>&#x3D;&#x3D;高亮测试&#x3D;&#x3D;</p><p>H<sub>2</sub>O</p><p>😍😅⑨⑥⑤⑩▢⇧▮▣⑥⑤⑧⑶⑹⑷⑴</p><p>$x^2 + 2x + 5 + \sqrt x &#x3D; 0$</p><p>$\ce{CO2 + C -&gt; 2 CO}$</p><p>$\ce{CO2 + C -&gt; 2 CO}$</p><p>$\ce{2Mg + O2 -&gt;[燃烧] 2 MgO}$</p><p>$$<br>\ce{Zn^2+  &lt;&#x3D;&gt;[+ 2OH-][+ 2H+]  $\underset{\text{amphoteres Hydroxid}}{\ce{Zn(OH)2 v}}$  &lt;&#x3D;&gt;[+ 2OH-][+ 2H+]  $\underset{\text{Hydroxozikat}}{\ce{[Zn(OH)4]^2-}}$}<br>$$</p><p>$$<br>\begin{array}{lll}<br>\nabla\times E &amp;&#x3D;&amp; -;\frac{\partial{B}}{\partial{t}}<br>\ \nabla\times H &amp;&#x3D;&amp; \frac{\partial{D}}{\partial{t}}+J<br>\ \nabla\cdot D &amp;&#x3D;&amp; \rho<br>\ \nabla\cdot B &amp;&#x3D;&amp; 0<br>\ \end{array}<br>$$</p><p>$$<br>i\hbar\frac{\partial \psi}{\partial t} &#x3D; \frac{-\hbar^2}{2m} \left(\frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2}+\frac{\partial^2}{\partial z^2} \right) \psi + V \psi<br>$$</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">graph TB</span><br><span class="line">%% s=start  e=end  f=fork  n=normal</span><br><span class="line"></span><br><span class="line">s([开始])--&gt;f1&#123;&#123;if条件&#125;&#125;;</span><br><span class="line"></span><br><span class="line">%% 分支点2</span><br><span class="line">f1--true--&gt;n1[if语句块]--&gt;e([结束]);</span><br><span class="line">f1--false--&gt;f2&#123;&#123;else if条件&#125;&#125;;</span><br><span class="line"></span><br><span class="line">%% 分支点1</span><br><span class="line">f2--true--&gt;n2[else if语句块]--&gt;e;</span><br><span class="line">f2--false--&gt;n3[else语句块]--&gt;e;</span><br></pre></td></tr></table></figure><p>章节符号&amp;sect;</p><blockquote><p>[!note] 123<br>456</p></blockquote><p>快捷键设置建议：</p><p>常用快捷键</p><p>ctrl + s 保存文件</p><p>ctrl + k 插入链接</p><p>ctrl + , 设置</p><p>ctrl + alt + &lt;-&#x2F;-&gt; 返回&#x2F;前进</p><p>ctrl + o 打开文件</p><p>ctrl + w 关闭当前文件</p><p>ctrl + p 打开命令面板</p><p>ctrl + e 切换 预览&#x2F;编辑 模式</p><p>ctrl + enter 切换待办状态</p><p>ctrl + b 选中文字粗体</p><p>ctrl + i 选中文字斜体</p><p>ctrl + &#x2F; 注释</p><p>ctrl + d 删除当前行</p><p>ctrl + n 新建笔记</p><p>自定义快捷键</p><p>ctrl + l 插入模板</p><p>alt + d 打开&#x2F;新建今天日记</p><p>alt + a 在文件在目录中位置</p><p>ctrl + shit + ↑ 上移一行</p><p>ctrl + shit + ↓ 下移一行</p><p>alt + q 显示&#x2F;隐藏最左边的按钮栏 (需配合 hider)</p>]]></content>
       
+      
+      <categories>
+          
+          <category> 计算机 </category>
+          
+          <category> 备忘录 </category>
+          
+      </categories>
       
       
         <tags>
@@ -962,7 +1102,7 @@
       <link href="/2022/Obsidian%E6%8F%92%E4%BB%B6%E4%B8%8E%E9%85%8D%E7%BD%AE%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html"/>
       <url>/2022/Obsidian%E6%8F%92%E4%BB%B6%E4%B8%8E%E9%85%8D%E7%BD%AE%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html</url>
       
-        <content type="html"><![CDATA[<h2 id="首次使用"><a href="#首次使用" class="headerlink" title="首次使用"></a>首次使用</h2><p>从 <a href="https://zhuanlan.zhihu.com/p/497015024">Obsidian插件安装全网最全攻略 - 知乎</a> 下载了魔法访问插件 <a href="https://gitee.com/juqkai/obsidian-proxy-github">obsidian-proxy-github</a> 以及 <a href="https://wws.lanzoul.com/b0273yjmd?pwd=55qz">Obsidian新手免配置开箱即用库 2022-4-13.rar</a>。</p><h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><h4 id="软件开箱与笔记迁移"><a href="#软件开箱与笔记迁移" class="headerlink" title="软件开箱与笔记迁移"></a>软件开箱与笔记迁移</h4><p>先按照前文使用开箱的插件。</p><ol><li>更新了所有插件。</li><li>解决一些会用到的快捷键冲突。</li><li><code>.obsidian</code> 文件夹（里面带有软件配置和插件）复制到自己的笔记本文件夹试用。</li><li>整理笔记结构，分离图片等附件与文本笔记。文本笔记存放在单个文件夹 <em>主笔记本</em> 中，调整附件默认存放路径的设置，设置在文件夹 <em>笔记附件</em> 中。</li><li>（个人需要）使用 git 保存内容。分别在仓库根目录、<code>.obsidian</code> 文件夹创建 git 仓库，分开提交软件配置与插件（体积较大）、笔记内容与附件（体积较小）。其中配置仓库里忽略了一些使用记录的数据。</li><li>（个人需要）使用坚果云同步文本笔记（即 <em>主笔记本</em>）。</li><li>（个人笔记整理）<em>主笔记本</em> 下的部分文件夹试用序号开头，一方面也是为了来排序。删除或迁移了以前的父目录对应的笔记。调整了无效的标签。将以前的文档块创建时间标签替换为元数据。</li></ol><h4 id="快捷键配置"><a href="#快捷键配置" class="headerlink" title="快捷键配置"></a>快捷键配置</h4><p>markdown 格式转换，能用的话优先用软件自带的，其次用插件功能，两者都 <strong>没有默认快捷键设置</strong> 的，尽量设置为网上找的通用快捷键。目前设置了以下几个：</p><ul><li>无序列表：<code>Ctrl+Shift+]</code>（原生）</li><li>引用：<code>Ctrl+Shift+Q</code>（原生）</li><li>有序列表：<code>Ctrl+Shift+[</code>（原生）</li><li>代码块：<code>Ctrl+Shift+K</code>（插件：增强编辑）</li><li>调低标题级别：<code>Ctrl+-</code>（插件：增强编辑）</li><li>调高标题级别：<code>Ctrl+=</code>（插件：增强编辑）</li><li>转换 callout 语法：Alt+A（插件：增强编辑，暂时设置）</li><li>Toggle Code（切换行内代码）：Alt+D（插件：cMenu，参考了增强编辑插件中已经被删除的快捷键）</li></ul><p>其他快捷键调整：</p><ul><li>打开设置：<code>Ctrl+M</code>（原生，暂时设置，因为默认的 <code>Ctrl+,</code> 不知道为什么在编辑时用不了）</li><li>切换编辑&#x2F;预览视图：<del><code>Ctrl+E</code></del>（原生，不需要看预览模式就没用，窗口右上角按钮也可以切换）</li><li>切换实时阅览&#x2F;源码模式：<code>Ctrl+E</code>（原生，代替上面的切换功能，有时候需要在纯源码下编辑，避免样式跳来跳去难以交互）</li><li><code>Go to tab #*</code>：<del><code>Ctrl+*</code></del>（原生，与标题级别快捷键冲突）</li><li>Vault Search：<code>Ctrl+Q</code>（插件：Omnisearch，暂时设置）</li></ul><h4 id="其他零碎配置"><a href="#其他零碎配置" class="headerlink" title="其他零碎配置"></a>其他零碎配置</h4><ul><li>【软件设置】文件与链接 –&gt;（关闭）使用 Wiki 链接。而是使用标准 markdown 链接语法，在其他 markdown 软件中 <strong>兼容性</strong> 更好（如 wolai）。</li><li>【软件设置】编辑器 –&gt;高级 –&gt;自动转换 html（开启）。</li></ul><h3 id="插件与配置与评价"><a href="#插件与配置与评价" class="headerlink" title="插件与配置与评价"></a>插件与配置与评价</h3><h4 id="icon-folder"><a href="#icon-folder" class="headerlink" title="icon-folder"></a>icon-folder</h4><p>估计是箱中的插件版本比较旧与 ob 不匹配，提示需要人为修正目录路径，从 <code>plugins/obsidian-icon-folder/icons</code> 修复为 <code>.obsidian/plugins/obsidian-icon-folder/icons</code>（一开始我并不理解此提示的意思，后来找到源码 v1.2.2 版本的发布说明才看懂）</p><p><img src="/../../../%E7%AC%94%E8%AE%B0%E9%99%84%E4%BB%B6/Pasted%20image%2020221029090240.png" alt="弹窗的提示内容"></p><h4 id="Outliner"><a href="#Outliner" class="headerlink" title="Outliner"></a>Outliner</h4><p>它限制了光标使其难以移动到列表符号位置，导致不便于调整列表缩进等操作，故关闭了此设置。</p><p><img src="/../../../%E7%AC%94%E8%AE%B0%E9%99%84%E4%BB%B6/Pasted%20image%2020221028211226.png" alt="设置项预览"></p><h4 id="templater"><a href="#templater" class="headerlink" title="templater"></a>templater</h4><p>第三方模板插件，使用后可关闭核心插件 <code>模板</code>。</p><p>编写了两个目标：通用笔记元数据模板、更新时间默认格式模板。</p><h4 id="Calendar"><a href="#Calendar" class="headerlink" title="Calendar"></a>Calendar</h4><p>核心插件 <code>日记</code> 功能似乎不太够用，但有 <code>Calendar</code> 插件提供拓展功能，设置 <em>两者</em> 的笔记存放位置为 <code>主笔记本/daily note/2022</code>。创建并设置日记模板 <code>主笔记本/笔记模板/日记模板</code>。</p><p>模板语法似乎与 <code>模板</code> 插件一致，另一种方法是用 <code>templater</code> 语法，然后在创建之后再执行其 Replace 功能。</p><h4 id="增强编辑（Enhanced-editing，配置包中的原名：ZH-增强编辑）"><a href="#增强编辑（Enhanced-editing，配置包中的原名：ZH-增强编辑）" class="headerlink" title="增强编辑（Enhanced-editing，配置包中的原名：ZH 增强编辑）"></a>增强编辑（Enhanced-editing，配置包中的原名：ZH 增强编辑）</h4><p>很多 markdown 语法转换的快捷键。而且是中文插件，功能大致已经包括了英文插件 <code>cMenu</code>。</p><p>可能有用的快捷键：</p><ul><li>去除 markdown 语法。转换无语法：<code>Ctrl+Alt+Z</code>，复制无语法：<code>Ctrl+Alt+C</code></li></ul><p>插件源码：<a href="https://github.com/obsidian-canzi/Enhanced-editing">obsidian-canzi&#x2F;Enhanced-editing: 旨在增强Obsidian编辑功能的插件</a>。插件没有上架社区商店，安装了另一个插件 <a href="https://github.com/TfTHacker/obsidian42-brat">obsidian42-brat</a> 经由它来安装。</p><h4 id="dataview"><a href="#dataview" class="headerlink" title="dataview"></a>dataview</h4><p>开箱时是关闭的，我启用了。</p><h4 id="Linter"><a href="#Linter" class="headerlink" title="Linter"></a>Linter</h4><p>开箱时是关闭的，开启后 2022 年 11 月 13 日发现它会引起粘贴 markdown 格式链接会引起程序崩溃无反应，暂时关闭使用。（<code>v1.7.0</code> 与 <code>v1.7.1</code> 版本都有问题）</p><p>2022-10-29 21:44 左右软件似乎崩溃了一次（在剪切粘贴一段文本的时候，具体不记得了），界面没有反应，但能正常关闭程序没有报告异常（同时打开的另一个工作区窗口是正常的，先一步关闭了）。可能也是此插件问题。</p><h3 id="后续添加插件"><a href="#后续添加插件" class="headerlink" title="后续添加插件"></a>后续添加插件</h3><h4 id="consistent-attachments-and-links"><a href="#consistent-attachments-and-links" class="headerlink" title="consistent attachments and links"></a>consistent attachments and links</h4><p>用了几个月（1.1.16 版本）才发现移动笔记文件时，被移动的笔记中的内部链接不会被更新。百度了 <code>obsidian移动文件时不会更新链接</code> 碰见视频 <a href="https://www.bilibili.com/video/av767773591">Obsidian有救了？再也不怕笔记“移动”和”重命名”了_哔哩哔哩_bilibili</a> 用的也是私有链接，但还好在视频评论区看到了这个插件，它可以全面检查修复并接管链接，全部统一为标准格式的相对链接。（此外还有附件移动功能，但我不用）</p><h4 id="OmniSearch"><a href="#OmniSearch" class="headerlink" title="OmniSearch"></a>OmniSearch</h4><p>突然想起自带搜索好像优先顺序不太好（比如文档标题不优先显示），随手找了一个搜索插件 OmniSearch，先试试看。（不过自动安装出了问题，没有下载 js 文件，手动下载了 1.7.8 版本）</p><h4 id="Excel-to-Markdown-Table"><a href="#Excel-to-Markdown-Table" class="headerlink" title="Excel to Markdown Table"></a>Excel to Markdown Table</h4><p>粘贴 xls&#x2F;xlsx 表格数据时支持转换。</p><h4 id="Paste-URL-into-selection"><a href="#Paste-URL-into-selection" class="headerlink" title="Paste URL into selection"></a>Paste URL into selection</h4><p>便捷地粘贴链接创建超链接。可能也就少一两次按键。</p><p><del>个人设置：未选中时默认行为是粘贴 <code>[]()</code></del>（容易错误识别英文冒号的内容为链接）</p><h4 id="Text-expand"><a href="#Text-expand" class="headerlink" title="Text expand"></a>Text expand</h4><p>搜索并粘贴笔记链接【未实际使用】</p><h3 id="未解决的问题"><a href="#未解决的问题" class="headerlink" title="未解决的问题"></a>未解决的问题</h3><ul><li><code>obsidian-proxy-github</code> 插件开启后，使用软件时经常会刷出代理日志，阻挡了鼠标点击右上角的部分功能。日常使用只能先关闭它。</li><li><code>tab</code> 键会输入制表符，不符合平常代码习惯，但在编辑器设置中设置为输入空格仍然无效，只能暂时妥协用制表符了。</li><li>外部导入的 markdown 笔记带有附件，希望把附件统一移动集中到一个文件夹中，但没有找到好方法。</li></ul><h3 id="待办"><a href="#待办" class="headerlink" title="待办"></a>待办</h3><ul><li><input disabled="" type="checkbox"> 实际使用 <code>dataview</code> 插件。</li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="首次使用"><a href="#首次使用" class="headerlink" title="首次使用"></a>首次使用</h2><p>从 <a href="https://zhuanlan.zhihu.com/p/497015024">Obsidian插件安装全网最全攻略 - 知乎</a> 下载了魔法访问插件 <a href="https://gitee.com/juqkai/obsidian-proxy-github">obsidian-proxy-github</a> 以及 <a href="https://wws.lanzoul.com/b0273yjmd?pwd=55qz">Obsidian新手免配置开箱即用库 2022-4-13.rar</a>。</p><h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><h4 id="软件开箱与笔记迁移"><a href="#软件开箱与笔记迁移" class="headerlink" title="软件开箱与笔记迁移"></a>软件开箱与笔记迁移</h4><p>先按照前文使用开箱的插件。</p><ol><li>更新了所有插件。</li><li>解决一些会用到的快捷键冲突。</li><li><code>.obsidian</code> 文件夹（里面带有软件配置和插件）复制到自己的笔记本文件夹试用。</li><li>整理笔记结构，分离图片等附件与文本笔记。文本笔记存放在单个文件夹 <em>主笔记本</em> 中，调整附件默认存放路径的设置，设置在文件夹 <em>笔记附件</em> 中。</li><li>（个人需要）使用 git 保存内容。分别在仓库根目录、<code>.obsidian</code> 文件夹创建 git 仓库，分开提交软件配置与插件（体积较大）、笔记内容与附件（体积较小）。其中配置仓库里忽略了一些使用记录的数据。</li><li>（个人需要）使用坚果云同步文本笔记（即 <em>主笔记本</em>）。</li><li>（个人笔记整理）<em>主笔记本</em> 下的部分文件夹试用序号开头，一方面也是为了来排序。删除或迁移了以前的父目录对应的笔记。调整了无效的标签。将以前的文档块创建时间标签替换为元数据。</li></ol><h4 id="快捷键配置"><a href="#快捷键配置" class="headerlink" title="快捷键配置"></a>快捷键配置</h4><p>markdown 格式转换，能用的话优先用软件自带的，其次用插件功能，两者都 <strong>没有默认快捷键设置</strong> 的，尽量设置为网上找的通用快捷键。目前设置了以下几个：</p><ul><li>无序列表：<code>Ctrl+Shift+]</code>（原生）</li><li>引用：<code>Ctrl+Shift+Q</code>（原生）</li><li>有序列表：<code>Ctrl+Shift+[</code>（原生）</li><li>代码块：<code>Ctrl+Shift+K</code>（插件：增强编辑）</li><li>调低标题级别：<code>Ctrl+-</code>（插件：增强编辑）</li><li>调高标题级别：<code>Ctrl+=</code>（插件：增强编辑）</li><li>转换 callout 语法：Alt+A（插件：增强编辑，暂时设置）</li><li>Toggle Code（切换行内代码）：Alt+D（插件：cMenu，参考了增强编辑插件中已经被删除的快捷键）</li></ul><p>其他快捷键调整：</p><ul><li>打开设置：<code>Ctrl+M</code>（原生，暂时设置，因为默认的 <code>Ctrl+,</code> 不知道为什么在编辑时用不了）</li><li>切换编辑&#x2F;预览视图：<del><code>Ctrl+E</code></del>（原生，不需要看预览模式就没用，窗口右上角按钮也可以切换）</li><li>切换实时阅览&#x2F;源码模式：<code>Ctrl+E</code>（原生，代替上面的切换功能，有时候需要在纯源码下编辑，避免样式跳来跳去难以交互）</li><li><code>Go to tab #*</code>：<del><code>Ctrl+*</code></del>（原生，与标题级别快捷键冲突）</li><li>Vault Search：<code>Ctrl+Q</code>（插件：Omnisearch，暂时设置）</li></ul><h4 id="其他零碎配置"><a href="#其他零碎配置" class="headerlink" title="其他零碎配置"></a>其他零碎配置</h4><ul><li>【软件设置】文件与链接 –&gt;（关闭）使用 Wiki 链接。而是使用标准 markdown 链接语法，在其他 markdown 软件中 <strong>兼容性</strong> 更好（如 wolai）。</li><li>【软件设置】编辑器 –&gt;高级 –&gt;自动转换 html（开启）。</li></ul><h3 id="插件与配置与评价"><a href="#插件与配置与评价" class="headerlink" title="插件与配置与评价"></a>插件与配置与评价</h3><h4 id="icon-folder"><a href="#icon-folder" class="headerlink" title="icon-folder"></a>icon-folder</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[obsidian-icon-folder] Due to a change in version v1.2.2, the icon pack folder changed. Please change it in the settings to not be directly in /plugins.</span><br></pre></td></tr></table></figure><p>碰到上述错误信息，估计是箱中的插件版本比较旧与 ob 不匹配，提示需要人为修正目录路径，从 <code>plugins/obsidian-icon-folder/icons</code> 修复为 <code>.obsidian/plugins/obsidian-icon-folder/icons</code>（一开始我并不理解此提示的意思，后来找到源码 v1.2.2 版本的发布说明才看懂）</p><h4 id="Outliner"><a href="#Outliner" class="headerlink" title="Outliner"></a>Outliner</h4><p>设置项<code>Stick the cursor to the content</code>限制了光标使其难以移动到列表符号位置，导致不便于调整列表缩进等操作，故关闭了此设置。</p><h4 id="templater"><a href="#templater" class="headerlink" title="templater"></a>templater</h4><p>第三方模板插件，使用后可关闭核心插件 <code>模板</code>。</p><p>编写了两个目标：通用笔记元数据模板、更新时间默认格式模板。</p><h4 id="Calendar"><a href="#Calendar" class="headerlink" title="Calendar"></a>Calendar</h4><p>核心插件 <code>日记</code> 功能似乎不太够用，但有 <code>Calendar</code> 插件提供拓展功能，设置 <em>两者</em> 的笔记存放位置为 <code>主笔记本/daily note/2022</code>。创建并设置日记模板 <code>主笔记本/笔记模板/日记模板</code>。</p><p>模板语法似乎与 <code>模板</code> 插件一致，另一种方法是用 <code>templater</code> 语法，然后在创建之后再执行其 Replace 功能。</p><h4 id="增强编辑（Enhanced-editing，配置包中的原名：ZH-增强编辑）"><a href="#增强编辑（Enhanced-editing，配置包中的原名：ZH-增强编辑）" class="headerlink" title="增强编辑（Enhanced-editing，配置包中的原名：ZH 增强编辑）"></a>增强编辑（Enhanced-editing，配置包中的原名：ZH 增强编辑）</h4><p>很多 markdown 语法转换的快捷键。而且是中文插件，功能大致已经包括了英文插件 <code>cMenu</code>。</p><p>可能有用的快捷键：</p><ul><li>去除 markdown 语法。转换无语法：<code>Ctrl+Alt+Z</code>，复制无语法：<code>Ctrl+Alt+C</code></li></ul><p>插件源码：<a href="https://github.com/obsidian-canzi/Enhanced-editing">obsidian-canzi&#x2F;Enhanced-editing: 旨在增强Obsidian编辑功能的插件</a>。插件没有上架社区商店，安装了另一个插件 <a href="https://github.com/TfTHacker/obsidian42-brat">obsidian42-brat</a> 经由它来安装。</p><h4 id="dataview"><a href="#dataview" class="headerlink" title="dataview"></a>dataview</h4><p>开箱时是关闭的，我启用了。</p><h4 id="Linter"><a href="#Linter" class="headerlink" title="Linter"></a>Linter</h4><p>开箱时是关闭的，开启后 2022 年 11 月 13 日发现它会引起粘贴 markdown 格式链接会引起程序崩溃无反应，暂时关闭使用。（<code>v1.7.0</code> 与 <code>v1.7.1</code> 版本都有问题）</p><p>2022-10-29 21:44 左右软件似乎崩溃了一次（在剪切粘贴一段文本的时候，具体不记得了），界面没有反应，但能正常关闭程序没有报告异常（同时打开的另一个工作区窗口是正常的，先一步关闭了）。可能也是此插件问题。</p><h3 id="后续添加插件"><a href="#后续添加插件" class="headerlink" title="后续添加插件"></a>后续添加插件</h3><h4 id="consistent-attachments-and-links"><a href="#consistent-attachments-and-links" class="headerlink" title="consistent attachments and links"></a>consistent attachments and links</h4><p>用了几个月（1.1.16 版本）才发现移动笔记文件时，被移动的笔记中的内部链接不会被更新。百度了 <code>obsidian移动文件时不会更新链接</code> 碰见视频 <a href="https://www.bilibili.com/video/av767773591">Obsidian有救了？再也不怕笔记“移动”和”重命名”了_哔哩哔哩_bilibili</a> 用的也是私有链接，但还好在视频评论区看到了这个插件，它可以全面检查修复并接管链接，全部统一为标准格式的相对链接。（此外还有附件移动功能，但我不用）</p><h4 id="OmniSearch"><a href="#OmniSearch" class="headerlink" title="OmniSearch"></a>OmniSearch</h4><p>突然想起自带搜索好像优先顺序不太好（比如文档标题不优先显示），随手找了一个搜索插件 OmniSearch，先试试看。（不过自动安装出了问题，没有下载 js 文件，手动下载了 1.7.8 版本）</p><h4 id="Excel-to-Markdown-Table"><a href="#Excel-to-Markdown-Table" class="headerlink" title="Excel to Markdown Table"></a>Excel to Markdown Table</h4><p>粘贴 xls&#x2F;xlsx 表格数据时支持转换。</p><h4 id="Paste-URL-into-selection"><a href="#Paste-URL-into-selection" class="headerlink" title="Paste URL into selection"></a>Paste URL into selection</h4><p>便捷地粘贴链接创建超链接。可能也就少一两次按键。</p><p><del>个人设置：未选中时默认行为是粘贴 <code>[]()</code></del>（容易错误识别英文冒号的内容为链接）</p><h4 id="Text-expand"><a href="#Text-expand" class="headerlink" title="Text expand"></a>Text expand</h4><p>搜索并粘贴笔记链接【未实际使用】</p><h3 id="未解决的问题"><a href="#未解决的问题" class="headerlink" title="未解决的问题"></a>未解决的问题</h3><ul><li><code>obsidian-proxy-github</code> 插件开启后，使用软件时经常会刷出代理日志，阻挡了鼠标点击右上角的部分功能。日常使用只能先关闭它。</li><li><code>tab</code> 键会输入制表符，不符合平常代码习惯，但在编辑器设置中设置为输入空格仍然无效，只能暂时妥协用制表符了。</li><li>外部导入的 markdown 笔记带有附件，希望把附件统一移动集中到一个文件夹中，但没有找到好方法。</li></ul><h3 id="待办"><a href="#待办" class="headerlink" title="待办"></a>待办</h3><ul><li><input disabled="" type="checkbox"> 实际使用 <code>dataview</code> 插件。</li></ul>]]></content>
       
       
       <categories>
@@ -1012,6 +1152,27 @@
     
     
     <entry>
+      <title>《明日方舟》笔记</title>
+      <link href="/2023/%E3%80%8A%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E3%80%8B%E7%AC%94%E8%AE%B0.html"/>
+      <url>/2023/%E3%80%8A%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E3%80%8B%E7%AC%94%E8%AE%B0.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="模组"><a href="#模组" class="headerlink" title="模组"></a>模组</h2><p><del>闪灵：6次3技能，5-8单医疗</del></p><p><del>华法琳：12次2技能；7人近卫2-10</del></p><p><del>凯尔希：15w伤害；4次3技能5-10</del></p><p><del>赫默：14次无人机；4-8单医疗</del></p><p>年：<del>6w伤害</del>；WR-9杀敌10</p><p>瑕光：<del>5轮3技能</del>；MN-2重装</p><p>临光：<del>5轮2技能</del>；1-12全不死</p><p>夕2：<del>80歼灭</del>；4-3先锋</p><h2 id="水月肉鸽打法笔记"><a href="#水月肉鸽打法笔记" class="headerlink" title="水月肉鸽打法笔记"></a>水月肉鸽打法笔记</h2><p>攻略参考：<a href="https://www.bilibili.com/video/BV1BB4y177Bc">https://www.bilibili.com/video/BV1BB4y177Bc</a></p><p>符号说明：s 指 boss，p 指困难&#x2F;艰难，t 指特殊</p><table><thead><tr><th>层数</th><th>不期而遇</th><th>关卡</th><th>怪物</th><th>打法与注意</th></tr></thead><tbody><tr><td>3</td><td>-</td><td>原始部落</td><td></td><td>【紧急】+陈2盾</td></tr><tr><td>4</td><td>-</td><td>海窟沙暴</td><td><br /></td><td>棘刺重装挡，右下陈20杀停</td></tr><tr><td>4</td><td>-</td><td>崇敬深海</td><td>23</td><td>陈18杀停可能打不到最后2个浮空，要另一个输出守门</td></tr><tr><td>5</td><td>-</td><td>机械之灾</td><td></td><td>快骗。分左右。可等飞机开。</td></tr><tr><td>5</td><td>-</td><td>教徒居所</td><td></td><td>3核挡。向左。19杀停。</td></tr><tr><td>5s</td><td>-</td><td>命运的宠儿</td><td></td><td>【配队】多拿澄闪3（42）、桃子、快挡。</td></tr><tr><td>6s</td><td>-</td><td>大群所向</td><td></td><td>【配队】多拿咕咕、桃子、决战技42+M3、快活</td></tr></tbody></table><h3 id="待解锁"><a href="#待解锁" class="headerlink" title="待解锁"></a>待解锁</h3><p>分队：<del>5名重装辅助、特种术师</del>、20干员</p><p><del>可携带13</del>、<del>8希望结局</del>、<del>60希望上限结局</del>、<del>125受伤</del></p><p>各分队结局</p><p>0锭3层、无伤真相、3辅助胜利、<del>部署120结局</del>、<del>击败圣徒伊比利亚</del>、击败接潮斥亡体、<del>5掠海漂移体进入</del>、？？？、击败延命塑路者</p><p>1接潮主教、<del>0塑路者、2圣徒卡门</del>、4重返家园事件、2引火之木事件、6灯塔看守人事件、5扎营事件、6先遣小队事件</p><p><del>5个5星</del>、解锁天降鸭力</p><p><del>3特种胜利</del></p><h2 id="傀影肉鸽打法笔记"><a href="#傀影肉鸽打法笔记" class="headerlink" title="傀影肉鸽打法笔记"></a>傀影肉鸽打法笔记</h2><p>攻略参考：<a href="https://www.bilibili.com/video/BV1er4y1v7wX">https://www.bilibili.com/video/BV1er4y1v7wX</a></p><p>符号说明：s 指 boss，p 指困难&#x2F;艰难，t 指特殊</p><table><thead><tr><th>层数</th><th>不期而遇名称</th><th>关卡名称</th><th>怪物</th><th>打法与注意</th></tr></thead><tbody><tr><td>1</td><td>-</td><td>死斗&#x2F;紧急</td><td>22&#x2F;22</td><td>元素伤 2+ 距离</td></tr><tr><td>1</td><td>-</td><td>意外&#x2F;紧急</td><td>44</td><td>随便打</td></tr><tr><td>1</td><td>-</td><td>与虫为伴&#x2F;紧急</td><td>34</td><td>减防虫子 2+-？距离</td></tr><tr><td>1</td><td>-</td><td>礼炮小队&#x2F;紧急</td><td>32-33</td><td>远距离炮，</td></tr><tr><td>1</td><td>-</td><td>驯兽小屋</td><td>31</td><td>避开装置打两路</td></tr><tr><td>1-2</td><td>鸭爵主演</td><td>鸭爵的戏剧</td><td>7</td><td>放左下留技能</td></tr><tr><td>2</td><td>-</td><td>先来后到</td><td>39</td><td>随便打</td></tr><tr><td>2</td><td>-</td><td>分赃不均</td><td>26</td><td>弑君者&#x2F;都会绕下路</td></tr><tr><td>2</td><td>-</td><td>压轴登场&#x2F;紧急</td><td>45</td><td>右路虫子多 + 幽灵</td></tr><tr><td>2</td><td>-</td><td>落魄骑士</td><td>19-21</td><td>小 boss 罚站，紧急可能隐匿</td></tr><tr><td>2</td><td>-</td><td>巡逻队</td><td>33&#x2F;34？</td><td>单挑哥&#x2F;刀哥罚站</td></tr><tr><td>2p</td><td>沉睡石像</td><td>（随机）</td><td>-</td><td>-</td></tr><tr><td>2</td><td>讲故事的人</td><td>-</td><td>-</td><td>5 源石锭概率给收藏品</td></tr><tr><td>3</td><td>-</td><td>雕匠与石像<br />&#x2F;紧急<br /></td><td>34&#x2F;39</td><td>最后一波冲锋可推倒墙</td></tr><tr><td>3</td><td>-</td><td>从众效应</td><td>159-162</td><td>最好要远程群攻，<br />棘刺 3+ 辅助 + 术师 +2 阻挡也可以<br /></td></tr><tr><td>3</td><td>-</td><td>斗兽笼</td><td>55</td><td>4 角有小怪</td></tr><tr><td>3</td><td>-</td><td>感化</td><td>31</td><td>远程点掉 1+ 红怪</td></tr><tr><td>3</td><td>-</td><td>酒商运输队</td><td>77</td><td>早点清掉自爆虫，后面有个电锯怪，<br />单奶技能期间才能抗<br /></td></tr><tr><td>3</td><td>-</td><td>似曾相识</td><td>27</td><td>W：棘刺3 + 奶技能抗位或者火山一波<br />炸高台会死，<br />第二行的罚站位可以干员卡到右边。<br /></td></tr><tr><td>3</td><td>-</td><td>首演</td><td>31</td><td>红怪 2 会在上路停留注意快速打完&#x2F;保命</td></tr><tr><td>3</td><td>-</td><td>正义&#x2F;紧急</td><td>65</td><td>注意（65 &#x2F;66怪）尾部会空降狙击，<br />输出不够时尽量靠前放避免村民被打死<br /></td></tr><tr><td>3</td><td>鸭爵的宴会</td><td>鸭爵的宴会</td><td>77</td><td>怪多，放左上留技能打-0鸭子</td></tr><tr><td>1-3t</td><td>别打扰他们</td><td>自缚</td><td>43</td><td>【剧作家】前置。棘刺两路</td></tr><tr><td>3</td><td>音乐挑战</td><td>-</td><td>-</td><td>藏品：非战斗 +1 希望</td></tr><tr><td>3</td><td>狂舞之人</td><td>-</td><td>-</td><td>似乎是高台可以放地面这种。</td></tr><tr><td>3s</td><td>-</td><td>开门请当心</td><td>30</td><td>-2boss 在左：2人轮流抗晕，1人和棘刺阻挡。<br />在右：放走，左下棘刺朝上。或者<br />投石范围好像大于2.1有点奇怪</td></tr><tr><td>3s</td><td>-</td><td>大盗当头</td><td>43</td><td>中间狙法向下输出、辅助减速卡 boss 飞行距离</td></tr><tr><td>3s</td><td>-</td><td>寒渊惜别</td><td>26</td><td>近战boss2种罚站位，2 个依次罚站。<br />右弓箭 boss：2蓝毒或点燃或者棘刺可以打大半血。<br /></td></tr><tr><td>3s</td><td>-</td><td>恐怖传说</td><td>16</td><td>注意罚站点、分段消耗 boss，输出+盾抗消耗，<br />可行方案：出门第二罚站点（第四格）<br />门口芬+棘刺3远程+蓝毒+玫兰莎+盾，<br />一波打完，或者火山一波半血<br /></td></tr><tr><td>3s</td><td>-</td><td>悦耳杀机</td><td>41</td><td>双奶，左火山一波，右路棘刺</td></tr><tr><td>4</td><td>-</td><td>雪山上的来客<br />&#x2F;紧急<br /></td><td>58&#x2F;58</td><td>远程，下门重装，避开大怪 1 距离</td></tr><tr><td>4</td><td>-</td><td>鲍勃酒品</td><td>50-54</td><td>左双输出 + 抗炮，右棘刺</td></tr><tr><td>4</td><td>-</td><td>步步紧逼</td><td>36</td><td>狙&#x2F;棘刺打首尾随机法术飞机</td></tr><tr><td>4</td><td>-</td><td>共舞&#x2F;紧急</td><td>20-21<br />&#x2F;22<br /></td><td>左 3 高台 1-2 狙，左下棘刺</td></tr><tr><td>4</td><td>-</td><td>烟花秀&#x2F;紧急？</td><td>27&#x2F;29</td><td>骗 4 炮，棘刺中左下抗 2 炮；<br />鼠王罚站可 42；22 杀出炮兵要骗<br /></td></tr><tr><td>4</td><td>-</td><td>永无尽头</td><td>31</td><td>冲刺者，重装棘刺抗，右点燃 + 辅助，左狙。</td></tr><tr><td>4</td><td>-</td><td>阴云笼罩</td><td>51</td><td>左精 2 群奶上狙两路，右 1 怪</td></tr><tr><td>4</td><td>-</td><td>远方来客</td><td>49</td><td>上 2 高台罚站 + 奶，左门抗，棘刺可朝上帮忙</td></tr><tr><td>4t</td><td>即兴鸭子演出</td><td>高普尼克之拳</td><td>27</td><td>开局小怪多 3 阻挡不够用，需要决战技打拳头哥。</td></tr><tr><td>4</td><td>剧目需求</td><td>-</td><td>-</td><td>随机：右眼：近卫狙击攻击+15辅助术师-5</td></tr><tr><td>3-4p</td><td>受缚之血</td><td>邪异囚笼</td><td>8</td><td>9 宫 4+4 远程怪罚站，可火山奶盾漏 2</td></tr><tr><td>2-4?</td><td>“锡人”</td><td>-</td><td>-</td><td>-2 希望随机收藏品</td></tr><tr><td>5</td><td>-</td><td>隔岸观火</td><td>26</td><td>左精2蓝毒清罚站，右棘刺高台两路</td></tr><tr><td>5</td><td>-</td><td>彻骨冰寒</td><td>61-64</td><td>后前棘刺奶盾，右 4 高台&#x2F;1 奶</td></tr><tr><td>5</td><td>-</td><td>红雾弥漫</td><td>59</td><td>上狙两路上罚站，中右棘刺，<br />右群随机 2 个法怪&#x2F;特务<br /></td></tr><tr><td>5</td><td>-</td><td>荒唐把戏</td><td>48</td><td>左棘刺，右狙奶盾抗 + 高台，<br />精2盾才能抗，不然试试小羊上路朝上偷家<br /></td></tr><tr><td>5</td><td>-</td><td>惊喜工厂</td><td>47</td><td>左棘刺，右高台尽量打就行</td></tr><tr><td>5</td><td>-</td><td>危机四伏</td><td>40</td><td>左下盾棘刺 + 高台，精 2 高台抗箭，最后大幽灵</td></tr><tr><td>5</td><td>-</td><td>无人机起降库</td><td>65</td><td>棘刺高台狙，分担下路飞机，盾吸引攻击</td></tr><tr><td>5</td><td>-</td><td>仪式之夜</td><td>46</td><td>先避开 3 个萨卡兹积怨者（2 远程法术），<br />上棘刺，下盾奶高台；后期 2 个束缚法师。<br /></td></tr><tr><td>5t</td><td>有关那位<br />乌萨斯人<br /></td><td>这位乌萨斯人</td><td>58</td><td>需藏品 + 群攻，<br />左下抗 + 棘刺靠左下上一格绕开重拳哥，高台输出<br /></td></tr><tr><td>5</td><td>猩红舞会</td><td>-</td><td>-</td><td>10源石锭换6希望<br />5生命换15源石锭&#x2F;8希望<br />4希望换10生命</td></tr><tr><td>4-5t</td><td>复仇剧</td><td>观察</td><td>58</td><td>【剧作家】前置。盾棘刺高台打两路，双盾挡两路</td></tr><tr><td>3-5</td><td>佝偻怪客</td><td>-</td><td>-</td><td>1.白英花，收藏品，随机打乱干员部署费用<br />2.那位大人，3 源石锭<br />3.刀舞，收藏品，随机一名干员攻击&#x2F;生命+100%<br />4.影子，收藏品，提高临时招募的概率<br /></td></tr><tr><td>1-5</td><td>珍品处理者</td><td>-</td><td>-</td><td>5 锭概率随机收藏品</td></tr><tr><td>5p</td><td>幽影狂言</td><td>骑士对决</td><td>4</td><td>约等于 4 个-1boss 罚站。第一次阵容：<br />小羊 +80% 减再部署工具，<br />棘刺对着中间骑士（卡位）<br /></td></tr><tr><td>5p</td><td>艺术与疯狂</td><td>无序盛宴</td><td>14</td><td>全图远程怪，有-2boss 罚站可棘刺，<br />可中间火山奶盾打 2 轮<br /></td></tr><tr><td>5s</td><td>-</td><td>覆水难收</td><td>80</td><td>钙质化 + 火山 boss，可 42&#x2F;铃兰</td></tr><tr><td>5s<br /></td><td>-</td><td>别无诉求</td><td>1</td><td>【大锁】左盾水陈，最好 +1 群奶保右棘刺，<br />低段高输出秒。有藏品的话带个 M3 就够<br /></td></tr><tr><td>6</td><td>-</td><td>乌萨斯的渴求</td><td>40</td><td>参考银灰打 2 飞机，右下棘刺左点燃。42 输出</td></tr><tr><td>6</td><td>-</td><td>萨卡兹的渴求</td><td>55</td><td>参考上棘刺，中拉怪后银灰&#x2F;水陈&#x2F;火山打 2~3 波</td></tr><tr><td>6s</td><td>-</td><td>诸事不顺</td><td>55</td><td>【喉舌】再说</td></tr><tr><td>6s</td><td>-</td><td>再启新篇</td><td>63</td><td>【剧作家】夜莺法抗 + 塞爹中路，<br />42+ 火山&#x2F;水陈等一波右路 boss<br /></td></tr></tbody></table><h3 id="肉鸽线路概况"><a href="#肉鸽线路概况" class="headerlink" title="肉鸽线路概况"></a>肉鸽线路概况</h3><p>【大锁】3 个不期而遇：<br>1 希望看画拿玩偶（直接大锁结局）；<br>3 生命保玩偶拿剪刀（前置）→ 拿空白遗书（大锁不自动回血）；</p><p>【喉舌】<br>1~3 不期而遇【赴宴】拿走衣服得到【替罪领巾】；<br>3s 选第三个【替身演员】；<br>4~5 层不期而遇拿到【恍悟】；</p><h3 id="待解锁收藏品条件"><a href="#待解锁收藏品条件" class="headerlink" title="待解锁收藏品条件"></a>待解锁收藏品条件</h3><p>无</p><h4 id="其他累计"><a href="#其他累计" class="headerlink" title="其他累计"></a>其他累计</h4><p>击败：剩余3&#x2F;6 遗弃者、剩余3&#x2F;6 漂泊颂偶</p><p>进入事件：剩余4&#x2F;16讲故事的人</p><p>投资系统 325</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 游戏 </category>
+          
+          <category> 明日方舟 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Obsidian入门心得总结</title>
       <link href="/2022/Obsidian%E5%85%A5%E9%97%A8%E5%BF%83%E5%BE%97%E6%80%BB%E7%BB%93.html"/>
       <url>/2022/Obsidian%E5%85%A5%E9%97%A8%E5%BF%83%E5%BE%97%E6%80%BB%E7%BB%93.html</url>
@@ -1033,27 +1194,6 @@
             <tag> Obsidian </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>《明日方舟》笔记</title>
-      <link href="/2023/%E3%80%8A%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E3%80%8B%E7%AC%94%E8%AE%B0.html"/>
-      <url>/2023/%E3%80%8A%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E3%80%8B%E7%AC%94%E8%AE%B0.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="模组"><a href="#模组" class="headerlink" title="模组"></a>模组</h2><p><del>闪灵：6次3技能，5-8单医疗</del></p><p><del>华法琳：12次2技能；7人近卫2-10</del></p><p><del>凯尔希：15w伤害；4次3技能5-10</del></p><p><del>赫默：14次无人机；4-8单医疗</del></p><p>年：<del>6w伤害</del>；WR-9杀敌10</p><p>瑕光：<del>5轮3技能</del>；MN-2重装</p><p>临光：<del>5轮2技能</del>；1-12全不死</p><p>夕2：<del>80歼灭</del>；4-3先锋</p><h2 id="水月肉鸽打法笔记"><a href="#水月肉鸽打法笔记" class="headerlink" title="水月肉鸽打法笔记"></a>水月肉鸽打法笔记</h2><p>攻略参考：<a href="https://www.bilibili.com/video/BV1BB4y177Bc">https://www.bilibili.com/video/BV1BB4y177Bc</a></p><p>符号说明：s 指 boss，p 指困难&#x2F;艰难，t 指特殊</p><table><thead><tr><th>层数</th><th>不期而遇</th><th>关卡</th><th>怪物</th><th>打法与注意</th></tr></thead><tbody><tr><td>3</td><td>-</td><td>原始部落</td><td></td><td>【紧急】+陈2盾</td></tr><tr><td>4</td><td>-</td><td>海窟沙暴</td><td><br /></td><td>棘刺重装挡，右下陈20杀停</td></tr><tr><td>4</td><td>-</td><td>崇敬深海</td><td>23</td><td>陈18杀停可能打不到最后2个浮空，要另一个输出守门</td></tr><tr><td>5</td><td>-</td><td>机械之灾</td><td></td><td>快骗。分左右。可等飞机开。</td></tr><tr><td>5</td><td>-</td><td>教徒居所</td><td></td><td>3核挡。向左。19杀停。</td></tr><tr><td>5s</td><td>-</td><td>命运的宠儿</td><td></td><td>【配队】多拿澄闪3（42）、桃子、快挡。</td></tr><tr><td>6s</td><td>-</td><td>大群所向</td><td></td><td>【配队】多拿咕咕、桃子、决战技42+M3、快活</td></tr></tbody></table><h3 id="待解锁"><a href="#待解锁" class="headerlink" title="待解锁"></a>待解锁</h3><p>分队：<del>5名重装辅助、特种术师</del>、20干员</p><p><del>可携带13</del>、<del>8希望结局</del>、<del>60希望上限结局</del>、<del>125受伤</del></p><p>各分队结局</p><p>0锭3层、无伤真相、3辅助胜利、<del>部署120结局</del>、<del>击败圣徒伊比利亚</del>、击败接潮斥亡体、<del>5掠海漂移体进入</del>、？？？、击败延命塑路者</p><p>1接潮主教、<del>0塑路者、2圣徒卡门</del>、4重返家园事件、2引火之木事件、6灯塔看守人事件、5扎营事件、6先遣小队事件</p><p><del>5个5星</del>、解锁天降鸭力</p><p><del>3特种胜利</del></p><h2 id="傀影肉鸽打法笔记"><a href="#傀影肉鸽打法笔记" class="headerlink" title="傀影肉鸽打法笔记"></a>傀影肉鸽打法笔记</h2><p>攻略参考：<a href="https://www.bilibili.com/video/BV1er4y1v7wX">https://www.bilibili.com/video/BV1er4y1v7wX</a></p><p>符号说明：s 指 boss，p 指困难&#x2F;艰难，t 指特殊</p><table><thead><tr><th>层数</th><th>不期而遇名称</th><th>关卡名称</th><th>怪物</th><th>打法与注意</th></tr></thead><tbody><tr><td>1</td><td>-</td><td>死斗&#x2F;紧急</td><td>22&#x2F;22</td><td>元素伤 2+ 距离</td></tr><tr><td>1</td><td>-</td><td>意外&#x2F;紧急</td><td>44</td><td>随便打</td></tr><tr><td>1</td><td>-</td><td>与虫为伴&#x2F;紧急</td><td>34</td><td>减防虫子 2+-？距离</td></tr><tr><td>1</td><td>-</td><td>礼炮小队&#x2F;紧急</td><td>32-33</td><td>远距离炮，</td></tr><tr><td>1</td><td>-</td><td>驯兽小屋</td><td>31</td><td>避开装置打两路</td></tr><tr><td>1-2</td><td>鸭爵主演</td><td>鸭爵的戏剧</td><td>7</td><td>放左下留技能</td></tr><tr><td>2</td><td>-</td><td>先来后到</td><td>39</td><td>随便打</td></tr><tr><td>2</td><td>-</td><td>分赃不均</td><td>26</td><td>弑君者&#x2F;都会绕下路</td></tr><tr><td>2</td><td>-</td><td>压轴登场&#x2F;紧急</td><td>45</td><td>右路虫子多 + 幽灵</td></tr><tr><td>2</td><td>-</td><td>落魄骑士</td><td>19-21</td><td>小 boss 罚站，紧急可能隐匿</td></tr><tr><td>2</td><td>-</td><td>巡逻队</td><td>33&#x2F;34？</td><td>单挑哥&#x2F;刀哥罚站</td></tr><tr><td>2p</td><td>沉睡石像</td><td>（随机）</td><td>-</td><td>-</td></tr><tr><td>2</td><td>讲故事的人</td><td>-</td><td>-</td><td>5 源石锭概率给收藏品</td></tr><tr><td>3</td><td>-</td><td>雕匠与石像<br />&#x2F;紧急<br /></td><td>34&#x2F;39</td><td>最后一波冲锋可推倒墙</td></tr><tr><td>3</td><td>-</td><td>从众效应</td><td>159-162</td><td>最好要远程群攻，<br />棘刺 3+ 辅助 + 术师 +2 阻挡也可以<br /></td></tr><tr><td>3</td><td>-</td><td>斗兽笼</td><td>55</td><td>4 角有小怪</td></tr><tr><td>3</td><td>-</td><td>感化</td><td>31</td><td>远程点掉 1+ 红怪</td></tr><tr><td>3</td><td>-</td><td>酒商运输队</td><td>77</td><td>早点清掉自爆虫，后面有个电锯怪，<br />单奶技能期间才能抗<br /></td></tr><tr><td>3</td><td>-</td><td>似曾相识</td><td>27</td><td>W：棘刺3 + 奶技能抗位或者火山一波<br />炸高台会死，<br />第二行的罚站位可以干员卡到右边。<br /></td></tr><tr><td>3</td><td>-</td><td>首演</td><td>31</td><td>红怪 2 会在上路停留注意快速打完&#x2F;保命</td></tr><tr><td>3</td><td>-</td><td>正义&#x2F;紧急</td><td>65</td><td>注意（65 &#x2F;66怪）尾部会空降狙击，<br />输出不够时尽量靠前放避免村民被打死<br /></td></tr><tr><td>3</td><td>鸭爵的宴会</td><td>鸭爵的宴会</td><td>77</td><td>怪多，放左上留技能打-0鸭子</td></tr><tr><td>1-3t</td><td>别打扰他们</td><td>自缚</td><td>43</td><td>【剧作家】前置。棘刺两路</td></tr><tr><td>3</td><td>音乐挑战</td><td>-</td><td>-</td><td>藏品：非战斗 +1 希望</td></tr><tr><td>3</td><td>狂舞之人</td><td>-</td><td>-</td><td>似乎是高台可以放地面这种。</td></tr><tr><td>3s</td><td>-</td><td>开门请当心</td><td>30</td><td>-2boss 在左：2人轮流抗晕，1人和棘刺阻挡。<br />在右：放走，左下棘刺朝上。或者<br />投石范围好像大于2.1有点奇怪</td></tr><tr><td>3s</td><td>-</td><td>大盗当头</td><td>43</td><td>中间狙法向下输出、辅助减速卡 boss 飞行距离</td></tr><tr><td>3s</td><td>-</td><td>寒渊惜别</td><td>26</td><td>近战boss2种罚站位，2 个依次罚站。<br />右弓箭 boss：2蓝毒或点燃或者棘刺可以打大半血。<br /></td></tr><tr><td>3s</td><td>-</td><td>恐怖传说</td><td>16</td><td>注意罚站点、分段消耗 boss，输出+盾抗消耗，<br />可行方案：出门第二罚站点（第四格）<br />门口芬+棘刺3远程+蓝毒+玫兰莎+盾，<br />一波打完，或者火山一波半血<br /></td></tr><tr><td>3s</td><td>-</td><td>悦耳杀机</td><td>41</td><td>双奶，左火山一波，右路棘刺</td></tr><tr><td>4</td><td>-</td><td>雪山上的来客<br />&#x2F;紧急<br /></td><td>58&#x2F;58</td><td>远程，下门重装，避开大怪 1 距离</td></tr><tr><td>4</td><td>-</td><td>鲍勃酒品</td><td>50-54</td><td>左双输出 + 抗炮，右棘刺</td></tr><tr><td>4</td><td>-</td><td>步步紧逼</td><td>36</td><td>狙&#x2F;棘刺打首尾随机法术飞机</td></tr><tr><td>4</td><td>-</td><td>共舞&#x2F;紧急</td><td>20-21<br />&#x2F;22<br /></td><td>左 3 高台 1-2 狙，左下棘刺</td></tr><tr><td>4</td><td>-</td><td>烟花秀&#x2F;紧急？</td><td>27&#x2F;29</td><td>骗 4 炮，棘刺中左下抗 2 炮；<br />鼠王罚站可 42；22 杀出炮兵要骗<br /></td></tr><tr><td>4</td><td>-</td><td>永无尽头</td><td>31</td><td>冲刺者，重装棘刺抗，右点燃 + 辅助，左狙。</td></tr><tr><td>4</td><td>-</td><td>阴云笼罩</td><td>51</td><td>左精 2 群奶上狙两路，右 1 怪</td></tr><tr><td>4</td><td>-</td><td>远方来客</td><td>49</td><td>上 2 高台罚站 + 奶，左门抗，棘刺可朝上帮忙</td></tr><tr><td>4t</td><td>即兴鸭子演出</td><td>高普尼克之拳</td><td>27</td><td>开局小怪多 3 阻挡不够用，需要决战技打拳头哥。</td></tr><tr><td>4</td><td>剧目需求</td><td>-</td><td>-</td><td>随机：右眼：近卫狙击攻击+15辅助术师-5</td></tr><tr><td>3-4p</td><td>受缚之血</td><td>邪异囚笼</td><td>8</td><td>9 宫 4+4 远程怪罚站，可火山奶盾漏 2</td></tr><tr><td>2-4?</td><td>“锡人”</td><td>-</td><td>-</td><td>-2 希望随机收藏品</td></tr><tr><td>5</td><td>-</td><td>隔岸观火</td><td>26</td><td>左精2蓝毒清罚站，右棘刺高台两路</td></tr><tr><td>5</td><td>-</td><td>彻骨冰寒</td><td>61-64</td><td>后前棘刺奶盾，右 4 高台&#x2F;1 奶</td></tr><tr><td>5</td><td>-</td><td>红雾弥漫</td><td>59</td><td>上狙两路上罚站，中右棘刺，<br />右群随机 2 个法怪&#x2F;特务<br /></td></tr><tr><td>5</td><td>-</td><td>荒唐把戏</td><td>48</td><td>左棘刺，右狙奶盾抗 + 高台，<br />精2盾才能抗，不然试试小羊上路朝上偷家<br /></td></tr><tr><td>5</td><td>-</td><td>惊喜工厂</td><td>47</td><td>左棘刺，右高台尽量打就行</td></tr><tr><td>5</td><td>-</td><td>危机四伏</td><td>40</td><td>左下盾棘刺 + 高台，精 2 高台抗箭，最后大幽灵</td></tr><tr><td>5</td><td>-</td><td>无人机起降库</td><td>65</td><td>棘刺高台狙，分担下路飞机，盾吸引攻击</td></tr><tr><td>5</td><td>-</td><td>仪式之夜</td><td>46</td><td>先避开 3 个萨卡兹积怨者（2 远程法术），<br />上棘刺，下盾奶高台；后期 2 个束缚法师。<br /></td></tr><tr><td>5t</td><td>有关那位<br />乌萨斯人<br /></td><td>这位乌萨斯人</td><td>58</td><td>需藏品 + 群攻，<br />左下抗 + 棘刺靠左下上一格绕开重拳哥，高台输出<br /></td></tr><tr><td>5</td><td>猩红舞会</td><td>-</td><td>-</td><td>10源石锭换6希望<br />5生命换15源石锭&#x2F;8希望<br />4希望换10生命</td></tr><tr><td>4-5t</td><td>复仇剧</td><td>观察</td><td>58</td><td>【剧作家】前置。盾棘刺高台打两路，双盾挡两路</td></tr><tr><td>3-5</td><td>佝偻怪客</td><td>-</td><td>-</td><td>1.白英花，收藏品，随机打乱干员部署费用<br />2.那位大人，3 源石锭<br />3.刀舞，收藏品，随机一名干员攻击&#x2F;生命+100%<br />4.影子，收藏品，提高临时招募的概率<br /></td></tr><tr><td>1-5</td><td>珍品处理者</td><td>-</td><td>-</td><td>5 锭概率随机收藏品</td></tr><tr><td>5p</td><td>幽影狂言</td><td>骑士对决</td><td>4</td><td>约等于 4 个-1boss 罚站。第一次阵容：<br />小羊 +80% 减再部署工具，<br />棘刺对着中间骑士（卡位）<br /></td></tr><tr><td>5p</td><td>艺术与疯狂</td><td>无序盛宴</td><td>14</td><td>全图远程怪，有-2boss 罚站可棘刺，<br />可中间火山奶盾打 2 轮<br /></td></tr><tr><td>5s</td><td>-</td><td>覆水难收</td><td>80</td><td>钙质化 + 火山 boss，可 42&#x2F;铃兰</td></tr><tr><td>5s<br /></td><td>-</td><td>别无诉求</td><td>1</td><td>【大锁】左盾水陈，最好 +1 群奶保右棘刺，<br />低段高输出秒。有藏品的话带个 M3 就够<br /></td></tr><tr><td>6</td><td>-</td><td>乌萨斯的渴求</td><td>40</td><td>参考银灰打 2 飞机，右下棘刺左点燃。42 输出</td></tr><tr><td>6</td><td>-</td><td>萨卡兹的渴求</td><td>55</td><td>参考上棘刺，中拉怪后银灰&#x2F;水陈&#x2F;火山打 2~3 波</td></tr><tr><td>6s</td><td>-</td><td>诸事不顺</td><td>55</td><td>【喉舌】再说</td></tr><tr><td>6s</td><td>-</td><td>再启新篇</td><td>63</td><td>【剧作家】夜莺法抗 + 塞爹中路，<br />42+ 火山&#x2F;水陈等一波右路 boss<br /></td></tr></tbody></table><h3 id="肉鸽线路概况"><a href="#肉鸽线路概况" class="headerlink" title="肉鸽线路概况"></a>肉鸽线路概况</h3><p>【大锁】3 个不期而遇：<br>1 希望看画拿玩偶（直接大锁结局）；<br>3 生命保玩偶拿剪刀（前置）→ 拿空白遗书（大锁不自动回血）；</p><p>【喉舌】<br>1~3 不期而遇【赴宴】拿走衣服得到【替罪领巾】；<br>3s 选第三个【替身演员】；<br>4~5 层不期而遇拿到【恍悟】；</p><h3 id="待解锁收藏品条件"><a href="#待解锁收藏品条件" class="headerlink" title="待解锁收藏品条件"></a>待解锁收藏品条件</h3><p>无</p><h4 id="其他累计"><a href="#其他累计" class="headerlink" title="其他累计"></a>其他累计</h4><p>击败：剩余3&#x2F;6 遗弃者、剩余3&#x2F;6 漂泊颂偶</p><p>进入事件：剩余4&#x2F;16讲故事的人</p><p>投资系统 325</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 游戏 </category>
-          
-          <category> 明日方舟 </category>
-          
-      </categories>
-      
       
     </entry>
     
@@ -1116,6 +1256,14 @@
       
         <content type="html"><![CDATA[<p>原文：<a href="https://blog.csdn.net/GISShiXiSheng/article/details/44566307">excel中提取中文拼音_牛老师讲GIS的博客-CSDN博客_excel提取拼音公式</a></p><p><strong>该方法存在缺点，无法识别多音字，还存在一些错误拼音。</strong></p><p>主要步骤：</p><p>alt+F11调出vba编写窗口，写入以下函数：</p><figure class="highlight vbscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Function</span> PinYin2(Hz As String)</span><br><span class="line">    <span class="keyword">Dim</span> PinMa As String</span><br><span class="line">    <span class="keyword">Dim</span> MyPinMa As Variant</span><br><span class="line">    <span class="keyword">Dim</span> Temp As Integer, i As Integer, j As Integer</span><br><span class="line">    PinMa = <span class="string">&quot;a,20319,ai,20317,an,20304,ang,20295,ao,20292,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;ba,20283,bai,20265,ban,20257,bang,20242,bao,20230,bei,20051,ben,20036,beng,20032,bi,20026,bian,20002,biao,19990,bie,19986,bin,19982,bing,19976,bo,19805,bu,19784,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;ca,19775,cai,19774,can,19763,cang,19756,cao,19751,ce,19746,ceng,19741,cha,19739,chai,19728,chan,19725,chang,19715,chao,19540,che,19531,chen,19525,cheng,19515,chi,19500,chong,19484,chou,19479,chu,19467,chuai,19289,chuan,19288,chuang,19281,chui,19275,chun,19270,chuo,19263,ci,19261,cong,19249,cou,19243,cu,19242,cuan,19238,cui,19235,cun,19227,cuo,19224,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;da,19218,dai,19212,dan,19038,dang,19023,dao,19018,de,19006,deng,19003,di,18996,dian,18977,diao,18961,die,18952,ding,18783,diu,18774,dong,18773,dou,18763,du,18756,duan,18741,dui,18735,dun,18731,duo,18722,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;e,18710,en,18697,er,18696,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;fa,18526,fan,18518,fang,18501,fei,18490,fen,18478,feng,18463,fo,18448,fou,18447,fu,18446,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;ga,18239,gai,18237,gan,18231,gang,18220,gao,18211,ge,18201,gei,18184,gen,18183,geng,18181,gong,18012,gou,17997,gu,17988,gua,17970,guai,17964,guan,17961,guang,17950,gui,17947,gun,17931,guo,17928,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;ha,17922,hai,17759,han,17752,hang,17733,hao,17730,he,17721,hei,17703,hen,17701,heng,17697,hong,17692,hou,17683,hu,17676,hua,17496,huai,17487,huan,17482,huang,17468,hui,17454,hun,17433,huo,17427,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;ji,17417,jia,17202,jian,17185,jiang,16983,jiao,16970,jie,16942,jin,16915,jing,16733,jiong,16708,jiu,16706,ju,16689,juan,16664,jue,16657,jun,16647,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;ka,16474,kai,16470,kan,16465,kang,16459,kao,16452,ke,16448,ken,16433,keng,16429,kong,16427,kou,16423,ku,16419,kua,16412,kuai,16407,kuan,16403,kuang,16401,kui,16393,kun,16220,kuo,16216,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;la,16212,lai,16205,lan,16202,lang,16187,lao,16180,le,16171,lei,16169,leng,16158,li,16155,lia,15959,lian,15958,liang,15944,liao,15933,lie,15920,lin,15915,ling,15903,liu,15889,long,15878,lou,15707,lu,15701,lv,15681,luan,15667,lue,15661,lun,15659,luo,15652,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;ma,15640,mai,15631,man,15625,mang,15454,mao,15448,me,15436,mei,15435,men,15419,meng,15416,mi,15408,mian,15394,miao,15385,mie,15377,min,15375,ming,15369,miu,15363,mo,15362,mou,15183,mu,15180,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;na,15165,nai,15158,nan,15153,nang,15150,nao,15149,ne,15144,nei,15143,nen,15141,neng,15140,ni,15139,nian,15128,niang,15121,niao,15119,nie,15117,nin,15110,ning,15109,niu,14941,nong,14937,nu,14933,nv,14930,nuan,14929,nue,14928,nuo,14926,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;o,14922,ou,14921,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;pa,14914,pai,14908,pan,14902,pang,14894,pao,14889,pei,14882,pen,14873,peng,14871,pi,14857,pian,14678,piao,14674,pie,14670,pin,14668,ping,14663,po,14654,pu,14645,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;qi,14630,qia,14594,qian,14429,qiang,14407,qiao,14399,qie,14384,qin,14379,qing,14368,qiong,14355,qiu,14353,qu,14345,quan,14170,que,14159,qun,14151,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;ran,14149,rang,14145,rao,14140,re,14137,ren,14135,reng,14125,ri,14123,rong,14122,rou,14112,ru,14109,ruan,14099,rui,14097,run,14094,ruo,14092,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;sa,14090,sai,14087,san,14083,sang,13917,sao,13914,se,13910,sen,13907,seng,13906,sha,13905,shai,13896,shan,13894,shang,13878,shao,13870,she,13859,shen,13847,sheng,13831,shi,13658,shou,13611,shu,13601,shua,13406,shuai,13404,shuan,13400,shuang,13398,shui,13395,shun,13391,shuo,13387,si,13383,song,13367,sou,13359,su,13356,suan,13343,sui,13340,sun,13329,suo,13326,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;ta,13318,tai,13147,tan,13138,tang,13120,tao,13107,te,13096,teng,13095,ti,13091,tian,13076,tiao,13068,tie,13063,ting,13060,tong,12888,tou,12875,tu,12871,tuan,12860,tui,12858,tun,12852,tuo,12849,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;wa,12838,wai,12831,wan,12829,wang,12812,wei,12802,wen,12607,weng,12597,wo,12594,wu,12585,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;xi,12556,xia,12359,xian,12346,xiang,12320,xiao,12300,xie,12120,xin,12099,xing,12089,xiong,12074,xiu,12067,xu,12058,xuan,12039,xue,11867,xun,11861,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;ya,11847,yan,11831,yang,11798,yao,11781,ye,11604,yi,11589,yin,11536,ying,11358,yo,11340,yong,11339,you,11324,yu,11303,yuan,11097,yue,11077,yun,11067,&quot;</span></span><br><span class="line">    PinMa = PinMa &amp; <span class="string">&quot;za,11055,zai,11052,zan,11045,zang,11041,zao,11038,ze,11024,zei,11020,zen,11019,zeng,11018,zha,11014,zhai,10838,zhan,10832,zhang,10815,zhao,10800,zhe,10790,zhen,10780,zheng,10764,zhi,10587,zhong,10544,zhou,10533,zhu,10519,zhua,10331,zhuai,10329,zhuan,10328,zhuang,10322,zhui,10315,zhun,10309,zhuo,10307,zi,10296,zong,10281,zou,10274,zu,10270,zuan,10262,zui,10260,zun,10256,zuo,10254&quot;</span></span><br><span class="line">    MyPinMa = <span class="built_in">Split</span>(PinMa, <span class="string">&quot;,&quot;</span>)</span><br><span class="line">   </span><br><span class="line">    <span class="keyword">For</span> i = <span class="number">1</span> <span class="keyword">To</span> <span class="built_in">Len</span>(Hz)</span><br><span class="line">    Temp = <span class="built_in">Asc</span>(<span class="built_in">Mid</span>(Hz, i, <span class="number">1</span>))</span><br><span class="line">        <span class="keyword">If</span> Temp &lt; <span class="number">0</span> <span class="keyword">Then</span></span><br><span class="line">          Temp = <span class="built_in">Abs</span>(Temp)</span><br><span class="line">          <span class="keyword">For</span> j = <span class="number">791</span> <span class="keyword">To</span> <span class="number">1</span> <span class="keyword">Step</span> <span class="number">-2</span></span><br><span class="line">              <span class="keyword">If</span> Temp &lt;= Val(MyPinMa(j)) <span class="keyword">Then</span></span><br><span class="line">                  PinYin2 = PinYin2 &amp; MyPinMa(j - <span class="number">1</span>) &amp; <span class="string">&quot;&quot;</span></span><br><span class="line">                  <span class="keyword">Exit</span> <span class="keyword">For</span></span><br><span class="line">              <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line">          <span class="keyword">Next</span></span><br><span class="line">        <span class="keyword">End</span> <span class="keyword">If</span></span><br><span class="line">    <span class="keyword">Next</span></span><br><span class="line">    PinYin2 = <span class="built_in">Trim</span>(PinYin2)</span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Function</span></span><br></pre></td></tr></table></figure>]]></content>
       
+      
+      <categories>
+          
+          <category> 计算机 </category>
+          
+          <category> 备忘录 </category>
+          
+      </categories>
       
       
         <tags>
@@ -1211,6 +1359,14 @@
         <content type="html"><![CDATA[<h2 id="售卖范围"><a href="#售卖范围" class="headerlink" title="售卖范围"></a>售卖范围</h2><p>广州</p><h2 id="可选档位"><a href="#可选档位" class="headerlink" title="可选档位"></a>可选档位</h2><p>￥39<br>5GB通用+30GB定向</p><h2 id="详情"><a href="#详情" class="headerlink" title="详情"></a>详情</h2><p>通用流量 5GB，不含中国港澳台地区<br>定向流量 30GB，不含中国港澳台地区<br>超套说明 国内流量：超出后按5元1GB，循环计费。当月国内总流量达200GB将停止当月手机上网功<br>能且不可恢复，下一月结日自动恢复。</p><h3 id="温馨提示"><a href="#温馨提示" class="headerlink" title="温馨提示"></a>温馨提示</h3><p>本温馨提示共4点：<br>客户办理成功后可享受39元潮玩青春套餐。包含5GB国内通用流量，30GB国内定向流量（套餐内定向流量不可结转、不可转赠、不可共享）。<br>定向流量使用范围：套餐包含30GB定向流量，使用范围包括：中国移动精品APP、阿里系、百度系、头条系、网易系、腾讯系、vivo、哔哩哔哩、快手、芒果TV、喜马拉雅、新浪微博、网易云音乐等。可点击查看具体使用范围。<br>1、套餐将于成功开通下一月结日生效（全球通1日），具体生效时间以短信为准。<br>2、已办理2&#x2F;3G不限量套餐，4G随心王、家庭服务计划副号、一卡双号副号、“全额代付”副号、内部号码等客户均不能参加。若想办理潮玩青春套餐，请退订在用套餐后才可办理（以上旧套餐退订后无法再次订购）。<br>3、其他资费：语音及短彩信资费：国内主叫国内0.19元&#x2F;分钟（不含视频通话）、全国接听免费、彩信0.3元&#x2F;条，国内短信资费为0.1元&#x2F;条。以上资费均不含中国台港澳地区。<br>4、如变更套餐，旧套餐剩余流量当月自动清零。部分已停办套餐变更后不可恢复原套餐，如全球通商旅、上网套餐、大流量套餐等。<br>注：办理本业务请详读知晓承诺在网服务条款。</p><p>原链接:<a href="https://wx.10086.cn/website/businessPlatform/shopDetail?productId=2108346&productCode=11280806&pageid=&agentid=&queryNormid=2113888">https://wx.10086.cn/website/businessPlatform/shopDetail?productId=2108346&amp;productCode=11280806&amp;pageid=&amp;agentid=&amp;queryNormid=2113888</a></p>]]></content>
       
       
+      <categories>
+          
+          <category> 生活经验 </category>
+          
+          <category> 消费优惠 </category>
+          
+      </categories>
+      
       
         <tags>
             
@@ -1248,8 +1404,16 @@
       <link href="/2022/B%E7%AB%99%E9%9A%90%E8%97%8F%E5%8A%9F%E8%83%BD%E7%94%A8%E6%B3%95%E6%95%B4%E7%90%86.html"/>
       <url>/2022/B%E7%AB%99%E9%9A%90%E8%97%8F%E5%8A%9F%E8%83%BD%E7%94%A8%E6%B3%95%E6%95%B4%E7%90%86.html</url>
       
-        <content type="html"><![CDATA[<p>文档说明：个人整理的B站隐藏功能用法，这些功能一般不会有直接的指引说明，但用户也不一定需要用它。</p><h2 id="视频跳转链接（站内）"><a href="#视频跳转链接（站内）" class="headerlink" title="视频跳转链接（站内）"></a>视频跳转链接（站内）</h2><p>在站内如何编写视频的时间标记来提供跳转功能？一般有几大方法：</p><ul><li>笔记：近期的新功能，首先可以使用“记笔记”插入时间标记，方便自己跳转。听说up主开通公开笔记之后，也可以公开给他人查看，笔记会以此视频的特殊专栏的形式被发布。</li><li>评论：普通视频的评论区里可以直接输入时间，会自动变成跳转链接；如果带分p的视频可以输入<code>p序号#时间</code>来完成。这样也可以方便他人查看，但是app端不方便使用。</li></ul><h2 id="视频跳转链接（站外url地址）"><a href="#视频跳转链接（站外url地址）" class="headerlink" title="视频跳转链接（站外url地址）"></a>视频跳转链接（站外url地址）</h2><ul><li>播放进度节点：在播放视频时可以点击右键复制地址，可以观察到时间点是通过参数“t&#x3D;秒数”完成跳转；如果带分p的视频还有参数“p&#x3D;p序号”。</li><li>【隐藏】用户评论链接：打开后跳转显示对应评论，一般需要从用户“回复”功能才能进入，地址格式如：<a href="https://www.bilibili.com/video/BV1ba411Z7b9#reply123632844032">https://www.bilibili.com/video/BV1ba411Z7b9#reply123632844032</a>的末尾，不过普通评论可以在在html页面找到对应<code>data-root-reply-id</code> 代入即可。</li></ul>]]></content>
+        <content type="html"><![CDATA[<p>文档说明：个人整理的B站隐藏功能用法，这些功能一般不会有直接的指引说明，但用户也不一定需要用它。</p><h2 id="视频播放快捷键"><a href="#视频播放快捷键" class="headerlink" title="视频播放快捷键"></a>视频播放快捷键</h2><p>F：全屏开关（Esc退出全屏）<br>M：静音开关<br>D：弹幕开关<br>Q：点赞按钮（长按一键三连）<br>W：投币按钮<br>E：收藏按钮<br>空格：播放&#x2F;暂停<br>↑&#x2F;↓：视频内音量+&#x2F;-10%<br>←&#x2F;→：前进&#x2F;后退5秒<br>按住→：视频三倍速播放<br>按住←：快速后退<br>全屏时鼠标滚轮：视频内音量调整<br>Shift+1：切换视频一倍速播放<br>Shift+2：切换视频二倍速播放<br>Enter：写弹幕&#x2F;发送<br>[&#x2F;]：切换上&#x2F;下分p</p><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="视频内快速跳转链接"><a href="#视频内快速跳转链接" class="headerlink" title="视频内快速跳转链接"></a>视频内快速跳转链接</h3><p>在站内如何编写视频的时间标记来提供跳转功能？一般有以下方法：</p><ul><li>笔记：近期的新功能，首先可以使用“记笔记”插入时间标记，方便自己跳转。听说up主开通公开笔记之后，也可以公开给他人查看，笔记会以此视频的特殊专栏的形式被发布。</li><li>评论：普通视频的评论区里可以直接输入时间，会自动变成跳转链接；如果带分p的视频可以输入<code>p序号#时间</code>来完成。这样也可以方便他人查看，但是app端不方便使用。</li></ul><h3 id="视频跳转地址"><a href="#视频跳转地址" class="headerlink" title="视频跳转地址"></a>视频跳转地址</h3><ul><li>播放进度节点：在播放视频时可以点击右键复制地址，可以观察到时间点是通过参数“t&#x3D;秒数”完成跳转；如果带分p的视频还有参数“p&#x3D;p序号”。</li><li>【隐藏参数】跳转到用户评论：打开后跳转显示对应评论，一般需要从用户自己的“回复”功能才能进入，地址格式如： <a href="https://www.bilibili.com/video/BV1ba411Z7b9#reply123632844032">https://www.bilibili.com/video/BV1ba411Z7b9#reply123632844032</a>的末尾，不过普通评论可以在在html页面找到对应<code>data-root-reply-id</code> 代入即可。</li></ul>]]></content>
       
+      
+      <categories>
+          
+          <category> 计算机 </category>
+          
+          <category> 备忘录 </category>
+          
+      </categories>
       
       
         <tags>
@@ -1360,9 +1524,9 @@
       
       <categories>
           
-          <category> 编程语言 </category>
-          
           <category> 计算机 </category>
+          
+          <category> 编程语言 </category>
           
           <category> 代码存档 </category>
           
@@ -1476,7 +1640,7 @@
       <link href="/2022/%E5%88%B6%E4%BD%9C%E5%8E%9F%E7%A5%9E%E8%A7%86%E9%A2%91%E6%97%B6%E9%97%B4%E7%BA%BF.html"/>
       <url>/2022/%E5%88%B6%E4%BD%9C%E5%8E%9F%E7%A5%9E%E8%A7%86%E9%A2%91%E6%97%B6%E9%97%B4%E7%BA%BF.html</url>
       
-        <content type="html"><![CDATA[<h2 id="事情起因"><a href="#事情起因" class="headerlink" title="事情起因"></a>事情起因</h2><p>2022年2月6日：这两天放假突然想做点视频，就简单试用了B站的剪辑工具<strong>必剪</strong>。</p><p>2022年6月19日：另外录了一份，打了几个怪，直接发布了<a href="../../400_%E5%BD%92%E6%A1%A3/%E5%85%B4%E8%B6%A3%E7%88%B1%E5%A5%BD%E5%BD%92%E6%A1%A3/%E5%8E%9F%E7%A5%9E%E8%A7%86%E9%A2%91%E5%88%B6%E4%BD%9C%E8%AE%B0%E5%BD%95%E9%9B%86%E5%90%88/%E3%80%8A%E6%BB%A1%E6%9A%B4%E7%94%98%E9%9B%A8%E4%B9%8B%E6%97%A5%E5%B8%B8%E6%89%93%E6%80%AA+%E9%A3%8E%E9%AD%94%E9%BE%99%E6%BC%94%E7%A4%BA%E3%80%8B.html">《满暴甘雨之日常打怪+风魔龙演示》（2022年6月19日已发布）</a>。</p><h2 id="后续"><a href="#后续" class="headerlink" title="后续"></a>后续</h2><p>后来又因为B站投稿积分等奖励，陆续做了几个……<br>再之后也尝试了B站的云剪辑，比必剪格式转换来得方便，简单的视频就直接剪了发布。</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="事情起因"><a href="#事情起因" class="headerlink" title="事情起因"></a>事情起因</h2><p>2022年2月6日：这两天放假突然想做点视频，就简单试用了B站的剪辑工具<strong>必剪</strong>。</p><p>2022年6月19日：另外录了一份，打了几个怪，直接发布了《满暴甘雨之日常打怪+风魔龙演示》（2022年6月19日已发布）。</p><h2 id="后续"><a href="#后续" class="headerlink" title="后续"></a>后续</h2><p>后来又因为B站投稿积分等奖励，陆续做了几个……<br>再之后也尝试了B站的云剪辑，比必剪格式转换来得方便，简单的视频就直接剪了发布。</p>]]></content>
       
       
       <categories>
@@ -1648,9 +1812,9 @@
       
       <categories>
           
-          <category> 编程语言 </category>
-          
           <category> 计算机 </category>
+          
+          <category> 编程语言 </category>
           
           <category> 备忘录 </category>
           
@@ -1694,6 +1858,14 @@
         <content type="html"><![CDATA[<h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>2022 年才接触到 OBS 软件可以方便的组织视频、音频，进行直播推流，日常也可以轻松实现耳返。</p><p>其实耳返的需要并不特殊，对软件来说应该也不是什么难事，只是我这边视界有限，可能有更多未闻其名的专业软件可以做到。</p><h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>操作系统：win10</p><p>声卡：Microsoft Conexant SmartAudio HD</p><p>最近研究如何在 QQ 语音中同时实现播放电脑音乐和麦克风耳返（非外放）（为了唱歌）。</p><h2 id="耳返尝试"><a href="#耳返尝试" class="headerlink" title="耳返尝试"></a>耳返尝试</h2><h3 id="【尝试-1】声卡自带的侦听功能"><a href="#【尝试-1】声卡自带的侦听功能" class="headerlink" title="【尝试 1】声卡自带的侦听功能"></a>【尝试 1】声卡自带的侦听功能</h3><p>从系统声音设置里面进入旧版【声音控制面板】有相关配置，开启【侦听此设备】。</p><p>延迟：中（主观约 150-200 毫秒）</p><p>缺点：</p><p>1.默认启用的【麦克风声效】中的回声消除和噪声压制会额外增加延迟。</p><p>2.开启噪声压制后会对持续的长音进行削弱处理，可能是因为识别为噪声。</p><p>3.开启噪声压制后声音会有一定失真。</p><h3 id="【尝试-2】使用软件【哔哩哔哩直播姬】"><a href="#【尝试-2】使用软件【哔哩哔哩直播姬】" class="headerlink" title="【尝试 2】使用软件【哔哩哔哩直播姬】"></a>【尝试 2】使用软件【哔哩哔哩直播姬】</h3><p>直播软件内含【麦克风试听】功能、添加并监听【音频输入设备】均可实现。</p><p>延迟：低（主观约低于 100 毫秒），但是长时间开启后延迟会变高，重新开启即可。</p><p>优点：</p><p>1.麦克风有降噪功能，还可以加入混响，在【麦克风试听】中可以听见这些效果。</p><h3 id="【尝试-3】（唱歌时）使用软件【全民-K-歌】"><a href="#【尝试-3】（唱歌时）使用软件【全民-K-歌】" class="headerlink" title="【尝试 3】（唱歌时）使用软件【全民 K 歌】"></a>【尝试 3】（唱歌时）使用软件【全民 K 歌】</h3><p>录音时可以开启【听到自己的歌声】。</p><p>延迟：中（主观约 200 毫秒）</p><h2 id="QQ-语音播放音乐"><a href="#QQ-语音播放音乐" class="headerlink" title="QQ 语音播放音乐"></a>QQ 语音播放音乐</h2><h3 id="【尝试-1】声卡自带功能"><a href="#【尝试-1】声卡自带功能" class="headerlink" title="【尝试 1】声卡自带功能"></a>【尝试 1】声卡自带功能</h3><p>需要声卡支持，直接把输入设备设置为【立体声混音】即可（把电脑“主要播放的声音”作为录音输入）。</p><h3 id="【尝试-2】其他软件"><a href="#【尝试-2】其他软件" class="headerlink" title="【尝试 2】其他软件"></a>【尝试 2】其他软件</h3><p>应该有些软件可以实现虚拟一个输入设备，然后在系统中设置此设备即可。</p><h2 id="QQ（TIM）语音音量控制"><a href="#QQ（TIM）语音音量控制" class="headerlink" title="QQ（TIM）语音音量控制"></a>QQ（TIM）语音音量控制</h2><h3 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h3><p>【2021 年 3 月 4 日】最新发现 TIM 会自动调节【立体声混音】的音量，而不是以前对麦克风的锁定音量。然后我发现提高电脑整体音量会导致他自动降低音量，说明之前说音量独立是不对的（判断错了估计是因为 TIM 使用录入设备会这样，而直播姬是直接取了播放设备的声音）。但上次依然是由 TIM 自动调节引起的声音过大。然而以上测试是在静音 TIM 语音输出（关闭开关）的情况下做的，此时开启会导致声音过大。实际上开启开关后播放 bgm 他不太会自动调节到声音过大，上次可能是偶尔 bug。</p><h3 id="临时解决办法"><a href="#临时解决办法" class="headerlink" title="临时解决办法"></a>临时解决办法</h3><p>1.开启语音开关后再调节【立体声混音】音量。</p><p>2.尽量关注 TIM 中的语音输出音量提示和【立体声混音】音量，把麦克风输出尽量降低（暂定在 20% 的位置左右），避免音量过大。</p><p><del>## QQ（TIM）语音音量控制</del></p><p><del>### 问题描述</del></p><p>TIM 有时可能因为没有输入声音，会做一个一次性的音量搜索（逐渐增加），直至找到合适的音量，然后锁定音量。<del>正常情况下用麦克风的话自动调节也没什么问题（实际上我们也不方便自己调整），但我把输入设备改为【立体声混音】后它会可能会把音量锁定到 90 以上，在我这个耳机下 90 音量实际上是很大的，结果昨天出现了群友说声音太大的情况（而我当时自己开着 60 音量听歌，浏览器只开了 4% 音量），语音窗口中也出现了“噪声过大”的提醒标记。</del></p><p><del>### 问题分析</del></p><p><del>在上述情况下，软件录音时的音量只与【录制】功能中的配置有关，与【播放】中的无关（互相独立），即调整电脑外放（或耳机）的总音量是没有作用的，只能调整【录制】中的音量【级别】或者使用软件调节程序输出的音量（如浏览器页面上的音量）。但如果音量【级别】被 TIM 自动锁定在比较高的位置，可能就引起了问题。</del></p><p><del>### 临时解决办法</del></p><p><del>1.【播放】音量调整到 100 以和【录制】同步，避免别人听见很大声，自己却没发觉。</del></p><p><del>2.降低各软件内的音量设置。</del></p><p><del>3.使用声卡的【音量合成器】进一步针对各个软件降低音量。</del></p><p><del>### 进一步解决办法</del></p><p><del>1.进入 QQ 语音后让输入设备输入声音，避免触发自动搜索并锁定音量。</del></p><p><del>2.【录制】音量可能会自动初始化在 40 左右，所以还是把【播放】音量也同步调整，避免别人听见很大声。</del></p><p><del>3.已经出现问题时可以尝试直接重新进入语音。</del></p><h2 id="其他碰到的问题情况记录"><a href="#其他碰到的问题情况记录" class="headerlink" title="其他碰到的问题情况记录"></a>其他碰到的问题情况记录</h2><p>1.用软件实现耳返时，如果输入设备为麦克风下进入看 QQ 语音，它会自动调整输入音量【级别】，导致已经打开的耳返声音变小（假设原本为 100%），只能在切换到【立体声混音】后再手动调整麦克风音量。</p><h2 id="本人最终方案"><a href="#本人最终方案" class="headerlink" title="本人最终方案"></a>本人最终方案</h2><p>使用浏览器或者全民 K 歌（有歌词）播放伴奏，再用直播姬监听麦克风（既能降噪还能加入混响，就是还没试过），然后输入设备用声卡自带的【立体声混音】即可把播放出来的伴奏和人声一起传到 QQ 上。不过要注意输入的音量【级别】避免太大声。</p>]]></content>
       
       
+      <categories>
+          
+          <category> 计算机 </category>
+          
+          <category> 备忘录 </category>
+          
+      </categories>
+      
       
         <tags>
             
@@ -1735,6 +1907,14 @@
       
         <content type="html"><![CDATA[<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#1.第一步，精确匹配</span></span><br><span class="line"></span><br><span class="line"><span class="section">location</span> =/a/b/c&#123;</span><br><span class="line"></span><br><span class="line"><span class="comment">#结束</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">#否则继续--</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#2.第二步，标准匹配，多条匹配时取最长</span></span><br><span class="line"></span><br><span class="line"><span class="section">location</span> /a&#123;</span><br><span class="line"></span><br><span class="line"><span class="comment">#匹配后继续第三步</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">#或者</span></span><br><span class="line"></span><br><span class="line"><span class="section">location</span><span class="regexp"> ^~/a/b</span>&#123;</span><br><span class="line"></span><br><span class="line"><span class="comment">#匹配后结束。（代表优先于正则，并忽略正则）</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">#3.第三步，正则匹配，按配置顺序匹配第一个</span></span><br><span class="line"></span><br><span class="line"><span class="section">location</span> ~/reg&#123;</span><br><span class="line"></span><br><span class="line"><span class="comment">#匹配后结束</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">#或者</span></span><br><span class="line"></span><br><span class="line"><span class="section">location</span> ~*\.gif$&#123;</span><br><span class="line"></span><br><span class="line"><span class="comment">#同上，不区分大小写</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">#否则使用第二步结果。</span></span><br></pre></td></tr></table></figure>]]></content>
       
+      
+      <categories>
+          
+          <category> 计算机 </category>
+          
+          <category> 备忘录 </category>
+          
+      </categories>
       
       
         <tags>
@@ -1799,9 +1979,9 @@
       
       <categories>
           
-          <category> 编程语言 </category>
-          
           <category> 计算机 </category>
+          
+          <category> 编程语言 </category>
           
           <category> Python </category>
           
@@ -1905,17 +2085,6 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="关于网站"><a href="#关于网站" class="headerlink" title="关于网站"></a>关于网站</h2><p>基于个人markdown文件笔记仓库中的一块内容，直接生成静态博客网站（不需要修改笔记内容）。具体参考<a href="../2023/Hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%8E%E7%AE%A1%E7%90%86%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B.html">Hexo静态博客配置与管理发布流程</a>。</p><p>感谢开源的 Hexo 框架与 butterfly 主题让我方便地（？）生成此网站，更感谢的是 gitee 提供了（个人）免费的发布服务，如此可以简单地在互联网上看一看博客笔记。</p><p>有兴趣的话可以直接拷贝一份来参考并搭建网站，网站的源码也单独设置了配置分支<code>framework-config</code>，其中不含文章内容，但有不少个人定制的脚本，包括实现一些便捷功能。</p><h2 id="关于作者个人"><a href="#关于作者个人" class="headerlink" title="关于作者个人"></a>关于作者个人</h2><p>是个内向社恐（？）二次元，以前在萌百还写过自己: <a href="https://zh.moegirl.org.cn/User:SineObama">https://zh.moegirl.org.cn/User:SineObama</a></p>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>分类</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -1927,9 +2096,9 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -1938,9 +2107,20 @@
     
     
     <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="关于网站"><a href="#关于网站" class="headerlink" title="关于网站"></a>关于网站</h2><p>基于个人markdown文件笔记仓库中的一块内容，直接生成静态博客网站（不需要修改笔记内容）。具体参考<a href="../2023/Hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%8E%E7%AE%A1%E7%90%86%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B.html">Hexo静态博客配置与管理发布流程</a>。</p><p>感谢开源的 Hexo 框架与 butterfly 主题让我方便地（？）生成此网站，更感谢的是 gitee 提供了（个人）免费的发布服务，如此可以简单地在互联网上看一看博客笔记。</p><p>有兴趣的话可以直接拷贝一份来参考并搭建网站，网站的源码也单独设置了配置分支<code>framework-config</code>，其中不含文章内容，但有不少个人定制的脚本，包括实现一些便捷功能。</p><h2 id="关于作者个人"><a href="#关于作者个人" class="headerlink" title="关于作者个人"></a>关于作者个人</h2><p>是个内向社恐（？）二次元，以前在萌百还写过自己: <a href="https://zh.moegirl.org.cn/User:SineObama">https://zh.moegirl.org.cn/User:SineObama</a></p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
