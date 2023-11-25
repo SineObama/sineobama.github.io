@@ -7,6 +7,10 @@ const crypto = require('crypto');
 const sourceFolder = 'D:\\ob_main\\主笔记本\\500_发布';
 const targetFolder = path.join(__filename, '../source/_posts');
 
+// 简单实现忽略文件夹与文件，不做删除
+const ignoreFolders = [path.join('_posts', 'test')];
+const ignoreFiles = [path.join('_posts', 'hello-world.md')];
+
 console.log('from', sourceFolder, 'to', targetFolder);
 
 syncFolderRecursive(sourceFolder, targetFolder);
@@ -70,19 +74,38 @@ function syncFolderRecursive(sourceFolder, targetFolder) {
         if (!fs.existsSync(sourceFilePath)) {
             // 如果目标文件夹中有源文件夹中没有的文件，则执行删除操作
             if (fs.statSync(targetFilePath).isDirectory()) {
+                if (isEndsWith(targetFilePath, ignoreFolders)) {
+                    return;
+                }
                 // 如果目标文件夹中的项目是文件夹，则递归删除
                 fs.rm(targetFilePath, {recursive: true}, (err) => {
                     if (err) {
                         console.error('Error occurred while deleting folder:', err);
+                    } else {
+                        console.log('remove:', targetFilePath);
                     }
                 });
             } else {
+                if (isEndsWith(targetFilePath, ignoreFiles)) {
+                    return;
+                }
                 // 否则执行删除操作
                 console.log('remove:', targetFilePath);
                 fs.unlinkSync(targetFilePath);
             }
         }
     });
+}
+
+function isEndsWith(str, matchList) {
+    if (str && matchList && matchList.length) {
+        for (let i = 0; i < matchList.length; i++) {
+            if (str.endsWith(matchList[i])) {
+                return true;
+            }
+        }
+    }
+    return false;
 }
 
 function syncFolder(sourceFolder, targetFolder) {
