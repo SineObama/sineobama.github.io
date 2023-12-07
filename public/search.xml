@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>2023年个人手机常用app</title>
+      <link href="/2023/2023%E5%B9%B4%E4%B8%AA%E4%BA%BA%E6%89%8B%E6%9C%BA%E5%B8%B8%E7%94%A8app.html"/>
+      <url>/2023/2023%E5%B9%B4%E4%B8%AA%E4%BA%BA%E6%89%8B%E6%9C%BA%E5%B8%B8%E7%94%A8app.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="生活通用"><a href="#生活通用" class="headerlink" title="生活通用"></a>生活通用</h2><ul><li>极简待办（IOS版）：一行一条待办，还有小组件，不过最近有些操作变复杂了。</li><li>白描：OCR文字识别。付费批量操作。</li><li>亚瑟浏览器：可以下载视频，离线观看。</li><li>360浏览器：与pc端同步收藏夹，可以嗅探视频资源（）。</li><li>搜狗输入法：快捷短语、剪切板。</li><li>掌上公交、车来了：实时公交信息。</li></ul><h2 id="兴趣爱好"><a href="#兴趣爱好" class="headerlink" title="兴趣爱好"></a>兴趣爱好</h2><ul><li>五十音图：学学日语</li></ul><h3 id="游戏"><a href="#游戏" class="headerlink" title="游戏"></a>游戏</h3><ul><li>TapTap、NGA玩家社区：特定游戏签到</li></ul><h2 id="初见app"><a href="#初见app" class="headerlink" title="初见app"></a>初见app</h2><ul><li>下厨房：做菜参考？</li></ul><h2 id="多端联动"><a href="#多端联动" class="headerlink" title="多端联动"></a>多端联动</h2><ul><li>坚果云</li><li>ToDesk</li></ul><h2 id="大众通用"><a href="#大众通用" class="headerlink" title="大众通用"></a>大众通用</h2><ul><li>铁路12306：订票。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 个人 </category>
+          
+          <category> 合集 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>低风险投资与定期存款利率的简单计算与选择</title>
       <link href="/2023/%E4%BD%8E%E9%A3%8E%E9%99%A9%E6%8A%95%E8%B5%84%E4%B8%8E%E5%AE%9A%E6%9C%9F%E5%AD%98%E6%AC%BE%E5%88%A9%E7%8E%87%E7%9A%84%E7%AE%80%E5%8D%95%E8%AE%A1%E7%AE%97%E4%B8%8E%E9%80%89%E6%8B%A9.html"/>
       <url>/2023/%E4%BD%8E%E9%A3%8E%E9%99%A9%E6%8A%95%E8%B5%84%E4%B8%8E%E5%AE%9A%E6%9C%9F%E5%AD%98%E6%AC%BE%E5%88%A9%E7%8E%87%E7%9A%84%E7%AE%80%E5%8D%95%E8%AE%A1%E7%AE%97%E4%B8%8E%E9%80%89%E6%8B%A9.html</url>
@@ -25,6 +46,37 @@
     
     
     <entry>
+      <title>个人Markdown笔记知识库与Hexo静态博客管理办法</title>
+      <link href="/2023/%E4%B8%AA%E4%BA%BAMarkdown%E7%AC%94%E8%AE%B0%E7%9F%A5%E8%AF%86%E5%BA%93%E4%B8%8EHexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95.html"/>
+      <url>/2023/%E4%B8%AA%E4%BA%BAMarkdown%E7%AC%94%E8%AE%B0%E7%9F%A5%E8%AF%86%E5%BA%93%E4%B8%8EHexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="技术框架"><a href="#技术框架" class="headerlink" title="技术框架"></a>技术框架</h2><ul><li>知识库维护：Obsidian</li><li>博客发布：hexo + butterfly 主题 + 若干自定义插件脚本做优化调整</li></ul><h2 id="主要特点"><a href="#主要特点" class="headerlink" title="主要特点"></a>主要特点</h2><ul><li>知识库采用<strong>原生Markdown笔记文件</strong>（文件夹），不与软件工具耦合，方便检索，无缝迁移。</li><li>博客技术将知识库的一部分内容转为博客网站。<ul><li>笔记中使用了标准语法的<strong>相对路径链接</strong>，脚步自动转换笔记之间的链接使之可以有效跳转（附件图片也可以正常显示）。</li><li>hexo原本不支持附件与文章一起存放，但个人为了方便拷贝、统一管理，添加了脚本处理使其可以一起存放。</li></ul></li><li>在文件头部定义文档属性。<ul><li>配合 Obsidian 的<strong>多级标签</strong>功能，博客发布时把多级标签（tags）拆分为文档的标签（tags，单个名词）与分类（categories，支持层级结构）。</li><li>其他属性如文档标题、创建时间、更新时间等，暂时采用hexo定义的属性编写。</li></ul></li></ul><h2 id="主要工作流"><a href="#主要工作流" class="headerlink" title="主要工作流"></a>主要工作流</h2><h3 id="工作文件夹结构"><a href="#工作文件夹结构" class="headerlink" title="工作文件夹结构"></a>工作文件夹结构</h3><ul><li>私有Markdown笔记git仓库<ul><li>Obsidian 软件配置与插件git仓库</li><li>Markdown笔记根目录（使用网盘工具自动同步，备份整个文件夹）<ul><li>…（其他私有笔记）</li><li>发布文件夹（公开文章与附件，按年份分组）<ul><li>2023</li><li>…</li></ul></li></ul></li></ul></li></ul><h3 id="定期发布文章"><a href="#定期发布文章" class="headerlink" title="定期发布文章"></a>定期发布文章</h3><ul><li>将发布文件夹内容完整同步到博客项目中。编写了<code>syncPostFolder.js</code>脚本，在node环境运行即可自动完成。</li><li>提交更改到master分支。</li><li>（可选）使用post分支的public文件夹部署以大幅减少服务器部署时间。在post分支上合并master分支，本地运行<code>hexo g</code>在public文件夹生成静态文件，然后提交。</li></ul><h3 id="更新博客项目配置"><a href="#更新博客项目配置" class="headerlink" title="更新博客项目配置"></a>更新博客项目配置</h3><p>统一在项目的framework-config分支进行配置调整，包括添加脚本等，测试正常后合并到master分支。</p><p>脚本调试：在<code>debug.js</code>脚本封装了<code>hexo g</code>命令以便调试。</p><h2 id="具体管理方法"><a href="#具体管理方法" class="headerlink" title="具体管理方法"></a>具体管理方法</h2><p><a href="Hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%8E%E7%AE%A1%E7%90%86%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B.html">Hexo静态博客配置与管理发布流程</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机 </category>
+          
+          <category> 笔记方案 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Obsidian </tag>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>概率用词</title>
       <link href="/2023/%E6%A6%82%E7%8E%87%E7%94%A8%E8%AF%8D.html"/>
       <url>/2023/%E6%A6%82%E7%8E%87%E7%94%A8%E8%AF%8D.html</url>
@@ -34,7 +86,7 @@
       
       <categories>
           
-          <category> 计算机 </category>
+          <category> 个人 </category>
           
           <category> 备忘录 </category>
           
@@ -53,14 +105,12 @@
         <content type="html"><![CDATA[<p><img src="/img/IMG_2258.webp"></p><p><img src="/img/IMG_2259.webp"></p><p><img src="/img/IMG_2260.webp"></p><p><img src="/img/IMG_2261.webp"></p><p><img src="/img/IMG_2262.webp"></p><p><img src="/img/IMG_2263.webp"></p><p><img src="/img/IMG_2265.webp"></p><p><img src="/img/IMG_2266.webp"></p><p><img src="/img/IMG_2267.webp"></p><p><img src="/img/IMG_2268.webp"></p><p><img src="/img/IMG_2269.webp"></p><p><img src="/img/IMG_2270.webp"></p><p><img src="/img/IMG_2271.webp"></p><p><img src="/img/IMG_2272.webp"></p><p><img src="/img/IMG_2273.webp"></p><p><img src="/img/IMG_2274.webp"></p><p><img src="/img/IMG_2275.webp"></p><p><img src="/img/IMG_2276.webp"></p>]]></content>
       
       
-      <categories>
-          
-          <category> 扫描件 </category>
-          
-          <category> 图片 </category>
-          
-      </categories>
       
+        <tags>
+            
+            <tag> 扫描件 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -83,12 +133,6 @@
       </categories>
       
       
-        <tags>
-            
-            <tag> 图片压缩 </tag>
-            
-        </tags>
-      
     </entry>
     
     
@@ -103,9 +147,9 @@
       
       <categories>
           
-          <category> 计算机 </category>
-          
           <category> 代码存档 </category>
+          
+          <category> 自动化 </category>
           
       </categories>
       
@@ -126,7 +170,7 @@
           
           <category> 计算机 </category>
           
-          <category> 备忘录 </category>
+          <category> 问题经验 </category>
           
       </categories>
       
@@ -151,14 +195,12 @@
         <content type="html"><![CDATA[<p> Haier<br>智能家电操控<br>移动空调<br>智家智慧场景定制<br>智家商城购物<br>Haier家电报装报修<br>使用安装说明书<br>型号<br>KY-20&#x2F;J<br>Haier<br>使用前请仔细阅读本说明书<br>·本公司保留说明书解释权<br>·产品外观请以实物为准<br>·阅后请与发票一并妥善保存<br>·如遇产品技术或软件升级，恕不另行通知本产品只适合在中国大陆销售和使用目录：<br>一、注意事项<br>1<br>二、特征与部件<br>2<br>三、安装调整<br>4<br>四、控制设定<br>6<br>五、排水说明<br>9<br>六、维护保养<br>10<br>七、故障排除<br>11<br>八、附录<br>12<br>九、环保说明<br>13<br>十、售后服务<br>14一、注意事项<br>＊此空调只适合室内使用，不适于在其他场合使用。<br>为保障移动空调的正常使用，禁止在工程机械、农用机械、运输车辆等移动或振动较大的设备上使用此移动空调。<br>＊空调的安装要符合当地电网配线规则，确保接地良好。如果你对电器安装有任何疑问，请按照说明书操作，必要时请专业电工进行安装。<br>＊请将本机置于平坦、干燥的地方，保持本机与周围的物体或墙壁之间有50厘米以上的距离。<br>＊空调安装完毕后，要确保电线插头完好并牢固地插入电源插座，并始终保持电源线放置规则有序，避免有人被绊倒或将插头扯出。<br>＊勿将任何物体插入空调的进出风口，须保持空调的进出风口畅通无阻。<br>＊需安装排水管时，确保排水管连接完好，无打折现象。<br>＊调整出风口上、下导风条时，请用手轻轻拨动，以免损坏导风条。<br>＊移动本机时，确保其处于直立状态。<br>＊本机应远离汽油、易燃性气体、炉灶等其它热源。<br>＊不得随意拆开、检修和改装机器，否则会出现机器故障，甚至给人身和财产带来伤害；为避免危险，如果机器发生故障，即便是更换电源线，也必须请厂家或专业人士修理。如果电源软线损坏，为避免危险，必须由制造商其维修部或类似部门的专业人员更换。＊不要在浴室或其他潮湿的环境下安装与使用此空调。<br>＊请勿以拔掉插头来关闭本机。<br>＊勿将茶杯等物体放在机体上，以免水或其它液体溅入空调。<br>＊不要在空调附近使用杀虫喷雾剂或其它可燃性物质。<br>＊勿用汽油、酒精等类似的化学溶剂擦拭或水洗空调。需要清洁空调时，必须断开电源，用半湿的软布擦拭；若机器确实很脏，用中性的清洁剂擦洗。<br>该器具的使用者必须年满8岁。体弱者，感观能力弱者或者心理素质低下者必须要在了解正确使用方法和危害的情况下监督使用。禁止8以下儿童玩要。儿童在有监餐的情况下方可清理和维护该器具<br>此标记表示本产品不应与其他家庭垃圾一起处理。为了防止不受控制的<br>废物处置可能对环境或人类健康造成的危害，负责任地对其进行回收利<br>用，以促进材料资源的可持续再利用。要退回使用过的设备，请使用退<br>货和收款系统或联系购买产品的零售商。他们可以吧这个产品进行环保<br>安全的回收利用。<br>建议：本产品制冷最佳使用环境温度为17<del>35℃。<br>本机保险丝规格：5x20mm3.15A250V。二、特征与部件<br>＊全新外观，结构紧凑，整机流线简洁、流畅、大方得体。<br>＊具备制冷、除湿、送风及连续排水功能。<br>＊出风口具有自动摆风功能。<br>＊隐藏显示控制面板，外观美观大方，配带优质遥控器，使操作更自由。＊具备空气过滤能力。<br>＊定时开关机功能。<br>＊三分钟延时自动重启压缩机之保护功能，多种其它保护功能。<br>控制面板<br>顶盖<br>出风口<br>摆叶<br>把手<br>前壳<br>脚轮<br>2二、特征与部件<br>蒸发器进风网框<br>连续排水口<br>把手<br>排风口<br>后壳<br>冷凝器进风网框<br>排水口<br>排风管接头排风管排水接头 止水旋钮<br>o9<br>窗户挡板机器接头 排水管<br>（内径：10mm）遥控器<br>3三、安装调整<br>安装：<br>警告:在使用此移动空调前保持空调直立状态至少6小时。<br>此空调可方便地在房间内移动，在移动过程中，确保空调处于直立状态，空调应安放在平坦的地面上。不要在浴室或其它潮湿的环境下安装与使用此空调。<br>1.排热管组件的安装（如图1），将排热管组件（排风接头端）插入后面板排气口卡槽（向左推进）。<br>推<br>图1<br>2.窗口密封板组件的安装<br>1）半开窗户，将窗户密封板组件安放到窗户上，（如图2，图3），组件可以水平和垂直放置。2）拉开窗口密封板组件的各部件，调整窗口密封板组件拉开的距离，使组件两端接触到窗<br>户边框，固定组件的各部件。<br>0<br>图2<br>图3<br>3.机体的安装<br>1）将安装好排热管与接头的机器移动到窗户前，机体里前面或其他物体的距离至少在50cm。<br>（如图4）<br>4三、安装调整<br>min: 50cm<br>min: 50cm图4<br>2）将排热管拉长，将排热管接头的扁形端卡入窗口密封板组件的椭圆孔内。（如图5、图6）<br>注：1、排热管接头的扁形端一定要卡到位。<br>2、排热管不能打折，不能有大幅度（大于45°）的转折，要保持排热管的通风顺畅。<br>图5<br>图6<br>重要提示<br>排热软管长度在280mm到1500mm之间，此长度是根据空调的规格特定的。不要使用加长的管子或用其它不同的软管代替，这样可能会引起故障。排气必须通畅，如有阻滞可能会造成空调过热。<br>5四、控制设定<br>10<br>023<br>05<br>＊<br>白<br>+<br>摆风定时风速<br>模式睡眠电源<br>e<br>④<br>16）<br>1、摆风键2、定时键3、风速键4、减少键5、增加键<br>6、模式键7、睡眠键8、电源键<br>9、高风<br>10、低风<br>。<br>11、制冷<br>12、除湿<br>13、送风<br>14、电源<br>15、水满<br>1.机器按键操作说明：<br>1）初次上电，机器鸣叫一声，进入待机状态。<br>2）电源开关键：<br>用于控制机器的开启和关闭。在开机的情况下按下此键关机，在关机的情况下，按下此键开机。<br>3）模式选择键：<br>在开机的情况下按下此键可在制冷→除湿→送风→制冷模式间切换。<br>4）定时功能键：<br>在开机的情况下，按此键可以设置定时关机，在关机的情况下按此键可以设置定时开机。<br>按此键在定时闪烁时，通过增加键和减少键设置所需要的定时时间值。<br>可以在1-24小时之间进行设置，定时时间的调整是以1小时为阶梯进行上升或 下降。<br>在定时设定时，再按定时键可取消定时，或开关机取消定时。<br>5）增加键和减少键：<br>此两键可改变温度的设定值或定时设定值，按下述操作：在设定温度时可以通过增加键或减少键选择所需要的设定温度值（送风和除湿模式下不可用）。<br>在定时设定时可以通过增加键或减少键选择所需要的定时时间值。<br>用<br>6）风速选择键：<br>可<br>在制冷和送风模式下，按此键可以选择高低档风速运行。<br>在除湿模式、睡眠模式下，此按键无效，风机强制吹低风。<br>7）睡眠键：<br>在开机的情况下，按下睡眠键可开启睡眠模式。<br>8）摆风键：<br>在开机的情况下，按下摆风键可开启和关闭摆风。<br>6四、控制设定<br>2.遥控器操作说明：<br>4<br>5<br>－3<br>1）遥控器操作界面：<br>风速 + 模式<br>6<br>D D<br>2<br>1.电源<br>2.定时<br>睡眠<br>定时<br>7<br>3.模式<br>4.加<br>8<br>1<br>摆风<br>电源<br>5.风速<br>6.睡眠<br>7.减<br>8.摆风<br>Haier<br>2）遥控器按键操作说明：<br>开关机:按电源键可开&#x2F;关机器，机器开启后的默认模式是制冷和低风速。<br>模式选择：按模式键，选择需要的模式。可在送风、除湿、制冷模式间切换。风速调整：按风速键选择需要的风速。<br>温度调整：温度可设定在16</del>31℃之间，按“+”或“－”键来增加或降低1℃。睡眠模式：在制冷模式下，按睡眠键可以开启&#x2F;关闭睡眠模式。<br>双向定时：当机器运行时，按定时键，设定关机时间。<br>当机器待机时，按定时键，设定开机时间。<br>按“+”或“－”键来增加或减少1小时；定时可调整的范围是1-24小时。<br>在定时设定时，再按定时键可取消定时，或开关机取消定时。<br>摆风开关：按摆风键可开启或关闭摆风功能。<br>7四、控制设定<br>3.模式说明：<br>1）制冷模式<br>·当机器开启后，默认设定为制冷（22℃）和低风速。<br>·按“+”或“－”来调节温度（从16℃到31℃）。<br>·按“风速”键来选择高风速或低风速。<br>2）送风模式<br>·按“模式”键来选择送风模式，送风指示灯亮。<br>·按“风速”键来选择高风速或低风速。<br>·温度设置和睡眠模式不能在此状态下开启。<br>3）除湿模式<br>·按“模式”键来选择除湿模式，除湿指示灯亮。<br>·在除湿模式下，温度和睡眠模式不能设定，风速低。<br>4）睡眠模式<br>·在制冷模式下，按“睡眠”键进入睡眠模式，默认低风速。<br>·在制冷模式下开启此模式，一个小时后，设定温度会自动上升一度，再一个小时后，设定温度又会自动上升一度，然后以现行温度运行。<br>·除湿和送风模式下无法开启睡眠模式。水满后，进入待机状态，睡眠模式自动取消。4.多种保护功能<br>1）防霜冻保护功能<br>制冷模式时，若管温传感器的温度过低，则机器会自动进入保护状态，若管温传感器温度上升到一定温度后，又可以自动恢复为常态运行。<br>2）水满保护功能<br>当接水盘中的水超过警戒水位时，机器自动报警，水满指示灯点亮，此时需要您将机器的出水口接上排水管，移到下水道等排水处将水排出（详细排水方法见章节＂排水说明＂），水排清后需重新开机。<br>3）压缩机的保护功能<br>本机器鉴于对压缩机的使用寿命保护，在压缩机关闭后有3分钟的延时开保护功能。<br>8五、排水说明<br>1.手动排水<br>1）机器水满停机后，先关闭机器电源，拔出电源插头。<br>注：请小心移动机器，以免机体内底部水盘的水溢出。2）将盛水的容器放在机体后侧出水口的下方。<br>3）拧开放水盖，拔出水塞，水自动流入盛水的容器里。如图7注意：妥善保护好放水盖和止水塞。<br>在排水时，可将机体稍微向后倾斜。<br>如果盛水容器不能盛完机体内的水，在盛水容<br>器满水前，尽快用止水塞塞住出水口，避免水<br>1放水盖2止水塞<br>流到地面或地毯上。<br>图7<br>4）当水放完后，塞入止水塞，拧紧放水盖。<br>注意：安装好止水塞和放水盖后再启动机器，否则，<br>机器的冷凝水会流到地面或地毯上。<br>2.连续排水<br>1排水管<br>1）拔出橡胶塞。<br>2）将排水管套入出水口。<br>2接水盘<br>3）将排水管连到接水容器。如图8<br>注意：<br>图8<br>将排水软管放置在不易碰到的地方，管的<br>放置高度不得高于出水口，保持排水软管<br>无打折现象。如图9<br>图9<br>9六、维护保养<br>清洗和维护前请关闭机器，拔出插头<br>1.清洗表面<br>用潮湿的软布清洗本机表面，勿用化学试剂，如苯、酒精、汽油等。否则空调表面会受损，甚至整机受损。<br>2.过滤网的清洗<br>1）如果过滤网被灰尘堵塞，空调功效降低，请每两周清洗一次过滤网。<br>2）过滤网的清洗。<br>取下过滤网框，取出卡在上面的过滤网（如下图）。<br>将过滤网放入已加入中性洗涤剂的温水（约40℃）清洗干净，漂洗干净后在阴凉处晾干。如图10<br>拆除固定螺丝<br>图10<br>3.季后保存<br>1）拧开放水盖，拔出止水塞，将接水盘中的水排出至其它的盛水容器中，或者直接倾斜机身将水排出至其它的盛水容器。<br>2）开启机器，将模式调至送风模式的低风状态，保持这种状态4小时，使机体内部干燥，防止霉变。<br>3）关闭机器拔出电源插头，将电源线在绕线柱周围绕起来；安装止水塞和放水盖。4）拆除排风管并妥善保管。<br>5）用塑料袋将空调套上，将空调机体放于干燥处做好防尘措施，不要让小孩接触到。6）取出遥控器的电池并妥善保管。<br>注意：确保机体放于干燥处，所有机器附件要保存好。<br>10七、故障排除<br>请不要自行修理或拆卸空调，非专业的维修将导致质保卡失效，并可能对拆卸人员或财产造成损害。如遇到下表内未列出的问题或者推荐的解决方法无效时，请与专业服务机构联系。问题&#x2F;故障显示<br>原因<br>解决方法<br>没有电<br>接到有电的插座上后开机<br>水满指示灯亮<br>排掉内部贮水<br>环境温度过低或过高<br>建议在17-35℃间使用本机器<br>空调不工作<br>制冷模式下房间温度低于设定温改变设定温度<br>度<br>过热保护启动<br>等候3分钟直到温度降下后再开<br>机<br>有阳光直射<br>拉上窗帘<br>门窗打开，人较多或在制冷模式下关上门窗，关闭其它热源，增加<br>制冷效果不好<br>有其它热源<br>新的空调<br>过滤网很脏<br>清洗或更换过滤网<br>进风口或出风口被堵塞<br>清除障碍物<br>噪音大<br>空调未放平<br>将空调放在平坦坚硬处（可减少<br>噪音）<br>距离太远<br>让遥控器靠近空调，确保遥控器<br>遥控器不工作<br>遥控器未对准摇控器接收头方向正对着遥控器接收头方向<br>电池电量不足或无电<br>更换电池<br>显示E1<br>室温传感器故障<br>检查室温传感器及相关电路<br>显示E2<br>管温传感器故障<br>检查管温传感器及相关电路<br>显示E3<br>主板显示板不能互相通信，连续达<br>到10秒以上后，在显示屏上显示E3检查主板与显示板<br>水满显示灯亮<br>机体内底盘的水到达满水位<br>排出底盘内的水<br>11八、附录<br>本机保险丝规格：φ5x20mm 3.15A 250V。<br>空调原理图：<br>冷凝器<br>毛细管<br>压缩机<br>蒸发器<br>机型技术具体参数以产品上的铭牌为准<br>处理:勿将已废弃的本产品与其他未经分类的废弃物放置在一起，此种废弃物应单独放置以备其他特殊用途。<br>技术参数<br>型号<br>KY-20&#x2F;J<br>额定电源电压&#x2F;频率<br>220V~50Hz<br>额定制冷量（W）<br>2050<br>额定制热量（W）<br>&#x2F;<br>额定制冷输入功率（W）<br>950<br>额定制冷输入电流（A）<br>4.4<br>额定制热输入功率（W）<br>额定制热输入电流（A）<br>&#x2F;<br>最大输入功率（W）<br>1060<br>最大输入电流（A）<br>5.1<br>循环风量（m3&#x2F;h）<br>280<br>净重（kg）<br>197<br>产品尺寸（W＊D＊H）<br>329＊316＊684<br>（mm＊mm＊mm）<br>上述参数是在a.c 220V-&#x2F;1Ph&#x2F;50Hz电源下测得。<br>上述参数若涉及更改恕不另行通知，请以主铭牌标注值为准。<br>12九、环保说明<br>根据《电器电子产品有害物质限制使用管理办法》的要求，厂家对产品中的有害物质<br>含有情况进行披露，并标注产品的环保使用期限，如右图所示。<br>·环保使用期限为10年（该期限为企业自行制定），不等同于产品的安全使用期。<br>·在环保使用期限内，在消费者使用过程中并不会出现有害物质的泄漏、析出等影响消<br>费者健康的问题，可以放心使用。<br>不需要此产品或产品寿命终止时，请遵守国家废弃电器电子产品回收处理相关法律法规，将其交给当地具有国家认可的回收处理资质的厂商进行回收处理。回收厂商需要对含有有害物质的部件进行合理的处置，不得随意处理。产品有害物质声明<br>危险物质限制指令（RoHS）<br>为满足中华人民共和国电子电气产品有害物质限制相关的法律法规和其他要求，我公司对本产品中有害物质，按部件分类，声明如下：<br>有害物质或元素<br>部件名称<br>铅（Pb）<br>汞（Hg）<br>镉（Cd）<br>六价铬（Cr（VI）多溴联苯（PBB） 多溴二苯醚（PBDE）<br>塑胶件<br>系统件金属<br>X<br>PCB板组件<br>X<br>配线件<br>本表格依据SJ&#x2F;T11364的规定编制<br>○：表示该有毒有害物质在该部件所有均质材料中的含量均在GB&#x2F;T26572规定的限量要求以下；<br>X:表示该有毒有害物质至少在该部件的某一均质材料中的含量超出GS&#x2F;T26572规定的限量要求；<br>注：表中标记“×”的部件，皆因全球技术发展水平限制而无法实现有害物质的替代。<br>0在中华人民共和国境內销售的电子电气产品必须标示此标志，<br>标志內的数字代表在正常使用状态下的产品的换版使用期限。<br>13十、售后服务<br>海尔家用空调保修证使用说明<br>尊敬的用户：<br>感谢您使用海尔空调，我公司将按照《中华人民共和国消费者权益保护法》的有关规定及我公司对用户的真诚承诺，凭此保修卡及发票，为您提供下列服务：<br>海尔移动空调产品整机包修1年；<br>本机在规定包修期内，凡属于制造问题发生的故障，均可免费维修；<br>3包修期内，安装维护人员因维修发生的费用均由公司支付，包修期外费用由用户支付；<br>A下列情况，不属于免费服务范围，但可实行收费服务：<br>a消费者因使用、维护或保管不当人为造成产品损坏的；<br>b非指定服务部拆动造成损坏的；<br>c未经我公司许可，自行修理造成的损坏；<br>d无三包凭证及有效发票的；<br>e三包凭证、发票产品型号与维修产品型号不符或有涂改的；<br>f因不可抗拒因素造成损坏的；<br>用户须知<br>对于超过包修期的产品，指定服务人员上门提供有偿服务，有偿费用（超包收费）包括修理人工费、零部件费和超距离交通费。用户所有的费用以服务人员出示的统一收费标准收费，并由服务人员开具发票，否则可拒绝交费。带型号、编号的条形码两联单请注意保存，服务人员每次上门服务后要取用一联作为服务凭证，以保证建立准确的服务档案，取用条形码并不会影响产品的保修。<br>使用方法上的说明以及产品制作有关的事项不属于损失赔偿内容。<br>修理内容及确认<br>日期<br>确认<br>修理内容<br>14十、售后服务<br>“1+5”成套服务<br>尊敬的用户：<br>感谢您选择和使用我们的产品。我们承诺：您的产品需要安装或维修等服务时，我们将提供：“1+5″的成套服务：<br>1:一次就好服务。<br>5:五项增值服务：<br>（1）安全测电服务：为您提供安全测电并提醒讲解到位服务；<br>（2）讲解指导服务：向您讲解产品使用、保养常识，指导用户正确使用服务；<br>（3）一站通检服务：服务好本产品，对家中其他本企业产品进行通检服务；<br>（4）全程无忧服务：为您提供设计、送货、安装、清洗、延保、以旧换新等服务；<br>（5）现场清理服务：服务完成后将服务现场清理干净。<br>为体现真诚、贴心，我们友情提醒：<br>产品的安装服务，因用户的安装环境、个性需求不同，安装过程中如需辅加材料或有特殊服务项目需要支付材料等费用，您可通过“海尔智家”APP-“家电服务”－“收费标准”进行查看，并给予监督。如未按标准收费或服务规范执行不到位，可拨打服务监督电话4006999999，或通过“海尔智家”APP-“家电服务”、“在线客服”进行监督评价。<br>如果您的产品有服务需求，欢迎体验海尔智家自助服务专区（预约服务、一键安装、键维修）:手机搜索安装“海尔智家”APP，您可通过“家电服务”版块选择安装、维修等服务。<br>如您需要选购更多产品，可在“海尔智家”APP-“商城”进行选购。<br>（更便捷、更快速、更省钱）<br>期待您的参与！<br>15合格证<br>Certificate of Quality检验员<br>青岛海尔空调器有限总公司<br>地址：青岛市崂山区海尔工业园内 版次:</p>]]></content>
       
       
-      <categories>
-          
-          <category> 扫描件 </category>
-          
-          <category> 文字 </category>
-          
-      </categories>
       
+        <tags>
+            
+            <tag> 扫描件 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -196,12 +238,12 @@
       <link href="/2023/%E8%A7%86%E9%A2%91%E7%A0%81%E7%8E%87%E6%8D%A2%E7%AE%97%EF%BC%88%E9%80%9F%E8%AE%B0%E5%A4%87%E5%BF%98%EF%BC%89.html"/>
       <url>/2023/%E8%A7%86%E9%A2%91%E7%A0%81%E7%8E%87%E6%8D%A2%E7%AE%97%EF%BC%88%E9%80%9F%E8%AE%B0%E5%A4%87%E5%BF%98%EF%BC%89.html</url>
       
-        <content type="html"><![CDATA[<ul><li>1Mbps<ul><li>1MB &#x2F; 8s</li><li>7.5MB &#x2F; min</li><li>450MB &#x2F; hour</li></ul></li><li>2Mbps<ul><li>MB &#x2F; 4s</li><li>15MB &#x2F; min</li><li>900MB &#x2F; hour</li></ul></li></ul>]]></content>
+        <content type="html"><![CDATA[<ul><li>1Mbps、1000kbps<ul><li>1MB &#x2F; 8s</li><li>7.5MB &#x2F; min</li><li>450MB &#x2F; hour</li></ul></li><li>2Mbps、2000kbps<ul><li>MB &#x2F; 4s</li><li>15MB &#x2F; min</li><li>900MB &#x2F; hour</li></ul></li></ul>]]></content>
       
       
       <categories>
           
-          <category> 计算机 </category>
+          <category> 个人 </category>
           
           <category> 备忘录 </category>
           
@@ -270,9 +312,9 @@
       
       <categories>
           
-          <category> 计算机 </category>
-          
           <category> 代码存档 </category>
+          
+          <category> Hexo插件 </category>
           
       </categories>
       
@@ -295,16 +337,10 @@
         <content type="html"><![CDATA[<p>转义格式：<code>&amp;#字符编码;</code>，其中<code>字符编码</code>就是Unicode编码的十进制数字。例如<code>&amp;#36718;&amp;#30424;</code>是个gitee违禁词。（我勒个去）</p><blockquote><p>我不知道为什么百度都是一堆污染文章，几乎要搜索<code>html转义Unicode</code>才能找到一篇说明文章:<a href="https://www.bbsmax.com/A/QV5ZXeA4zy/">https://www.bbsmax.com/A/QV5ZXeA4zy/</a></p></blockquote><p>参考在线转换网站：<a href="https://www.sojson.com/unicode.html">Unicode编码转换 | Unicode在线转换 —在线工具</a></p><blockquote><p>是百度搜索<code>转html Unicode在线</code>找到的。这种感觉真难找</p></blockquote><p>顺便找到另一个网站：<a href="http://unicode.wiicha.com/">unicode中文互转</a> 可以把（中文）字符转Unicode（代码使用的转义格式）。</p>]]></content>
       
       
-      <categories>
-          
-          <category> 编程语言 </category>
-          
-          <category> HTML </category>
-          
-      </categories>
-      
       
         <tags>
+            
+            <tag> HTML </tag>
             
             <tag> Unicode </tag>
             
@@ -319,18 +355,18 @@
       <link href="/2023/Hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%8E%E7%AE%A1%E7%90%86%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B.html"/>
       <url>/2023/Hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%8E%E7%AE%A1%E7%90%86%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B.html</url>
       
-        <content type="html"><![CDATA[<h2 id="发布需求"><a href="#发布需求" class="headerlink" title="发布需求"></a>发布需求</h2><ul><li>本地电脑使用 Obsidian 编写笔记文章（和以前一样）。</li><li>定期将需要发布的文章提交到 Hexo 项目，发布为博客（目前上传到 gitee 免费发布）。</li></ul><h2 id="发布流程与要求"><a href="#发布流程与要求" class="headerlink" title="发布流程与要求"></a>发布流程与要求</h2><ul><li>Obsidian 笔记仓库中，使用单独一个发布文件夹存放所有要发布的内容，不仅是文章，也包括图片（如果需要保存于此的话）。</li><li>不在发布文件夹直接编写文章，而是在其他位置编写；文章初步定稿归档后，移入发布文件夹进行发布。</li><li>发布前，文章标题（文件名）需要仔细斟酌，保存后不再修改文件名，使文件位置永久不变，便于版本追溯。如此Hexo生成的永久链接也能永久不变。如果实在需要修改标题，可以修改文件变量。</li><li>发布文件夹内，参考博客归档模式，按照年份分文件夹存储文章，年份文件夹下不再划分文件夹，以平铺展示。这样能直观看到文章年份，同时允许不同年份进行相同的工作，并使用相同的文件名标题命名而不冲突（同一年内不使用相同文件名）。</li><li>发布时，按照 Hexo 资源文件夹存放规则，将所有的年份文件夹包括其内的文章拷贝到 <code>source/_posts</code> 文件夹下。如果还有其他资源，拷贝到 <code>source</code> 文件夹下。</li><li>发布后文章中的链接可以正常转换为有效内容，比如跳转另一篇文章或者显示本地图片。链接格式习惯使用相对路径（文件位置变化时Obsidian及其插件可以自动完成修改）。</li></ul><h2 id="Hexo-配置"><a href="#Hexo-配置" class="headerlink" title="Hexo 配置"></a>Hexo 配置</h2><ul><li>使用 <code>hexo init</code> 初始化了最新稳定版本 <code>6.3.0</code>，使用 npm 安装主题 <code>hexo-theme-butterfly</code> 最新版本 <code>4.9.0</code>，其余网站配置见源码。后续配置按照最少修改原则。</li><li>编写脚本，对没有设置分类的文章，从该文章的标签生成多级分类。按照 <a href="Obsidian+Hexo%E6%A0%87%E7%AD%BE%E4%B8%8E%E5%88%86%E7%B1%BB%E7%BC%96%E5%86%99%E7%AE%A1%E7%90%86%E6%96%B9%E6%B3%95.html">Obsidian+Hexo标签与分类编写管理方法</a> 执行。</li><li>编写脚本，根据文章变量，在标题前面加上文字标记。详见 <a href="Hexo+Obsidian%E8%87%AA%E5%AE%9A%E4%B9%89front-matter%E4%B8%8E%E6%89%93%E6%A0%87%E7%AE%A1%E7%90%86%E6%96%B9%E6%B3%95.html">Hexo+Obsidian自定义front-matter与打标管理方法</a>。</li><li>编写脚本与配置，实现文章相对路径的内链可以直接发布使用而不用修改。详见 <a href="Hexo%E7%BD%91%E7%AB%99%E6%96%87%E7%AB%A0%E5%86%85%E9%93%BE%E8%BD%AC%E6%8D%A2%E9%97%AE%E9%A2%98.html">Hexo网站文章内链问题</a>。（顺便实现了检查和隐藏无效的链接）</li><li>编写脚本，实现文章中可以正常显示本地图片（去掉 Hexo 在链接开头自动加上的<code>/</code>，具体理由不明）。</li><li>编写脚本，拷贝<code>source/_posts</code> 文件夹中的资源，使它们表现得就像在<code>sources</code>文件夹中一样（不需要人工分离文章与图片等资源）。</li><li>编写脚本与配置，对引起阻塞的违禁词做自动检测。目前在gitee出现过违禁词导致发布失败，只能以这种经验作为依据。</li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="发布需求"><a href="#发布需求" class="headerlink" title="发布需求"></a>发布需求</h2><ul><li>本地电脑使用 Obsidian 编写笔记文章（和以前一样）。</li><li>定期将需要发布的文章提交到 Hexo 项目，发布为博客（目前上传到 gitee 免费发布）。</li></ul><h2 id="发布流程与要求"><a href="#发布流程与要求" class="headerlink" title="发布流程与要求"></a>发布流程与要求</h2><ul><li>Obsidian 笔记仓库中，使用单独一个发布文件夹存放所有要发布的内容，不仅是文章，也包括图片（如果需要保存于此的话）。</li><li>不在发布文件夹直接编写文章，而是在其他位置编写；文章初步定稿归档后，移入发布文件夹进行发布。</li><li>发布前，文章标题（文件名）需要仔细斟酌，保存后不再修改文件名，使文件位置永久不变，便于版本追溯。如此Hexo生成的永久链接也能永久不变。如果实在需要修改标题，可以修改文档属性。</li><li>发布文件夹内，参考博客归档模式，按照年份分文件夹存储文章，年份文件夹下不再划分文件夹，以平铺展示。这样能直观看到文章年份，同时允许不同年份进行相同的工作，并使用相同的文件名标题命名而不冲突（同一年内不使用相同文件名）。</li><li>发布时，按照 Hexo 资源文件夹存放规则，将所有的年份文件夹包括其内的文章拷贝到 <code>source/_posts</code> 文件夹下。<del>如果还有其他资源，拷贝到 <code>source</code> 文件夹下。</del></li><li>发布后文章中的链接可以正常转换为有效内容，比如跳转另一篇文章或者显示本地图片。链接格式习惯使用相对路径（文件位置变化时Obsidian及其插件可以自动完成修改）。</li></ul><h2 id="Hexo-配置"><a href="#Hexo-配置" class="headerlink" title="Hexo 配置"></a>Hexo 配置</h2><ul><li>使用 <code>hexo init</code> 初始化了最新稳定版本 <code>6.3.0</code>，使用 npm 安装主题 <code>hexo-theme-butterfly</code> 最新版本 <code>4.9.0</code>，其余网站配置见源码。后续配置按照最少修改原则。</li><li>编写脚本，对没有设置分类的文章，从该文章的标签生成多级分类。按照 <a href="Obsidian+Hexo%E6%A0%87%E7%AD%BE%E4%B8%8E%E5%88%86%E7%B1%BB%E7%BC%96%E5%86%99%E7%AE%A1%E7%90%86%E6%96%B9%E6%B3%95.html">Obsidian+Hexo标签与分类编写管理方法</a> 执行。</li><li>编写脚本，根据文章变量，在标题前面加上文字标记。详见 <a href="Hexo+Obsidian%E8%87%AA%E5%AE%9A%E4%B9%89front-matter%E4%B8%8E%E6%89%93%E6%A0%87%E7%AE%A1%E7%90%86%E6%96%B9%E6%B3%95.html">Hexo+Obsidian自定义front-matter与打标管理方法</a>。</li><li>编写脚本与配置，实现文章相对路径的内链可以直接发布使用而不用修改。详见 <a href="Hexo%E7%BD%91%E7%AB%99%E6%96%87%E7%AB%A0%E5%86%85%E9%93%BE%E8%BD%AC%E6%8D%A2%E9%97%AE%E9%A2%98.html">Hexo网站文章内链问题</a>。（顺便实现了检查和隐藏无效的链接）</li><li>编写脚本，实现文章中可以正常显示本地图片（去掉 Hexo 在链接开头自动加上的<code>/</code>，具体理由不明）。</li><li>编写脚本，拷贝<code>source/_posts</code> 文件夹中的资源，使它们表现得就像在<code>sources</code>文件夹中一样（不需要人工分离文章与图片等资源）。</li><li>编写脚本与配置，对引起阻塞的违禁词做自动检测。目前在gitee出现过违禁词导致发布失败，只能以这种经验作为依据。</li></ul>]]></content>
       
       
       <categories>
           
           <category> 计算机 </category>
           
-          <category> 实例记录 </category>
-          
-          <category> 管理方法 </category>
+          <category> 计算机实践 </category>
           
           <category> 静态博客 </category>
+          
+          <category> 笔记方案 </category>
           
       </categories>
       
@@ -393,9 +429,9 @@
       
       <categories>
           
-          <category> 计算机 </category>
-          
           <category> 代码存档 </category>
+          
+          <category> Hexo插件 </category>
           
       </categories>
       
@@ -422,16 +458,16 @@
           
           <category> 计算机 </category>
           
-          <category> 管理方法 </category>
+          <category> 笔记方案 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Hexo </tag>
-            
             <tag> Obsidian </tag>
+            
+            <tag> Hexo </tag>
             
         </tags>
       
@@ -449,18 +485,18 @@
       
       <categories>
           
-          <category> 计算机 </category>
-          
           <category> 代码存档 </category>
+          
+          <category> Hexo插件 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Hexo </tag>
-            
             <tag> Obsidian </tag>
+            
+            <tag> Hexo </tag>
             
         </tags>
       
@@ -492,23 +528,23 @@
       <link href="/2023/Obsidian+Hexo%E6%A0%87%E7%AD%BE%E4%B8%8E%E5%88%86%E7%B1%BB%E7%BC%96%E5%86%99%E7%AE%A1%E7%90%86%E6%96%B9%E6%B3%95.html"/>
       <url>/2023/Obsidian+Hexo%E6%A0%87%E7%AD%BE%E4%B8%8E%E5%88%86%E7%B1%BB%E7%BC%96%E5%86%99%E7%AE%A1%E7%90%86%E6%96%B9%E6%B3%95.html</url>
       
-        <content type="html"><![CDATA[<h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>使用 Obsidian 写笔记并配合 Hexo 做发布时，Obsidian 的标签功能与 Hexo 的标签 (tags) 和分类 (categories) 存在一些不兼容：</p><p><strong>Hexo</strong> 用法可能容易理解，都是在 Front-matter（文件变量）中设置，</p><ul><li>tags：标签支持多个（使用列表形式）。</li><li>categories：分类支持多个（使用列表形式），并且可以设置一组有 <strong>层次性</strong>（父子关系）的分类，例如：游戏 - 单机 - 扫雷。</li></ul><p><strong>Obsidian</strong> 可以在任何地方设置标签，</p><ul><li>在 Front-matter 中，tags 标签支持多个（优先用标准文档写法，使用<strong>列表形式</strong>），变量名可以是 tag&#x2F;tags（目前试验发现只能识别首个出现的变量，第二个会被忽略）。</li><li>在正文中，标签需要以井号开头。</li><li><strong>没有分类</strong> 的概念。</li></ul><p>根据上述情况，需要制定一个方法兼容两方。</p><h2 id="当前方案"><a href="#当前方案" class="headerlink" title="当前方案"></a>当前方案</h2><p>在 Front-matter 中，</p><ul><li>保持目前在 Obsidian 使用的标签体系不变，等价转换到 Hexo 的分类体系。（才能利用它们都支持的父子检索）</li><li>使用 <strong>tags</strong> 变量作为标签供 Obsidian 识别使用，也对应使得 Hexo 生成标签。（虽然可能会导致标签较长，和分类也是冗余的）</li><li>发布前根据 tag 生成 categories 供 Hexo 识别使用，同时不影响 Obsidian。（可以使用 templater 模板插件写 js 代码加快自动生成替换）</li><li><del>暂不使用 Hexo 的标签体系，避免 tag&#x2F;tags 两个变量在以后出现歧义和问题，对于这种需要，目前转换为一类父分类 <code>标签</code> 之中。</del>正常使用标签体系，即普通的标签和 Obsidian 的多级标签同时使用，这应该符合 Obsidian 的设计，但与此同时，分类体系最好有所区分，尽量使用二级以上的分类，只有一级的分类可能与标签比较接近。</li><li>旧的笔记 tags 暂时先被替换为 tag，有需要发布时再统一修正，并调整为标准的列表形式。</li></ul><h2 id="单词命名规则"><a href="#单词命名规则" class="headerlink" title="单词命名规则"></a>单词命名规则</h2><ul><li>专有名称：依照通用规范，一般是首字母大写；如果是缩写则全部大写。</li><li>空格的处理：由于 Obsidian 的标签不能使用空格，在 Hexo 中空格也会被替换为横杠 <code>-</code>，所以定义标签和分类时，如果有空格，直接换成 <code>-</code>。</li><li>禁用字符：Obsidian 多级功能保留字符 <code>/</code>，该字符用于划分层级。</li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h2><p>使用 Obsidian 写笔记并配合 Hexo 做发布时，Obsidian 的标签功能与 Hexo 的标签 (tags) 和分类 (categories) 存在一些不兼容：</p><p><strong>Hexo</strong> 用法可能容易理解，都是在 Front-matter（文档属性）中设置，</p><ul><li>tags：标签支持多个（使用列表形式）。</li><li>categories：分类支持多个（使用列表形式），并且可以设置一组有 <strong>层次性</strong>（父子关系）的分类，例如：游戏 - 单机 - 扫雷。</li></ul><p><strong>Obsidian</strong> 可以在任何地方设置标签，</p><ul><li>在 Front-matter 中，tags 标签支持多个（优先用标准文档写法，使用<strong>列表形式</strong>），属性名可以是 tag&#x2F;tags（目前试验发现只能识别首个出现的属性，第二个会被忽略）。</li><li>在正文中，标签需要以井号开头。</li><li><strong>没有分类</strong> 的概念。</li></ul><p>根据上述情况，需要制定一个方法兼容两方。</p><h2 id="当前方案"><a href="#当前方案" class="headerlink" title="当前方案"></a>当前方案</h2><p>在 Front-matter 中，</p><ul><li>保持目前在 Obsidian 使用的标签体系不变，等价转换到 Hexo 的分类体系。（才能利用它们都支持的父子检索）</li><li>使用 <strong>tags</strong> 属性作为标签供 Obsidian 识别使用，也对应使得 Hexo 生成标签。（虽然可能会导致标签较长，和分类也是冗余的）</li><li>发布前根据 tag 生成 categories 供 Hexo 识别使用，同时不影响 Obsidian。（可以使用 templater 模板插件写 js 代码加快自动生成替换）</li><li><del>暂不使用 Hexo 的标签体系，避免 tag&#x2F;tags 两个属性在以后出现歧义和问题，对于这种需要，目前转换为一类父分类 <code>标签</code> 之中。</del>正常使用标签体系，即普通的标签和 Obsidian 的多级标签同时使用，这应该符合 Obsidian 的设计，但与此同时，分类体系最好有所区分，尽量使用二级以上的分类，只有一级的分类可能与标签比较接近。</li><li>旧的笔记 tags 暂时先被替换为 tag，有需要发布时再统一修正，并调整为标准的列表形式。</li></ul><h2 id="单词命名规则"><a href="#单词命名规则" class="headerlink" title="单词命名规则"></a>单词命名规则</h2><ul><li>专有名称：依照通用规范，一般是首字母大写；如果是缩写则全部大写。</li><li>空格的处理：由于 Obsidian 的标签不能使用空格，在 Hexo 中空格也会被替换为横杠 <code>-</code>，所以定义标签和分类时，如果有空格，直接换成 <code>-</code>。</li><li>禁用字符：Obsidian 多级功能保留字符 <code>/</code>，该字符用于划分层级。</li></ul>]]></content>
       
       
       <categories>
           
           <category> 计算机 </category>
           
-          <category> 管理方法 </category>
+          <category> 笔记方案 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Hexo </tag>
-            
             <tag> Obsidian </tag>
+            
+            <tag> Hexo </tag>
             
         </tags>
       
@@ -521,23 +557,23 @@
       <link href="/2023/%E5%85%AC%E5%BC%80%E5%8D%9A%E5%AE%A2%E4%B8%8E%E7%A7%81%E6%9C%89%E7%AC%94%E8%AE%B0%E7%9A%84%E5%AD%98%E5%82%A8%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E5%90%88%E5%B9%B6%E6%96%B9%E6%A1%88.html"/>
       <url>/2023/%E5%85%AC%E5%BC%80%E5%8D%9A%E5%AE%A2%E4%B8%8E%E7%A7%81%E6%9C%89%E7%AC%94%E8%AE%B0%E7%9A%84%E5%AD%98%E5%82%A8%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E5%90%88%E5%B9%B6%E6%96%B9%E6%A1%88.html</url>
       
-        <content type="html"><![CDATA[<h2 id="废案说明"><a href="#废案说明" class="headerlink" title="废案说明"></a>废案说明</h2><p>两个目录会有分别提交管理的需求，也更清晰分明，不需要合并。</p><h2 id="概览"><a href="#概览" class="headerlink" title="概览"></a>概览</h2><h3 id="管理原则"><a href="#管理原则" class="headerlink" title="管理原则"></a>管理原则</h3><ul><li>使用文件系统 + 纯文本的 Markdown 格式文件，开放式的存储方式，享受全平台同步、检索和查看的便利。</li><li>使用自己喜欢的 Markdown 编辑器写笔记文章，不用被限制在专用笔记软件之中。</li><li>使用博客框架系统将（部分）文章输出成网页格式，方便公开发布到其它平台。</li></ul><h3 id="使用需求"><a href="#使用需求" class="headerlink" title="使用需求"></a>使用需求</h3><ul><li>核心聚焦文本笔记内容，集中在一个文件夹。如此可以方便自动同步和备份；根据同步工具的不同，体积最好小一些，图片资源不一定在此范围内。（暂没有图床的需求与使用经验）</li><li>博客框架一般要求文章内容在项目文件之内，设定一个或多个文件夹昨晚原始文件存放位置。</li><li>【核心】笔记文件（或其他文件）之间有链接关系，个人选择使用 Markdown 原生的相对路径引用，并希望发布后也能正常（使用相对路径）完成链接展示或跳转。</li></ul><h3 id="使用的工具-x2F-框架"><a href="#使用的工具-x2F-框架" class="headerlink" title="使用的工具&#x2F;框架"></a>使用的工具&#x2F;框架</h3><ul><li>Obsidian 基于文件系统的 Markdown 笔记软件</li><li>坚果云 基于文件系统的文件自动同步</li><li>Git 基于文件系统的版本管理（全自定义排除文件）</li><li>Hexo 博客框架</li><li>Gitee Git 远程仓库，用于发布公开的静态博客</li></ul><h3 id="核心技术预览"><a href="#核心技术预览" class="headerlink" title="核心技术预览"></a>核心技术预览</h3><ul><li>得益于 Hexo 基础框架及其高度自定义的功能：<a href="https://hexo.io/zh-cn/docs/plugins">插件系统</a> 之 <a href="https://hexo.io/zh-cn/api/filter#server-middleware">过滤器（Filter）</a> 对 <a href="https://hexo.io/zh-cn/api/router">路由</a> 的入门级定制使用，博客页面路径可以实现“所见即所得”。</li></ul><h2 id="组织结构"><a href="#组织结构" class="headerlink" title="组织结构"></a>组织结构</h2><h3 id="目录结构"><a href="#目录结构" class="headerlink" title="目录结构"></a>目录结构</h3><p>划定一个文件夹来存放所有内容，根目录是一个 Hexo 网站项目，主要文件有：</p><ul><li>_config.yml</li><li>package.json</li><li>source&#x2F;     <em>Hexo 资源目录，存放用户个人文件资源的地方</em><ul><li>_posts&#x2F;       <em>Hexo 发布文章的固定存放位置，我们也把它作为自动同步目录</em><ul><li>pub&#x2F;          <em>正式的公开发布内容（根目录）</em></li><li>notes&#x2F;        <em>私有笔记（根目录）</em></li></ul></li><li>att&#x2F;            <em>私有附件图片</em></li><li>.git&#x2F;           <em>个人文件的版本管理；冗余存储发布内容</em></li><li>.obsidian&#x2F;  <em>Obsidian 软件的配置与插件</em><ul><li>.git&#x2F;         <em>配置与插件的版本管理（非必须，个人强迫症存档需要）</em></li></ul></li></ul></li><li>.git&#x2F;          <em>Hexo 项目与正式发布内容的版本管理</em></li></ul><h3 id="目录结构技术基础"><a href="#目录结构技术基础" class="headerlink" title="目录结构技术基础"></a>目录结构技术基础</h3><p>Hexo 默认会包括 <code>source/</code> 下的文件和文件夹，但贴心的自动排除了 <code>.</code> 开头的文件和目录，支持配置 <a href="https://hexo.io/zh-cn/docs/configuration#%E5%8C%85%E6%8B%AC%E6%88%96%E4%B8%8D%E5%8C%85%E6%8B%AC%E7%9B%AE%E5%BD%95%E5%92%8C%E6%96%87%E4%BB%B6">包括或不包括目录和文件</a> 这使得我们可以将个人文件存放于此，并且划分。</p><p>由于坚果云不支持排除文件，总体的目录层级最少有：</p><ul><li>Hexo 项目目录<ul><li>个人文件目录<ul><li>坚果云同步目录<ul><li>公开发布内容目录</li></ul></li><li>.git 目录</li></ul></li></ul></li></ul><h4 id="遗留问题与技术风险"><a href="#遗留问题与技术风险" class="headerlink" title="遗留问题与技术风险"></a>遗留问题与技术风险</h4><ul><li>我的文章和附件（图片）使用相对路径引用，但是 Hexo 项目中相隔了一层 <code>_posts</code> 文件夹导致路径不正确，想到有种方法是将附件也放在这个文件夹里，但试验发现需要在 <code>include</code> 配置里添加，否则它似乎只会识别文章。但 Hexo 这样设计可能也有其他理由，我们这样搞可能有风险。</li><li>目录合并后，本地文件会很多，本地 Hexo 构建时变慢，试验发现把排除的文件设置在 <code>ignore</code> 选项里比在 <code>include</code> 中能有效提高性能。</li></ul><h3 id="公开发布文章"><a href="#公开发布文章" class="headerlink" title="公开发布文章"></a>公开发布文章</h3><p>根据年份归档文章，按每年可能会有不同的组织结构</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="废案说明"><a href="#废案说明" class="headerlink" title="废案说明"></a>废案说明</h2><p>两个目录会有分别提交管理的需求，也更清晰分明，不需要合并。</p><h2 id="概览"><a href="#概览" class="headerlink" title="概览"></a>概览</h2><h3 id="管理原则"><a href="#管理原则" class="headerlink" title="管理原则"></a>管理原则</h3><ul><li>使用文件系统 + 纯文本的 Markdown 格式文件，开放式的存储方式，享受全平台同步、检索和查看的便利。</li><li>使用自己喜欢的 Markdown 编辑器写笔记文章，不用被限制在专用笔记软件之中。</li><li>使用博客框架系统将（部分）文章输出成网页格式，方便公开发布到其它平台。</li></ul><h3 id="使用需求"><a href="#使用需求" class="headerlink" title="使用需求"></a>使用需求</h3><ul><li>核心聚焦文本笔记内容，集中在一个文件夹。如此可以方便自动同步和备份；根据同步工具的不同，体积最好小一些，图片资源不一定在此范围内。（暂没有图床的需求与使用经验）</li><li>博客框架一般要求文章内容在项目文件之内，设定一个或多个文件夹昨晚原始文件存放位置。</li><li>【核心】笔记文件（或其他文件）之间有链接关系，个人选择使用 Markdown 原生的相对路径引用，并希望发布后也能正常（使用相对路径）完成链接展示或跳转。</li></ul><h3 id="使用的工具-框架"><a href="#使用的工具-框架" class="headerlink" title="使用的工具&#x2F;框架"></a>使用的工具&#x2F;框架</h3><ul><li>Obsidian 基于文件系统的 Markdown 笔记软件</li><li>坚果云 基于文件系统的文件自动同步</li><li>Git 基于文件系统的版本管理（全自定义排除文件）</li><li>Hexo 博客框架</li><li>Gitee Git 远程仓库，用于发布公开的静态博客</li></ul><h3 id="核心技术预览"><a href="#核心技术预览" class="headerlink" title="核心技术预览"></a>核心技术预览</h3><ul><li>得益于 Hexo 基础框架及其高度自定义的功能：<a href="https://hexo.io/zh-cn/docs/plugins">插件系统</a> 之 <a href="https://hexo.io/zh-cn/api/filter#server-middleware">过滤器（Filter）</a> 对 <a href="https://hexo.io/zh-cn/api/router">路由</a> 的入门级定制使用，博客页面路径可以实现“所见即所得”。</li></ul><h2 id="组织结构"><a href="#组织结构" class="headerlink" title="组织结构"></a>组织结构</h2><h3 id="目录结构"><a href="#目录结构" class="headerlink" title="目录结构"></a>目录结构</h3><p>划定一个文件夹来存放所有内容，根目录是一个 Hexo 网站项目，主要文件有：</p><ul><li>_config.yml</li><li>package.json</li><li>source&#x2F;     <em>Hexo 资源目录，存放用户个人文件资源的地方</em><ul><li>_posts&#x2F;       <em>Hexo 发布文章的固定存放位置，我们也把它作为自动同步目录</em><ul><li>pub&#x2F;          <em>正式的公开发布内容（根目录）</em></li><li>notes&#x2F;        <em>私有笔记（根目录）</em></li></ul></li><li>att&#x2F;            <em>私有附件图片</em></li><li>.git&#x2F;           <em>个人文件的版本管理；冗余存储发布内容</em></li><li>.obsidian&#x2F;  <em>Obsidian 软件的配置与插件</em><ul><li>.git&#x2F;         <em>配置与插件的版本管理（非必须，个人强迫症存档需要）</em></li></ul></li></ul></li><li>.git&#x2F;          <em>Hexo 项目与正式发布内容的版本管理</em></li></ul><h3 id="目录结构技术基础"><a href="#目录结构技术基础" class="headerlink" title="目录结构技术基础"></a>目录结构技术基础</h3><p>Hexo 默认会包括 <code>source/</code> 下的文件和文件夹，但贴心的自动排除了 <code>.</code> 开头的文件和目录，支持配置 <a href="https://hexo.io/zh-cn/docs/configuration#%E5%8C%85%E6%8B%AC%E6%88%96%E4%B8%8D%E5%8C%85%E6%8B%AC%E7%9B%AE%E5%BD%95%E5%92%8C%E6%96%87%E4%BB%B6">包括或不包括目录和文件</a> 这使得我们可以将个人文件存放于此，并且划分。</p><p>由于坚果云不支持排除文件，总体的目录层级最少有：</p><ul><li>Hexo 项目目录<ul><li>个人文件目录<ul><li>坚果云同步目录<ul><li>公开发布内容目录</li></ul></li><li>.git 目录</li></ul></li></ul></li></ul><h4 id="遗留问题与技术风险"><a href="#遗留问题与技术风险" class="headerlink" title="遗留问题与技术风险"></a>遗留问题与技术风险</h4><ul><li>我的文章和附件（图片）使用相对路径引用，但是 Hexo 项目中相隔了一层 <code>_posts</code> 文件夹导致路径不正确，想到有种方法是将附件也放在这个文件夹里，但试验发现需要在 <code>include</code> 配置里添加，否则它似乎只会识别文章。但 Hexo 这样设计可能也有其他理由，我们这样搞可能有风险。</li><li>目录合并后，本地文件会很多，本地 Hexo 构建时变慢，试验发现把排除的文件设置在 <code>ignore</code> 选项里比在 <code>include</code> 中能有效提高性能。</li></ul><h3 id="公开发布文章"><a href="#公开发布文章" class="headerlink" title="公开发布文章"></a>公开发布文章</h3><p>根据年份归档文章，按每年可能会有不同的组织结构</p>]]></content>
       
       
       <categories>
           
           <category> 计算机 </category>
           
-          <category> 管理方法 </category>
+          <category> 笔记方案 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> Hexo </tag>
-            
             <tag> Obsidian </tag>
+            
+            <tag> Hexo </tag>
             
         </tags>
       
@@ -546,18 +582,18 @@
     
     
     <entry>
-      <title>P站访问入门方法整理</title>
+      <title>P站访问方法整理（入门级）</title>
       <link href="/2023/P%E7%AB%99%E8%AE%BF%E9%97%AE%E5%85%A5%E9%97%A8%E6%96%B9%E6%B3%95%E8%AE%B0%E5%BD%95.html"/>
       <url>/2023/P%E7%AB%99%E8%AE%BF%E9%97%AE%E5%85%A5%E9%97%A8%E6%96%B9%E6%B3%95%E8%AE%B0%E5%BD%95.html</url>
       
-        <content type="html"><![CDATA[<h2 id="加速代理"><a href="#加速代理" class="headerlink" title="加速代理"></a>加速代理</h2><p><a href="../2022/Watt%20Toolkit%E3%80%8C%E5%8E%9F%E5%90%8D%20Steam++%E3%80%8D%E4%BB%8B%E7%BB%8D.html">Watt Toolkit「原名 Steam++」</a></p><h2 id="镜像代理网站"><a href="#镜像代理网站" class="headerlink" title="镜像代理网站"></a>镜像代理网站</h2><h3 id="pixiv-cat"><a href="#pixiv-cat" class="headerlink" title="pixiv.cat"></a>pixiv.cat</h3><p><a href="https://pixiv.nl/">https://pixiv.nl/</a><br><a href="https://pixiv.re/">https://pixiv.re/</a></p><blockquote><p>[!note]- 网站首页说明<br>本站主域名在中国大陆被墙，中国大陆用户请改用 pixiv.re (反向代理: i.pixiv.re (imgaz.pixiv.net 暂无法直接访问))</p><h2 id="使用方式"><a href="#使用方式" class="headerlink" title="使用方式"></a>使用方式</h2><h3 id="單張作品"><a href="#單張作品" class="headerlink" title="單張作品"></a>單張作品</h3><p>適用於一個<a href="https://www.pixiv.help/hc/articles/235585168-What-is-Content-ID-">作品ID</a>中只有一張圖片的作品</p><p>連結：<a href="https://pixiv.cat/%60Pixiv%E4%BD%9C%E5%93%81%E6%95%B8%E5%AD%97ID%60.%60jpg|png|gif%60">https://pixiv.cat/`Pixiv作品數字ID`.`jpg|png|gif`</a></p><p>例如: <a href="https://pixiv.cat/82775556.jpg">https://pixiv.cat/82775556.jpg</a></p><h3 id="多張作品-漫畫模式"><a href="#多張作品-漫畫模式" class="headerlink" title="多張作品 (漫畫模式)"></a>多張作品 (漫畫模式)</h3><p>適用於一個作品ID中有多張圖片的作品</p><p>連結：<a href="https://pixiv.cat/%60Pixiv%E4%BD%9C%E5%93%81%E6%95%B8%E5%AD%97ID%60-%60%E7%AC%AC%E5%B9%BE%E5%BC%B5%E5%9C%96%60.%60jpg|png|gif%60">https://pixiv.cat/`Pixiv作品數字ID`-`第幾張圖`.`jpg|png|gif`</a></p><p>例如: <a href="https://pixiv.cat/78286152-2.png">https://pixiv.cat/78286152-2.png</a></p><p>備用鏡像網域: pixiv.re pixiv.nl</p><p>圖片為動態產生，網址結尾副檔名部分無實際用途，準確檔案類型會以 Content-Type header 發送。</p><p>※ 若您的項目需要存取Pixiv上的圖片，且可以直接向Pixiv API抓取原始圖片網址，請使用<a href="https://pixiv.cat/reverseproxy.html">反向代理</a>。</p></blockquote><h3 id="pixiv-moe"><a href="#pixiv-moe" class="headerlink" title="pixiv.moe"></a>pixiv.moe</h3><p><a href="https://pixiv.moe/">https://pixiv.moe/</a></p><p>需要登录。<br>我还是问AI才知道这个的。</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="加速代理"><a href="#加速代理" class="headerlink" title="加速代理"></a>加速代理</h2><p><del><a href="../2022/Watt%20Toolkit%E3%80%8C%E5%8E%9F%E5%90%8D%20Steam++%E3%80%8D%E4%BB%8B%E7%BB%8D.html">Watt Toolkit「原名 Steam++」</a></del>（2023年底已失效）</p><h2 id="镜像代理网站"><a href="#镜像代理网站" class="headerlink" title="镜像代理网站"></a>镜像代理网站</h2><p><strong>这些网站速度似乎很有限，甚至失效了。</strong></p><h3 id="pixiv-cat"><a href="#pixiv-cat" class="headerlink" title="pixiv.cat"></a>pixiv.cat</h3><p><a href="https://pixiv.nl/">https://pixiv.nl/</a><br><a href="https://pixiv.re/">https://pixiv.re/</a></p><blockquote><p>[!note]- 网站首页说明<br>本站主域名在中国大陆被墙，中国大陆用户请改用 pixiv.re (反向代理: i.pixiv.re (imgaz.pixiv.net 暂无法直接访问))</p><h2 id="使用方式"><a href="#使用方式" class="headerlink" title="使用方式"></a>使用方式</h2><h3 id="單張作品"><a href="#單張作品" class="headerlink" title="單張作品"></a>單張作品</h3><p>適用於一個<a href="https://www.pixiv.help/hc/articles/235585168-What-is-Content-ID-">作品ID</a>中只有一張圖片的作品</p><p>連結：<a href="https://pixiv.cat/%60Pixiv%E4%BD%9C%E5%93%81%E6%95%B8%E5%AD%97ID%60.%60jpg|png|gif%60">https://pixiv.cat/`Pixiv作品數字ID`.`jpg|png|gif`</a></p><p>例如: <a href="https://pixiv.cat/82775556.jpg">https://pixiv.cat/82775556.jpg</a></p><h3 id="多張作品-漫畫模式"><a href="#多張作品-漫畫模式" class="headerlink" title="多張作品 (漫畫模式)"></a>多張作品 (漫畫模式)</h3><p>適用於一個作品ID中有多張圖片的作品</p><p>連結：<a href="https://pixiv.cat/%60Pixiv%E4%BD%9C%E5%93%81%E6%95%B8%E5%AD%97ID%60-%60%E7%AC%AC%E5%B9%BE%E5%BC%B5%E5%9C%96%60.%60jpg|png|gif%60">https://pixiv.cat/`Pixiv作品數字ID`-`第幾張圖`.`jpg|png|gif`</a></p><p>例如: <a href="https://pixiv.cat/78286152-2.png">https://pixiv.cat/78286152-2.png</a></p><p>備用鏡像網域: pixiv.re pixiv.nl</p><p>圖片為動態產生，網址結尾副檔名部分無實際用途，準確檔案類型會以 Content-Type header 發送。</p><p>※ 若您的項目需要存取Pixiv上的圖片，且可以直接向Pixiv API抓取原始圖片網址，請使用<a href="https://pixiv.cat/reverseproxy.html">反向代理</a>。</p></blockquote><h3 id="pixiv-moe"><a href="#pixiv-moe" class="headerlink" title="pixiv.moe"></a>pixiv.moe</h3><p><a href="https://pixiv.moe/">https://pixiv.moe/</a></p><p>需要登录。<br>我还是问AI才知道这个的。</p>]]></content>
       
       
       <categories>
           
-          <category> 计算机 </category>
+          <category> 二次元 </category>
           
-          <category> 备忘录 </category>
+          <category> 富强访问 </category>
           
       </categories>
       
@@ -592,7 +628,7 @@
       <link href="/2023/%E5%8E%9F%E7%A5%9E%E5%9C%A3%E9%81%97%E7%89%A9%E6%B8%85%E7%90%86%E8%AE%B0%E5%BD%95.html"/>
       <url>/2023/%E5%8E%9F%E7%A5%9E%E5%9C%A3%E9%81%97%E7%89%A9%E6%B8%85%E7%90%86%E8%AE%B0%E5%BD%95.html</url>
       
-        <content type="html"><![CDATA[<h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>一方面游戏限制了1500圣遗物上限，一方面天天刷圣遗物，狗粮也经常溢出。</p><h2 id="待强化圣遗物"><a href="#待强化圣遗物" class="headerlink" title="待强化圣遗物"></a>待强化圣遗物</h2><p>乐团羽：13、17、4属性胚子</p><p><del>九条升级</del></p><ul><li>早柚-乐团精通杯</li><li>芭芭拉-少女羽毛</li></ul><h2 id="清理记录"><a href="#清理记录" class="headerlink" title="清理记录"></a>清理记录</h2><p>2023年3月4日最近都在刷草本。清了一遍草套，除了杯子计划按照元素属性来清。剩余1157个五星。<br>2023年3月11日过了一遍+13以上的圣遗物。<br>2023年3月11日清一遍饰金套，除了杯子。剩余1138个五星。<br>2023年3月15日清一遍绝缘套，追忆套只看了花头。清了冰伤、岩伤。剩1104五星。<br>2023年3月22日清乐团花羽，精通沙还是留了，可能统一清理散件。剩1080五星。<br>2023年4月1日清草套饰金，除了杯子以外，强化回收了不少。剩1006五星。<br>2023年4月8日清属性杯和一些（乐团？）头。剩811五星，包括15个不要的。</p><p>主防御、生命，攻击头有空统一处理一下。<br>【绝缘】【追忆】还是留了不少，像暴击头，或者考虑胡桃。</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="起因"><a href="#起因" class="headerlink" title="起因"></a>起因</h2><p>一方面游戏限制了1500圣遗物上限，一方面天天刷圣遗物，狗粮也经常溢出。</p><h2 id="待强化圣遗物"><a href="#待强化圣遗物" class="headerlink" title="待强化圣遗物"></a>待强化圣遗物</h2><p>乐团羽：13、17、4属性胚子</p><p><del>九条升级</del></p><ul><li>早柚-乐团精通杯</li><li>芭芭拉-少女羽毛</li></ul><h2 id="清理记录"><a href="#清理记录" class="headerlink" title="清理记录"></a>清理记录</h2><p>2023年3月4日最近都在刷草本。清了一遍草套，除了杯子计划按照元素属性来清。剩余1157个五星。<br>2023年3月11日过了一遍+13以上的圣遗物。<br>2023年3月11日清一遍饰金套，除了杯子。剩余1138个五星。<br>2023年3月15日清一遍绝缘套，追忆套只看了花头。清了冰伤、岩伤。剩1104五星。<br>2023年3月22日清乐团花羽，精通沙还是留了，可能统一清理散件。剩1080五星。<br>2023年4月1日清草套饰金，除了杯子以外，强化回收了不少。剩1006五星。<br>2023年4月8日清属性杯和一些（乐团？）头。剩811五星，包括15个不要的。<br>2023年12月3日每个部位按照属性大概都看了一遍，剩977五星，还有87个是强化过不要的。</p>]]></content>
       
       
       <categories>
@@ -637,7 +673,7 @@
       
       <categories>
           
-          <category> 实例记录 </category>
+          <category> 计算机实践 </category>
           
           <category> 静态博客 </category>
           
@@ -658,9 +694,9 @@
       
       <categories>
           
-          <category> 实例记录 </category>
+          <category> 计算机实践 </category>
           
-          <category> 静态博客 </category>
+          <category> StrokesPlus </category>
           
       </categories>
       
@@ -679,9 +715,9 @@
       
       <categories>
           
-          <category> 计算机 </category>
+          <category> 个人 </category>
           
-          <category> 备忘录 </category>
+          <category> 收藏夹 </category>
           
       </categories>
       
@@ -733,9 +769,9 @@
       
       <categories>
           
-          <category> 计算机 </category>
-          
           <category> 代码存档 </category>
+          
+          <category> 浏览器插件 </category>
           
       </categories>
       
@@ -760,9 +796,9 @@
       
       <categories>
           
-          <category> 计算机 </category>
-          
           <category> 代码存档 </category>
+          
+          <category> 浏览器插件 </category>
           
       </categories>
       
@@ -787,9 +823,9 @@
       
       <categories>
           
-          <category> 计算机 </category>
-          
           <category> 代码存档 </category>
+          
+          <category> 浏览器插件 </category>
           
       </categories>
       
@@ -830,14 +866,14 @@
       <link href="/2022/Watt%20Toolkit%E3%80%8C%E5%8E%9F%E5%90%8D%20Steam++%E3%80%8D%E4%BB%8B%E7%BB%8D.html"/>
       <url>/2022/Watt%20Toolkit%E3%80%8C%E5%8E%9F%E5%90%8D%20Steam++%E3%80%8D%E4%BB%8B%E7%BB%8D.html</url>
       
-        <content type="html"><![CDATA[<p>「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。</p><p>知乎介绍:<a href="https://zhuanlan.zhihu.com/p/401012165">让你更快乐的工具箱 Steam++ 工具箱 - 知乎</a></p><p>除了steam相关，还有很多可以加速，<strong>包括加速github、pixiv</strong>，还有其他一些我不用的东西。</p><p>#开源 <a href="https://github.com/BeyondDimension/SteamTools">BeyondDimension&#x2F;SteamTools: 🛠「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。</a> 、<a href="https://gitee.com/rmbgame/SteamTools">SteamTools: 🛠「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。</a></p><p>#来源&#x2F;网友</p>]]></content>
+        <content type="html"><![CDATA[<p>「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。</p><p>知乎介绍:<a href="https://zhuanlan.zhihu.com/p/401012165">让你更快乐的工具箱 Steam++ 工具箱 - 知乎</a></p><p>除了steam相关，还有很多可以加速，<strong>包括加速github</strong>、<del>pixiv</del>，还有其他一些我不用的东西。</p><p>#开源 <a href="https://github.com/BeyondDimension/SteamTools">BeyondDimension&#x2F;SteamTools: 🛠「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。</a> 、<a href="https://gitee.com/rmbgame/SteamTools">SteamTools: 🛠「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。</a></p><p>#来源&#x2F;网友</p>]]></content>
       
       
       <categories>
           
-          <category> 电脑应用 </category>
+          <category> 电脑常用 </category>
           
-          <category> 网络工具 </category>
+          <category> 网络加速 </category>
           
       </categories>
       
@@ -898,9 +934,9 @@
       
       <categories>
           
-          <category> 电脑应用 </category>
+          <category> 电脑常用 </category>
           
-          <category> 系统管理 </category>
+          <category> 系统优化 </category>
           
       </categories>
       
@@ -967,7 +1003,7 @@
       
       <categories>
           
-          <category> 电脑应用 </category>
+          <category> 电脑常用 </category>
           
           <category> 效率工具 </category>
           
@@ -994,13 +1030,9 @@
       
       <categories>
           
-          <category> 计算机 </category>
-          
-          <category> 编程语言 </category>
-          
-          <category> Shell </category>
-          
           <category> 代码存档 </category>
+          
+          <category> 自动化 </category>
           
       </categories>
       
@@ -1019,9 +1051,9 @@
       
       <categories>
           
-          <category> 实例记录 </category>
+          <category> 个人 </category>
           
-          <category> Obsidian </category>
+          <category> 历程 </category>
           
       </categories>
       
@@ -1035,14 +1067,14 @@
       <link href="/2022/Markdown%E8%AF%AD%E6%B3%95%E9%80%9F%E6%9F%A5%EF%BC%88%E9%80%82%E7%94%A8%E4%BA%8EObsidian%EF%BC%89.html"/>
       <url>/2022/Markdown%E8%AF%AD%E6%B3%95%E9%80%9F%E6%9F%A5%EF%BC%88%E9%80%82%E7%94%A8%E4%BA%8EObsidian%EF%BC%89.html</url>
       
-        <content type="html"><![CDATA[<hr><h2 id="1-1-字体格式测试"><a href="#1-1-字体格式测试" class="headerlink" title="1.1 字体格式测试"></a>1.1 字体格式测试</h2><table><thead><tr><th align="center">显示效果</th><th align="center">写法</th><th align="center">备注</th></tr></thead><tbody><tr><td align="center"><del>删除线</del></td><td align="center"><code>~~删除线~~</code></td><td align="center"></td></tr><tr><td align="center">&#x3D;&#x3D;高亮&#x3D;&#x3D;</td><td align="center"><code>==高亮==</code></td><td align="center"></td></tr><tr><td align="center"><em>斜体</em></td><td align="center"><code>*斜体*</code></td><td align="center"></td></tr><tr><td align="center"><strong>粗体</strong></td><td align="center"><code>**粗体**</code></td><td align="center"></td></tr><tr><td align="center"><u>下划线</u></td><td align="center"><code>&lt;u&gt;下划线&lt;/u&gt;</code></td><td align="center"></td></tr></tbody></table><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">title:注意下面的部分语法，Obsidian的Markdown编辑器并不支持这种写法</span><br></pre></td></tr></table></figure><table><thead><tr><th align="center">显示效果</th><th align="center">写法</th><th align="center">备注</th></tr></thead><tbody><tr><td align="center">4 的平方 4^2^</td><td align="center"><code>4^2^</code></td><td align="center">Obsidian 不支持此种写法</td></tr><tr><td align="center">4 的平方 4<sup>2</sup></td><td align="center"><code>4&lt;sup&gt;2&lt;/sup&gt;</code></td><td align="center"></td></tr><tr><td align="center">下标 a<del>1</del></td><td align="center"><code>a~1~</code></td><td align="center">Obsidian 不支持此种写法</td></tr><tr><td align="center">下标 a<sub>1</sub></td><td align="center"><code>a&lt;sub&gt;1&lt;/sub&gt;</code></td><td align="center"></td></tr></tbody></table><h2 id="1-2-代码块测试"><a href="#1-2-代码块测试" class="headerlink" title="1.2 代码块测试"></a>1.2 代码块测试</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">title:这是一段C语言代码</span><br><span class="line">~~~C</span><br><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main(void)</span><br><span class="line">&#123;</span><br><span class="line">printf(&quot;Hello, world!!!\n&quot;);</span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br><span class="line">~~~</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">title: 笔记（嵌套提示演示，信息折叠状态为：常开，点击此标题栏可以折叠信息）</span><br><span class="line">collapse: open</span><br><span class="line"></span><br><span class="line">这是一个测试信息栏01。</span><br><span class="line"></span><br><span class="line">````ad-tip</span><br><span class="line">title: 提示</span><br><span class="line"></span><br><span class="line">这是一个测试信息栏02。</span><br><span class="line"></span><br><span class="line">```ad-warning</span><br><span class="line">title: 警告（信息折叠状态为：常闭，点击此标题栏可以打开信息）</span><br><span class="line">collapse: close</span><br><span class="line"></span><br><span class="line">这是一个测试信息栏03。</span><br><span class="line"></span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">````</span><br><span class="line"></span><br><span class="line">这是一个测试信息栏04。</span><br><span class="line"></span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">```ad-bug</span><br><span class="line">title: I&#x27;m Nested!</span><br><span class="line">~~~javascript</span><br><span class="line">throw new Error(&quot;Oops, I&#x27;m a bug.&quot;);</span><br><span class="line">~~~</span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">```C</span><br><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main(void)</span><br><span class="line">&#123;</span><br><span class="line">printf(&quot;Hello, world!!!\n&quot;);</span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br><span class="line">```</span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="1-3-无序列表和有序列表"><a href="#1-3-无序列表和有序列表" class="headerlink" title="1.3 无序列表和有序列表"></a>1.3 无序列表和有序列表</h2><ul><li>无序列表 01</li><li>无序列表 02</li><li>无序列表 03</li></ul><ol><li>有序列表 01</li><li>有序列表 02</li><li>有序列表 03</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title:123</span><br><span class="line"></span><br><span class="line">这是一个测试通知栏。</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>目前支持的关键字类型，如下表：</p><table><thead><tr><th align="center">类型</th><th align="center">别名</th><th align="center">中文翻译</th></tr></thead><tbody><tr><td align="center">note</td><td align="center">note, seealso</td><td align="center">笔记</td></tr><tr><td align="center">abstract</td><td align="center">abstract, summary, tldr</td><td align="center">摘要</td></tr><tr><td align="center">info</td><td align="center">info, todo</td><td align="center">信息</td></tr><tr><td align="center">tip</td><td align="center">tip, hint, important</td><td align="center">提示</td></tr><tr><td align="center">success</td><td align="center">success, check, done</td><td align="center">成功</td></tr><tr><td align="center">question</td><td align="center">question, help, faq</td><td align="center">问题</td></tr><tr><td align="center">warning</td><td align="center">warning, caution, attention</td><td align="center">警告</td></tr><tr><td align="center">failure</td><td align="center">failure, fail, missing</td><td align="center">失败</td></tr><tr><td align="center">danger</td><td align="center">danger, error</td><td align="center">危险</td></tr><tr><td align="center">bug</td><td align="center">bug</td><td align="center">漏洞</td></tr><tr><td align="center">example</td><td align="center">example</td><td align="center">示例</td></tr><tr><td align="center">quote</td><td align="center">quote, cite</td><td align="center">引用</td></tr></tbody></table><h2 id="一些待解答的疑问"><a href="#一些待解答的疑问" class="headerlink" title="一些待解答的疑问"></a>一些待解答的疑问</h2><ol><li>Typora 和 Obsidian 分别导出 PDF 文档后，你会发现 Typora 导出的有 PDF 章节标签而 Obsidian 没有，这个 Typora 是如何实现的？</li><li>两个软件导出 PDF 的效果都和实时预览效果天差地别，它们的 PDF 是靠什么渲染生成的？可以修改吗？</li><li>Obsidian 的表格在阅读视图中没有表格线，这个如何解决？</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title:猜想</span><br><span class="line"></span><br><span class="line">我猜测应该是在主题文件中修改</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>Emoji 测试：😀👍👎</p><table><thead><tr><th align="center">1</th><th align="center">1</th><th align="center">1</th></tr></thead><tbody><tr><td align="center">1</td><td align="center">1</td><td align="center">1</td></tr><tr><td align="center">3242</td><td align="center">wrwr</td><td align="center">ete</td></tr></tbody></table><table><thead><tr><th>测试</th><th>信息</th><th></th></tr></thead><tbody><tr><td>序号</td><td>姓名</td><td>语文</td></tr><tr><td>1</td><td>张三</td><td>98</td></tr><tr><td>2</td><td>李四</td><td>78</td></tr><tr><td>3</td><td>王五</td><td>89</td></tr></tbody></table><p>立白&amp;reg</p><p>30&amp;deg</p><p>&amp;emsp;&amp;emsp; 表最后说一下每段前面的两个空格怎么打，因为在 markdown 里直接打空格的话是不行的，直接按键盘的空格，三个以内都没有效果，从第四个开始就变成了代码片段了，那么要怎么愉快得打空格呢？</p><p>答案是用 HTML 的 <code>&amp;emsp;</code></p><p>　　的风格的股份的的复古风蛋糕东港饭店</p><p><kbd>⬇️</kbd>和⬇️</p><!-- 这是一条注释，只在本 Markdown 文档中才能看得见，导出为 PDF 和 HTML 文档后，里面是看不到本注释的 --><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">title: 标识标注嵌套使用使用说明&lt;!--此行必须顶着开头书写--&gt;</span><br><span class="line">collapse: open&lt;!--此行必须顶着开头书写--&gt;</span><br><span class="line"></span><br><span class="line">正文测试内容01&lt;!--正文内容不必顶着开头书写，但最好距离参数头最后一行空一行--&gt;</span><br><span class="line">```` ad-tip</span><br><span class="line">title: This admonition is nested.</span><br><span class="line">collapse: open</span><br><span class="line"></span><br><span class="line">正文测试内容02</span><br><span class="line">~~~ ad-warning</span><br><span class="line">title: This admonition is closed.</span><br><span class="line">collapse: close</span><br><span class="line"></span><br><span class="line">正文测试内容03</span><br><span class="line">~~~</span><br><span class="line">````</span><br><span class="line"></span><br><span class="line">正文测试内容04</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><figcaption><span># Admonition type. See below for a list of available types.</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">title:                  # Admonition title.</span><br><span class="line">collapse:               # Create a collapsible admonition.</span><br><span class="line">icon:                   # Override the icon.</span><br><span class="line">color:                  # Override the color.</span><br><span class="line"></span><br><span class="line">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla.</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>&amp;emsp;&amp;emsp; 行首中文空格测试</p><p>行首中文空格测试。</p><p><a href="https://www.hao123.com/" title="hao123网站">测试链接</a></p><p><font color=teal><strong>这是一段加粗的水鸭色文本</strong></font></p><p><strong style="color:teal;">这是一段加粗的水鸭色文本</strong></p><p>&#x3D;&#x3D;高亮测试&#x3D;&#x3D;</p><p>H<sub>2</sub>O</p><p>😍😅⑨⑥⑤⑩▢⇧▮▣⑥⑤⑧⑶⑹⑷⑴</p><p>$x^2 + 2x + 5 + \sqrt x &#x3D; 0$</p><p>$\ce{CO2 + C -&gt; 2 CO}$</p><p>$\ce{CO2 + C -&gt; 2 CO}$</p><p>$\ce{2Mg + O2 -&gt;[燃烧] 2 MgO}$</p><p>$$<br>\ce{Zn^2+  &lt;&#x3D;&gt;[+ 2OH-][+ 2H+]  $\underset{\text{amphoteres Hydroxid}}{\ce{Zn(OH)2 v}}$  &lt;&#x3D;&gt;[+ 2OH-][+ 2H+]  $\underset{\text{Hydroxozikat}}{\ce{[Zn(OH)4]^2-}}$}<br>$$</p><p>$$<br>\begin{array}{lll}<br>\nabla\times E &amp;&#x3D;&amp; -;\frac{\partial{B}}{\partial{t}}<br>\ \nabla\times H &amp;&#x3D;&amp; \frac{\partial{D}}{\partial{t}}+J<br>\ \nabla\cdot D &amp;&#x3D;&amp; \rho<br>\ \nabla\cdot B &amp;&#x3D;&amp; 0<br>\ \end{array}<br>$$</p><p>$$<br>i\hbar\frac{\partial \psi}{\partial t} &#x3D; \frac{-\hbar^2}{2m} \left(\frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2}+\frac{\partial^2}{\partial z^2} \right) \psi + V \psi<br>$$</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">graph TB</span><br><span class="line">%% s=start  e=end  f=fork  n=normal</span><br><span class="line"></span><br><span class="line">s([开始])--&gt;f1&#123;&#123;if条件&#125;&#125;;</span><br><span class="line"></span><br><span class="line">%% 分支点2</span><br><span class="line">f1--true--&gt;n1[if语句块]--&gt;e([结束]);</span><br><span class="line">f1--false--&gt;f2&#123;&#123;else if条件&#125;&#125;;</span><br><span class="line"></span><br><span class="line">%% 分支点1</span><br><span class="line">f2--true--&gt;n2[else if语句块]--&gt;e;</span><br><span class="line">f2--false--&gt;n3[else语句块]--&gt;e;</span><br></pre></td></tr></table></figure><p>章节符号&amp;sect;</p><blockquote><p>[!note] 123<br>456</p></blockquote><p>快捷键设置建议：</p><p>常用快捷键</p><p>ctrl + s 保存文件</p><p>ctrl + k 插入链接</p><p>ctrl + , 设置</p><p>ctrl + alt + &lt;-&#x2F;-&gt; 返回&#x2F;前进</p><p>ctrl + o 打开文件</p><p>ctrl + w 关闭当前文件</p><p>ctrl + p 打开命令面板</p><p>ctrl + e 切换 预览&#x2F;编辑 模式</p><p>ctrl + enter 切换待办状态</p><p>ctrl + b 选中文字粗体</p><p>ctrl + i 选中文字斜体</p><p>ctrl + &#x2F; 注释</p><p>ctrl + d 删除当前行</p><p>ctrl + n 新建笔记</p><p>自定义快捷键</p><p>ctrl + l 插入模板</p><p>alt + d 打开&#x2F;新建今天日记</p><p>alt + a 在文件在目录中位置</p><p>ctrl + shit + ↑ 上移一行</p><p>ctrl + shit + ↓ 下移一行</p><p>alt + q 显示&#x2F;隐藏最左边的按钮栏 (需配合 hider)</p>]]></content>
+        <content type="html"><![CDATA[<hr><h2 id="1-1-字体格式测试"><a href="#1-1-字体格式测试" class="headerlink" title="1.1 字体格式测试"></a>1.1 字体格式测试</h2><table><thead><tr><th align="center">显示效果</th><th align="center">写法</th><th align="center">备注</th></tr></thead><tbody><tr><td align="center"><del>删除线</del></td><td align="center"><code>~~删除线~~</code></td><td align="center"></td></tr><tr><td align="center">&#x3D;&#x3D;高亮&#x3D;&#x3D;</td><td align="center"><code>==高亮==</code></td><td align="center"></td></tr><tr><td align="center"><em>斜体</em></td><td align="center"><code>*斜体*</code></td><td align="center"></td></tr><tr><td align="center"><strong>粗体</strong></td><td align="center"><code>**粗体**</code></td><td align="center"></td></tr><tr><td align="center"><u>下划线</u></td><td align="center"><code>&lt;u&gt;下划线&lt;/u&gt;</code></td><td align="center"></td></tr></tbody></table><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">title:注意下面的部分语法，Obsidian的Markdown编辑器并不支持这种写法</span><br></pre></td></tr></table></figure><table><thead><tr><th align="center">显示效果</th><th align="center">写法</th><th align="center">备注</th></tr></thead><tbody><tr><td align="center">4 的平方 4^2^</td><td align="center"><code>4^2^</code></td><td align="center">Obsidian 不支持此种写法</td></tr><tr><td align="center">4 的平方 4<sup>2</sup></td><td align="center"><code>4&lt;sup&gt;2&lt;/sup&gt;</code></td><td align="center"></td></tr><tr><td align="center">下标 a<del>1</del></td><td align="center"><code>a~1~</code></td><td align="center">Obsidian 不支持此种写法</td></tr><tr><td align="center">下标 a<sub>1</sub></td><td align="center"><code>a&lt;sub&gt;1&lt;/sub&gt;</code></td><td align="center"></td></tr></tbody></table><h2 id="1-2-代码块测试"><a href="#1-2-代码块测试" class="headerlink" title="1.2 代码块测试"></a>1.2 代码块测试</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">title:这是一段C语言代码</span><br><span class="line">~~~C</span><br><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main(void)</span><br><span class="line">&#123;</span><br><span class="line">printf(&quot;Hello, world!!!\n&quot;);</span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br><span class="line">~~~</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">title: 笔记（嵌套提示演示，信息折叠状态为：常开，点击此标题栏可以折叠信息）</span><br><span class="line">collapse: open</span><br><span class="line"></span><br><span class="line">这是一个测试信息栏01。</span><br><span class="line"></span><br><span class="line">````ad-tip</span><br><span class="line">title: 提示</span><br><span class="line"></span><br><span class="line">这是一个测试信息栏02。</span><br><span class="line"></span><br><span class="line">```ad-warning</span><br><span class="line">title: 警告（信息折叠状态为：常闭，点击此标题栏可以打开信息）</span><br><span class="line">collapse: close</span><br><span class="line"></span><br><span class="line">这是一个测试信息栏03。</span><br><span class="line"></span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">````</span><br><span class="line"></span><br><span class="line">这是一个测试信息栏04。</span><br><span class="line"></span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">```ad-bug</span><br><span class="line">title: I&#x27;m Nested!</span><br><span class="line">~~~javascript</span><br><span class="line">throw new Error(&quot;Oops, I&#x27;m a bug.&quot;);</span><br><span class="line">~~~</span><br><span class="line">```</span><br><span class="line"></span><br><span class="line">```C</span><br><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">int main(void)</span><br><span class="line">&#123;</span><br><span class="line">printf(&quot;Hello, world!!!\n&quot;);</span><br><span class="line"></span><br><span class="line">return 0;</span><br><span class="line">&#125;</span><br><span class="line">```</span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="1-3-无序列表和有序列表"><a href="#1-3-无序列表和有序列表" class="headerlink" title="1.3 无序列表和有序列表"></a>1.3 无序列表和有序列表</h2><ul><li>无序列表 01</li><li>无序列表 02</li><li>无序列表 03</li></ul><ol><li>有序列表 01</li><li>有序列表 02</li><li>有序列表 03</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title:123</span><br><span class="line"></span><br><span class="line">这是一个测试通知栏。</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>目前支持的关键字类型，如下表：</p><table><thead><tr><th align="center">类型</th><th align="center">别名</th><th align="center">中文翻译</th></tr></thead><tbody><tr><td align="center">note</td><td align="center">note, seealso</td><td align="center">笔记</td></tr><tr><td align="center">abstract</td><td align="center">abstract, summary, tldr</td><td align="center">摘要</td></tr><tr><td align="center">info</td><td align="center">info, todo</td><td align="center">信息</td></tr><tr><td align="center">tip</td><td align="center">tip, hint, important</td><td align="center">提示</td></tr><tr><td align="center">success</td><td align="center">success, check, done</td><td align="center">成功</td></tr><tr><td align="center">question</td><td align="center">question, help, faq</td><td align="center">问题</td></tr><tr><td align="center">warning</td><td align="center">warning, caution, attention</td><td align="center">警告</td></tr><tr><td align="center">failure</td><td align="center">failure, fail, missing</td><td align="center">失败</td></tr><tr><td align="center">danger</td><td align="center">danger, error</td><td align="center">危险</td></tr><tr><td align="center">bug</td><td align="center">bug</td><td align="center">漏洞</td></tr><tr><td align="center">example</td><td align="center">example</td><td align="center">示例</td></tr><tr><td align="center">quote</td><td align="center">quote, cite</td><td align="center">引用</td></tr></tbody></table><h2 id="一些待解答的疑问"><a href="#一些待解答的疑问" class="headerlink" title="一些待解答的疑问"></a>一些待解答的疑问</h2><ol><li>Typora 和 Obsidian 分别导出 PDF 文档后，你会发现 Typora 导出的有 PDF 章节标签而 Obsidian 没有，这个 Typora 是如何实现的？</li><li>两个软件导出 PDF 的效果都和实时预览效果天差地别，它们的 PDF 是靠什么渲染生成的？可以修改吗？</li><li>Obsidian 的表格在阅读视图中没有表格线，这个如何解决？</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title:猜想</span><br><span class="line"></span><br><span class="line">我猜测应该是在主题文件中修改</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>Emoji 测试：😀👍👎</p><table><thead><tr><th align="center">1</th><th align="center">1</th><th align="center">1</th></tr></thead><tbody><tr><td align="center">1</td><td align="center">1</td><td align="center">1</td></tr><tr><td align="center">3242</td><td align="center">wrwr</td><td align="center">ete</td></tr></tbody></table><table><thead><tr><th>测试</th><th>信息</th><th></th></tr></thead><tbody><tr><td>序号</td><td>姓名</td><td>语文</td></tr><tr><td>1</td><td>张三</td><td>98</td></tr><tr><td>2</td><td>李四</td><td>78</td></tr><tr><td>3</td><td>王五</td><td>89</td></tr></tbody></table><p>立白&amp;reg</p><p>30&amp;deg</p><p>&emsp;&emsp; 表最后说一下每段前面的两个空格怎么打，因为在 markdown 里直接打空格的话是不行的，直接按键盘的空格，三个以内都没有效果，从第四个开始就变成了代码片段了，那么要怎么愉快得打空格呢？</p><p>答案是用 HTML 的 <code>&amp;emsp;</code></p><p>　　的风格的股份的的复古风蛋糕东港饭店</p><p><kbd>⬇️</kbd>和⬇️</p><!-- 这是一条注释，只在本 Markdown 文档中才能看得见，导出为 PDF 和 HTML 文档后，里面是看不到本注释的 --><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">title: 标识标注嵌套使用使用说明&lt;!--此行必须顶着开头书写--&gt;</span><br><span class="line">collapse: open&lt;!--此行必须顶着开头书写--&gt;</span><br><span class="line"></span><br><span class="line">正文测试内容01&lt;!--正文内容不必顶着开头书写，但最好距离参数头最后一行空一行--&gt;</span><br><span class="line">```` ad-tip</span><br><span class="line">title: This admonition is nested.</span><br><span class="line">collapse: open</span><br><span class="line"></span><br><span class="line">正文测试内容02</span><br><span class="line">~~~ ad-warning</span><br><span class="line">title: This admonition is closed.</span><br><span class="line">collapse: close</span><br><span class="line"></span><br><span class="line">正文测试内容03</span><br><span class="line">~~~</span><br><span class="line">````</span><br><span class="line"></span><br><span class="line">正文测试内容04</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><figcaption><span># Admonition type. See below for a list of available types.</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">title:                  # Admonition title.</span><br><span class="line">collapse:               # Create a collapsible admonition.</span><br><span class="line">icon:                   # Override the icon.</span><br><span class="line">color:                  # Override the color.</span><br><span class="line"></span><br><span class="line">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla.</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>&emsp;&emsp; 行首中文空格测试</p><p>行首中文空格测试。</p><p><a href="https://www.hao123.com/" title="hao123网站">测试链接</a></p><p><font color=teal><strong>这是一段加粗的水鸭色文本</strong></font></p><p><strong style="color:teal;">这是一段加粗的水鸭色文本</strong></p><p>&#x3D;&#x3D;高亮测试&#x3D;&#x3D;</p><p>H<sub>2</sub>O</p><p>😍😅⑨⑥⑤⑩▢⇧▮▣⑥⑤⑧⑶⑹⑷⑴</p><p>$x^2 + 2x + 5 + \sqrt x &#x3D; 0$</p><p>$\ce{CO2 + C -&gt; 2 CO}$</p><p>$\ce{CO2 + C -&gt; 2 CO}$</p><p>$\ce{2Mg + O2 -&gt;[燃烧] 2 MgO}$</p><p>$$<br>\ce{Zn^2+  &lt;&#x3D;&gt;[+ 2OH-][+ 2H+]  $\underset{\text{amphoteres Hydroxid}}{\ce{Zn(OH)2 v}}$  &lt;&#x3D;&gt;[+ 2OH-][+ 2H+]  $\underset{\text{Hydroxozikat}}{\ce{[Zn(OH)4]^2-}}$}<br>$$</p><p>$$<br>\begin{array}{lll}<br>\nabla\times E &amp;&#x3D;&amp; -;\frac{\partial{B}}{\partial{t}}<br>\ \nabla\times H &amp;&#x3D;&amp; \frac{\partial{D}}{\partial{t}}+J<br>\ \nabla\cdot D &amp;&#x3D;&amp; \rho<br>\ \nabla\cdot B &amp;&#x3D;&amp; 0<br>\ \end{array}<br>$$</p><p>$$<br>i\hbar\frac{\partial \psi}{\partial t} &#x3D; \frac{-\hbar^2}{2m} \left(\frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial y^2}+\frac{\partial^2}{\partial z^2} \right) \psi + V \psi<br>$$</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">graph TB</span><br><span class="line">%% s=start  e=end  f=fork  n=normal</span><br><span class="line"></span><br><span class="line">s([开始])--&gt;f1&#123;&#123;if条件&#125;&#125;;</span><br><span class="line"></span><br><span class="line">%% 分支点2</span><br><span class="line">f1--true--&gt;n1[if语句块]--&gt;e([结束]);</span><br><span class="line">f1--false--&gt;f2&#123;&#123;else if条件&#125;&#125;;</span><br><span class="line"></span><br><span class="line">%% 分支点1</span><br><span class="line">f2--true--&gt;n2[else if语句块]--&gt;e;</span><br><span class="line">f2--false--&gt;n3[else语句块]--&gt;e;</span><br></pre></td></tr></table></figure><p>章节符号&sect;</p><blockquote><p>[!note] 123<br>456</p></blockquote><p>快捷键设置建议：</p><p>常用快捷键</p><p>ctrl + s 保存文件</p><p>ctrl + k 插入链接</p><p>ctrl + , 设置</p><p>ctrl + alt + &lt;-&#x2F;-&gt; 返回&#x2F;前进</p><p>ctrl + o 打开文件</p><p>ctrl + w 关闭当前文件</p><p>ctrl + p 打开命令面板</p><p>ctrl + e 切换 预览&#x2F;编辑 模式</p><p>ctrl + enter 切换待办状态</p><p>ctrl + b 选中文字粗体</p><p>ctrl + i 选中文字斜体</p><p>ctrl + &#x2F; 注释</p><p>ctrl + d 删除当前行</p><p>ctrl + n 新建笔记</p><p>自定义快捷键</p><p>ctrl + l 插入模板</p><p>alt + d 打开&#x2F;新建今天日记</p><p>alt + a 在文件在目录中位置</p><p>ctrl + shit + ↑ 上移一行</p><p>ctrl + shit + ↓ 下移一行</p><p>alt + q 显示&#x2F;隐藏最左边的按钮栏 (需配合 hider)</p>]]></content>
       
       
       <categories>
           
-          <category> 计算机 </category>
+          <category> 个人 </category>
           
-          <category> 备忘录 </category>
+          <category> 收藏夹 </category>
           
       </categories>
       
@@ -1086,9 +1118,9 @@
       
       <categories>
           
-          <category> 实例记录 </category>
+          <category> 个人 </category>
           
-          <category> 苹果手机 </category>
+          <category> 备忘录 </category>
           
       </categories>
       
@@ -1102,12 +1134,12 @@
       <link href="/2022/Obsidian%E6%8F%92%E4%BB%B6%E4%B8%8E%E9%85%8D%E7%BD%AE%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html"/>
       <url>/2022/Obsidian%E6%8F%92%E4%BB%B6%E4%B8%8E%E9%85%8D%E7%BD%AE%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html</url>
       
-        <content type="html"><![CDATA[<h2 id="首次使用"><a href="#首次使用" class="headerlink" title="首次使用"></a>首次使用</h2><p>从 <a href="https://zhuanlan.zhihu.com/p/497015024">Obsidian插件安装全网最全攻略 - 知乎</a> 下载了魔法访问插件 <a href="https://gitee.com/juqkai/obsidian-proxy-github">obsidian-proxy-github</a> 以及 <a href="https://wws.lanzoul.com/b0273yjmd?pwd=55qz">Obsidian新手免配置开箱即用库 2022-4-13.rar</a>。</p><h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><h4 id="软件开箱与笔记迁移"><a href="#软件开箱与笔记迁移" class="headerlink" title="软件开箱与笔记迁移"></a>软件开箱与笔记迁移</h4><p>先按照前文使用开箱的插件。</p><ol><li>更新了所有插件。</li><li>解决一些会用到的快捷键冲突。</li><li><code>.obsidian</code> 文件夹（里面带有软件配置和插件）复制到自己的笔记本文件夹试用。</li><li>整理笔记结构，分离图片等附件与文本笔记。文本笔记存放在单个文件夹 <em>主笔记本</em> 中，调整附件默认存放路径的设置，设置在文件夹 <em>笔记附件</em> 中。</li><li>（个人需要）使用 git 保存内容。分别在仓库根目录、<code>.obsidian</code> 文件夹创建 git 仓库，分开提交软件配置与插件（体积较大）、笔记内容与附件（体积较小）。其中配置仓库里忽略了一些使用记录的数据。</li><li>（个人需要）使用坚果云同步文本笔记（即 <em>主笔记本</em>）。</li><li>（个人笔记整理）<em>主笔记本</em> 下的部分文件夹试用序号开头，一方面也是为了来排序。删除或迁移了以前的父目录对应的笔记。调整了无效的标签。将以前的文档块创建时间标签替换为元数据。</li></ol><h4 id="快捷键配置"><a href="#快捷键配置" class="headerlink" title="快捷键配置"></a>快捷键配置</h4><p>markdown 格式转换，能用的话优先用软件自带的，其次用插件功能，两者都 <strong>没有默认快捷键设置</strong> 的，尽量设置为网上找的通用快捷键。目前设置了以下几个：</p><ul><li>无序列表：<code>Ctrl+Shift+]</code>（原生）</li><li>引用：<code>Ctrl+Shift+Q</code>（原生）</li><li>有序列表：<code>Ctrl+Shift+[</code>（原生）</li><li>代码块：<code>Ctrl+Shift+K</code>（插件：增强编辑）</li><li>调低标题级别：<code>Ctrl+-</code>（插件：增强编辑）</li><li>调高标题级别：<code>Ctrl+=</code>（插件：增强编辑）</li><li>转换 callout 语法：Alt+A（插件：增强编辑，暂时设置）</li><li>Toggle Code（切换行内代码）：Alt+D（插件：cMenu，参考了增强编辑插件中已经被删除的快捷键）</li></ul><p>其他快捷键调整：</p><ul><li>打开设置：<code>Ctrl+M</code>（原生，暂时设置，因为默认的 <code>Ctrl+,</code> 不知道为什么在编辑时用不了）</li><li>切换编辑&#x2F;预览视图：<del><code>Ctrl+E</code></del>（原生，不需要看预览模式就没用，窗口右上角按钮也可以切换）</li><li>切换实时阅览&#x2F;源码模式：<code>Ctrl+E</code>（原生，代替上面的切换功能，有时候需要在纯源码下编辑，避免样式跳来跳去难以交互）</li><li><code>Go to tab #*</code>：<del><code>Ctrl+*</code></del>（原生，与标题级别快捷键冲突）</li><li>Vault Search：<code>Ctrl+Q</code>（插件：Omnisearch，暂时设置）</li></ul><h4 id="其他零碎配置"><a href="#其他零碎配置" class="headerlink" title="其他零碎配置"></a>其他零碎配置</h4><ul><li>【软件设置】文件与链接 –&gt;（关闭）使用 Wiki 链接。而是使用标准 markdown 链接语法，在其他 markdown 软件中 <strong>兼容性</strong> 更好（如 wolai）。</li><li>【软件设置】编辑器 –&gt;高级 –&gt;自动转换 html（开启）。</li></ul><h3 id="插件与配置与评价"><a href="#插件与配置与评价" class="headerlink" title="插件与配置与评价"></a>插件与配置与评价</h3><h4 id="icon-folder"><a href="#icon-folder" class="headerlink" title="icon-folder"></a>icon-folder</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[obsidian-icon-folder] Due to a change in version v1.2.2, the icon pack folder changed. Please change it in the settings to not be directly in /plugins.</span><br></pre></td></tr></table></figure><p>碰到上述错误信息，估计是箱中的插件版本比较旧与 ob 不匹配，提示需要人为修正目录路径，从 <code>plugins/obsidian-icon-folder/icons</code> 修复为 <code>.obsidian/plugins/obsidian-icon-folder/icons</code>（一开始我并不理解此提示的意思，后来找到源码 v1.2.2 版本的发布说明才看懂）</p><h4 id="Outliner"><a href="#Outliner" class="headerlink" title="Outliner"></a>Outliner</h4><p>设置项<code>Stick the cursor to the content</code>限制了光标使其难以移动到列表符号位置，导致不便于调整列表缩进等操作，故关闭了此设置。</p><h4 id="templater"><a href="#templater" class="headerlink" title="templater"></a>templater</h4><p>第三方模板插件，使用后可关闭核心插件 <code>模板</code>。</p><p>编写了两个目标：通用笔记元数据模板、更新时间默认格式模板。</p><h4 id="Calendar"><a href="#Calendar" class="headerlink" title="Calendar"></a>Calendar</h4><p>核心插件 <code>日记</code> 功能似乎不太够用，但有 <code>Calendar</code> 插件提供拓展功能，设置 <em>两者</em> 的笔记存放位置为 <code>主笔记本/daily note/2022</code>。创建并设置日记模板 <code>主笔记本/笔记模板/日记模板</code>。</p><p>模板语法似乎与 <code>模板</code> 插件一致，另一种方法是用 <code>templater</code> 语法，然后在创建之后再执行其 Replace 功能。</p><h4 id="增强编辑（Enhanced-editing，配置包中的原名：ZH-增强编辑）"><a href="#增强编辑（Enhanced-editing，配置包中的原名：ZH-增强编辑）" class="headerlink" title="增强编辑（Enhanced-editing，配置包中的原名：ZH 增强编辑）"></a>增强编辑（Enhanced-editing，配置包中的原名：ZH 增强编辑）</h4><p>很多 markdown 语法转换的快捷键。而且是中文插件，功能大致已经包括了英文插件 <code>cMenu</code>。</p><p>可能有用的快捷键：</p><ul><li>去除 markdown 语法。转换无语法：<code>Ctrl+Alt+Z</code>，复制无语法：<code>Ctrl+Alt+C</code></li></ul><p>插件源码：<a href="https://github.com/obsidian-canzi/Enhanced-editing">obsidian-canzi&#x2F;Enhanced-editing: 旨在增强Obsidian编辑功能的插件</a>。插件没有上架社区商店，安装了另一个插件 <a href="https://github.com/TfTHacker/obsidian42-brat">obsidian42-brat</a> 经由它来安装。</p><h4 id="dataview"><a href="#dataview" class="headerlink" title="dataview"></a>dataview</h4><p>开箱时是关闭的，我启用了。</p><h4 id="Linter"><a href="#Linter" class="headerlink" title="Linter"></a>Linter</h4><p>开箱时是关闭的，开启后 2022 年 11 月 13 日发现它会引起粘贴 markdown 格式链接会引起程序崩溃无反应，暂时关闭使用。（<code>v1.7.0</code> 与 <code>v1.7.1</code> 版本都有问题）</p><p>2022-10-29 21:44 左右软件似乎崩溃了一次（在剪切粘贴一段文本的时候，具体不记得了），界面没有反应，但能正常关闭程序没有报告异常（同时打开的另一个工作区窗口是正常的，先一步关闭了）。可能也是此插件问题。</p><h3 id="后续添加插件"><a href="#后续添加插件" class="headerlink" title="后续添加插件"></a>后续添加插件</h3><h4 id="consistent-attachments-and-links"><a href="#consistent-attachments-and-links" class="headerlink" title="consistent attachments and links"></a>consistent attachments and links</h4><p>用了几个月（1.1.16 版本）才发现移动笔记文件时，被移动的笔记中的内部链接不会被更新。百度了 <code>obsidian移动文件时不会更新链接</code> 碰见视频 <a href="https://www.bilibili.com/video/av767773591">Obsidian有救了？再也不怕笔记“移动”和”重命名”了_哔哩哔哩_bilibili</a> 用的也是私有链接，但还好在视频评论区看到了这个插件，它可以全面检查修复并接管链接，全部统一为标准格式的相对链接。（此外还有附件移动功能，但我不用）</p><h4 id="OmniSearch"><a href="#OmniSearch" class="headerlink" title="OmniSearch"></a>OmniSearch</h4><p>突然想起自带搜索好像优先顺序不太好（比如文档标题不优先显示），随手找了一个搜索插件 OmniSearch，先试试看。（不过自动安装出了问题，没有下载 js 文件，手动下载了 1.7.8 版本）</p><h4 id="Excel-to-Markdown-Table"><a href="#Excel-to-Markdown-Table" class="headerlink" title="Excel to Markdown Table"></a>Excel to Markdown Table</h4><p>粘贴 xls&#x2F;xlsx 表格数据时支持转换。</p><h4 id="Paste-URL-into-selection"><a href="#Paste-URL-into-selection" class="headerlink" title="Paste URL into selection"></a>Paste URL into selection</h4><p>便捷地粘贴链接创建超链接。可能也就少一两次按键。</p><p><del>个人设置：未选中时默认行为是粘贴 <code>[]()</code></del>（容易错误识别英文冒号的内容为链接）</p><h4 id="Text-expand"><a href="#Text-expand" class="headerlink" title="Text expand"></a>Text expand</h4><p>搜索并粘贴笔记链接【未实际使用】</p><h3 id="未解决的问题"><a href="#未解决的问题" class="headerlink" title="未解决的问题"></a>未解决的问题</h3><ul><li><code>obsidian-proxy-github</code> 插件开启后，使用软件时经常会刷出代理日志，阻挡了鼠标点击右上角的部分功能。日常使用只能先关闭它。</li><li><code>tab</code> 键会输入制表符，不符合平常代码习惯，但在编辑器设置中设置为输入空格仍然无效，只能暂时妥协用制表符了。</li><li>外部导入的 markdown 笔记带有附件，希望把附件统一移动集中到一个文件夹中，但没有找到好方法。</li></ul><h3 id="待办"><a href="#待办" class="headerlink" title="待办"></a>待办</h3><ul><li><input disabled="" type="checkbox"> 实际使用 <code>dataview</code> 插件。</li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="首次使用"><a href="#首次使用" class="headerlink" title="首次使用"></a>首次使用</h2><p>从 <a href="https://zhuanlan.zhihu.com/p/497015024">Obsidian插件安装全网最全攻略 - 知乎</a> 下载了魔法访问插件 <a href="https://gitee.com/juqkai/obsidian-proxy-github">obsidian-proxy-github</a> 以及 <a href="https://wws.lanzoul.com/b0273yjmd?pwd=55qz">Obsidian新手免配置开箱即用库 2022-4-13.rar</a>。</p><h3 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h3><h4 id="软件开箱与笔记迁移"><a href="#软件开箱与笔记迁移" class="headerlink" title="软件开箱与笔记迁移"></a>软件开箱与笔记迁移</h4><p>先按照前文使用开箱的插件。</p><ol><li>更新了所有插件。</li><li>解决一些会用到的快捷键冲突。</li><li><code>.obsidian</code> 文件夹（里面带有软件配置和插件）复制到自己的笔记本文件夹试用。</li><li>整理笔记结构，分离图片等附件与文本笔记。文本笔记存放在单个文件夹 <em>主笔记本</em> 中，调整附件默认存放路径的设置，设置在文件夹 <em>笔记附件</em> 中。</li><li>（个人需要）使用 git 保存内容。分别在仓库根目录、<code>.obsidian</code> 文件夹创建 git 仓库，分开提交软件配置与插件（体积较大）、笔记内容与附件（体积较小）。其中配置仓库里忽略了一些使用记录的数据。</li><li>（个人需要）使用坚果云同步文本笔记（即 <em>主笔记本</em>）。</li><li>（个人笔记整理）<em>主笔记本</em> 下的部分文件夹试用序号开头，一方面也是为了来排序。删除或迁移了以前的父目录对应的笔记。调整了无效的标签。将以前的文档块创建时间标签替换为元数据。</li></ol><h4 id="快捷键配置"><a href="#快捷键配置" class="headerlink" title="快捷键配置"></a>快捷键配置</h4><p>markdown 格式转换，能用的话优先用软件自带的，其次用插件功能，两者都 <strong>没有默认快捷键设置</strong> 的，尽量设置为网上找的通用快捷键。目前设置了以下几个：</p><ul><li>无序列表：<code>Ctrl+Shift+]</code>（原生）</li><li>引用：<code>Ctrl+Shift+Q</code>（原生）</li><li>有序列表：<code>Ctrl+Shift+[</code>（原生）</li><li>代码块：<code>Ctrl+Shift+K</code>（插件：增强编辑）</li><li>调低标题级别：<code>Ctrl+-</code>（插件：增强编辑）</li><li>调高标题级别：<code>Ctrl+=</code>（插件：增强编辑）</li><li>转换 callout 语法：Alt+A（插件：增强编辑，暂时设置）</li><li>Toggle Code（切换行内代码）：Alt+D（插件：cMenu，参考了增强编辑插件中已经被删除的快捷键）</li></ul><p>其他快捷键调整：</p><ul><li>打开设置：<code>Ctrl+M</code>（原生，暂时设置，因为默认的 <code>Ctrl+,</code> 不知道为什么在编辑时用不了）</li><li>切换编辑&#x2F;预览视图：取消设置<del><code>Ctrl+E</code></del>（原生，不需要看预览模式就没用，窗口右上角按钮也可以切换）</li><li>切换实时阅览&#x2F;源码模式：<code>Ctrl+E</code>（原生，代替上面的切换功能，有时候需要在纯源码下编辑，避免样式跳来跳去难以交互）</li><li><code>Go to tab #*</code>&#x2F;<code>转到标签 #*</code>：取消设置<del><code>Ctrl+*</code></del>（原生，与标题级别快捷键冲突）</li><li>Vault Search：<code>Ctrl+Q</code>（插件：Omnisearch，暂时设置）</li></ul><h4 id="其他零碎配置"><a href="#其他零碎配置" class="headerlink" title="其他零碎配置"></a>其他零碎配置</h4><ul><li>【软件设置】文件与链接 –&gt;（关闭）使用 Wiki 链接。而是使用标准 markdown 链接语法，在其他 markdown 软件中 <strong>兼容性</strong> 更好（如 wolai）。</li><li>【软件设置】编辑器 –&gt;高级 –&gt;自动转换 html（开启）。</li></ul><h3 id="插件与配置与评价"><a href="#插件与配置与评价" class="headerlink" title="插件与配置与评价"></a>插件与配置与评价</h3><h4 id="icon-folder"><a href="#icon-folder" class="headerlink" title="icon-folder"></a>icon-folder</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[obsidian-icon-folder] Due to a change in version v1.2.2, the icon pack folder changed. Please change it in the settings to not be directly in /plugins.</span><br></pre></td></tr></table></figure><p>碰到上述错误信息，估计是箱中的插件版本比较旧与 ob 不匹配，提示需要人为修正目录路径，从 <code>plugins/obsidian-icon-folder/icons</code> 修复为 <code>.obsidian/plugins/obsidian-icon-folder/icons</code>（一开始我并不理解此提示的意思，后来找到源码 v1.2.2 版本的发布说明才看懂）</p><h4 id="Outliner"><a href="#Outliner" class="headerlink" title="Outliner"></a>Outliner</h4><p>设置项<code>Stick the cursor to the content</code>限制了光标使其难以移动到列表符号位置，导致不便于调整列表缩进等操作，故关闭了此设置。</p><h4 id="templater"><a href="#templater" class="headerlink" title="templater"></a>templater</h4><p>第三方模板插件，使用后可关闭核心插件 <code>模板</code>。</p><p>编写了两个目标：通用笔记元数据模板、更新时间默认格式模板。</p><h4 id="Calendar"><a href="#Calendar" class="headerlink" title="Calendar"></a>Calendar</h4><p>核心插件 <code>日记</code> 功能似乎不太够用，但有 <code>Calendar</code> 插件提供拓展功能，设置 <em>两者</em> 的笔记存放位置为 <code>主笔记本/daily note/2022</code>。创建并设置日记模板 <code>主笔记本/笔记模板/日记模板</code>。</p><p>模板语法似乎与 <code>模板</code> 插件一致，另一种方法是用 <code>templater</code> 语法，然后在创建之后再执行其 Replace 功能。</p><h4 id="增强编辑（Enhanced-editing，配置包中的原名：ZH-增强编辑）"><a href="#增强编辑（Enhanced-editing，配置包中的原名：ZH-增强编辑）" class="headerlink" title="增强编辑（Enhanced-editing，配置包中的原名：ZH 增强编辑）"></a>增强编辑（Enhanced-editing，配置包中的原名：ZH 增强编辑）</h4><p>很多 markdown 语法转换的快捷键。而且是中文插件，功能大致已经包括了英文插件 <code>cMenu</code>。</p><p>可能有用的快捷键：</p><ul><li>去除 markdown 语法。转换无语法：<code>Ctrl+Alt+Z</code>，复制无语法：<code>Ctrl+Alt+C</code></li></ul><p>插件源码：<a href="https://github.com/obsidian-canzi/Enhanced-editing">obsidian-canzi&#x2F;Enhanced-editing: 旨在增强Obsidian编辑功能的插件</a>。插件没有上架社区商店，安装了另一个插件 <a href="https://github.com/TfTHacker/obsidian42-brat">obsidian42-brat</a> 经由它来安装。</p><h4 id="dataview"><a href="#dataview" class="headerlink" title="dataview"></a>dataview</h4><p>开箱时是关闭的，我启用了。</p><h4 id="Linter"><a href="#Linter" class="headerlink" title="Linter"></a>Linter</h4><p>开箱时是关闭的，开启后 2022 年 11 月 13 日发现它会引起粘贴 markdown 格式链接会引起程序崩溃无反应，暂时关闭使用。（<code>v1.7.0</code> 与 <code>v1.7.1</code> 版本都有问题）</p><p>2022-10-29 21:44 左右软件似乎崩溃了一次（在剪切粘贴一段文本的时候，具体不记得了），界面没有反应，但能正常关闭程序没有报告异常（同时打开的另一个工作区窗口是正常的，先一步关闭了）。可能也是此插件问题。</p><ul><li>配置：文章标题-从H2开始，虽然与正常word文档不匹配，但这个功能有它的道理，比如可能有时候会把整个文章的标题作为隐含的H1。（经过一段时间使用，我已经全局格式化过了，全部都是H2）</li></ul><h3 id="后续添加插件"><a href="#后续添加插件" class="headerlink" title="后续添加插件"></a>后续添加插件</h3><h4 id="consistent-attachments-and-links"><a href="#consistent-attachments-and-links" class="headerlink" title="consistent attachments and links"></a>consistent attachments and links</h4><p>用了几个月（1.1.16 版本）才发现移动笔记文件时，被移动的笔记中的内部链接不会被更新。百度了 <code>obsidian移动文件时不会更新链接</code> 碰见视频 <a href="https://www.bilibili.com/video/av767773591">Obsidian有救了？再也不怕笔记“移动”和”重命名”了_哔哩哔哩_bilibili</a> 用的也是私有链接，但还好在视频评论区看到了这个插件，它可以全面检查修复并接管链接，全部统一为标准格式的相对链接。（此外还有附件移动功能，但我不用）</p><h4 id="OmniSearch"><a href="#OmniSearch" class="headerlink" title="OmniSearch"></a>OmniSearch</h4><p>突然想起自带搜索好像优先顺序不太好（比如文档标题不优先显示），随手找了一个搜索插件 OmniSearch，先试试看。（不过自动安装出了问题，没有下载 js 文件，手动下载了 1.7.8 版本）</p><h4 id="Excel-to-Markdown-Table"><a href="#Excel-to-Markdown-Table" class="headerlink" title="Excel to Markdown Table"></a>Excel to Markdown Table</h4><p>粘贴 xls&#x2F;xlsx 表格数据时支持转换。</p><h4 id="Paste-URL-into-selection"><a href="#Paste-URL-into-selection" class="headerlink" title="Paste URL into selection"></a>Paste URL into selection</h4><p>便捷地粘贴链接创建超链接。可能也就少一两次按键。</p><p><del>个人设置：未选中时默认行为是粘贴 <code>[]()</code></del>（容易错误识别英文冒号的内容为链接）</p><h4 id="Text-expand"><a href="#Text-expand" class="headerlink" title="Text expand"></a>Text expand</h4><p>搜索并粘贴笔记链接【未实际使用】</p><h3 id="未解决的问题"><a href="#未解决的问题" class="headerlink" title="未解决的问题"></a>未解决的问题</h3><ul><li><code>obsidian-proxy-github</code> 插件问题：开启后，使用软件时经常会刷出代理日志，阻挡了鼠标点击右上角的部分功能。日常使用只能先关闭它。</li><li><del><code>tab</code> 键会输入制表符，不符合平常代码习惯，但在编辑器设置中设置为输入空格仍然无效，只能暂时妥协用制表符了。</del>2023年12月3日此设置已经正常。</li><li>外部导入的 markdown 笔记带有附件，希望把附件统一移动集中到一个文件夹中，但没有找到好方法。</li></ul><h3 id="待办"><a href="#待办" class="headerlink" title="待办"></a>待办</h3><ul><li><input disabled="" type="checkbox"> 实际使用 <code>dataview</code> 插件。</li></ul>]]></content>
       
       
       <categories>
           
-          <category> 实例记录 </category>
+          <category> 计算机实践 </category>
           
           <category> 静态博客 </category>
           
@@ -1129,14 +1161,41 @@
       <link href="/2022/Obsidian%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html"/>
       <url>/2022/Obsidian%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html</url>
       
-        <content type="html"><![CDATA[<h2 id="前置"><a href="#前置" class="headerlink" title="前置"></a>前置</h2><p>预置了插件库：<a href="https://wws.lanzoul.com/b0273yjmd?pwd=55qz">Obsidian新手免配置开箱即用库 2022-4-13.rar</a>，部分插件会影响软件功能，所以特此说明。</p><p>该库中还有 <a href="../../300_%E8%B5%84%E6%BA%90/%E7%94%9F%E6%B4%BB%E6%8A%80%E8%83%BD%E7%B1%BB%E7%AC%94%E8%AE%B0/MarkDown%E8%B6%85%E7%BA%A7%E6%95%99%E7%A8%8B%20Obsidian%E7%89%88%202022.1.12.html">MarkDown超级教程 Obsidian版 2022.1.12</a>（<a href="https://blog.csdn.net/qq_57187936/article/details/123923511">网址</a>）、<a href="Markdown%E8%AF%AD%E6%B3%95%E9%80%9F%E6%9F%A5%EF%BC%88%E9%80%82%E7%94%A8%E4%BA%8EObsidian%EF%BC%89.html">Markdown语法速查（适用于Obsidian）</a> 文档可以学习。</p><h2 id="界面基础操作"><a href="#界面基础操作" class="headerlink" title="界面基础操作"></a>界面基础操作</h2><ul><li><code>Ctrl</code>&#x2F;<code>Shift</code> 等按键配合鼠标或其他按键时，经常会有额外效果，例如打开页面时，默认是跳转页面，按住 <code>Ctrl</code> 可以在新窗口打开。</li></ul><h2 id="存储文件变量（文件头部-x2F-元数据）"><a href="#存储文件变量（文件头部-x2F-元数据）" class="headerlink" title="存储文件变量（文件头部&#x2F;元数据）"></a>存储文件变量（文件头部&#x2F;元数据）</h2><p><a href="https://help.obsidian.md/Advanced+topics/YAML+front+matter">YAML front matter - Obsidian Help</a>，目前支持以下四种附带功能的元数据：</p><ul><li>tags (标签)</li><li>aliases (别名)</li><li>cssclass</li><li>publish</li></ul><h2 id="YAML-语法"><a href="#YAML-语法" class="headerlink" title="YAML 语法"></a>YAML 语法</h2><p><a href="https://zhuanlan.zhihu.com/p/75067291">YAML语法介绍 - 知乎</a></p><p><a href="https://www.bejson.com/validators/yaml_editor/">YAML、YML在线编辑器(格式化校验)-BeJSON.com</a></p><p>obsidian 中常用的基础要点：</p><ul><li>key: value 格式，井号#后面是注释。</li><li>特殊字符需要用单引号或双引号包裹（也表示字符串类型数据）。</li><li>要让 ob 正常标识标签，只需要在引号包裹中连续编写即可（如：<code>&#39;#a/b #c&#39;</code>，可以省略井号，但井号可以触发自动补全，也可能便于迁移维护），也可以用最普通的行内数组写法（如：<code>[a/b, c]</code>）。</li></ul><h2 id="markdown-相关注意事项"><a href="#markdown-相关注意事项" class="headerlink" title="markdown 相关注意事项"></a>markdown 相关注意事项</h2><p>支持 markdown 通用快捷键：</p><ul><li>列表缩进：<code>Ctrl + ]</code>、<code>Ctrl + [</code></li></ul><h2 id="callout-blocks-admonitions-兼容性更好的写法"><a href="#callout-blocks-admonitions-兼容性更好的写法" class="headerlink" title="callout blocks (admonitions) 兼容性更好的写法"></a>callout blocks (admonitions) 兼容性更好的写法</h2><p>本节已迁移到：<a href="Obsidian-Callouts%E4%B8%8EAdmonitions%E6%8F%92%E4%BB%B6%E5%86%99%E6%B3%95%E5%AF%B9%E6%AF%94.html">Obsidian-Callouts与Admonitions插件写法对比</a></p><h2 id="尚未研究的"><a href="#尚未研究的" class="headerlink" title="尚未研究的"></a>尚未研究的</h2><ul><li>Dataview 插件</li><li>其他可用插件</li><li>学习：<a href="http://wiki.eryajf.net/pages/6ed7fe">我的Obsidian入门之旅 | 二丫讲梵</a></li></ul><h3 id="拓展阅读"><a href="#拓展阅读" class="headerlink" title="拓展阅读"></a>拓展阅读</h3><ul><li><a href="https://zhuanlan.zhihu.com/p/422876369">用Obsidian记账 - 知乎</a> 使用元数据记账</li><li><a href="https://zhuanlan.zhihu.com/p/370113792">Obsidian 的 YAML Front matter 介绍 - 知乎</a>（2021-07-22）使用元数据的插件，相关高级用法。</li><li><a href="https://spec.commonmark.org/">CommonMark Spec</a> 大概是一套社区定义的 markdown 标准。</li></ul>]]></content>
+        <content type="html"><![CDATA[<h2 id="前置"><a href="#前置" class="headerlink" title="前置"></a>前置</h2><p>预置了插件库：<a href="https://wws.lanzoul.com/b0273yjmd?pwd=55qz">Obsidian新手免配置开箱即用库 2022-4-13.rar</a>，部分插件会影响软件功能，所以特此说明。</p><p>该库中还有 <a href="../../300_%E8%B5%84%E6%BA%90/%E7%94%9F%E6%B4%BB%E6%8A%80%E8%83%BD%E7%B1%BB%E7%AC%94%E8%AE%B0/MarkDown%E8%B6%85%E7%BA%A7%E6%95%99%E7%A8%8B%20Obsidian%E7%89%88%202022.1.12.html">MarkDown超级教程 Obsidian版 2022.1.12</a>（<a href="https://blog.csdn.net/qq_57187936/article/details/123923511">网址</a>）、<a href="Markdown%E8%AF%AD%E6%B3%95%E9%80%9F%E6%9F%A5%EF%BC%88%E9%80%82%E7%94%A8%E4%BA%8EObsidian%EF%BC%89.html">Markdown语法速查（适用于Obsidian）</a> 文档可以学习。</p><h2 id="界面基础操作"><a href="#界面基础操作" class="headerlink" title="界面基础操作"></a>界面基础操作</h2><ul><li><code>Ctrl</code>&#x2F;<code>Shift</code> 等按键配合鼠标或其他按键时，经常会有额外效果，例如打开页面时，默认是跳转页面，按住 <code>Ctrl</code> 可以在新窗口打开。</li></ul><h2 id="设置文档属性（文件头部-元数据）"><a href="#设置文档属性（文件头部-元数据）" class="headerlink" title="设置文档属性（文件头部&#x2F;元数据）"></a>设置文档属性（文件头部&#x2F;元数据）</h2><p><a href="https://help.obsidian.md/Advanced+topics/YAML+front+matter">YAML front matter - Obsidian Help</a>，目前支持以下四种附带功能的元数据：</p><ul><li>tags (标签)</li><li>aliases (别名)</li><li>cssclass</li><li>publish</li></ul><h2 id="YAML-语法"><a href="#YAML-语法" class="headerlink" title="YAML 语法"></a>YAML 语法</h2><p><a href="https://zhuanlan.zhihu.com/p/75067291">YAML语法介绍 - 知乎</a></p><p><a href="https://www.bejson.com/validators/yaml_editor/">YAML、YML在线编辑器(格式化校验)-BeJSON.com</a></p><p>obsidian 中常用的基础要点：</p><ul><li>key: value 格式，井号#后面是注释。</li><li>特殊字符需要用单引号或双引号包裹（也表示字符串类型数据）。</li><li>要让 ob 正常标识标签，只需要在引号包裹中连续编写即可（如：<code>&#39;#a/b #c&#39;</code>，可以省略井号，但井号可以触发自动补全，也可能便于迁移维护），也可以用最普通的行内数组写法（如：<code>[a/b, c]</code>）。</li></ul><h2 id="markdown-相关注意事项"><a href="#markdown-相关注意事项" class="headerlink" title="markdown 相关注意事项"></a>markdown 相关注意事项</h2><p>支持 markdown 通用快捷键：</p><ul><li>列表缩进：<code>Ctrl + ]</code>、<code>Ctrl + [</code></li></ul><h2 id="callout-blocks-admonitions-兼容性更好的写法"><a href="#callout-blocks-admonitions-兼容性更好的写法" class="headerlink" title="callout blocks (admonitions) 兼容性更好的写法"></a>callout blocks (admonitions) 兼容性更好的写法</h2><p>本节已迁移到：<a href="Obsidian-Callouts%E4%B8%8EAdmonitions%E6%8F%92%E4%BB%B6%E5%86%99%E6%B3%95%E5%AF%B9%E6%AF%94.html">Obsidian-Callouts与Admonitions插件写法对比</a></p><h2 id="尚未研究的"><a href="#尚未研究的" class="headerlink" title="尚未研究的"></a>尚未研究的</h2><ul><li>Dataview 插件</li><li>其他可用插件</li><li>学习：<a href="http://wiki.eryajf.net/pages/6ed7fe">我的Obsidian入门之旅 | 二丫讲梵</a></li></ul><h3 id="拓展阅读"><a href="#拓展阅读" class="headerlink" title="拓展阅读"></a>拓展阅读</h3><ul><li><a href="https://zhuanlan.zhihu.com/p/422876369">用Obsidian记账 - 知乎</a> 使用元数据记账</li><li><a href="https://zhuanlan.zhihu.com/p/370113792">Obsidian 的 YAML Front matter 介绍 - 知乎</a>（2021-07-22）使用元数据的插件，相关高级用法。</li><li><a href="https://spec.commonmark.org/">CommonMark Spec</a> 大概是一套社区定义的 markdown 标准。</li></ul>]]></content>
       
       
       <categories>
           
-          <category> 计算机 </category>
+          <category> 个人 </category>
           
-          <category> 备忘录 </category>
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Obsidian </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Obsidian入门心得总结</title>
+      <link href="/2022/Obsidian%E5%85%A5%E9%97%A8%E5%BF%83%E5%BE%97%E6%80%BB%E7%BB%93.html"/>
+      <url>/2022/Obsidian%E5%85%A5%E9%97%A8%E5%BF%83%E5%BE%97%E6%80%BB%E7%BB%93.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="事情的开端与介绍"><a href="#事情的开端与介绍" class="headerlink" title="事情的开端与介绍"></a>事情的开端与介绍</h2><p>最近看到 3 次网络文章推荐（<a href="../../300_%E8%B5%84%E6%BA%90/%E7%94%9F%E6%B4%BB%E6%8A%80%E8%83%BD%E7%B1%BB%E7%AC%94%E8%AE%B0/%E7%BD%91%E5%8F%8B10%E4%BD%99%E6%AC%BE%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6%E8%AF%84%E4%BB%B7.html">网友10余款笔记软件评价</a>、<a href="../../300_%E8%B5%84%E6%BA%90/%E7%94%9F%E6%B4%BB%E6%8A%80%E8%83%BD%E7%B1%BB%E7%AC%94%E8%AE%B0/%E7%BD%91%E5%8F%8B%E5%90%84%E7%B1%BB%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90.html">网友各类软件工具推荐</a>），于 2022 年 10 月 27 日尝试使用。</p><p>在这之前我用的思源笔记，先把笔记内容导出 markdown 格式放进 obsidian（当前 <code>v1.0.3</code> 版本，以下简称 ob）中使用，可以明显感到以下区别：</p><ul><li>ob 搜索是基于整个文档文件，思源只能基于最小的块来搜索。这一点是否合适要看具体场景。</li><li>ob 文档结构和表现与文件系统一致，有文件夹概念，文件夹本身不能编写内容，不能自定义排序。</li><li>ob 也有多级标签功能（但重命名功能依赖插件）。</li><li>ob 也支持双向链接，但只是标准的 markdown 链接格式文本，通常使用相对路径，可以无缝迁移，而思源是应用私有超链接（<code>siyuan://***</code>）。</li><li>ob 默认显示预览，编辑内容时会恢复显示源码，有些场景会不方便，第一个就是 markdown 表格，表格插件 <code>Advanced Tables</code> 可以做到部分优化，配合“一直显示源码 (Source Mode)”功能。</li><li>测试了 ob 预览 20 万字的文档，也没有别人说的明显卡顿。</li><li>ob 是国外软件，思源是国内开源软件。</li></ul><p>暂时还不太想用 ob，要迁移的话或早或晚差别不大，可能等有机会再试用一下再想。</p><p>但最后当我回到思源记录时，发现思源帮助里面也有说纯文本笔记软件推荐 ob，顿感拨云见日（不是）。</p><h2 id="软件优劣总结"><a href="#软件优劣总结" class="headerlink" title="软件优劣总结"></a>软件优劣总结</h2><p>总体来说，ob 有以下优势：</p><ul><li>一句话总结：基于纯文本 markdown 文件存储，易于迁移、组合使用其他软件，例如使用第三方同步盘，甚至可以用 git，来实现备份和同步。</li></ul><p>但是 ob 也有劣势：</p><ul><li>更多更方便的功能依赖于第三方插件，入门可能有些麻烦，插件安装一般需要道理上网，而且使用它们并非很安全（有网友评论可能污染文件，所以可能要更重视备份笔记，保留历史版本）。</li><li>粘贴转换富文本的能力不好说，设置中可以开启转换。比如从 Excel 粘贴表格则需要依赖插件。</li><li>似乎没有自带全文替换功能，但可以使用其他编辑器如 notepad++，也可以对文本内容进行自定义的替换更新。</li><li>不方便定位文件夹并创建笔记。只能先创建笔记然后使用移动功能才相对容易一些。</li></ul><h2 id="开箱试用"><a href="#开箱试用" class="headerlink" title="开箱试用"></a>开箱试用</h2><p>其实吧 ob 软件更新也不慢的，可以试试（2022 年 10 月 28 日就开始切换到 ob 试用，啊，真香）。</p><p>实际使用笔记：</p><ul><li><a href="Obsidian%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html">Obsidian技术学习笔记</a></li><li><a href="Obsidian%E6%8F%92%E4%BB%B6%E4%B8%8E%E9%85%8D%E7%BD%AE%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html">Obsidian插件与配置笔记</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 电脑常用 </category>
+          
+          <category> 笔记 </category>
           
       </categories>
       
@@ -1173,33 +1232,6 @@
     
     
     <entry>
-      <title>Obsidian入门心得总结</title>
-      <link href="/2022/Obsidian%E5%85%A5%E9%97%A8%E5%BF%83%E5%BE%97%E6%80%BB%E7%BB%93.html"/>
-      <url>/2022/Obsidian%E5%85%A5%E9%97%A8%E5%BF%83%E5%BE%97%E6%80%BB%E7%BB%93.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="事情的开端与介绍"><a href="#事情的开端与介绍" class="headerlink" title="事情的开端与介绍"></a>事情的开端与介绍</h2><p>最近看到 3 次网络文章推荐（<a href="../../300_%E8%B5%84%E6%BA%90/%E7%94%9F%E6%B4%BB%E6%8A%80%E8%83%BD%E7%B1%BB%E7%AC%94%E8%AE%B0/%E7%BD%91%E5%8F%8B10%E4%BD%99%E6%AC%BE%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6%E8%AF%84%E4%BB%B7.html">网友10余款笔记软件评价</a>、<a href="../../300_%E8%B5%84%E6%BA%90/%E7%94%9F%E6%B4%BB%E6%8A%80%E8%83%BD%E7%B1%BB%E7%AC%94%E8%AE%B0/%E7%BD%91%E5%8F%8B%E5%90%84%E7%B1%BB%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90.html">网友各类软件工具推荐</a>），于 2022 年 10 月 27 日尝试使用。</p><p>在这之前我用的思源笔记，先把笔记内容导出 markdown 格式放进 obsidian（当前 <code>v1.0.3</code> 版本，以下简称 ob）中使用，可以明显感到以下区别：</p><ul><li>ob 搜索是基于整个文档文件，思源只能基于最小的块来搜索。这一点是否合适要看具体场景。</li><li>ob 文档结构和表现与文件系统一致，有文件夹概念，文件夹本身不能编写内容，不能自定义排序。</li><li>ob 也有多级标签功能（但重命名功能依赖插件）。</li><li>ob 的双向链接只是标准的 markdown 链接格式文本，通常使用相对路径，而思源是应用超链接（<code>siyuan://***</code>）。</li><li>ob 默认显示预览，编辑内容时会恢复显示源码，有些场景会不方便，第一个就是 markdown 表格，表格插件 <code>Advanced Tables</code> 可以做到部分优化，配合“一直显示源码 (Source Mode)”功能。</li><li>测试了 ob 预览 20 万字的文档，也没有别人说的明显卡顿。</li><li>ob 是国外软件，思源是国内开源软件。</li></ul><p>暂时还不太想用 ob，要迁移的话或早或晚差别不大，可能等有机会再试用一下再想。</p><p>但最后当我回到思源记录时，发现思源帮助里面也有说纯文本笔记软件推荐 ob，顿感拨云见日（不是）。</p><h2 id="软件优劣总结"><a href="#软件优劣总结" class="headerlink" title="软件优劣总结"></a>软件优劣总结</h2><p>总体来说，ob 有以下优势：</p><ul><li>一句话总结：基于纯文本 markdown 文件存储，易于迁移、组合使用其他软件，例如使用第三方同步盘，甚至可以用 git，来实现备份和同步。</li></ul><p>但是 ob 也有劣势：</p><ul><li>更多更方便的功能依赖于第三方插件，入门可能有些麻烦，插件安装一般需要道理上网，而且使用它们并非很安全（有网友评论可能污染文件，所以可能要更重视备份笔记，保留历史版本）。</li><li>粘贴转换富文本的能力不好说，设置中可以开启转换。比如从 Excel 粘贴表格则需要依赖插件。</li><li>似乎没有自带全文替换功能，但可以使用其他编辑器如 notepad++，也可以对文本内容进行自定义的替换更新。</li><li>不方便定位文件夹并创建笔记。只能先创建笔记然后使用移动功能才相对容易一些。</li></ul><h2 id="开箱试用"><a href="#开箱试用" class="headerlink" title="开箱试用"></a>开箱试用</h2><p>其实吧 ob 软件更新也不慢的，可以试试（2022 年 10 月 28 日就开始切换到 ob 试用，啊，真香）。</p><p>实际使用笔记：</p><ul><li><a href="Obsidian%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html">Obsidian技术学习笔记</a></li><li><a href="Obsidian%E6%8F%92%E4%BB%B6%E4%B8%8E%E9%85%8D%E7%BD%AE%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html">Obsidian插件与配置笔记</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 电脑应用 </category>
-          
-          <category> 管理工具 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Obsidian </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>ContextMenuManager（Windows系统右键菜单管理工具）使用心得</title>
       <link href="/2022/ContextMenuManager%EF%BC%88Windows%E7%B3%BB%E7%BB%9F%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7%EF%BC%89%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97.html"/>
       <url>/2022/ContextMenuManager%EF%BC%88Windows%E7%B3%BB%E7%BB%9F%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7%EF%BC%89%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97.html</url>
@@ -1209,9 +1241,9 @@
       
       <categories>
           
-          <category> 电脑应用 </category>
+          <category> 电脑常用 </category>
           
-          <category> 系统管理 </category>
+          <category> 系统优化 </category>
           
       </categories>
       
@@ -1259,9 +1291,9 @@
       
       <categories>
           
-          <category> 计算机 </category>
+          <category> 个人 </category>
           
-          <category> 备忘录 </category>
+          <category> 收藏夹 </category>
           
       </categories>
       
@@ -1286,9 +1318,9 @@
       
       <categories>
           
-          <category> 实例记录 </category>
+          <category> 个人 </category>
           
-          <category> 家庭 </category>
+          <category> 备忘录 </category>
           
       </categories>
       
@@ -1302,14 +1334,14 @@
       <link href="/2022/Excel%E3%80%81Word%E4%BD%BF%E7%94%A8%E5%92%8C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html"/>
       <url>/2022/Excel%E3%80%81Word%E4%BD%BF%E7%94%A8%E5%92%8C%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html</url>
       
-        <content type="html"><![CDATA[<h2 id="Excel"><a href="#Excel" class="headerlink" title="Excel"></a>Excel</h2><h3 id="快捷功能"><a href="#快捷功能" class="headerlink" title="快捷功能"></a>快捷功能</h3><p>转换为表格：<code>Ctrl+T</code></p><p>数据差异对比定位：<code>Ctrl+\</code> （按列）<code>Ctrl+Shift+\</code>（按行）</p><h3 id="专题功能"><a href="#专题功能" class="headerlink" title="专题功能"></a>专题功能</h3><p><a href="Excel%E8%87%AA%E5%BB%BA%E4%B8%AD%E6%96%87%E8%BD%AC%E5%85%A8%E6%8B%BC%E5%85%AC%E5%BC%8F.html">Excel自建中文转全拼公式</a></p><h2 id="Word"><a href="#Word" class="headerlink" title="Word"></a>Word</h2><p>设置快捷键：<code>Ctrl+Alt+加号</code></p>]]></content>
+        <content type="html"><![CDATA[<h2 id="Excel"><a href="#Excel" class="headerlink" title="Excel"></a>Excel</h2><h3 id="快捷功能"><a href="#快捷功能" class="headerlink" title="快捷功能"></a>快捷功能</h3><p>转换为表格：<code>Ctrl+T</code></p><p>数据差异对比定位：<code>Ctrl+\</code> （按列）<code>Ctrl+Shift+\</code>（按行）</p><h3 id="特定功能（文章）"><a href="#特定功能（文章）" class="headerlink" title="特定功能（文章）"></a>特定功能（文章）</h3><p><a href="Excel%E8%87%AA%E5%BB%BA%E4%B8%AD%E6%96%87%E8%BD%AC%E5%85%A8%E6%8B%BC%E5%85%AC%E5%BC%8F.html">Excel自建中文转全拼公式</a></p><h2 id="Word"><a href="#Word" class="headerlink" title="Word"></a>Word</h2><p>对特定功能设置快捷键：<code>Ctrl+Alt+加号</code> 然后点击功能图标</p>]]></content>
       
       
       <categories>
           
           <category> 计算机 </category>
           
-          <category> 备忘录 </category>
+          <category> 软件使用 </category>
           
       </categories>
       
@@ -1329,12 +1361,12 @@
       <link href="/2022/MouseInc%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93.html"/>
       <url>/2022/MouseInc%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93.html</url>
       
-        <content type="html"><![CDATA[<h2 id="使用心得"><a href="#使用心得" class="headerlink" title="使用心得"></a>使用心得</h2><p>支持鼠标手势、全局快捷键等方式进行多种快捷操作（还有双击Ctrl+C这种异想天开的触发方式），可定制程度很高，特别适合电脑技术人员，可以执行内置功能或简单的系统命令。只是设置界面需要联网或使用麻烦的离线包。</p><h2 id="技术分析"><a href="#技术分析" class="headerlink" title="技术分析"></a>技术分析</h2><p>2022年9月12日受视频<a href="https://www.bilibili.com/video/BV1nP4y1Z7o3">【𝙈𝙤𝙪𝙨𝙚𝙄𝙣𝙘】只有1M的鼠标增强神器，自带OCR文字识别，提高你的办公效率✅_哔哩哔哩_bilibili</a>推荐了解到MouseInc这款软件，底下似乎有作者<a href="../../232_%E7%A4%BE%E4%BC%9A%E5%85%B3%E7%B3%BB/%E8%AE%A4%E8%AF%86/%E7%BD%91%E7%BB%9C%E7%94%A8%E6%88%B7/shuax.html">shuax</a>评论：没网软件本身是能用的哈，只是ocr不能用，设置可以通过安装webview2并且放入离线设置包就能正常用了。</p><p>win11系统下，在软件中可以选择文字，位置右上角会弹出快捷菜单，选择“隐藏菜单”-“菜单设置”会默认打开程序msedgewebview2.exe访问<a href="edge://settings/appearance">edge设置地址</a>，虽无法直接打开，但可以转而使用edge浏览器打开。可以猜测这是edge浏览器相关的功能，它应该是用了webview2实现的界面。</p><p>如果框选文字，快捷菜单选择“更多操作”-“复制指向突出显示的链接”，可以得到地址如:<a href="https://tools.shuax.com/mouseinc/?port=56964#/switch">https://tools.shuax.com/mouseinc/?port=56964#/switch</a> ，在浏览器中打开，可以看到页面正在使用websocket与本地端口进行交互，实现设置的变更。</p><h2 id="离线使用方法"><a href="#离线使用方法" class="headerlink" title="离线使用方法"></a>离线使用方法</h2><ol><li>获取离线界面包：从<a href="https://github.com/shuax/MouseInc.Settings">MouseInc设置界面的源代码仓库</a>可下载打包好的离线界面包，或者麻烦一点自己打包也可以。次选方法是直接从在线<a href="https://tools.shuax.com/mouseinc/">设置网站</a>保存，文件名使用index。</li><li>发布web服务（需要一些web知识）：发布一个8080端口的web服务访问离线界面即可。因为软件提供了在本地8080端口打开设置界面的方法：托盘右键菜单，按住Shift点击打开设置。简单做法可使用nginx，根据离线包请求的页面资源情况，可构建配置：</li></ol><figure class="highlight dsconfig"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">server</span> &#123;</span><br><span class="line">    <span class="string">listen</span>       <span class="string">8080</span>;</span><br><span class="line">    <span class="string">server_name</span>  <span class="string">localhost</span>;</span><br><span class="line"></span><br><span class="line">    <span class="string">location</span> / &#123;</span><br><span class="line">        <span class="string">rewrite</span> (.*) /<span class="string">mouseinc</span>$<span class="string">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="string">location</span> /<span class="string">mouseinc</span> &#123;</span><br><span class="line">        <span class="string">alias</span>   <span class="string">D</span>:\<span class="string">_nginx_root</span>\<span class="string">MouseInc</span>.<span class="string">Settings</span>;</span><br><span class="line">        <span class="string">index</span>  <span class="string">index</span>.<span class="string">html</span> <span class="string">index</span>.<span class="string">htm</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>2022年10月发现主网站已经清空了，目前设置网站还能用，但是难保哪天出问题，fork一下，再记一下<a href="https://github.com/iview/iview-admin">设置页面的基础源代码</a>（虽然也是几年没更新了）。</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="使用心得"><a href="#使用心得" class="headerlink" title="使用心得"></a>使用心得</h2><p>支持鼠标手势、全局快捷键等方式进行多种快捷操作（还有双击Ctrl+C这种异想天开的触发方式），可定制程度高，尤其适合电脑技术人员，可以执行内置功能或简单的系统命令。只是程序原本需要联网使用，<strong>现在settings网站也没了，只能使用麻烦的离线包进行设置</strong>。</p><h2 id="技术分析"><a href="#技术分析" class="headerlink" title="技术分析"></a>技术分析</h2><p>2022年9月12日受视频<a href="https://www.bilibili.com/video/BV1nP4y1Z7o3">【𝙈𝙤𝙪𝙨𝙚𝙄𝙣𝙘】只有1M的鼠标增强神器，自带OCR文字识别，提高你的办公效率✅_哔哩哔哩_bilibili</a>推荐了解到MouseInc这款软件，底下似乎有作者<a href="../../232_%E7%A4%BE%E4%BC%9A%E5%85%B3%E7%B3%BB/%E8%AE%A4%E8%AF%86/%E7%BD%91%E7%BB%9C%E7%94%A8%E6%88%B7/shuax.html">shuax</a>评论：没网软件本身是能用的哈，只是ocr不能用，设置可以通过安装webview2并且放入离线设置包就能正常用了。</p><p>win11系统下，在软件中可以选择文字，位置右上角会弹出快捷菜单，选择“隐藏菜单”-“菜单设置”会默认打开程序msedgewebview2.exe访问<a href="edge://settings/appearance">edge设置地址</a>，虽无法直接打开，但可以转而使用edge浏览器打开。可以猜测这是edge浏览器相关的功能，它应该是用了webview2实现的界面。</p><p>如果框选文字，快捷菜单选择“更多操作”-“复制指向突出显示的链接”，可以得到地址如:<a href="https://tools.shuax.com/mouseinc/?port=56964#/switch">https://tools.shuax.com/mouseinc/?port=56964#/switch</a> ，在浏览器中打开，可以看到页面正在使用websocket与本地端口进行交互，实现设置的变更。</p><h2 id="离线使用方法"><a href="#离线使用方法" class="headerlink" title="离线使用方法"></a>离线使用方法</h2><ol><li>获取离线界面包：从<a href="https://github.com/shuax/MouseInc.Settings">MouseInc设置界面的源代码仓库</a>可下载打包好的离线界面包，或者麻烦一点自己打包也可以。次选方法是直接从在线<a href="https://tools.shuax.com/mouseinc/">设置网站</a>保存，文件名使用index。</li><li>发布web服务（需要一些web知识）：发布一个8080端口的web服务访问离线界面即可。因为软件提供了在本地8080端口打开设置界面的方法：托盘右键菜单，按住Shift点击打开设置。简单做法可使用nginx，根据离线包请求的页面资源情况，可构建配置：</li></ol><figure class="highlight dsconfig"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">server</span> &#123;</span><br><span class="line">    <span class="string">listen</span>       <span class="string">8080</span>;</span><br><span class="line">    <span class="string">server_name</span>  <span class="string">localhost</span>;</span><br><span class="line"></span><br><span class="line">    <span class="string">location</span> / &#123;</span><br><span class="line">        <span class="string">rewrite</span> (.*) /<span class="string">mouseinc</span>$<span class="string">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="string">location</span> /<span class="string">mouseinc</span> &#123;</span><br><span class="line">        <span class="string">alias</span>   <span class="string">D</span>:\<span class="string">_nginx_root</span>\<span class="string">MouseInc</span>.<span class="string">Settings</span>;</span><br><span class="line">        <span class="string">index</span>  <span class="string">index</span>.<span class="string">html</span> <span class="string">index</span>.<span class="string">htm</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h2 id="后记"><a href="#后记" class="headerlink" title="后记"></a>后记</h2><p>2022年10月发现主网站已经清空了，目前设置网站还能用，但是难保哪天出问题，fork一下，再记一下<a href="https://github.com/iview/iview-admin">设置页面的基础源代码</a>（虽然也是几年没更新了）。</p>]]></content>
       
       
       <categories>
           
-          <category> 电脑应用 </category>
+          <category> 电脑常用 </category>
           
           <category> 效率工具 </category>
           
@@ -1400,7 +1432,7 @@
     
     
     <entry>
-      <title>B站隐藏功能用法整理（Bilibili使用技巧）</title>
+      <title>B站电脑端隐藏功能用法整理（Bilibili使用技巧）</title>
       <link href="/2022/B%E7%AB%99%E9%9A%90%E8%97%8F%E5%8A%9F%E8%83%BD%E7%94%A8%E6%B3%95%E6%95%B4%E7%90%86.html"/>
       <url>/2022/B%E7%AB%99%E9%9A%90%E8%97%8F%E5%8A%9F%E8%83%BD%E7%94%A8%E6%B3%95%E6%95%B4%E7%90%86.html</url>
       
@@ -1436,16 +1468,22 @@
       
       <categories>
           
-          <category> 计算机 </category>
-          
           <category> 游戏 </category>
-          
-          <category> 原神 </category>
           
           <category> 代码存档 </category>
           
+          <category> 原神 </category>
+          
+          <category> 自动化 </category>
+          
       </categories>
       
+      
+        <tags>
+            
+            <tag> Shell </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1482,9 +1520,9 @@
       
       <categories>
           
-          <category> 电脑应用 </category>
+          <category> 个人 </category>
           
-          <category> 总结合集 </category>
+          <category> 合集 </category>
           
       </categories>
       
@@ -1519,21 +1557,23 @@
       <link href="/2022/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6%E4%B8%8E%E8%84%9A%E6%9C%AC%E5%AD%98%E6%A1%A3.html"/>
       <url>/2022/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6%E4%B8%8E%E8%84%9A%E6%9C%AC%E5%AD%98%E6%A1%A3.html</url>
       
-        <content type="html"><![CDATA[<h2 id="浏览器收藏夹文件导出后显示日期"><a href="#浏览器收藏夹文件导出后显示日期" class="headerlink" title="浏览器收藏夹文件导出后显示日期"></a>浏览器收藏夹文件导出后显示日期</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 在浏览器导出的收藏夹html中运行，把中文日期打印出来，分离收藏名称和网址</span></span><br><span class="line"><span class="keyword">var</span> s = <span class="variable language_">document</span>.<span class="title function_">getElementsByTagName</span>(<span class="string">&#x27;a&#x27;</span>);</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; s.<span class="property">length</span>; i++) &#123;</span><br><span class="line">    <span class="keyword">var</span> el = s[i];</span><br><span class="line">    <span class="keyword">var</span> span = <span class="variable language_">document</span>.<span class="title function_">createElement</span>(<span class="string">&#x27;span&#x27;</span>);</span><br><span class="line">    <span class="keyword">var</span> time = el.<span class="title function_">getAttribute</span>(<span class="string">&#x27;ADD_DATE&#x27;</span>);</span><br><span class="line">    <span class="keyword">var</span> date = <span class="keyword">new</span> <span class="title class_">Date</span>(time * <span class="number">1000</span>);</span><br><span class="line">    span.<span class="property">innerText</span> = date.<span class="title function_">getFullYear</span>() + <span class="string">&#x27;年&#x27;</span> + (date.<span class="title function_">getMonth</span>() + <span class="number">1</span>) + <span class="string">&#x27;月&#x27;</span> + date.<span class="title function_">getDate</span>() + <span class="string">&#x27;日\t&#x27;</span>;</span><br><span class="line">    el.<span class="property">parentElement</span>.<span class="title function_">insertBefore</span>(span, el);</span><br><span class="line">  </span><br><span class="line">    <span class="keyword">var</span> span = <span class="variable language_">document</span>.<span class="title function_">createElement</span>(<span class="string">&#x27;span&#x27;</span>);</span><br><span class="line">    span.<span class="property">innerText</span> = el.<span class="property">innerText</span> + <span class="string">&#x27;\t&#x27;</span>;</span><br><span class="line">    el.<span class="property">parentElement</span>.<span class="title function_">insertBefore</span>(span, el);</span><br><span class="line">  </span><br><span class="line">    el.<span class="property">innerText</span> = el.<span class="title function_">getAttribute</span>(<span class="string">&#x27;href&#x27;</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure><h2 id="收藏夹网站导出链接"><a href="#收藏夹网站导出链接" class="headerlink" title="收藏夹网站导出链接"></a>收藏夹网站导出链接</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">s=<span class="string">&#x27;&#x27;</span>;<span class="keyword">for</span> (a <span class="keyword">of</span> $($0).<span class="title function_">find</span>(<span class="string">&#x27;a&#x27;</span>))s+=(a.<span class="property">href</span>)+<span class="string">&#x27;\n&#x27;</span></span><br><span class="line"><span class="comment">// 仅输出</span></span><br><span class="line"><span class="keyword">for</span> (a <span class="keyword">of</span> $($0).<span class="title function_">find</span>(<span class="string">&#x27;a&#x27;</span>))<span class="variable language_">console</span>.<span class="title function_">log</span>(a.<span class="property">href</span>)</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<h2 id="让浏览器导出的收藏夹文件链接显示收藏日期"><a href="#让浏览器导出的收藏夹文件链接显示收藏日期" class="headerlink" title="让浏览器导出的收藏夹文件链接显示收藏日期"></a>让浏览器导出的收藏夹文件链接显示收藏日期</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 在浏览器打开导出的收藏夹html文件，在其中运行，把中文日期打印出来，分离收藏名称和网址</span></span><br><span class="line"><span class="keyword">function</span> <span class="title function_">showFavorDate</span>(<span class="params"></span>) &#123;</span><br><span class="line">    <span class="keyword">var</span> s = <span class="variable language_">document</span>.<span class="title function_">getElementsByTagName</span>(<span class="string">&#x27;a&#x27;</span>);</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">var</span> i = <span class="number">0</span>; i &lt; s.<span class="property">length</span>; i++) &#123;</span><br><span class="line">        <span class="keyword">var</span> el = s[i];</span><br><span class="line">        <span class="keyword">var</span> span = <span class="variable language_">document</span>.<span class="title function_">createElement</span>(<span class="string">&#x27;span&#x27;</span>);</span><br><span class="line">        <span class="keyword">var</span> time = el.<span class="title function_">getAttribute</span>(<span class="string">&#x27;ADD_DATE&#x27;</span>);</span><br><span class="line">        <span class="keyword">var</span> date = <span class="keyword">new</span> <span class="title class_">Date</span>(time * <span class="number">1000</span>);</span><br><span class="line">        span.<span class="property">innerText</span> = date.<span class="title function_">getFullYear</span>() + <span class="string">&#x27;年&#x27;</span> + (date.<span class="title function_">getMonth</span>() + <span class="number">1</span>) + <span class="string">&#x27;月&#x27;</span> + date.<span class="title function_">getDate</span>() + <span class="string">&#x27;日\t&#x27;</span>;</span><br><span class="line">        el.<span class="property">parentElement</span>.<span class="title function_">insertBefore</span>(span, el);</span><br><span class="line">      </span><br><span class="line">        <span class="keyword">var</span> span = <span class="variable language_">document</span>.<span class="title function_">createElement</span>(<span class="string">&#x27;span&#x27;</span>);</span><br><span class="line">        span.<span class="property">innerText</span> = el.<span class="property">innerText</span> + <span class="string">&#x27;\t&#x27;</span>;</span><br><span class="line">        el.<span class="property">parentElement</span>.<span class="title function_">insertBefore</span>(span, el);</span><br><span class="line">      </span><br><span class="line">        el.<span class="property">innerText</span> = el.<span class="title function_">getAttribute</span>(<span class="string">&#x27;href&#x27;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="title function_">showFavorDate</span>()</span><br></pre></td></tr></table></figure><h2 id="收藏夹网站导出链接"><a href="#收藏夹网站导出链接" class="headerlink" title="收藏夹网站导出链接"></a>收藏夹网站导出链接</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">s=<span class="string">&#x27;&#x27;</span>;<span class="keyword">for</span> (a <span class="keyword">of</span> $($0).<span class="title function_">find</span>(<span class="string">&#x27;a&#x27;</span>))s+=(a.<span class="property">href</span>)+<span class="string">&#x27;\n&#x27;</span></span><br><span class="line"><span class="comment">// 仅输出</span></span><br><span class="line"><span class="keyword">for</span> (a <span class="keyword">of</span> $($0).<span class="title function_">find</span>(<span class="string">&#x27;a&#x27;</span>))<span class="variable language_">console</span>.<span class="title function_">log</span>(a.<span class="property">href</span>)</span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
           
-          <category> 计算机 </category>
-          
-          <category> 编程语言 </category>
-          
           <category> 代码存档 </category>
           
-          <category> JavaScript </category>
+          <category> 浏览器插件 </category>
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> JavaScript </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1549,9 +1589,9 @@
       
       <categories>
           
-          <category> 计算机 </category>
-          
           <category> 代码存档 </category>
+          
+          <category> 自动化 </category>
           
       </categories>
       
@@ -1597,9 +1637,9 @@
       
       <categories>
           
-          <category> 实例记录 </category>
+          <category> 个人 </category>
           
-          <category> 家庭 </category>
+          <category> 收藏夹 </category>
           
       </categories>
       
@@ -1618,9 +1658,9 @@
       
       <categories>
           
-          <category> 电脑应用 </category>
+          <category> 个人 </category>
           
-          <category> 总结合集 </category>
+          <category> 合集 </category>
           
       </categories>
       
@@ -1645,9 +1685,13 @@
       
       <categories>
           
+          <category> 个人 </category>
+          
           <category> 游戏 </category>
           
           <category> 原神 </category>
+          
+          <category> 历程 </category>
           
       </categories>
       
@@ -1666,9 +1710,9 @@
       
       <categories>
           
-          <category> 实例记录 </category>
+          <category> 个人 </category>
           
-          <category> 家庭 </category>
+          <category> 家庭记录 </category>
           
       </categories>
       
@@ -1682,12 +1726,12 @@
       <link href="/2022/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95.html"/>
       <url>/2022/%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95.html</url>
       
-        <content type="html"><![CDATA[<h2 id="屏幕色彩"><a href="#屏幕色彩" class="headerlink" title="屏幕色彩"></a><del>屏幕色彩</del></h2><p><del>降低蓝光辐射，预防用眼疲劳（但屏幕色彩会“失真”，有点像夜间模式）：桌面右键 - 护眼卫士 - 开启护眼模式。</del></p><h2 id="OBS-耳返配置"><a href="#OBS-耳返配置" class="headerlink" title="OBS 耳返配置"></a>OBS 耳返配置</h2><p>目标：同时配置（电脑内置）麦克风和一个外部麦克风（目前使用的有线耳机），使他们耳返音量合适且接近。以有线耳机为准，耳返音量大约是：电脑输出音量按照日常使用的偏低音量（20-30 左右）的情况下，手不拿麦时只能听到一点声音，靠近嘴边时比较清晰适中。</p><p>配置：两个麦克风默认 100% 输出，音量 100%，麦克风增益滤镜 +20 dB，外部麦克风增益滤镜 +25 dB。</p><p>噪声抑制配置：麦克风可能由于收音问题，用 RNNoise 方式声音会很奇怪，只能换另一种 Speex（默认抑制程度 -30 dB）。</p><h2 id="配置历史"><a href="#配置历史" class="headerlink" title="配置历史"></a>配置历史</h2><h3 id="2022-年-11-月-28-日"><a href="#2022-年-11-月-28-日" class="headerlink" title="2022 年 11 月 28 日"></a>2022 年 11 月 28 日</h3><p>使用了 <a href="WIN10+%E4%BC%98%E5%8C%96%E5%B0%8F%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97.html">WIN10+优化小工具</a>。</p><p>第二天出现任务栏（资源管理器）卡死崩溃，（刚登录原神后）蓝屏死机（这台电脑少有的）。</p><h3 id="2023-年-2-月-18-日"><a href="#2023-年-2-月-18-日" class="headerlink" title="2023 年 2 月 18 日"></a>2023 年 2 月 18 日</h3><ul><li>解决 <a href="../2023/Win11%E5%9B%BE%E7%89%87.png%E6%A0%BC%E5%BC%8F%E6%97%A0%E6%B3%95%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E5%BA%94%E7%94%A8%EF%BC%8C%E5%8F%B3%E9%94%AE%E6%B2%A1%E6%9C%89%E6%89%93%E5%BC%80%E8%8F%9C%E5%8D%95%E9%97%AE%E9%A2%98.html">Win11图片.png格式无法设置默认应用，右键没有打开菜单问题</a></li><li>设置 <a href="../2023/%E5%85%B3%E9%97%ADwin11%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95%E7%9A%84%E7%BD%91%E7%BB%9C%E6%90%9C%E7%B4%A2.html">关闭win11开始菜单的网络搜索</a></li></ul><h3 id="2023年8月30日"><a href="#2023年8月30日" class="headerlink" title="2023年8月30日"></a>2023年8月30日</h3><p><a href="../../300_%E8%B5%84%E6%BA%90/%E7%94%9F%E6%B4%BB%E6%8A%80%E8%83%BD%E7%B1%BB%E7%AC%94%E8%AE%B0/%E7%94%A8%E5%91%BD%E4%BB%A4%E6%8A%8Awin11%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E6%94%B9%E6%88%90win10%EF%BC%8C%E4%B8%94%E5%A6%82%E4%BD%95%E8%BF%98%E5%8E%9F%E6%88%90win11.html">用命令把win11右键菜单改成win10，且如何还原成win11</a></p><h3 id="2023年9月2日"><a href="#2023年9月2日" class="headerlink" title="2023年9月2日"></a>2023年9月2日</h3><p>最近实在受不了打开一下MP4视频文件夹的卡顿了，随手百度一下似乎解决了：<a href="../../300_%E8%B5%84%E6%BA%90/%E7%94%9F%E6%B4%BB%E6%8A%80%E8%83%BD%E7%B1%BB%E7%AC%94%E8%AE%B0/Win11%E6%89%93%E5%BC%80%E8%A7%86%E9%A2%91%E6%96%87%E4%BB%B6%E5%A4%B9%E6%85%A2%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9FWin11%E8%A7%86%E9%A2%91%E6%96%87%E4%BB%B6%E5%A4%B9%E6%89%93%E5%BC%80%E6%85%A2%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%20-%20%E7%B3%BB%E7%BB%9F%E4%B9%8B%E5%AE%B6.html">Win11打开视频文件夹慢怎么办？Win11视频文件夹打开慢解决方法 - 系统之家</a></p><h2 id="性能、功率与风扇优化"><a href="#性能、功率与风扇优化" class="headerlink" title="性能、功率与风扇优化"></a>性能、功率与风扇优化</h2><p>希望能够减少积灰，尽量耐用。（懒得清灰换硅脂）</p><p>2023年6月4日最近的现象还是cpu温度比较高，玩原神在80度以上，显卡相对低可能就60&#x2F;70度，平时看视频cpu也会有70-80度，显卡就50度。</p><p>开始尝试电池的最佳能效模式。另外试了联想笔记本的安静模式，一下子看不出什么效果就放弃了。（不敢修改内部设置，比如什么睿频开关之类的。）</p>]]></content>
+        <content type="html"><![CDATA[<h2 id="屏幕色彩"><a href="#屏幕色彩" class="headerlink" title="屏幕色彩"></a><del>屏幕色彩</del></h2><p><del>降低蓝光辐射，预防用眼疲劳（但屏幕色彩会“失真”，有点像夜间模式）：桌面右键 - 护眼卫士 - 开启护眼模式。</del></p><h2 id="OBS-耳返配置"><a href="#OBS-耳返配置" class="headerlink" title="OBS 耳返配置"></a>OBS 耳返配置</h2><p>目标：同时配置（电脑内置）麦克风和一个外部麦克风（目前使用的有线耳机），使他们耳返音量合适且接近。以有线耳机为准，耳返音量大约是：电脑输出音量按照日常使用的偏低音量（20-30 左右）的情况下，手不拿麦时只能听到一点声音，靠近嘴边时比较清晰适中。</p><p>配置：两个麦克风默认 100% 输出，音量 100%，麦克风增益滤镜 +20 dB，外部麦克风增益滤镜 +25 dB。</p><p>噪声抑制配置：麦克风可能由于收音问题，用 RNNoise 方式声音会很奇怪，只能换另一种 Speex（默认抑制程度 -30 dB）。</p><h2 id="配置历史"><a href="#配置历史" class="headerlink" title="配置历史"></a>配置历史</h2><h3 id="2022-年-1-月-28-日"><a href="#2022-年-1-月-28-日" class="headerlink" title="2022 年 1 月 28 日"></a>2022 年 1 月 28 日</h3><p><a href="win10%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%9D%A1%E7%9C%A0%E7%9A%84%E7%A6%BB%E5%BC%80%E6%A8%A1%E5%BC%8F.html">win10笔记本睡眠的离开模式</a></p><h3 id="2022-年-11-月-28-日"><a href="#2022-年-11-月-28-日" class="headerlink" title="2022 年 11 月 28 日"></a>2022 年 11 月 28 日</h3><p>使用了 <a href="WIN10+%E4%BC%98%E5%8C%96%E5%B0%8F%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97.html">WIN10+优化小工具</a>。</p><p>第二天出现任务栏（资源管理器）卡死崩溃，（刚登录原神后）蓝屏死机（这台电脑少有的）。</p><h3 id="2023-年-2-月-18-日"><a href="#2023-年-2-月-18-日" class="headerlink" title="2023 年 2 月 18 日"></a>2023 年 2 月 18 日</h3><ul><li>解决 <a href="../2023/Win11%E5%9B%BE%E7%89%87.png%E6%A0%BC%E5%BC%8F%E6%97%A0%E6%B3%95%E8%AE%BE%E7%BD%AE%E9%BB%98%E8%AE%A4%E5%BA%94%E7%94%A8%EF%BC%8C%E5%8F%B3%E9%94%AE%E6%B2%A1%E6%9C%89%E6%89%93%E5%BC%80%E8%8F%9C%E5%8D%95%E9%97%AE%E9%A2%98.html">Win11图片.png格式无法设置默认应用，右键没有打开菜单问题</a></li><li>设置 <a href="../2023/%E5%85%B3%E9%97%ADwin11%E5%BC%80%E5%A7%8B%E8%8F%9C%E5%8D%95%E7%9A%84%E7%BD%91%E7%BB%9C%E6%90%9C%E7%B4%A2.html">关闭win11开始菜单的网络搜索</a></li></ul><h3 id="2023年8月30日"><a href="#2023年8月30日" class="headerlink" title="2023年8月30日"></a>2023年8月30日</h3><p><a href="../../300_%E8%B5%84%E6%BA%90/%E7%94%9F%E6%B4%BB%E6%8A%80%E8%83%BD%E7%B1%BB%E7%AC%94%E8%AE%B0/%E7%94%A8%E5%91%BD%E4%BB%A4%E6%8A%8Awin11%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E6%94%B9%E6%88%90win10%EF%BC%8C%E4%B8%94%E5%A6%82%E4%BD%95%E8%BF%98%E5%8E%9F%E6%88%90win11.html">用命令把win11右键菜单改成win10，且如何还原成win11</a></p><h3 id="2023年9月2日"><a href="#2023年9月2日" class="headerlink" title="2023年9月2日"></a>2023年9月2日</h3><p>最近实在受不了打开一下MP4视频文件夹的卡顿了，随手百度一下似乎解决了：<a href="../../300_%E8%B5%84%E6%BA%90/%E7%94%9F%E6%B4%BB%E6%8A%80%E8%83%BD%E7%B1%BB%E7%AC%94%E8%AE%B0/Win11%E6%89%93%E5%BC%80%E8%A7%86%E9%A2%91%E6%96%87%E4%BB%B6%E5%A4%B9%E6%85%A2%E6%80%8E%E4%B9%88%E5%8A%9E%EF%BC%9FWin11%E8%A7%86%E9%A2%91%E6%96%87%E4%BB%B6%E5%A4%B9%E6%89%93%E5%BC%80%E6%85%A2%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95%20-%20%E7%B3%BB%E7%BB%9F%E4%B9%8B%E5%AE%B6.html">Win11打开视频文件夹慢怎么办？Win11视频文件夹打开慢解决方法 - 系统之家</a></p><h2 id="性能、功率与风扇优化"><a href="#性能、功率与风扇优化" class="headerlink" title="性能、功率与风扇优化"></a>性能、功率与风扇优化</h2><p>希望能够减少积灰，尽量耐用。（懒得清灰换硅脂）</p><p>2023年6月4日最近的现象还是cpu温度比较高，玩原神在80度以上，显卡相对低可能就60&#x2F;70度，平时看视频cpu也会有70-80度，显卡就50度。</p><p>开始尝试电池的最佳能效模式。另外试了联想笔记本的安静模式，一下子看不出什么效果就放弃了。（不敢修改内部设置，比如什么睿频开关之类的。）</p>]]></content>
       
       
       <categories>
           
-          <category> 实例记录 </category>
+          <category> 计算机实践 </category>
           
           <category> 联想拯救者 </category>
           
@@ -1708,7 +1752,7 @@
       
       <categories>
           
-          <category> 实例记录 </category>
+          <category> 计算机实践 </category>
           
           <category> 联想拯救者 </category>
           
@@ -1733,6 +1777,14 @@
         <content type="html"><![CDATA[<p>发现最近笔记本睡眠不会断电，电源灯和鼠标还亮着，动一下鼠标就能打开，就像只是关闭了屏幕。</p><p><a href="https://zhuanlan.zhihu.com/p/45629547">Windows7各种睡眠模式详细讲解 - 知乎</a></p><p>看了上文发现似乎是电脑自动开启使用了“离开模式”，也不知道关不关比较好。</p><p>关闭的具体操作是打开 regedit 注册表，找到 <code>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Power下面的AwayModeEnabled</code> 设置为 0。</p><p>2022 年 1 月 28 日：最近关了离开模式，反而开始担心会不会离开模式对电脑更好了，但听说耗电也不会少很多：</p><p><a href="https://www.williamlong.info/archives/3074.html">再论关机以及睡眠-月光博客</a></p><p>2023年7月2日：最近不知怎的，睡眠后再开盖他就启动了，甚至很快，但的确是断网（睡眠）的。昨晚甚至睡眠后发现鼠标还是亮着的，开盖发现真的还没睡眠，怀疑是什么程序影响但没有头绪，只能试了试把上面的注册表改成1再改回0，可能反而有效果了，睡眠后鼠标很快就熄灭了。</p>]]></content>
       
       
+      <categories>
+          
+          <category> 计算机 </category>
+          
+          <category> 问题经验 </category>
+          
+      </categories>
+      
       
         <tags>
             
@@ -1754,7 +1806,7 @@
       
       <categories>
           
-          <category> 实例记录 </category>
+          <category> 计算机实践 </category>
           
           <category> 联想拯救者 </category>
           
@@ -1783,7 +1835,7 @@
       
       <categories>
           
-          <category> 实例记录 </category>
+          <category> 计算机实践 </category>
           
           <category> 联想拯救者 </category>
           
@@ -1812,18 +1864,18 @@
       
       <categories>
           
-          <category> 计算机 </category>
-          
-          <category> 编程语言 </category>
+          <category> 个人 </category>
           
           <category> 备忘录 </category>
           
-          <category> Python </category>
-          
-          <category> 代码存档 </category>
-          
       </categories>
       
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1860,9 +1912,9 @@
       
       <categories>
           
-          <category> 计算机 </category>
+          <category> 个人 </category>
           
-          <category> 备忘录 </category>
+          <category> 学习笔记 </category>
           
       </categories>
       
@@ -1889,9 +1941,9 @@
       
       <categories>
           
-          <category> 实例记录 </category>
+          <category> 个人 </category>
           
-          <category> 家庭 </category>
+          <category> 家庭记录 </category>
           
       </categories>
       
@@ -1905,14 +1957,14 @@
       <link href="/2020/Nginx%20location%E5%8C%B9%E9%85%8D%E9%A1%BA%E5%BA%8F%E7%AE%80%E5%8D%95%E6%80%BB%E7%BB%93.html"/>
       <url>/2020/Nginx%20location%E5%8C%B9%E9%85%8D%E9%A1%BA%E5%BA%8F%E7%AE%80%E5%8D%95%E6%80%BB%E7%BB%93.html</url>
       
-        <content type="html"><![CDATA[<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#1.第一步，精确匹配</span></span><br><span class="line"></span><br><span class="line"><span class="section">location</span> =/a/b/c&#123;</span><br><span class="line"></span><br><span class="line"><span class="comment">#结束</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">#否则继续--</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#2.第二步，标准匹配，多条匹配时取最长</span></span><br><span class="line"></span><br><span class="line"><span class="section">location</span> /a&#123;</span><br><span class="line"></span><br><span class="line"><span class="comment">#匹配后继续第三步</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">#或者</span></span><br><span class="line"></span><br><span class="line"><span class="section">location</span><span class="regexp"> ^~/a/b</span>&#123;</span><br><span class="line"></span><br><span class="line"><span class="comment">#匹配后结束。（代表优先于正则，并忽略正则）</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">#3.第三步，正则匹配，按配置顺序匹配第一个</span></span><br><span class="line"></span><br><span class="line"><span class="section">location</span> ~/reg&#123;</span><br><span class="line"></span><br><span class="line"><span class="comment">#匹配后结束</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">#或者</span></span><br><span class="line"></span><br><span class="line"><span class="section">location</span> ~*\.gif$&#123;</span><br><span class="line"></span><br><span class="line"><span class="comment">#同上，不区分大小写</span></span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">#否则使用第二步结果。</span></span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<figure class="highlight nginx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#1.第一步，精确匹配（最优先）</span></span><br><span class="line"></span><br><span class="line"><span class="section">location</span> =/a/b/c&#123;</span><br><span class="line">    <span class="comment">#结束</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">#否则继续--</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#2.第二步，标准匹配，多条匹配时取最长</span></span><br><span class="line"></span><br><span class="line"><span class="section">location</span> /a&#123;</span><br><span class="line">    <span class="comment">#这种匹配后继续第三步</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">#或者</span></span><br><span class="line"></span><br><span class="line"><span class="section">location</span><span class="regexp"> ^~/a/b</span>&#123;</span><br><span class="line">    <span class="comment">#这种匹配后结束。（^~代表优先于正则，并忽略正则）</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">#3.第三步，正则匹配，按配置顺序匹配第一个</span></span><br><span class="line"></span><br><span class="line"><span class="section">location</span> ~/reg&#123;</span><br><span class="line">    <span class="comment">#匹配后结束</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">#或者</span></span><br><span class="line"></span><br><span class="line"><span class="section">location</span> ~*\.gif$&#123;</span><br><span class="line">    <span class="comment">#匹配后结束，且不区分大小写</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">#否则使用第二步结果。</span></span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
           
           <category> 计算机 </category>
           
-          <category> 备忘录 </category>
+          <category> 研发基础心得 </category>
           
       </categories>
       
@@ -1937,7 +1989,7 @@
       
       <categories>
           
-          <category> 计算机 </category>
+          <category> 个人 </category>
           
           <category> 备忘录 </category>
           
@@ -1956,14 +2008,12 @@
         <content type="html"><![CDATA[<p>6 win32con.WM_ACTIVATE</p><p>28 win32con.WM_ACTIVATEAPP</p><p>864 win32con.WM_AFXFIRST</p><p>895 win32con.WM_AFXLAST</p><p>32768 win32con.WM_APP</p><p>780 win32con.WM_ASKCBFORMATNAME</p><p>75 win32con.WM_CANCELJOURNAL</p><p>31 win32con.WM_CANCELMODE</p><p>533 win32con.WM_CAPTURECHANGED</p><p>781 win32con.WM_CHANGECBCHAIN</p><p>258 win32con.WM_CHAR</p><p>47 win32con.WM_CHARTOITEM</p><p>34 win32con.WM_CHILDACTIVATE</p><p>1025 win32con.WM_CHOOSEFONT_GETLOGFONT</p><p>1126 win32con.WM_CHOOSEFONT_SETFLAGS</p><p>1125 win32con.WM_CHOOSEFONT_SETLOGFONT</p><p>771 win32con.WM_CLEAR</p><p>16 win32con.WM_CLOSE</p><p>273 win32con.WM_COMMAND</p><p>68 win32con.WM_COMMNOTIFY</p><p>65 win32con.WM_COMPACTING</p><p>57 win32con.WM_COMPAREITEM</p><p>123 win32con.WM_CONTEXTMENU</p><p>769 win32con.WM_COPY</p><p>74 win32con.WM_COPYDATA</p><p>1 win32con.WM_CREATE</p><p>309 win32con.WM_CTLCOLORBTN</p><p>310 win32con.WM_CTLCOLORDLG</p><p>307 win32con.WM_CTLCOLOREDIT</p><p>308 win32con.WM_CTLCOLORLISTBOX</p><p>306 win32con.WM_CTLCOLORMSGBOX</p><p>311 win32con.WM_CTLCOLORSCROLLBAR</p><p>312 win32con.WM_CTLCOLORSTATIC</p><p>768 win32con.WM_CUT</p><p>259 win32con.WM_DEADCHAR</p><p>45 win32con.WM_DELETEITEM</p><p>2 win32con.WM_DESTROY</p><p>775 win32con.WM_DESTROYCLIPBOARD</p><p>537 win32con.WM_DEVICECHANGE</p><p>27 win32con.WM_DEVMODECHANGE</p><p>126 win32con.WM_DISPLAYCHANGE</p><p>776 win32con.WM_DRAWCLIPBOARD</p><p>43 win32con.WM_DRAWITEM</p><p>563 win32con.WM_DROPFILES</p><p>10 win32con.WM_ENABLE</p><p>22 win32con.WM_ENDSESSION</p><p>289 win32con.WM_ENTERIDLE</p><p>529 win32con.WM_ENTERMENULOOP</p><p>561 win32con.WM_ENTERSIZEMOVE</p><p>20 win32con.WM_ERASEBKGND</p><p>530 win32con.WM_EXITMENULOOP</p><p>562 win32con.WM_EXITSIZEMOVE</p><p>29 win32con.WM_FONTCHANGE</p><p>135 win32con.WM_GETDLGCODE</p><p>49 win32con.WM_GETFONT</p><p>51 win32con.WM_GETHOTKEY</p><p>127 win32con.WM_GETICON</p><p>36 win32con.WM_GETMINMAXINFO</p><p>61 win32con.WM_GETOBJECT</p><p>13 win32con.WM_GETTEXT</p><p>14 win32con.WM_GETTEXTLENGTH</p><p>856 win32con.WM_HANDHELDFIRST</p><p>863 win32con.WM_HANDHELDLAST</p><p>83 win32con.WM_HELP</p><p>786 win32con.WM_HOTKEY</p><p>276 win32con.WM_HSCROLL</p><p>782 win32con.WM_HSCROLLCLIPBOARD</p><p>39 win32con.WM_ICONERASEBKGND</p><p>646 win32con.WM_IME_CHAR</p><p>271 win32con.WM_IME_COMPOSITION</p><p>644 win32con.WM_IME_COMPOSITIONFULL</p><p>643 win32con.WM_IME_CONTROL</p><p>270 win32con.WM_IME_ENDCOMPOSITION</p><p>656 win32con.WM_IME_KEYDOWN</p><p>271 win32con.WM_IME_KEYLAST</p><p>657 win32con.WM_IME_KEYUP</p><p>642 win32con.WM_IME_NOTIFY</p><p>648 win32con.WM_IME_REQUEST</p><p>645 win32con.WM_IME_SELECT</p><p>641 win32con.WM_IME_SETCONTEXT</p><p>269 win32con.WM_IME_STARTCOMPOSITION</p><p>272 win32con.WM_INITDIALOG</p><p>278 win32con.WM_INITMENU</p><p>279 win32con.WM_INITMENUPOPUP</p><p>81 win32con.WM_INPUTLANGCHANGE</p><p>80 win32con.WM_INPUTLANGCHANGEREQUEST</p><p>256 win32con.WM_KEYDOWN</p><p>256 win32con.WM_KEYFIRST</p><p>264 win32con.WM_KEYLAST</p><p>257 win32con.WM_KEYUP</p><p>8 win32con.WM_KILLFOCUS</p><p>515 win32con.WM_LBUTTONDBLCLK</p><p>513 win32con.WM_LBUTTONDOWN</p><p>514 win32con.WM_LBUTTONUP</p><p>521 win32con.WM_MBUTTONDBLCLK</p><p>519 win32con.WM_MBUTTONDOWN</p><p>520 win32con.WM_MBUTTONUP</p><p>546 win32con.WM_MDIACTIVATE</p><p>551 win32con.WM_MDICASCADE</p><p>544 win32con.WM_MDICREATE</p><p>545 win32con.WM_MDIDESTROY</p><p>553 win32con.WM_MDIGETACTIVE</p><p>552 win32con.WM_MDIICONARRANGE</p><p>549 win32con.WM_MDIMAXIMIZE</p><p>548 win32con.WM_MDINEXT</p><p>564 win32con.WM_MDIREFRESHMENU</p><p>547 win32con.WM_MDIRESTORE</p><p>560 win32con.WM_MDISETMENU</p><p>550 win32con.WM_MDITILE</p><p>44 win32con.WM_MEASUREITEM</p><p>288 win32con.WM_MENUCHAR</p><p>294 win32con.WM_MENUCOMMAND</p><p>291 win32con.WM_MENUDRAG</p><p>292 win32con.WM_MENUGETOBJECT</p><p>290 win32con.WM_MENURBUTTONUP</p><p>287 win32con.WM_MENUSELECT</p><p>33 win32con.WM_MOUSEACTIVATE</p><p>512 win32con.WM_MOUSEFIRST</p><p>673 win32con.WM_MOUSEHOVER</p><p>522 win32con.WM_MOUSELAST</p><p>675 win32con.WM_MOUSELEAVE</p><p>512 win32con.WM_MOUSEMOVE</p><p>522 win32con.WM_MOUSEWHEEL</p><p>3 win32con.WM_MOVE</p><p>534 win32con.WM_MOVING</p><p>134 win32con.WM_NCACTIVATE</p><p>131 win32con.WM_NCCALCSIZE</p><p>129 win32con.WM_NCCREATE</p><p>130 win32con.WM_NCDESTROY</p><p>132 win32con.WM_NCHITTEST</p><p>163 win32con.WM_NCLBUTTONDBLCLK</p><p>161 win32con.WM_NCLBUTTONDOWN</p><p>162 win32con.WM_NCLBUTTONUP</p><p>169 win32con.WM_NCMBUTTONDBLCLK</p><p>167 win32con.WM_NCMBUTTONDOWN</p><p>168 win32con.WM_NCMBUTTONUP</p><p>160 win32con.WM_NCMOUSEMOVE</p><p>133 win32con.WM_NCPAINT</p><p>166 win32con.WM_NCRBUTTONDBLCLK</p><p>164 win32con.WM_NCRBUTTONDOWN</p><p>165 win32con.WM_NCRBUTTONUP</p><p>40 win32con.WM_NEXTDLGCTL</p><p>531 win32con.WM_NEXTMENU</p><p>78 win32con.WM_NOTIFY</p><p>85 win32con.WM_NOTIFYFORMAT</p><p>0 win32con.WM_NULL</p><p>15 win32con.WM_PAINT</p><p>777 win32con.WM_PAINTCLIPBOARD</p><p>38 win32con.WM_PAINTICON</p><p>785 win32con.WM_PALETTECHANGED</p><p>784 win32con.WM_PALETTEISCHANGING</p><p>528 win32con.WM_PARENTNOTIFY</p><p>770 win32con.WM_PASTE</p><p>896 win32con.WM_PENWINFIRST</p><p>911 win32con.WM_PENWINLAST</p><p>72 win32con.WM_POWER</p><p>536 win32con.WM_POWERBROADCAST</p><p>791 win32con.WM_PRINT</p><p>792 win32con.WM_PRINTCLIENT</p><p>1029 win32con.WM_PSD_ENVSTAMPRECT</p><p>1025 win32con.WM_PSD_FULLPAGERECT</p><p>1028 win32con.WM_PSD_GREEKTEXTRECT</p><p>1027 win32con.WM_PSD_MARGINRECT</p><p>1026 win32con.WM_PSD_MINMARGINRECT</p><p>1024 win32con.WM_PSD_PAGESETUPDLG</p><p>1030 win32con.WM_PSD_YAFULLPAGERECT</p><p>55 win32con.WM_QUERYDRAGICON</p><p>17 win32con.WM_QUERYENDSESSION</p><p>783 win32con.WM_QUERYNEWPALETTE</p><p>19 win32con.WM_QUERYOPEN</p><p>35 win32con.WM_QUEUESYNC</p><p>18 win32con.WM_QUIT</p><p>518 win32con.WM_RBUTTONDBLCLK</p><p>516 win32con.WM_RBUTTONDOWN</p><p>517 win32con.WM_RBUTTONUP</p><p>774 win32con.WM_RENDERALLFORMATS</p><p>773 win32con.WM_RENDERFORMAT</p><p>32 win32con.WM_SETCURSOR</p><p>7 win32con.WM_SETFOCUS</p><p>48 win32con.WM_SETFONT</p><p>50 win32con.WM_SETHOTKEY</p><p>128 win32con.WM_SETICON</p><p>11 win32con.WM_SETREDRAW</p><p>12 win32con.WM_SETTEXT</p><p>26 win32con.WM_SETTINGCHANGE</p><p>24 win32con.WM_SHOWWINDOW</p><p>5 win32con.WM_SIZE</p><p>779 win32con.WM_SIZECLIPBOARD</p><p>532 win32con.WM_SIZING</p><p>42 win32con.WM_SPOOLERSTATUS</p><p>125 win32con.WM_STYLECHANGED</p><p>124 win32con.WM_STYLECHANGING</p><p>136 win32con.WM_SYNCPAINT</p><p>262 win32con.WM_SYSCHAR</p><p>21 win32con.WM_SYSCOLORCHANGE</p><p>274 win32con.WM_SYSCOMMAND</p><p>263 win32con.WM_SYSDEADCHAR</p><p>260 win32con.WM_SYSKEYDOWN</p><p>261 win32con.WM_SYSKEYUP</p><p>82 win32con.WM_TCARD</p><p>30 win32con.WM_TIMECHANGE</p><p>275 win32con.WM_TIMER</p><p>772 win32con.WM_UNDO</p><p>293 win32con.WM_UNINITMENUPOPUP</p><p>1024 win32con.WM_USER</p><p>84 win32con.WM_USERCHANGED</p><p>46 win32con.WM_VKEYTOITEM</p><p>277 win32con.WM_VSCROLL</p><p>778 win32con.WM_VSCROLLCLIPBOARD</p><p>71 win32con.WM_WINDOWPOSCHANGED</p><p>70 win32con.WM_WINDOWPOSCHANGING</p><p>26 win32con.WM_WININICHANGE</p>]]></content>
       
       
-      <categories>
-          
-          <category> 编程语言 </category>
-          
-          <category> Python </category>
-          
-      </categories>
       
+        <tags>
+            
+            <tag> Python </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1979,16 +2029,18 @@
       
       <categories>
           
-          <category> 计算机 </category>
-          
-          <category> 编程语言 </category>
-          
-          <category> Python </category>
-          
           <category> 代码存档 </category>
+          
+          <category> demo </category>
           
       </categories>
       
+      
+        <tags>
+            
+            <tag> Python </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2006,7 +2058,7 @@
           
           <category> 计算机 </category>
           
-          <category> 备忘录 </category>
+          <category> 研发基础心得 </category>
           
       </categories>
       
@@ -2023,16 +2075,14 @@
         <content type="html"><![CDATA[<blockquote><p>这只是一个以前的备忘录。到现在我还不知道怎么称呼这个用法，也几乎百度不到。</p></blockquote><p>批处理（cmd）使用字符 <code>^</code>，例如</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ^</span><br><span class="line">directory</span><br></pre></td></tr></table></figure><p>Shell 正常使用反斜杠 <code>\</code></p>]]></content>
       
       
-      <categories>
-          
-          <category> 编程语言 </category>
-          
-          <category> Shell </category>
-          
-          <category> CMD </category>
-          
-      </categories>
       
+        <tags>
+            
+            <tag> Shell </tag>
+            
+            <tag> CMD </tag>
+            
+        </tags>
       
     </entry>
     
@@ -2050,7 +2100,7 @@
           
           <category> 计算机 </category>
           
-          <category> 备忘录 </category>
+          <category> 研发基础心得 </category>
           
       </categories>
       
@@ -2085,6 +2135,17 @@
     
     
     <entry>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="关于网站"><a href="#关于网站" class="headerlink" title="关于网站"></a>关于网站</h2><p>基于个人markdown文件笔记仓库中的一块内容，直接生成静态博客网站（不需要修改笔记内容）。具体参考<a href="../2023/Hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%8E%E7%AE%A1%E7%90%86%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B.html">Hexo静态博客配置与管理发布流程</a>。</p><p>感谢开源的 Hexo 框架与 butterfly 主题让我方便地（？）生成此网站，更感谢的是 gitee 提供了（个人）免费的发布服务，如此可以简单地在互联网上看一看博客笔记。</p><p>有兴趣的话可以直接拷贝一份来参考并搭建网站，网站的源码也单独设置了配置分支<code>framework-config</code>，其中不含文章内容，但有不少个人定制的脚本，包括实现一些便捷功能。</p><h2 id="关于作者个人"><a href="#关于作者个人" class="headerlink" title="关于作者个人"></a>关于作者个人</h2><p>是个内向社恐（？）二次元，以前在萌百还写过自己: <a href="https://zh.moegirl.org.cn/User:SineObama">https://zh.moegirl.org.cn/User:SineObama</a></p>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>分类</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -2101,17 +2162,6 @@
       <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="关于网站"><a href="#关于网站" class="headerlink" title="关于网站"></a>关于网站</h2><p>基于个人markdown文件笔记仓库中的一块内容，直接生成静态博客网站（不需要修改笔记内容）。具体参考<a href="../2023/Hexo%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%8E%E7%AE%A1%E7%90%86%E5%8F%91%E5%B8%83%E6%B5%81%E7%A8%8B.html">Hexo静态博客配置与管理发布流程</a>。</p><p>感谢开源的 Hexo 框架与 butterfly 主题让我方便地（？）生成此网站，更感谢的是 gitee 提供了（个人）免费的发布服务，如此可以简单地在互联网上看一看博客笔记。</p><p>有兴趣的话可以直接拷贝一份来参考并搭建网站，网站的源码也单独设置了配置分支<code>framework-config</code>，其中不含文章内容，但有不少个人定制的脚本，包括实现一些便捷功能。</p><h2 id="关于作者个人"><a href="#关于作者个人" class="headerlink" title="关于作者个人"></a>关于作者个人</h2><p>是个内向社恐（？）二次元，以前在萌百还写过自己: <a href="https://zh.moegirl.org.cn/User:SineObama">https://zh.moegirl.org.cn/User:SineObama</a></p>]]></content>
       
     </entry>
     
