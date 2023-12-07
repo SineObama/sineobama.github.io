@@ -3,7 +3,7 @@ title: 'IntelliJ IDEA快捷键'
 date: '2017-11-27 09:29'
 updated: '2017-11-27 09:29'
 tags:
-  - 计算机/备忘录
+  - 计算机/研发基础心得
 alias: []
 ---
 

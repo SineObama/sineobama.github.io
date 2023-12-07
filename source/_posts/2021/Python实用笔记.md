@@ -1,12 +1,11 @@
 ---
-title: 'Python实用笔记'
-date: '2021-11-14'
-updated: '2021-11-14'
+title: Python实用笔记
+date: 2021-11-14
+updated: 2021-11-14
 tags:
-  - 计算机/备忘录
-  - 计算机/代码存档
-  - 编程语言/Python
-alias: []
+  - 个人/备忘录
+  - Python
+aliases:
 ---
 
 ## python程序打包成可执行文件exe（pyinstaller简单使用）

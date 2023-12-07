@@ -3,7 +3,7 @@ title: 'StrokesPlus使用配置与脚本笔记'
 date: '2023-02-19 21:05'
 updated: '2023-02-19 21:05'
 tags:
-  - 实例记录/静态博客
+  - 计算机实践/StrokesPlus
 alias: []
 ---
 

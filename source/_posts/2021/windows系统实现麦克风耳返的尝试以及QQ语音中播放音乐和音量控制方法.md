@@ -5,7 +5,7 @@ updated: 2022-01-01
 tags:
   - Windows
   - 电脑耳返
-  - 计算机/备忘录
+  - 个人/学习笔记
 aliases: 
 invalid: true
 ---

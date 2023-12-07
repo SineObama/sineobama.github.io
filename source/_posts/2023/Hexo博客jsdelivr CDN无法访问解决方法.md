@@ -3,7 +3,7 @@ title: 'Hexo博客jsdelivr CDN无法访问解决方法'
 date: '2023-04-05 22:22'
 updated: '2023-04-08 16:44'
 tags:
-  - 计算机/代码存档
+  - 代码存档/Hexo插件
   - Hexo
 alias: []
 ---

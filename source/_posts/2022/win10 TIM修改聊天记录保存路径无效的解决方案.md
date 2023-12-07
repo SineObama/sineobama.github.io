@@ -3,7 +3,7 @@ title: 'win10 TIM修改聊天记录保存路径无效的解决方案'
 date: '2022-01-17 23:18'
 updated: '2022-01-17 23:18'
 tags:
-  - 实例记录/联想拯救者
+  - 计算机实践/联想拯救者
   - Windows
 alias: []
 copyright: false

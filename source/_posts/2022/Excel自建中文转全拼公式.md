@@ -4,7 +4,7 @@ date: 2022-10-06
 updated: 2022-10-06
 tags:
   - Office
-  - 计算机/备忘录
+  - 个人/收藏夹
 aliases: 
 copyright: false
 ---
