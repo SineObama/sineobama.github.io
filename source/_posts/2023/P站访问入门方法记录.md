@@ -1,17 +1,19 @@
 ---
-title: 'P站访问入门方法整理'
-date: '2023-03-18 09:45'
-updated: '2023-06-15'
+title: P站访问方法整理（入门级）
+date: 2023-03-18 09:45
+updated: 2023-06-15
 tags:
-  - 计算机/备忘录
-alias: []
+  - 二次元/富强访问
+aliases:
 ---
 
 ## 加速代理
 
-[Watt Toolkit「原名 Steam++」](../2022/Watt%20Toolkit「原名%20Steam++」介绍.md)
+~~[Watt Toolkit「原名 Steam++」](../2022/Watt%20Toolkit「原名%20Steam++」介绍.md)~~（2023年底已失效）
 
 ## 镜像代理网站
+
+**这些网站速度似乎很有限，甚至失效了。**
 
 ### pixiv.cat
 

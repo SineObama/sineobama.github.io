@@ -4,7 +4,7 @@ date: 2023-02-18 12:02
 updated: 2023-02-18 12:02
 tags:
   - Windows
-  - 计算机/备忘录
+  - 个人/收藏夹
 aliases: 
 copyright: false
 ---

@@ -3,7 +3,7 @@ title: 'python中win32con常量列表'
 date: '2018-10-03 14:23'
 updated: '2018-10-03 14:23'
 tags:
-  - 编程语言/Python
+  - Python
 alias: []
 ---
 

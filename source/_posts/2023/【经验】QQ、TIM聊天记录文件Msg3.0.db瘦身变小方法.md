@@ -3,7 +3,7 @@ title: 【经验】QQ、TIM聊天记录文件Msg3.0.db瘦身变小方法
 date: 2023-08-15 20:45
 updated: 2023-08-15 20:45
 tags:
-  - 计算机/备忘录
+  - 计算机/问题经验
   - QQ
   - TIM
 aliases:

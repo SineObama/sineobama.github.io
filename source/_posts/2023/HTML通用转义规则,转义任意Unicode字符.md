@@ -3,7 +3,7 @@ title: 'HTML通用转义规则,转义任意Unicode字符'
 date: '2023-04-04 00:05'
 updated: '2023-04-08 16:41'
 tags:
-  - 编程语言/HTML
+  - HTML
   - Unicode
 alias: []
 ---

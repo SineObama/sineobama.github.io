@@ -3,7 +3,7 @@ title: 'Allen Explorer试用心得'
 date: '2022-11-12 23:52'
 updated: '2022-11-13 01:08'
 tags:
-  - 电脑应用/效率工具
+  - 电脑常用/效率工具
   - 付费
 alias: []
 ---

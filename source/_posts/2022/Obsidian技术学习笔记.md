@@ -1,11 +1,11 @@
 ---
-title: 'Obsidian技术学习笔记'
-date: '2022-10-28 23:10'
-updated: '2022-10-30 11:44'
+title: Obsidian技术学习笔记
+date: 2022-10-28 23:10
+updated: 2022-10-30 11:44
 tags:
-  - 计算机/备忘录
   - Obsidian
-alias: []
+  - 个人/学习笔记
+aliases:
 ---
 
 ## 前置
@@ -18,7 +18,7 @@ alias: []
 
 - `Ctrl`/`Shift` 等按键配合鼠标或其他按键时，经常会有额外效果，例如打开页面时，默认是跳转页面，按住 `Ctrl` 可以在新窗口打开。
 
-## 存储文件变量（文件头部/元数据）
+## 设置文档属性（文件头部/元数据）
 
 [YAML front matter - Obsidian Help](https://help.obsidian.md/Advanced+topics/YAML+front+matter)，目前支持以下四种附带功能的元数据：
 

@@ -4,7 +4,7 @@ date: 2022-10-30 13:11
 updated: 2022-10-30 13:11
 tags:
   - Obsidian
-  - 计算机/备忘录
+  - 个人/收藏夹
 aliases: 
 copyright: false
 ---

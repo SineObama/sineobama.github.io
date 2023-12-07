@@ -3,7 +3,7 @@ title: 'ContextMenuManager（Windows系统右键菜单管理工具）使用心�
 date: '2022-10-23'
 updated: '2022-10-23'
 tags:
-  - 电脑应用/系统管理
+  - 电脑常用/系统优化
   - 免费
   - Windows
 alias: []

@@ -3,8 +3,8 @@ title: 'python中logging模块使用示例和设置格式'
 date: '2018-01-11 11:42'
 updated: '2018-01-11 11:42'
 tags:
-  - 编程语言/Python
-  - 计算机/代码存档
+  - Python
+  - 代码存档/demo
 alias: []
 ---
 
