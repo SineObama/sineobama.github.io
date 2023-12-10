@@ -1,11 +1,11 @@
 ---
-title: 'Excel、Word使用和学习笔记'
-date: '2022-09-15'
-updated: '2022-09-15'
+title: Excel、Word使用和学习笔记
+date: 2022-09-15
+updated: 2022-09-15
 tags:
-  - 计算机/软件使用
   - Office
-alias: []
+  - 个人/学习笔记
+aliases:
 ---
 
 ## Excel

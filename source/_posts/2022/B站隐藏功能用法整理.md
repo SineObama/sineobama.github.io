@@ -4,7 +4,7 @@ date: 2022-08-07 10:18
 updated: 2022-08-07 10:18
 tags:
   - bilibili
-  - 计算机/备忘录
+  - 个人/备忘录
 aliases:
 ---
 

@@ -4,7 +4,7 @@ date: '2018-01-11 11:42'
 updated: '2018-01-11 11:42'
 tags:
   - Python
-  - 代码存档/demo
+  - 代码存档/demo代码
 alias: []
 ---
 

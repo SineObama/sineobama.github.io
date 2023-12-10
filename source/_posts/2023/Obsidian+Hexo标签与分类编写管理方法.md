@@ -5,7 +5,7 @@ updated: '2023-03-20 22:42'
 tags:
   - Obsidian
   - Hexo
-  - 计算机/笔记方案
+  - 电脑常用/笔记方案
 alias: []
 ---
 
