@@ -18,6 +18,7 @@ const {generate_categories_from_tags: {enable,warnNoTag,warnNoCategory}} = confi
 
 if (enable) {
     hexo.extend.filter.register('before_post_render', generateCategoriesFromTags);
+    hexo.extend.filter.register('after_post_render', filterSiteTag);
 }
 
 function generateCategoriesFromTags(data) {
@@ -71,3 +72,20 @@ function generateCategoriesFromTags(data) {
 
     return data;
 };
+
+let _filterSiteTagOnce = false;
+
+/**
+ * Temporarily solve my issue for hexo 7.0: https://github.com/hexojs/hexo/issues/5380
+ * related PR: https://github.com/hexojs/hexo/pull/5119
+ */
+function filterSiteTag(data) {
+    if (!_filterSiteTagOnce) {
+        _filterSiteTagOnce = true;
+        this.locals.set('tags', () => {
+            // Ignore tags with zero posts
+            return this.database.model('Tag').filter(tag => tag.length);
+        });
+    }
+    return data;
+}
