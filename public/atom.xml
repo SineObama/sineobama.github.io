@@ -170,11 +170,11 @@
     <category term="笔记方案" scheme="https://sine1995.gitee.io/categories/%E7%94%B5%E8%84%91%E5%B8%B8%E7%94%A8/%E7%AC%94%E8%AE%B0%E6%96%B9%E6%A1%88/"/>
     
     
-    <category term="Hexo" scheme="https://sine1995.gitee.io/tags/Hexo/"/>
-    
     <category term="Obsidian" scheme="https://sine1995.gitee.io/tags/Obsidian/"/>
     
     <category term="Markdown" scheme="https://sine1995.gitee.io/tags/Markdown/"/>
+    
+    <category term="Hexo" scheme="https://sine1995.gitee.io/tags/Hexo/"/>
     
   </entry>
   
