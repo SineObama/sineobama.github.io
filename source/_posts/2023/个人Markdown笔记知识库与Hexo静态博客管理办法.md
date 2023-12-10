@@ -3,7 +3,7 @@ title: 个人Markdown笔记知识库与Hexo静态博客管理办法
 date: 2023-11-25
 updated: 2023-11-25
 tags:
-  - 计算机/笔记方案
+  - 电脑常用/笔记方案
   - Hexo
   - Obsidian
   - Markdown

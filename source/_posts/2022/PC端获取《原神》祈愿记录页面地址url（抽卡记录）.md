@@ -4,7 +4,7 @@ date: 2022-06-26 22:45:12
 updated: 2022-06-26 22:45:12
 tags:
   - 游戏/原神
-  - 代码存档/自动化
+  - 代码存档/自动化脚本
   - Shell
 aliases: 
 invalid: true

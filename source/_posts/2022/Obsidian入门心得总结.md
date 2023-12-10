@@ -3,7 +3,7 @@ title: 'Obsidian入门心得总结'
 date: '2022-10-28 00:05'
 updated: '2022-11-13 23:57'
 tags:
-  - 电脑常用/笔记
+  - 电脑常用/笔记方案
   - Obsidian
 alias: []
 ---
