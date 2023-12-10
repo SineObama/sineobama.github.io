@@ -4,6 +4,77 @@
   
     
     <entry>
+      <title>网页保存方案（文章保存）</title>
+      <link href="/2023/%E7%BD%91%E9%A1%B5%E4%BF%9D%E5%AD%98%E6%96%B9%E6%A1%88%EF%BC%88%E6%96%87%E7%AB%A0%E4%BF%9D%E5%AD%98%EF%BC%89.html"/>
+      <url>/2023/%E7%BD%91%E9%A1%B5%E4%BF%9D%E5%AD%98%E6%96%B9%E6%A1%88%EF%BC%88%E6%96%87%E7%AB%A0%E4%BF%9D%E5%AD%98%EF%BC%89.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p>本方案来源于<a href="../../232_%E7%A4%BE%E4%BC%9A%E5%85%B3%E7%B3%BB/%E5%85%B3%E6%B3%A8/%E5%85%AC%E4%BC%97%E5%8F%B7/%E9%98%BF%E8%99%9A%E5%90%8C%E5%AD%A6.html">阿虚同学</a>的文章：<a href="https://mp.weixin.qq.com/s/Kjzt2Xo3JE9CslPvauhCpA">从收藏到永久保存，阿虚沉淀一年的独家稍后阅读姿势！</a>，其中一方面就是如何保存离线网页，对此进行个人的归纳总结。</p><p>后文暂不会包括“稍后阅读”，用一句话带过就是：一般我只会收藏网站，或者把东西直接保存在电脑“收件箱”文件夹，因为我习惯用电脑，迟早要处理掉。</p><h2 id="简单场景"><a href="#简单场景" class="headerlink" title="简单场景"></a>简单场景</h2><p>文中介绍了几个浏览器拓展，对我来说的使用场景有：</p><ul><li>需要保存文章中的图片，或者完整保存网页原本的样子时，使用<em>SingleFile</em>。<ul><li>它可以防止页面自动跳转等（页面js，页面功能会失效）。</li><li>可以保存为压缩包，图片文件单独存放（可以考虑做二次压缩，不过对我来说还想要一个只保存在线图片链接的功能）。</li></ul></li><li>需要提取文章主体部分、获取Markdown格式文本时，使用<em>简悦</em>。<ul><li>免费版即可导出为在线Markdown或离线Markdown。离线版会存储图片，文件相对比较大。</li><li>可以导出到各种软件，但有些功能可能要一次性付费解锁，不过我以Markdown为主所以用不到。</li></ul></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 电脑常用 </category>
+          
+          <category> 笔记方案 </category>
+          
+          <category> 浏览器拓展 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>推荐使用360极速浏览器X</title>
+      <link href="/2023/%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8360%E6%9E%81%E9%80%9F%E6%B5%8F%E8%A7%88%E5%99%A8X.html"/>
+      <url>/2023/%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8360%E6%9E%81%E9%80%9F%E6%B5%8F%E8%A7%88%E5%99%A8X.html</url>
+      
+        <content type="html"><![CDATA[<p>官网： <a href="https://browser.360.cn/eex/index.html?channel=7">https://browser.360.cn/eex/index.html?channel=7</a><br>论坛： <a href="https://bbs.360.cn/forum-142-1.html">https://bbs.360.cn/forum-142-1.html</a><br>论坛最新更新日志： <a href="https://bbs.360.cn/thread-16105183-1-1.html">https://bbs.360.cn/thread-16105183-1-1.html</a></p><p>我已经用了很多年了，内网互联网都用。</p><p>官方的内容我就不重复了，在谷歌浏览器的基础上，总结有以下优点，<strong>有时候官方不写出来的反而是好用的点</strong>：</p><ul><li>国产浏览器。</li><li>自由安装浏览器拓展程序（插件），可直接拖入.crx文件安装使用。</li><li>浏览器收藏夹同步到手机360浏览器，除此之外，还可以云同步存储浏览器设置、保存的网站密码、拓展插件（需要登录验证360账号，密码可查看）。</li><li>支持众多功能快捷键，可自定义，例如F2、F3左右切换标签，F4选中地址栏。</li></ul><p>还有其他一些小功能，或者虽然我用得少，但看起来也不错的地方：</p><ul><li>支持鼠标手势、老板键（静音）。</li><li>按住Alt点击图片直接保存文件。</li><li>长网页一键截图，另有简单截图工具。</li></ul><p>额，可能也有些缺点：</p><ul><li>国产浏览器。</li><li>理论上来说，有可能不如原版谷歌稳定，但我没发现什么大问题。</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 电脑常用 </category>
+          
+          <category> 上网必备 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>网页视频辅助插件 Video Speed Controller 视频速度调节（播放控制）</title>
+      <link href="/2023/%E7%BD%91%E9%A1%B5%E8%A7%86%E9%A2%91%E8%BE%85%E5%8A%A9%E6%8F%92%E4%BB%B6%20Video%20Speed%20Controller%20%E8%A7%86%E9%A2%91%E9%80%9F%E5%BA%A6%E8%B0%83%E8%8A%82%EF%BC%88%E6%92%AD%E6%94%BE%E6%8E%A7%E5%88%B6%EF%BC%89.html"/>
+      <url>/2023/%E7%BD%91%E9%A1%B5%E8%A7%86%E9%A2%91%E8%BE%85%E5%8A%A9%E6%8F%92%E4%BB%B6%20Video%20Speed%20Controller%20%E8%A7%86%E9%A2%91%E9%80%9F%E5%BA%A6%E8%B0%83%E8%8A%82%EF%BC%88%E6%92%AD%E6%94%BE%E6%8E%A7%E5%88%B6%EF%BC%89.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2><p><a href="https://chrome.zzzmh.cn/info/nffaoalbilbmmfgbnbgppjihopabppdk">Video Speed Controller 视频速度调节_0.7.3_chrome扩展插件下载_极简插件</a></p><ul><li>自定义按键加速减速播放、前进后退、一键设置为自定义的速度。</li><li>播放暂停功能，可以用于（冷门）不支持快捷键视频源。</li><li>可惜我还想要个全屏功能。（见后文）</li></ul><p>官网 #开源  <a href="https://github.com/igrigorik/videospeed">https://github.com/igrigorik/videospeed</a></p><p>#来源&#x2F;网站 <a href="%E9%98%BF%E8%99%9A%E5%90%8C%E5%AD%A6%E7%9A%84%E5%82%A8%E7%89%A9%E9%97%B4.html">阿虚同学的储物间</a></p><h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>个人快捷键配置：</p><blockquote><p>注：目前使用的是后文的其他人重构后的0.8.3版本，可以兼容与B站快捷键功能。而原始0.7.3版本部分功能与B站快捷键功能不兼容，比如会重复生效，所以对于不兼容的我试过使用实验性功能，禁用网站原本的快捷键绑定，以便部分快捷键与B站使用习惯一致。</p></blockquote><ul><li>重置：<code>Z</code>（恢复&#x2F;恢复自定）（参考potplayer）</li><li>减速：<code>X</code> 0.2（参考potplayer）</li><li>加速：<code>C</code> 0.2（参考potplayer）</li><li>后退：<code>Left</code> 5</li><li>前进：<code>Right</code> 5</li><li>自定：<code>G</code> 2.5（与B站2倍速区分）</li><li>暂停：<code>Space</code></li><li>标记：<code>B</code></li><li>回到标记：<code>N</code></li><li>全屏：<code>F</code></li></ul><p>B站快捷键参考：<a href="../2022/B%E7%AB%99%E9%9A%90%E8%97%8F%E5%8A%9F%E8%83%BD%E7%94%A8%E6%B3%95%E6%95%B4%E7%90%86.html">B站隐藏功能用法整理</a></p><h2 id="探索F键全屏功能"><a href="#探索F键全屏功能" class="headerlink" title="探索F键全屏功能"></a>探索F键全屏功能</h2><p>因为有个小网站真的不支持全屏快捷键，所以我想加上这个功能。</p><p>最终还是自己上手改了（可能只适用于谷歌浏览器），发布了release，0.8.3版本下载： <a href="https://github.com/SineObama/videospeed-refactoring-myfullscreen/releases/download/0.8.3/my_Video_Speed_Controller_-_BETA_Channel.crx">https://github.com/SineObama/videospeed-refactoring-myfullscreen/releases/download/0.8.3/my_Video_Speed_Controller_-_BETA_Channel.crx</a></p><p>历程如下：</p><ul><li>发现已有讨论：<a href="https://github.com/igrigorik/videospeed/issues/956">Feature Request: F key for full screen · Issue #956 · igrigorik&#x2F;videospeed</a><ul><li>试一下隔壁仓库：<a href="https://github.com/gediminasel/videospeed-firefox">gediminasel&#x2F;videospeed-firefox: HTML5 video speed controller (for Firefox). WebExtensions port of Video Speed Controller Chrome extension.</a><ul><li>谷歌浏览器似乎无效，也没看到是新增的自定义快捷键。</li></ul></li><li>看见别人在讨论重构：<a href="https://github.com/igrigorik/videospeed/issues/963">Refactoring Discussion [Input Appreciated] · Issue #963 · igrigorik&#x2F;videospeed</a><ul><li>看了别人的仓库源码：<a href="https://github.com/ChadBailey/videospeed-refactoring">ChadBailey&#x2F;videospeed-refactoring: This repository is for refactoring the videospeed controller extension. This repo will be archived once the refactoring effort concludes.</a><ul><li>发现他只写了测试代码，虽然没注意看他们为什么不上线，还是我亲自上手随便改改，加上这个功能吧： <a href="https://github.com/SineObama/videospeed-refactoring-myfullscreen">https://github.com/SineObama/videospeed-refactoring-myfullscreen</a> 并回复了讨论： <a href="https://github.com/igrigorik/videospeed/issues/956#issuecomment-1848429117">https://github.com/igrigorik/videospeed/issues/956#issuecomment-1848429117</a></li></ul></li></ul></li></ul></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 电脑常用 </category>
+          
+          <category> 浏览器拓展 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 免费 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>2023年个人手机常用app</title>
       <link href="/2023/2023%E5%B9%B4%E4%B8%AA%E4%BA%BA%E6%89%8B%E6%9C%BA%E5%B8%B8%E7%94%A8app.html"/>
       <url>/2023/2023%E5%B9%B4%E4%B8%AA%E4%BA%BA%E6%89%8B%E6%9C%BA%E5%B8%B8%E7%94%A8app.html</url>
@@ -15,7 +86,7 @@
           
           <category> 个人 </category>
           
-          <category> 合集 </category>
+          <category> 常用合集 </category>
           
       </categories>
       
@@ -55,7 +126,7 @@
       
       <categories>
           
-          <category> 计算机 </category>
+          <category> 电脑常用 </category>
           
           <category> 笔记方案 </category>
           
@@ -64,9 +135,9 @@
       
         <tags>
             
-            <tag> Obsidian </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> Obsidian </tag>
             
             <tag> Markdown </tag>
             
@@ -126,7 +197,7 @@
       
       <categories>
           
-          <category> 计算机 </category>
+          <category> 个人 </category>
           
           <category> 备忘录 </category>
           
@@ -149,7 +220,7 @@
           
           <category> 代码存档 </category>
           
-          <category> 自动化 </category>
+          <category> 自动化脚本 </category>
           
       </categories>
       
@@ -170,7 +241,7 @@
           
           <category> 计算机 </category>
           
-          <category> 问题经验 </category>
+          <category> 电脑问题经验 </category>
           
       </categories>
       
@@ -211,12 +282,12 @@
       <link href="/2023/%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BDSteam%E5%88%9B%E6%84%8F%E5%B7%A5%E5%9D%8AMod%E6%96%B9%E6%B3%95.html"/>
       <url>/2023/%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BDSteam%E5%88%9B%E6%84%8F%E5%B7%A5%E5%9D%8AMod%E6%96%B9%E6%B3%95.html</url>
       
-        <content type="html"><![CDATA[<p><a href="https://steamworkshopdownloader.io/">Steam Workshop Downloader :: IO 下载mod</a></p><blockquote><p>安装steamcmd，输入命令<code>login anonymous</code>登录，用<a href="https://steamworkshopdownloader.io/">Steam Workshop Downloader :: IO 下载mod</a>网站获取下载命令<code>workshop_download_item 281990 2576362573</code>，281990是群星的游戏ID，2576362573是MOD编号，下载后的文件在根目录的<code>steamapps\workshop\content\281990</code>里面 </p></blockquote><p><a href="https://www.bilibili.com/video/BV1q7411P76H">【参考】2个方便你下载Steam创意工坊Mod的网站_哔哩哔哩_bilibili</a><br><a href="https://greasyfork.org/zh-CN/scripts/389588-steam-mod-workshop-download-button-steam%E5%88%9B%E6%84%8F%E5%B7%A5%E5%9D%8A%E6%B7%BB%E5%8A%A0mod%E4%B8%8B%E8%BD%BD%E6%8C%89%E9%92%AE">【备用&#x2F;没成功】Steam Mod Workshop Download Button（Steam创意工坊添加mod下载按钮）</a></p>]]></content>
+        <content type="html"><![CDATA[<p><a href="https://steamworkshopdownloader.io/">Steam Workshop Downloader :: IO 下载mod</a></p><blockquote><p>安装steamcmd，输入命令<code>login anonymous</code>登录，用<a href="https://steamworkshopdownloader.io/">Steam Workshop Downloader :: IO 下载mod</a>网站获取下载命令<code>workshop_download_item 281990 2576362573</code>，281990是群星的游戏ID，2576362573是MOD编号，下载后的文件在根目录的<code>steamapps\workshop\content\281990</code>里面 </p></blockquote><p>参考：<a href="https://www.bilibili.com/video/BV1q7411P76H">2个方便你下载Steam创意工坊Mod的网站_哔哩哔哩_bilibili</a><br>备用（没成功）：<a href="https://greasyfork.org/zh-CN/scripts/389588-steam-mod-workshop-download-button-steam%E5%88%9B%E6%84%8F%E5%B7%A5%E5%9D%8A%E6%B7%BB%E5%8A%A0mod%E4%B8%8B%E8%BD%BD%E6%8C%89%E9%92%AE">Steam Mod Workshop Download Button（Steam创意工坊添加mod下载按钮）</a></p>]]></content>
       
       
       <categories>
           
-          <category> 计算机 </category>
+          <category> 个人 </category>
           
           <category> 备忘录 </category>
           
@@ -266,7 +337,7 @@
           
           <category> 计算机 </category>
           
-          <category> 问题经验 </category>
+          <category> 电脑问题经验 </category>
           
       </categories>
       
@@ -276,6 +347,27 @@
             <tag> TIM </tag>
             
         </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>推荐：阿虚同学的储物间</title>
+      <link href="/2023/%E9%98%BF%E8%99%9A%E5%90%8C%E5%AD%A6%E7%9A%84%E5%82%A8%E7%89%A9%E9%97%B4.html"/>
+      <url>/2023/%E9%98%BF%E8%99%9A%E5%90%8C%E5%AD%A6%E7%9A%84%E5%82%A8%E7%89%A9%E9%97%B4.html</url>
+      
+        <content type="html"><![CDATA[<p>超多干货，互联网生活指南，等等： <a href="https://axutongxue.com/">https://axutongxue.com/</a></p><p>防失联：</p><ul><li><a href="https://www.axutongxue.top/">https://www.axutongxue.top/</a></li><li>微信公众号：<a href="../../232_%E7%A4%BE%E4%BC%9A%E5%85%B3%E7%B3%BB/%E5%85%B3%E6%B3%A8/%E5%85%AC%E4%BC%97%E5%8F%B7/%E9%98%BF%E8%99%9A%E5%90%8C%E5%AD%A6.html">阿虚同学</a></li></ul><p>#来源&#x2F;导航 旧版efficiency-follow文档&#x2F;自建云盘分享站<br>#来源&#x2F;导航 <a href="../../232_%E7%A4%BE%E4%BC%9A%E5%85%B3%E7%B3%BB/%E4%BD%BF%E7%94%A8/%E7%BD%91%E7%AB%99/Noise%E5%AF%BC%E8%88%AA.html">Noise导航</a> 永硕·书签网址类<br>#来源&#x2F;up <a href="../../232_%E7%A4%BE%E4%BC%9A%E5%85%B3%E7%B3%BB/%E5%85%B3%E6%B3%A8/UP%E4%B8%BB/%E7%8E%84%E7%A6%BB199.html">玄离199</a> <a href="https://www.bilibili.com/video/BV1fm4y1C7ur?spm_id_from=333.1245.0.0">这些鲜为人知的网站，确实热情又大方</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 导航 </category>
+          
+          <category> 全能导航 </category>
+          
+      </categories>
+      
       
     </entry>
     
@@ -297,6 +389,33 @@
           
       </categories>
       
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>AI网站ChatGPT示例与免费体验</title>
+      <link href="/2023/AI%E7%BD%91%E7%AB%99ChatGPT%E7%A4%BA%E4%BE%8B%E4%B8%8E%E5%85%8D%E8%B4%B9%E4%BD%93%E9%AA%8C.html"/>
+      <url>/2023/AI%E7%BD%91%E7%AB%99ChatGPT%E7%A4%BA%E4%BE%8B%E4%B8%8E%E5%85%8D%E8%B4%B9%E4%BD%93%E9%AA%8C.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="最新GPT-3-5免费体验汇总"><a href="#最新GPT-3-5免费体验汇总" class="headerlink" title="最新GPT-3.5免费体验汇总"></a>最新GPT-3.5免费体验汇总</h2><ul><li><a href="https://aivesa.cn/">https://aivesa.cn/</a> 免费体验中目前试过最好用之一，其他的基本都是每天每月有明确的次数限制，效果还不一定好。另外附带提示词中心 <a href="https://www.askprompts.com/">https://www.askprompts.com/</a> （研究中）</li><li><a href="https://aigcplus.org/">https://aigcplus.org/</a> 需要每天签到获取额度，一天大约30次提问。（备用重定向： <a href="https://going.chat/">https://going.chat/</a> ）</li><li>（在推广收费） <a href="https://walles.ai/">https://walles.ai/</a> 目前每日30次免费提问，不可累计。</li></ul><h2 id="导航网站"><a href="#导航网站" class="headerlink" title="导航网站"></a>导航网站</h2><h3 id="2023-04"><a href="#2023-04" class="headerlink" title="2023-04"></a>2023-04</h3><p>Free ChatGPT Site List<br><a href="https://cc.ai55.cc/">https://cc.ai55.cc/</a>  <a href="https://github.com/xx025/carrot">https://github.com/xx025/carrot</a></p><p>阡途导航<br><a href="http://123.tentod.com/">http://123.tentod.com/</a>  </p><p>cxy521<br><a href="http://www.cxy521.com/ai.html">http://www.cxy521.com/ai.html</a>  </p><p>ChatGPT Sites<br><a href="https://lzw.me/x/chatgpt-sites/">https://lzw.me/x/chatgpt-sites/</a></p><p>#来源&#x2F;up <a href="../../232_%E7%A4%BE%E4%BC%9A%E5%85%B3%E7%B3%BB/%E5%85%B3%E6%B3%A8/UP%E4%B8%BB/%E7%8E%84%E7%A6%BB199.html">玄离199</a></p><h3 id="2023-05"><a href="#2023-05" class="headerlink" title="2023-05"></a>2023-05</h3><p><a href="https://www.bilibili.com/video/BV11X4y117Kf?spm_id_from=333.1245.0.0">这六个实用且慷慨的网站，让我相见恨晚</a></p><p>Navi AI导航<br><a href="https://www.naviai.cn/">https://www.naviai.cn/</a> （某段时间502了）</p><h2 id="试用记录"><a href="#试用记录" class="headerlink" title="试用记录"></a>试用记录</h2><h3 id="深入导航"><a href="#深入导航" class="headerlink" title="深入导航"></a>深入导航</h3><ul><li><a href="%E9%98%BF%E8%99%9A%E5%90%8C%E5%AD%A6%E7%9A%84%E5%82%A8%E7%89%A9%E9%97%B4.html">阿虚同学的储物间</a><ul><li>04 免费AI工具<ul><li><a href="https://wws.lanzoul.com/b0czfctyd">GPT中文-AXTX、AI-Chat中文版</a>：需安装客户端，需登录，预计【限次】，这个像是广告</li><li><a href="https://chat.aiduihua.com/h5/10001">Chat-Ai对话</a> ：在线【限次】</li><li><a href="https://mp.weixin.qq.com/s/_1q7eP-lyWu8Zh0cxvIAKA">精细到头发丝！这些完全免费的一键抠图工具，连设计师也点赞</a><ul><li><a href="https://photokit.com/editor/?lang=zh">Photokit</a> 【免费&#x2F;看广告】【抠图无修补】效果勉强。</li><li><a href="https://www.pickwant.com/home">趣作图—免费抠图_在线抠图_专业抠图</a> 【免费&#x2F;关注公众号】【抠图简单修补】</li><li>其他几个推荐是收费或不太好用</li></ul></li></ul></li></ul></li><li><a href="https://www.naviai.cn/">Navi AI导航</a><ul><li><a href="https://askopenai.cn/">大陆发布站</a> <a href="https://aivesa.com/">全球发布站</a> <a href="https://rptzik3toh.feishu.cn/docx/M34yd0CoSoGHQExQ0f5cgKcCnHb">Aivesa 产品简介</a> 【免费&#x2F;关注公众号】不保证流畅</li><li>其他几个推荐似乎不能用不好用</li></ul></li><li><a href="https://www.ooopn.com/">小白工具箱</a><ul><li><a href="https://c.aalib.net/tool/chatgpt/">ChatGPT 镜像网站 - 最优网址</a>：在线网站<ul><li><a href="https://www.ai2dog.com/bavarder?c=f45937">AI柯基 - 智能写作助手</a>：无法保存会话，可能要登录获取使用次数。（2023年7月8日）</li></ul></li></ul></li></ul><h3 id="文章推送"><a href="#文章推送" class="headerlink" title="文章推送"></a>文章推送</h3><ul><li><a href="https://mp.weixin.qq.com/s/tUQMO4VAt6Cxjv0ndN6EXA">（阿虚同学）别太离谱！懒人神器1个顶7个，吊打一众同类AI工具</a><ul><li><a href="../../231_%E7%94%A8%E6%88%B7%E8%B4%A6%E5%8F%B7/%E4%BA%92%E8%81%94%E7%BD%91%E8%B4%A6%E5%8F%B7/walles.ai%E8%B4%A6%E5%8F%B7.html">walles.ai</a></li></ul></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> AI工具 </category>
+          
+          <category> AI在线体验 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 免费 </tag>
+            
+        </tags>
       
     </entry>
     
@@ -360,13 +479,13 @@
       
       <categories>
           
-          <category> 计算机 </category>
-          
           <category> 计算机实践 </category>
           
-          <category> 静态博客 </category>
+          <category> 电脑常用 </category>
           
           <category> 笔记方案 </category>
+          
+          <category> 静态博客 </category>
           
       </categories>
       
@@ -456,7 +575,7 @@
       
       <categories>
           
-          <category> 计算机 </category>
+          <category> 电脑常用 </category>
           
           <category> 笔记方案 </category>
           
@@ -465,9 +584,9 @@
       
         <tags>
             
-            <tag> Obsidian </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> Obsidian </tag>
             
         </tags>
       
@@ -494,9 +613,9 @@
       
         <tags>
             
-            <tag> Obsidian </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> Obsidian </tag>
             
         </tags>
       
@@ -533,7 +652,7 @@
       
       <categories>
           
-          <category> 计算机 </category>
+          <category> 电脑常用 </category>
           
           <category> 笔记方案 </category>
           
@@ -542,9 +661,9 @@
       
         <tags>
             
-            <tag> Obsidian </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> Obsidian </tag>
             
         </tags>
       
@@ -562,7 +681,7 @@
       
       <categories>
           
-          <category> 计算机 </category>
+          <category> 电脑常用 </category>
           
           <category> 笔记方案 </category>
           
@@ -571,9 +690,9 @@
       
         <tags>
             
-            <tag> Obsidian </tag>
-            
             <tag> Hexo </tag>
+            
+            <tag> Obsidian </tag>
             
         </tags>
       
@@ -591,9 +710,9 @@
       
       <categories>
           
-          <category> 二次元 </category>
+          <category> 个人 </category>
           
-          <category> 富强访问 </category>
+          <category> 备忘录 </category>
           
       </categories>
       
@@ -744,7 +863,7 @@
           
           <category> 计算机 </category>
           
-          <category> 问题经验 </category>
+          <category> 电脑问题经验 </category>
           
       </categories>
       
@@ -771,7 +890,7 @@
           
           <category> 代码存档 </category>
           
-          <category> 浏览器插件 </category>
+          <category> 浏览器拓展程序代码 </category>
           
       </categories>
       
@@ -798,7 +917,7 @@
           
           <category> 代码存档 </category>
           
-          <category> 浏览器插件 </category>
+          <category> 浏览器拓展程序代码 </category>
           
       </categories>
       
@@ -825,7 +944,7 @@
           
           <category> 代码存档 </category>
           
-          <category> 浏览器插件 </category>
+          <category> 浏览器拓展程序代码 </category>
           
       </categories>
       
@@ -1032,7 +1151,7 @@
           
           <category> 代码存档 </category>
           
-          <category> 自动化 </category>
+          <category> 自动化脚本 </category>
           
       </categories>
       
@@ -1184,33 +1303,6 @@
     
     
     <entry>
-      <title>Obsidian入门心得总结</title>
-      <link href="/2022/Obsidian%E5%85%A5%E9%97%A8%E5%BF%83%E5%BE%97%E6%80%BB%E7%BB%93.html"/>
-      <url>/2022/Obsidian%E5%85%A5%E9%97%A8%E5%BF%83%E5%BE%97%E6%80%BB%E7%BB%93.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="事情的开端与介绍"><a href="#事情的开端与介绍" class="headerlink" title="事情的开端与介绍"></a>事情的开端与介绍</h2><p>最近看到 3 次网络文章推荐（<a href="../../300_%E8%B5%84%E6%BA%90/%E7%94%9F%E6%B4%BB%E6%8A%80%E8%83%BD%E7%B1%BB%E7%AC%94%E8%AE%B0/%E7%BD%91%E5%8F%8B10%E4%BD%99%E6%AC%BE%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6%E8%AF%84%E4%BB%B7.html">网友10余款笔记软件评价</a>、<a href="../../300_%E8%B5%84%E6%BA%90/%E7%94%9F%E6%B4%BB%E6%8A%80%E8%83%BD%E7%B1%BB%E7%AC%94%E8%AE%B0/%E7%BD%91%E5%8F%8B%E5%90%84%E7%B1%BB%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90.html">网友各类软件工具推荐</a>），于 2022 年 10 月 27 日尝试使用。</p><p>在这之前我用的思源笔记，先把笔记内容导出 markdown 格式放进 obsidian（当前 <code>v1.0.3</code> 版本，以下简称 ob）中使用，可以明显感到以下区别：</p><ul><li>ob 搜索是基于整个文档文件，思源只能基于最小的块来搜索。这一点是否合适要看具体场景。</li><li>ob 文档结构和表现与文件系统一致，有文件夹概念，文件夹本身不能编写内容，不能自定义排序。</li><li>ob 也有多级标签功能（但重命名功能依赖插件）。</li><li>ob 也支持双向链接，但只是标准的 markdown 链接格式文本，通常使用相对路径，可以无缝迁移，而思源是应用私有超链接（<code>siyuan://***</code>）。</li><li>ob 默认显示预览，编辑内容时会恢复显示源码，有些场景会不方便，第一个就是 markdown 表格，表格插件 <code>Advanced Tables</code> 可以做到部分优化，配合“一直显示源码 (Source Mode)”功能。</li><li>测试了 ob 预览 20 万字的文档，也没有别人说的明显卡顿。</li><li>ob 是国外软件，思源是国内开源软件。</li></ul><p>暂时还不太想用 ob，要迁移的话或早或晚差别不大，可能等有机会再试用一下再想。</p><p>但最后当我回到思源记录时，发现思源帮助里面也有说纯文本笔记软件推荐 ob，顿感拨云见日（不是）。</p><h2 id="软件优劣总结"><a href="#软件优劣总结" class="headerlink" title="软件优劣总结"></a>软件优劣总结</h2><p>总体来说，ob 有以下优势：</p><ul><li>一句话总结：基于纯文本 markdown 文件存储，易于迁移、组合使用其他软件，例如使用第三方同步盘，甚至可以用 git，来实现备份和同步。</li></ul><p>但是 ob 也有劣势：</p><ul><li>更多更方便的功能依赖于第三方插件，入门可能有些麻烦，插件安装一般需要道理上网，而且使用它们并非很安全（有网友评论可能污染文件，所以可能要更重视备份笔记，保留历史版本）。</li><li>粘贴转换富文本的能力不好说，设置中可以开启转换。比如从 Excel 粘贴表格则需要依赖插件。</li><li>似乎没有自带全文替换功能，但可以使用其他编辑器如 notepad++，也可以对文本内容进行自定义的替换更新。</li><li>不方便定位文件夹并创建笔记。只能先创建笔记然后使用移动功能才相对容易一些。</li></ul><h2 id="开箱试用"><a href="#开箱试用" class="headerlink" title="开箱试用"></a>开箱试用</h2><p>其实吧 ob 软件更新也不慢的，可以试试（2022 年 10 月 28 日就开始切换到 ob 试用，啊，真香）。</p><p>实际使用笔记：</p><ul><li><a href="Obsidian%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html">Obsidian技术学习笔记</a></li><li><a href="Obsidian%E6%8F%92%E4%BB%B6%E4%B8%8E%E9%85%8D%E7%BD%AE%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html">Obsidian插件与配置笔记</a></li></ul>]]></content>
-      
-      
-      <categories>
-          
-          <category> 电脑常用 </category>
-          
-          <category> 笔记 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Obsidian </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>《明日方舟》笔记</title>
       <link href="/2023/%E3%80%8A%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E3%80%8B%E7%AC%94%E8%AE%B0.html"/>
       <url>/2023/%E3%80%8A%E6%98%8E%E6%97%A5%E6%96%B9%E8%88%9F%E3%80%8B%E7%AC%94%E8%AE%B0.html</url>
@@ -1226,6 +1318,33 @@
           
       </categories>
       
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Obsidian入门心得总结</title>
+      <link href="/2022/Obsidian%E5%85%A5%E9%97%A8%E5%BF%83%E5%BE%97%E6%80%BB%E7%BB%93.html"/>
+      <url>/2022/Obsidian%E5%85%A5%E9%97%A8%E5%BF%83%E5%BE%97%E6%80%BB%E7%BB%93.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="事情的开端与介绍"><a href="#事情的开端与介绍" class="headerlink" title="事情的开端与介绍"></a>事情的开端与介绍</h2><p>最近看到 3 次网络文章推荐（<a href="../../300_%E8%B5%84%E6%BA%90/%E7%94%9F%E6%B4%BB%E6%8A%80%E8%83%BD%E7%B1%BB%E7%AC%94%E8%AE%B0/%E7%BD%91%E5%8F%8B10%E4%BD%99%E6%AC%BE%E7%AC%94%E8%AE%B0%E8%BD%AF%E4%BB%B6%E8%AF%84%E4%BB%B7.html">网友10余款笔记软件评价</a>、<a href="../../300_%E8%B5%84%E6%BA%90/%E7%94%9F%E6%B4%BB%E6%8A%80%E8%83%BD%E7%B1%BB%E7%AC%94%E8%AE%B0/%E7%BD%91%E5%8F%8B%E5%90%84%E7%B1%BB%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90.html">网友各类软件工具推荐</a>），于 2022 年 10 月 27 日尝试使用。</p><p>在这之前我用的思源笔记，先把笔记内容导出 markdown 格式放进 obsidian（当前 <code>v1.0.3</code> 版本，以下简称 ob）中使用，可以明显感到以下区别：</p><ul><li>ob 搜索是基于整个文档文件，思源只能基于最小的块来搜索。这一点是否合适要看具体场景。</li><li>ob 文档结构和表现与文件系统一致，有文件夹概念，文件夹本身不能编写内容，不能自定义排序。</li><li>ob 也有多级标签功能（但重命名功能依赖插件）。</li><li>ob 也支持双向链接，但只是标准的 markdown 链接格式文本，通常使用相对路径，可以无缝迁移，而思源是应用私有超链接（<code>siyuan://***</code>）。</li><li>ob 默认显示预览，编辑内容时会恢复显示源码，有些场景会不方便，第一个就是 markdown 表格，表格插件 <code>Advanced Tables</code> 可以做到部分优化，配合“一直显示源码 (Source Mode)”功能。</li><li>测试了 ob 预览 20 万字的文档，也没有别人说的明显卡顿。</li><li>ob 是国外软件，思源是国内开源软件。</li></ul><p>暂时还不太想用 ob，要迁移的话或早或晚差别不大，可能等有机会再试用一下再想。</p><p>但最后当我回到思源记录时，发现思源帮助里面也有说纯文本笔记软件推荐 ob，顿感拨云见日（不是）。</p><h2 id="软件优劣总结"><a href="#软件优劣总结" class="headerlink" title="软件优劣总结"></a>软件优劣总结</h2><p>总体来说，ob 有以下优势：</p><ul><li>一句话总结：基于纯文本 markdown 文件存储，易于迁移、组合使用其他软件，例如使用第三方同步盘，甚至可以用 git，来实现备份和同步。</li></ul><p>但是 ob 也有劣势：</p><ul><li>更多更方便的功能依赖于第三方插件，入门可能有些麻烦，插件安装一般需要道理上网，而且使用它们并非很安全（有网友评论可能污染文件，所以可能要更重视备份笔记，保留历史版本）。</li><li>粘贴转换富文本的能力不好说，设置中可以开启转换。比如从 Excel 粘贴表格则需要依赖插件。</li><li>似乎没有自带全文替换功能，但可以使用其他编辑器如 notepad++，也可以对文本内容进行自定义的替换更新。</li><li>不方便定位文件夹并创建笔记。只能先创建笔记然后使用移动功能才相对容易一些。</li></ul><h2 id="开箱试用"><a href="#开箱试用" class="headerlink" title="开箱试用"></a>开箱试用</h2><p>其实吧 ob 软件更新也不慢的，可以试试（2022 年 10 月 28 日就开始切换到 ob 试用，啊，真香）。</p><p>实际使用笔记：</p><ul><li><a href="Obsidian%E6%8A%80%E6%9C%AF%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html">Obsidian技术学习笔记</a></li><li><a href="Obsidian%E6%8F%92%E4%BB%B6%E4%B8%8E%E9%85%8D%E7%BD%AE%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.html">Obsidian插件与配置笔记</a></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 电脑常用 </category>
+          
+          <category> 笔记方案 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Obsidian </tag>
+            
+        </tags>
       
     </entry>
     
@@ -1339,9 +1458,9 @@
       
       <categories>
           
-          <category> 计算机 </category>
+          <category> 个人 </category>
           
-          <category> 软件使用 </category>
+          <category> 学习笔记 </category>
           
       </categories>
       
@@ -1441,7 +1560,7 @@
       
       <categories>
           
-          <category> 计算机 </category>
+          <category> 个人 </category>
           
           <category> 备忘录 </category>
           
@@ -1468,13 +1587,13 @@
       
       <categories>
           
-          <category> 游戏 </category>
-          
           <category> 代码存档 </category>
+          
+          <category> 游戏 </category>
           
           <category> 原神 </category>
           
-          <category> 自动化 </category>
+          <category> 自动化脚本 </category>
           
       </categories>
       
@@ -1515,14 +1634,14 @@
       <link href="/2022/%E5%B0%8F%E4%BC%97%E5%AE%9D%E8%97%8F%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90.html"/>
       <url>/2022/%E5%B0%8F%E4%BC%97%E5%AE%9D%E8%97%8F%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90.html</url>
       
-        <content type="html"><![CDATA[<blockquote><p>[!info] 记录（使用场景）小众但是很有用的软件，他们可能是普通的自研稳定性不高的软件，或者老旧但有一定稳定性的软件，不论如何都需要留档备份，网上不一定还能找到。</p></blockquote><h2 id="公开工具"><a href="#公开工具" class="headerlink" title="公开工具"></a>公开工具</h2><ul><li>【2013年】百度音乐7.1【原名千千静听】：旧时代本地音乐播放软件，实用功能的结晶，支持本地lrc歌词文件的编辑调整、音乐文件批量修改信息、格式转换。</li><li>【2008年】Smzy_Musicscope：音乐示波器，可以实时显示音乐或人声的波形，可看出音高，可以用来校准。</li><li>【2014年】按键精灵2014：可编写脚本语音，自动重复按键等操作。</li><li>【2022年】DD监控室：同屏多开看B站直播。<a href="https://github.com/zhimingshenjun/DD_Monitor">https://github.com/zhimingshenjun/DD_Monitor</a> 升级补丁：<a href="https://pan.baidu.com/s/1HT0ZhBewjNPlPi1ZQu1R9g?pwd=o7hv">https://pan.baidu.com/s/1HT0ZhBewjNPlPi1ZQu1R9g?pwd=o7hv</a> 介绍视频：<a href="https://www.bilibili.com/video/BV14v411s7WE">https://www.bilibili.com/video/BV14v411s7WE</a> 作者：<a href="../../232_%E7%A4%BE%E4%BC%9A%E5%85%B3%E7%B3%BB/%E5%85%B3%E6%B3%A8/%E8%99%9A%E6%8B%9FUP%E4%B8%BB/%E7%A5%9E%E5%90%9BChannel.html">神君Channel</a></li><li>【2022年】HEU_KMS_Activator：大致是Microsoft激活工具，公众号：<code>heu168</code> 备用公众号：<code>heu168yyds</code>。<a href="https://github.com/zbezj/HEU_KMS_Activator/releases">https://github.com/zbezj/HEU_KMS_Activator&#x2F;releases</a></li><li>【2022年】<a href="../../232_%E7%A4%BE%E4%BC%9A%E5%85%B3%E7%B3%BB/%E4%BD%BF%E7%94%A8/%E7%BD%91%E7%AB%99/%E8%80%8D%E4%B8%8B.html">耍下</a> <a href="MouseInc%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93.html">MouseInc</a>：鼠标手势。</li><li>【2014年】光影魔术手：轻量级图片处理。</li><li>【2010年】变速齿轮：修改单机游戏运行速度。</li></ul><h2 id="自用（自研）工具"><a href="#自用（自研）工具" class="headerlink" title="自用（自研）工具"></a>自用（自研）工具</h2><ul><li>alarmclock：python命令行闹钟。</li><li>【谷歌浏览器插件】智能书签识别&#x2F;bookmarkHelper：浏览器收藏夹（书签）助手，智能判断网页是否已收藏。（因为直接删除了网页的查询参数，对一些单页面网站会误判。）</li></ul>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>[!info] 记录（使用场景）小众但是很有用的软件，他们可能是普通的自研稳定性不高的软件，或者老旧但有一定稳定性的软件，不论如何都需要留档备份，网上不一定还能找到。</p></blockquote><h2 id="公开工具"><a href="#公开工具" class="headerlink" title="公开工具"></a>公开工具</h2><ul><li>【2013年】百度音乐7.1【原名千千静听】：旧时代本地音乐播放软件，实用功能的结晶，支持本地lrc歌词文件的编辑调整、音乐文件批量修改信息、格式转换。</li><li>【2008年】Smzy_Musicscope：音乐示波器，可以实时显示音乐或人声的波形，可看出音高（也算是个音调仪？），可以用来校准。</li><li>【2014年】按键精灵2014：可编写脚本语音，自动重复按键等操作。</li><li>【2022年】DD监控室：同屏多开看B站直播。<a href="https://github.com/zhimingshenjun/DD_Monitor">https://github.com/zhimingshenjun/DD_Monitor</a> 升级补丁：<a href="https://pan.baidu.com/s/1HT0ZhBewjNPlPi1ZQu1R9g?pwd=o7hv">https://pan.baidu.com/s/1HT0ZhBewjNPlPi1ZQu1R9g?pwd=o7hv</a> 介绍视频：<a href="https://www.bilibili.com/video/BV14v411s7WE">https://www.bilibili.com/video/BV14v411s7WE</a> 作者：<a href="../../232_%E7%A4%BE%E4%BC%9A%E5%85%B3%E7%B3%BB/%E5%85%B3%E6%B3%A8/%E8%99%9A%E6%8B%9FUP%E4%B8%BB/%E7%A5%9E%E5%90%9BChannel.html">神君Channel</a></li><li>【2022年】HEU_KMS_Activator：大致是Microsoft激活工具，公众号：<code>heu168</code> 备用公众号：<code>heu168yyds</code>。<a href="https://github.com/zbezj/HEU_KMS_Activator/releases">https://github.com/zbezj/HEU_KMS_Activator&#x2F;releases</a></li><li>【2022年】<a href="../../232_%E7%A4%BE%E4%BC%9A%E5%85%B3%E7%B3%BB/%E4%BD%BF%E7%94%A8/%E7%BD%91%E7%AB%99/%E8%80%8D%E4%B8%8B.html">耍下</a> <a href="MouseInc%E4%BD%BF%E7%94%A8%E6%80%BB%E7%BB%93.html">MouseInc</a>：鼠标手势。</li><li>【2014年】光影魔术手：轻量级图片处理。</li><li>【2010年】变速齿轮：修改单机游戏运行速度。</li></ul><h2 id="自用（自研）工具"><a href="#自用（自研）工具" class="headerlink" title="自用（自研）工具"></a>自用（自研）工具</h2><ul><li><a href="../2018/alarmclock%20%E5%91%BD%E4%BB%A4%E8%A1%8C%E9%97%B9%E9%92%9F%E5%B7%A5%E5%85%B7.html">alarmclock</a>：Windows命令行闹钟。</li><li>【谷歌浏览器拓展】<a href="../2020/bookmarkHelper%20%E6%99%BA%E8%83%BD%E4%B9%A6%E7%AD%BE%E8%AF%86%E5%88%AB.html">智能书签识别&#x2F;bookmarkHelper</a>：判断当前网页是否已收藏。</li></ul>]]></content>
       
       
       <categories>
           
           <category> 个人 </category>
           
-          <category> 合集 </category>
+          <category> 常用合集 </category>
           
       </categories>
       
@@ -1553,7 +1672,7 @@
     
     
     <entry>
-      <title>浏览器插件与脚本存档</title>
+      <title>浏览器拓展与脚本存档</title>
       <link href="/2022/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6%E4%B8%8E%E8%84%9A%E6%9C%AC%E5%AD%98%E6%A1%A3.html"/>
       <url>/2022/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%8F%92%E4%BB%B6%E4%B8%8E%E8%84%9A%E6%9C%AC%E5%AD%98%E6%A1%A3.html</url>
       
@@ -1564,7 +1683,7 @@
           
           <category> 代码存档 </category>
           
-          <category> 浏览器插件 </category>
+          <category> 浏览器拓展程序代码 </category>
           
       </categories>
       
@@ -1591,7 +1710,7 @@
           
           <category> 代码存档 </category>
           
-          <category> 自动化 </category>
+          <category> 自动化脚本 </category>
           
       </categories>
       
@@ -1653,14 +1772,14 @@
       <link href="/2022/2022%E5%B9%B4%E4%B8%AA%E4%BA%BA%E7%94%B5%E8%84%91%E5%B8%B8%E7%94%A8%E7%9A%84%E5%A4%A7%E4%BC%97%E8%BD%AF%E4%BB%B6%E5%A4%87%E5%BF%98%E5%BD%95.html"/>
       <url>/2022/2022%E5%B9%B4%E4%B8%AA%E4%BA%BA%E7%94%B5%E8%84%91%E5%B8%B8%E7%94%A8%E7%9A%84%E5%A4%A7%E4%BC%97%E8%BD%AF%E4%BB%B6%E5%A4%87%E5%BF%98%E5%BD%95.html</url>
       
-        <content type="html"><![CDATA[<blockquote><p>[!info] 记录公开的、大众的常用软件，他们一般会保持更新或稳定，大多数人使用无碍。</p></blockquote><h2 id="电脑必装软件"><a href="#电脑必装软件" class="headerlink" title="电脑必装软件"></a>电脑必装软件</h2><h3 id="浏览器与上网"><a href="#浏览器与上网" class="headerlink" title="浏览器与上网"></a>浏览器与上网</h3><p>360极速浏览器：电脑手机多端收藏夹，浏览器插件自动同步，浏览器快捷键、图片保存、网页长图等。</p><p>V2rayN-core</p><h3 id="输入法"><a href="#输入法" class="headerlink" title="输入法"></a>输入法</h3><p>搜狗输入法</p><h3 id="即时聊天"><a href="#即时聊天" class="headerlink" title="即时聊天"></a>即时聊天</h3><p>TIM、QQ（配置：设置静音）</p><p>微信（配置：设置静音）</p><h3 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h3><p>obsidian&#x2F;SiYuan思源：本地笔记。</p><p>wolai：目前仅用于多端同步。</p><h3 id="普通数据和文档同步"><a href="#普通数据和文档同步" class="headerlink" title="普通数据和文档同步"></a>普通数据和文档同步</h3><p>OneDrive：5G较大空间，不限流量。</p><p>坚果云：每月限1G流量。</p><h3 id="远程控制、电脑间文件传输"><a href="#远程控制、电脑间文件传输" class="headerlink" title="远程控制、电脑间文件传输"></a>远程控制、电脑间文件传输</h3><p>ToDesk：远程控制、电脑间文件传输</p><p>内网通：内网发送消息，无需登录</p><h3 id="图片浏览"><a href="#图片浏览" class="headerlink" title="图片浏览"></a>图片浏览</h3><p>IrfanView</p><h3 id="系统清理"><a href="#系统清理" class="headerlink" title="系统清理"></a>系统清理</h3><p>CCleaner</p><h3 id="压缩软件"><a href="#压缩软件" class="headerlink" title="压缩软件"></a>压缩软件</h3><p>7z</p><h3 id="文件搜索、文件数据库"><a href="#文件搜索、文件数据库" class="headerlink" title="文件搜索、文件数据库"></a>文件搜索、文件数据库</h3><p>Everything</p><h2 id="常用工作娱乐"><a href="#常用工作娱乐" class="headerlink" title="常用工作娱乐"></a>常用工作娱乐</h2><h3 id="文本文件、代码文件版本管理"><a href="#文本文件、代码文件版本管理" class="headerlink" title="文本文件、代码文件版本管理"></a>文本文件、代码文件版本管理</h3><p>Git</p><p>tortoiseGit</p><h3 id="文本编辑"><a href="#文本编辑" class="headerlink" title="文本编辑"></a>文本编辑</h3><p>Notepad++</p><h3 id="Python环境"><a href="#Python环境" class="headerlink" title="Python环境"></a>Python环境</h3><p>jupyter-notebook</p><h3 id="桌面整理与映射"><a href="#桌面整理与映射" class="headerlink" title="桌面整理与映射"></a>桌面整理与映射</h3><p><a href="https://guanjia.qq.com/product/zmzl/">腾讯桌面整理（有独立软件）</a>（腾讯桌面整理，腾讯电脑管家独立出来）（旧链接：<a href="https://guanjia.qq.com/product/zjwd/">最近文档</a>）</p><h3 id="浏览器插件"><a href="#浏览器插件" class="headerlink" title="浏览器插件"></a>浏览器插件</h3><p>pakku：哔哩哔哩弹幕过滤器：瞬间过滤B站(bilibili.com)的刷屏弹幕，还你清爽的弹幕视频体验。弹幕合并。</p><p><a href="https://www.adtchrome.com/">广告终结者</a></p><p>Tampermonkey：油猴脚本平台。</p><h2 id="常用娱乐"><a href="#常用娱乐" class="headerlink" title="常用娱乐"></a>常用娱乐</h2><h3 id="音乐"><a href="#音乐" class="headerlink" title="音乐"></a>音乐</h3><p>网易云音乐（配置下载云盘歌曲，按歌手、专辑分文件夹）</p><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p>BitComet（比特彗星，听说和迅雷相反，人越多越快）</p><p>迅雷（本地版）</p><h3 id="视频播放"><a href="#视频播放" class="headerlink" title="视频播放"></a>视频播放</h3><p>potplayer <a href="https://globalpotplayer.cn/">中文下载网</a></p><h3 id="屏幕截图"><a href="#屏幕截图" class="headerlink" title="屏幕截图"></a>屏幕截图</h3><p>FastStone Capture</p><h3 id="视频录制"><a href="#视频录制" class="headerlink" title="视频录制"></a>视频录制</h3><p>OBS（Open Broadcaster Software）：开源免费视频录制、视频实时推流。能监听麦克风，实现耳返功能，能同时添加多个麦克风输入，方便切换。</p><h3 id="视频剪辑"><a href="#视频剪辑" class="headerlink" title="视频剪辑"></a>视频剪辑</h3><p>必剪：B站视频专用，入门级剪辑。</p><h3 id="Gif制作"><a href="#Gif制作" class="headerlink" title="Gif制作"></a>Gif制作</h3><p>GifCam：超轻量Gif录制，可随时录制、暂停、逐帧录制，自动优化重复帧，可设置录像宽高、录制鼠标；保存时有多种色彩选项，可保存为avi格式，可预览；可简单编辑文件，可对已有文件继续录制；甚至可以中途改变大小（背景白色）</p><p>ScreenToGif：强大的录制、白板绘画录制、编辑（Gif为代表）。逐帧图像编辑（插入文字、水印、模糊等图像效果、过渡效果、自由绘制）；帧移动、反转、倒退、设置延迟；配置编辑器打开时自动执行的操作；可导入、保存为多种格式</p><h2 id="其他使用过的软件"><a href="#其他使用过的软件" class="headerlink" title="其他使用过的软件"></a>其他使用过的软件</h2><blockquote><p>[!info] 这些不是很重要的软件，仅仅用过，可能还不够深入了解使用，不给出具体评价。</p></blockquote><p>Listary：文件搜索，可集成在资源管理器中，支持拼音首字母。</p><p>开黑啦</p><p>哔哩哔哩直播姬</p><p>YY语音</p><p>网易UU网游加速器：免费加速steam</p><p>TeamViewer：远程控制</p><p><a href="ContextMenuManager%EF%BC%88Windows%E7%B3%BB%E7%BB%9F%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7%EF%BC%89%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97.html">ContextMenuManager（Windows系统右键菜单管理工具）</a></p><p>（试用后感觉并不好）Coodesker（酷呆桌面）</p><p><a href="Allen%20Explorer%E8%AF%95%E7%94%A8%E5%BF%83%E5%BE%97.html">Allen Explorer</a></p><p><a href="../../232_%E7%A4%BE%E4%BC%9A%E5%85%B3%E7%B3%BB/%E5%90%AC%E8%AF%B4/%E8%BD%AF%E4%BB%B6/Fluent%20Search.html">Fluent Search</a></p><p><a href="WIN10+%E4%BC%98%E5%8C%96%E5%B0%8F%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97.html">WIN10+优化小工具</a></p><p><a href="../../232_%E7%A4%BE%E4%BC%9A%E5%85%B3%E7%B3%BB/%E5%90%AC%E8%AF%B4/%E8%BD%AF%E4%BB%B6/OpenArk.html">OpenArk</a></p>]]></content>
+        <content type="html"><![CDATA[<blockquote><p>[!info] 记录公开的、大众的常用软件，他们一般会保持更新或稳定，大多数人使用无碍。</p></blockquote><h2 id="电脑必装软件"><a href="#电脑必装软件" class="headerlink" title="电脑必装软件"></a>电脑必装软件</h2><h3 id="浏览器与上网"><a href="#浏览器与上网" class="headerlink" title="浏览器与上网"></a>浏览器与上网</h3><p><a href="../2023/%E6%8E%A8%E8%8D%90%E4%BD%BF%E7%94%A8360%E6%9E%81%E9%80%9F%E6%B5%8F%E8%A7%88%E5%99%A8X.html">360极速浏览器X</a>：电脑手机多端同步收藏夹，浏览器拓展，浏览器快捷键、图片保存、网页长图等。</p><p>V2rayN-core</p><h3 id="输入法"><a href="#输入法" class="headerlink" title="输入法"></a>输入法</h3><p>搜狗输入法</p><h3 id="即时聊天"><a href="#即时聊天" class="headerlink" title="即时聊天"></a>即时聊天</h3><p>TIM、QQ（配置：设置静音）</p><p>微信（配置：设置静音）</p><h3 id="笔记"><a href="#笔记" class="headerlink" title="笔记"></a>笔记</h3><p>obsidian&#x2F;SiYuan思源：本地笔记。</p><p>wolai：目前仅用于多端同步。</p><h3 id="普通数据和文档同步"><a href="#普通数据和文档同步" class="headerlink" title="普通数据和文档同步"></a>普通数据和文档同步</h3><p>OneDrive：5G较大空间，不限流量。</p><p>坚果云：每月限1G流量。</p><h3 id="远程控制、电脑间文件传输"><a href="#远程控制、电脑间文件传输" class="headerlink" title="远程控制、电脑间文件传输"></a>远程控制、电脑间文件传输</h3><p>ToDesk：远程控制、电脑间文件传输</p><p>内网通：内网发送消息，无需登录</p><h3 id="图片浏览"><a href="#图片浏览" class="headerlink" title="图片浏览"></a>图片浏览</h3><p>IrfanView</p><h3 id="系统清理"><a href="#系统清理" class="headerlink" title="系统清理"></a>系统清理</h3><p>CCleaner</p><h3 id="压缩软件"><a href="#压缩软件" class="headerlink" title="压缩软件"></a>压缩软件</h3><p>7z</p><h3 id="文件搜索、文件数据库"><a href="#文件搜索、文件数据库" class="headerlink" title="文件搜索、文件数据库"></a>文件搜索、文件数据库</h3><p>Everything</p><h2 id="常用工作娱乐"><a href="#常用工作娱乐" class="headerlink" title="常用工作娱乐"></a>常用工作娱乐</h2><h3 id="文本文件、代码文件版本管理"><a href="#文本文件、代码文件版本管理" class="headerlink" title="文本文件、代码文件版本管理"></a>文本文件、代码文件版本管理</h3><p>Git</p><p>tortoiseGit</p><h3 id="文本编辑"><a href="#文本编辑" class="headerlink" title="文本编辑"></a>文本编辑</h3><p>Notepad++</p><h3 id="Python环境"><a href="#Python环境" class="headerlink" title="Python环境"></a>Python环境</h3><p>jupyter-notebook</p><h3 id="桌面整理与映射"><a href="#桌面整理与映射" class="headerlink" title="桌面整理与映射"></a>桌面整理与映射</h3><p><a href="https://guanjia.qq.com/product/zmzl/">腾讯桌面整理（有独立软件）</a>（腾讯桌面整理，腾讯电脑管家独立出来）（旧链接：<a href="https://guanjia.qq.com/product/zjwd/">最近文档</a>）</p><h3 id="浏览器拓展"><a href="#浏览器拓展" class="headerlink" title="浏览器拓展"></a>浏览器拓展</h3><p>pakku：哔哩哔哩弹幕过滤器：瞬间过滤B站(bilibili.com)的刷屏弹幕，还你清爽的弹幕视频体验。弹幕合并。</p><p><a href="https://www.adtchrome.com/">广告终结者</a></p><p>Tampermonkey：油猴脚本平台。</p><h2 id="常用娱乐"><a href="#常用娱乐" class="headerlink" title="常用娱乐"></a>常用娱乐</h2><h3 id="音乐"><a href="#音乐" class="headerlink" title="音乐"></a>音乐</h3><p>网易云音乐（配置下载云盘歌曲，按歌手、专辑分文件夹）</p><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><p>BitComet（比特彗星，听说和迅雷相反，人越多越快）</p><p>迅雷（本地版）</p><h3 id="视频播放"><a href="#视频播放" class="headerlink" title="视频播放"></a>视频播放</h3><p>potplayer <a href="https://globalpotplayer.cn/">中文下载网</a></p><h3 id="屏幕截图"><a href="#屏幕截图" class="headerlink" title="屏幕截图"></a>屏幕截图</h3><p>FastStone Capture</p><h3 id="视频录制"><a href="#视频录制" class="headerlink" title="视频录制"></a>视频录制</h3><p>OBS（Open Broadcaster Software）：开源免费视频录制、视频实时推流。能监听麦克风，实现耳返功能，能同时添加多个麦克风输入，方便切换。</p><h3 id="视频剪辑"><a href="#视频剪辑" class="headerlink" title="视频剪辑"></a>视频剪辑</h3><p>必剪：B站视频专用，入门级剪辑。</p><h3 id="Gif制作"><a href="#Gif制作" class="headerlink" title="Gif制作"></a>Gif制作</h3><p>GifCam：超轻量Gif录制，可随时录制、暂停、逐帧录制，自动优化重复帧，可设置录像宽高、录制鼠标；保存时有多种色彩选项，可保存为avi格式，可预览；可简单编辑文件，可对已有文件继续录制；甚至可以中途改变大小（背景白色）</p><p>ScreenToGif：强大的录制、白板绘画录制、编辑（Gif为代表）。逐帧图像编辑（插入文字、水印、模糊等图像效果、过渡效果、自由绘制）；帧移动、反转、倒退、设置延迟；配置编辑器打开时自动执行的操作；可导入、保存为多种格式</p><h2 id="其他使用过的软件"><a href="#其他使用过的软件" class="headerlink" title="其他使用过的软件"></a>其他使用过的软件</h2><blockquote><p>[!info] 这些不是很重要的软件，仅仅用过，可能还不够深入了解使用，不给出具体评价。</p></blockquote><p>Listary：文件搜索，可集成在资源管理器中，支持拼音首字母。</p><p>开黑啦</p><p>哔哩哔哩直播姬</p><p>YY语音</p><p>网易UU网游加速器：免费加速steam</p><p>TeamViewer：远程控制</p><p><a href="ContextMenuManager%EF%BC%88Windows%E7%B3%BB%E7%BB%9F%E5%8F%B3%E9%94%AE%E8%8F%9C%E5%8D%95%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7%EF%BC%89%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97.html">ContextMenuManager（Windows系统右键菜单管理工具）</a></p><p>（试用后感觉并不好）Coodesker（酷呆桌面）</p><p><a href="Allen%20Explorer%E8%AF%95%E7%94%A8%E5%BF%83%E5%BE%97.html">Allen Explorer</a></p><p><a href="../../232_%E7%A4%BE%E4%BC%9A%E5%85%B3%E7%B3%BB/%E5%90%AC%E8%AF%B4/%E8%BD%AF%E4%BB%B6/Fluent%20Search.html">Fluent Search</a></p><p><a href="WIN10+%E4%BC%98%E5%8C%96%E5%B0%8F%E5%B7%A5%E5%85%B7%E4%BD%BF%E7%94%A8%E5%BF%83%E5%BE%97.html">WIN10+优化小工具</a></p><p><a href="../../232_%E7%A4%BE%E4%BC%9A%E5%85%B3%E7%B3%BB/%E5%90%AC%E8%AF%B4/%E8%BD%AF%E4%BB%B6/OpenArk.html">OpenArk</a></p>]]></content>
       
       
       <categories>
           
           <category> 个人 </category>
           
-          <category> 合集 </category>
+          <category> 常用合集 </category>
           
       </categories>
       
@@ -1781,7 +1900,7 @@
           
           <category> 计算机 </category>
           
-          <category> 问题经验 </category>
+          <category> 电脑问题经验 </category>
           
       </categories>
       
@@ -1953,6 +2072,27 @@
     
     
     <entry>
+      <title>bookmarkHelper 智能书签识别</title>
+      <link href="/2020/bookmarkHelper%20%E6%99%BA%E8%83%BD%E4%B9%A6%E7%AD%BE%E8%AF%86%E5%88%AB.html"/>
+      <url>/2020/bookmarkHelper%20%E6%99%BA%E8%83%BD%E4%B9%A6%E7%AD%BE%E8%AF%86%E5%88%AB.html</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://gitee.com/sine1995/bookmark-helper">bookmarkHelper: Chrome浏览器插件：显示网站是否收藏</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 个人 </category>
+          
+          <category> 自研工具 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Nginx location匹配顺序简单总结</title>
       <link href="/2020/Nginx%20location%E5%8C%B9%E9%85%8D%E9%A1%BA%E5%BA%8F%E7%AE%80%E5%8D%95%E6%80%BB%E7%BB%93.html"/>
       <url>/2020/Nginx%20location%E5%8C%B9%E9%85%8D%E9%A1%BA%E5%BA%8F%E7%AE%80%E5%8D%95%E6%80%BB%E7%BB%93.html</url>
@@ -2020,6 +2160,27 @@
     
     
     <entry>
+      <title>alarmclock</title>
+      <link href="/2018/alarmclock%20%E5%91%BD%E4%BB%A4%E8%A1%8C%E9%97%B9%E9%92%9F%E5%B7%A5%E5%85%B7.html"/>
+      <url>/2018/alarmclock%20%E5%91%BD%E4%BB%A4%E8%A1%8C%E9%97%B9%E9%92%9F%E5%B7%A5%E5%85%B7.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="Windows命令行闹钟工具"><a href="#Windows命令行闹钟工具" class="headerlink" title="Windows命令行闹钟工具"></a>Windows命令行闹钟工具</h2><p>Python源码：<br><a href="https://gitee.com/sine1995/AlarmClock">https://gitee.com/sine1995/AlarmClock</a><br><a href="https://gitee.com/sine1995/sine.utils">https://gitee.com/sine1995/sine.utils</a> （依赖）</p><p>自用，后来打包做成exe文件更方便。</p><p>2018年之前大学期间试水开发Python，做的命令行闹钟，一开始是用于设置手游活动的提醒。虽然代码不怎么样，但至少能用。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 个人 </category>
+          
+          <category> 自研工具 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>python中logging模块使用示例和设置格式</title>
       <link href="/2018/python%E4%B8%ADlogging%E6%A8%A1%E5%9D%97%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B%E5%92%8C%E8%AE%BE%E7%BD%AE%E6%A0%BC%E5%BC%8F.html"/>
       <url>/2018/python%E4%B8%ADlogging%E6%A8%A1%E5%9D%97%E4%BD%BF%E7%94%A8%E7%A4%BA%E4%BE%8B%E5%92%8C%E8%AE%BE%E7%BD%AE%E6%A0%BC%E5%BC%8F.html</url>
@@ -2031,7 +2192,7 @@
           
           <category> 代码存档 </category>
           
-          <category> demo </category>
+          <category> demo代码 </category>
           
       </categories>
       
