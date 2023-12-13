@@ -10,8 +10,8 @@ aliases:
 
 ## 最新GPT-3.5免费体验汇总
 
-- https://aivesa.cn/ 免费体验中目前试过最好用之一，其他的基本都是每天每月有明确的次数限制，效果还不一定好。另外附带提示词中心 https://www.askprompts.com/ （研究中）
-- https://aigcplus.org/ 需要每天签到获取额度，一天大约30次提问。（备用重定向： https://going.chat/ ）
+- [AskAI智能站点](https://aivesa.cn/) 免费体验中目前试过最好用之一，其他的基本都是每天每月有明确的次数限制，效果还不一定好。另外附带提示词中心 https://www.askprompts.com/ （研究中）
+- [AIGC+](https://aigcplus.org/) 需要每天签到获取额度，一天大约30次提问。（备用重定向： https://going.chat/ ）
 - （在推广收费） https://walles.ai/ 目前每日30次免费提问，不可累计。
 
 ## 导航网站

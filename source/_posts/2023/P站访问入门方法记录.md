@@ -7,13 +7,20 @@ tags:
 aliases:
 ---
 
-## 加速代理
+## 加速
 
 ~~[Watt Toolkit「原名 Steam++」](../2022/Watt%20Toolkit「原名%20Steam++」介绍.md)~~（2023年底已失效）
 
-## 镜像代理网站
+## 国内网站、镜像网站
 
-**这些网站速度似乎很有限，甚至失效了。**
+> **这些网站速度似乎很有限，甚至失效了。**
+
+### pixiv-viewer
+
+https://pixiv.obfs.dev （慢，我打不开大图）
+### Pixiviz
+
+[Pixiviz pixiv镜像网站，热门图库](https://pixiviz.pwp.app/)（我访问不了）
 
 ### pixiv.cat
 
