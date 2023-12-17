@@ -20,4 +20,4 @@ alias: []
 > > 1. 百度`win10+优化小工具`
 > > 2. https://www.ghxi.com/win10yhxgj.html
 
-#来源/微信公众号 :[莫理](../../232_社会关系/关注/公众号/莫理.md) 文章:https://mp.weixin.qq.com/s/SCnn20aFKhUdTFQzF0m6wQ （已验证其内文件与源站一致）
+#来源/推送/微信公众号 :[莫理](../../232_社会关系/关注/公众号/莫理.md) 文章:https://mp.weixin.qq.com/s/SCnn20aFKhUdTFQzF0m6wQ （已验证其内文件与源站一致）
