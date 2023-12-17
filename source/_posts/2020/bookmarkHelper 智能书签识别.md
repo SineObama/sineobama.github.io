@@ -1,10 +1,10 @@
 ---
-title: bookmarkHelper 智能书签识别
+title: Chrome拓展：收藏何处 - bookmarks matcher
 date: 2020-09-16
-updated: 2021-03-14
+updated: 2023-12-17
 tags:
   - 个人/自研工具
 aliases:
 ---
 
-[bookmarkHelper: Chrome浏览器插件：显示网站是否收藏](https://gitee.com/sine1995/bookmark-helper)
+[chrome-extension-bookmarks-matcher: Chrome拓展：查找网页与收藏夹的关联内容](https://gitee.com/sine1995/chrome-extension-bookmarks-matcher)

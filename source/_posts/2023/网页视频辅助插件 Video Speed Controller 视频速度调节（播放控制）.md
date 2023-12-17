@@ -18,7 +18,7 @@ aliases:
 
 官网 #开源  https://github.com/igrigorik/videospeed
 
-#来源/网站 [阿虚同学的储物间](阿虚同学的储物间.md)
+#来源/网站/分享站 [阿虚同学的储物间](阿虚同学的储物间.md)
 
 ## 配置
 

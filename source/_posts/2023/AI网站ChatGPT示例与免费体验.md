@@ -1,16 +1,20 @@
 ---
 title: AI网站ChatGPT示例与免费体验
 date: 2023-04-10 23:36
-updated: 2023-12-10
+updated: 2023-12-16 09:01
 tags:
   - AI工具/AI在线体验
   - 免费
 aliases:
 ---
 
-## 最新GPT-3.5免费体验汇总
+## 最新GPT免费体验汇总
 
-- [AskAI智能站点](https://aivesa.cn/) 免费体验中目前试过最好用之一，其他的基本都是每天每月有明确的次数限制，效果还不一定好。另外附带提示词中心 https://www.askprompts.com/ （研究中）
+> 1. 注意不要滥用。
+> 2. 目前大部分网站可免费体验的是GPT-3.5(turbo)，GPT4相对费用比较高，很容易用完额度。
+
+- [Aivesa智能（境内）](https://aivesa.cn/) 免费体验中目前试过最好用之一，其他很多都是每天每月只有少量的使用次数，效果还不一定好。网站内还有[AI 导航站](https://naviai.cn/)，提示词中心 https://www.askprompts.com/ （研究中）。
+- [OpenKEY 水龙头](https://faucet.openkey.cloud/)：每24小时领取一美元的KEY，有效期3天，通过邮箱领取。在此平台也可以使用GPT。
 - [AIGC+](https://aigcplus.org/) 需要每天签到获取额度，一天大约30次提问。（备用重定向： https://going.chat/ ）
 - （在推广收费） https://walles.ai/ 目前每日30次免费提问，不可累计。
 
@@ -30,7 +34,7 @@ http://www.cxy521.com/ai.html
 ChatGPT Sites  
 https://lzw.me/x/chatgpt-sites/
 
-#来源/up [玄离199](../../232_社会关系/关注/UP主/玄离199.md)
+#来源/推送/B站UP主 [玄离199](../../232_社会关系/关注/UP主/玄离199.md)
 
 ### 2023-05
 
@@ -62,3 +66,8 @@ https://www.naviai.cn/ （某段时间502了）
 
 - [（阿虚同学）别太离谱！懒人神器1个顶7个，吊打一众同类AI工具](https://mp.weixin.qq.com/s/tUQMO4VAt6Cxjv0ndN6EXA)
     - [walles.ai](../../231_用户账号/互联网账号/walles.ai账号.md)
+
+### 即刻的圈子：AI探索站
+
+- 2023年12月Aivesa更换了新的免费使用模式：[【Aivesa免费版】上线了一个新模式！ 免费发放Open - 即刻App](https://m.okjike.com/originalPosts/657680838a7c5ba8ae4d1f21?s=eyJ1IjoiNWFlMWUzYjU0ZTQyMjEwMDE3YzlhYWYwIiwiZCI6MX0%3D)，[Aivesa免费体验](https://aivesa.cn/redirect.html)方式更换为每24小时领取一美元的KEY，有效期7天，关注微信公众号回复即可。
+    - [OpenKEY 水龙头](https://faucet.openkey.cloud/)：每24小时免费领取一美元的KEY。

@@ -23,4 +23,4 @@ alias: []
 - Honeyview: 图片查看，有一些相对突出的方便于浏览查看的实用功能。（ifranview更多的是编辑功能）
 - Bandizip
 
-#来源/微信公众号 :[莫理](../../232_社会关系/关注/公众号/莫理.md) 文章:[三款 Windows 神器，收集了半个月~](https://mp.weixin.qq.com/s/RrbyekQL_PHwNBjNTGEh0w)
+#来源/推送/微信公众号 :[莫理](../../232_社会关系/关注/公众号/莫理.md) 文章:[三款 Windows 神器，收集了半个月~](https://mp.weixin.qq.com/s/RrbyekQL_PHwNBjNTGEh0w)

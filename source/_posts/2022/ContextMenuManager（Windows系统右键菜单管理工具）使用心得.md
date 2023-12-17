@@ -15,4 +15,4 @@ alias: []
 
 #开源 https://github.com/BluePointLilac/ContextMenuManager https://gitee.com/BluePointLilac/ContextMenuManager 作者：[蓝点lilac](https://space.bilibili.com/34492771)
 
-#来源/微信公众号 :[莫理](../../232_社会关系/关注/公众号/莫理.md) 文章:https://mp.weixin.qq.com/s/AXvhAGNNa53tRY69PSrjeA
+#来源/推送/微信公众号 :[莫理](../../232_社会关系/关注/公众号/莫理.md) 文章:https://mp.weixin.qq.com/s/AXvhAGNNa53tRY69PSrjeA
