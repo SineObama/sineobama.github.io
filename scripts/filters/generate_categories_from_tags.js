@@ -19,6 +19,9 @@ const {generate_categories_from_tags: {enable,warnNoTag,warnNoCategory}} = confi
 if (enable) {
     hexo.extend.filter.register('before_post_render', generateCategoriesFromTags);
     hexo.extend.filter.register('after_post_render', filterSiteTag);
+
+    // 虽然不懂原理：当文章没有修改过时，直接生成无法触发 after_post_render 标签又会出问题，但是可以这样直接set一次解决问题，文章有无修改的两种情况下，set的日志都只会打印一次
+    hexo.locals.set('tags', reloadTag);
 }
 
 function generateCategoriesFromTags(data) {
@@ -82,10 +85,16 @@ let _filterSiteTagOnce = false;
 function filterSiteTag(data) {
     if (!_filterSiteTagOnce) {
         _filterSiteTagOnce = true;
-        this.locals.set('tags', () => {
-            // Ignore tags with zero posts
-            return this.database.model('Tag').filter(tag => tag.length);
-        });
+        this.locals.set('tags', reloadTag);
     }
     return data;
+}
+
+function reloadTag() {
+    const logger = hexo.log;
+    // Ignore tags with zero posts
+    const model = hexo.database.model('Tag');
+    const filtered = model.filter(tag => tag.length);
+    logger.info('Tag size: ' + model.length + ' -> ' + filtered.length);
+    return filtered;
 }
