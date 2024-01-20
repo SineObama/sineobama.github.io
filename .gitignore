@@ -11,5 +11,7 @@ _multiconfig.yml
 .idea/
 *.iml
 yarn.lock
-package-lock.json
 node_modules.zip
+
+# user custom
+tmp/
