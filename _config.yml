@@ -143,6 +143,41 @@ search:
   content: true
   template:
 
+## https://github.com/hexojs/hexo-renderer-markdown-it
+markdown:
+  preset: 'default'
+  render:
+    html: true
+    xhtmlOut: false
+    langPrefix: 'language-'
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'
+  enable_rules:
+  disable_rules:
+  plugins:
+    - markdown-it-abbr
+    - markdown-it-footnote
+    - markdown-it-ins
+    - markdown-it-sub
+    - markdown-it-sup
+  anchors:
+    level: 2
+    collisionSuffix: ''
+    # 与 butterfly 主题的 anchor 冲突，开启也不好用，就关闭了
+    permalink: false
+    permalinkClass: 'header-anchor'
+    permalinkSide: 'left'
+    permalinkSymbol: '¶'
+    case: 0
+    separator: '-'
+  images:
+    lazyload: false
+    prepend_root: false
+    post_asset: false
+  inline: false  # https://markdown-it.github.io/markdown-it/#MarkdownIt.renderInline
+
 # 以下自定义脚本
 ## 解决内链问题
 replace_internal_link:
@@ -169,7 +204,7 @@ forbidden_word_check:
   enable: true
   # regular expression
   reg_exp:
-    - ["\u79d1\u5b66\u4e0a\u7f51", 道理上网]
+    - ["\u79d1\u5b66\u4e0a\u7f51", 富强上网]
     - ["\u8f6e\u76d8", 转盘]
     - ["UU\u52a0\u901f\u5668", UU网游加速器]
 

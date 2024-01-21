@@ -124,6 +124,10 @@ markdown 格式转换，能用的话优先用软件自带的，其次用插件�
 
 搜索并粘贴笔记链接【未实际使用】
 
+#### Advanced Paste
+
+[advanced-paste](https://github.com/kxxt/obsidian-advanced-paste)想优化粘贴一些花里胡哨的微信公众号文章但失败了，还没有其他具体的体验。
+
 ### 未解决的问题
 
 - `obsidian-proxy-github` 插件问题：开启后，使用软件时经常会刷出代理日志，阻挡了鼠标点击右上角的部分功能。日常使用只能先关闭它。
