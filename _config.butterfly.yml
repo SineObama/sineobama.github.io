@@ -1004,4 +1004,5 @@ CDN:
     # utils:
     # valine:
     # waline_css:
-    # waline_js:
+    # https://github.com/jerryc127/hexo-theme-butterfly/issues/1418
+    waline_js: https://cdn.jsdelivr.net/npm/@waline/client/dist/waline.umd.min.js
