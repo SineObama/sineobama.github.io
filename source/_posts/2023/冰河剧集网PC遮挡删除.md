@@ -6,7 +6,10 @@ tags:
   - 代码存档/浏览器拓展程序代码
   - Tampermonkey
 alias: []
+invalid: true
 ---
+
+> 这个网站大概不能用了
 
 ```js
 // ==UserScript==

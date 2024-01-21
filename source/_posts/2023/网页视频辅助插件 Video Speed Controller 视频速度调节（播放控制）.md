@@ -1,5 +1,5 @@
 ---
-title: 网页视频辅助插件 Video Speed Controller 视频速度调节（播放控制）
+title: 网页视频辅助插件 Video Speed Controller 视频速度调节（播放控制） - Chrome拓展
 date: 2023-12-09 20:21
 updated: 2023-12-09 20:21
 tags:
@@ -43,7 +43,7 @@ B站快捷键参考：[B站隐藏功能用法整理](../2022/B站隐藏功能用
 
 因为有个小网站真的不支持全屏快捷键，所以我想加上这个功能。
 
-最终还是自己上手改了（可能只适用于谷歌浏览器），发布了release，0.8.3版本下载： https://github.com/SineObama/videospeed-refactoring-myfullscreen/releases/download/0.8.3/my_Video_Speed_Controller_-_BETA_Channel.crx
+最终还是自己上手改了（可能只适用于谷歌浏览器），发布了release，0.8.3版本下载： https://github.com/SineObama/videospeed-refactoring-myfullscreen
 
 历程如下：
 

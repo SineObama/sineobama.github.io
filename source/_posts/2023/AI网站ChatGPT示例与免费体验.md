@@ -13,7 +13,7 @@ aliases:
 > 1. 注意不要滥用。
 > 2. 目前大部分网站可免费体验的是GPT-3.5(turbo)，GPT4相对费用比较高，很容易用完额度。
 
-- [Aivesa智能（境内）](https://aivesa.cn/) 免费体验中目前试过最好用之一，其他很多都是每天每月只有少量的使用次数，效果还不一定好。网站内还有[AI 导航站](https://naviai.cn/)，提示词中心 https://www.askprompts.com/ （研究中）。
+- [Aivesa智能（境内）](https://aivesa.cn/) 免费体验中目前试过最好用之一，其他很多都是每天每月只有少量的使用次数，效果还不一定好。网站内还有[AI 导航站](https://naviai.cn/)，提示词中心 https://www.askprompts.com/ （研究中）。最新推出[水龙头](https://key.aivesa.cn/)。
 - [OpenKEY 水龙头](https://faucet.openkey.cloud/)：每24小时领取一美元的KEY，有效期3天，通过邮箱领取。在此平台也可以使用GPT。
 - [AIGC+](https://aigcplus.org/) 需要每天签到获取额度，一天大约30次提问。（备用重定向： https://going.chat/ ）
 - （在推广收费） https://walles.ai/ 目前每日30次免费提问，不可累计。
@@ -42,6 +42,10 @@ https://lzw.me/x/chatgpt-sites/
 
 Navi AI导航
 https://www.naviai.cn/ （某段时间502了）
+
+## Prompts
+
+[ChatGPT 中文调教指南 · xxxily/hello-ai](https://github.com/xxxily/hello-ai/blob/main/home/chatgptPrompts.md)
 
 ## 试用记录
 
