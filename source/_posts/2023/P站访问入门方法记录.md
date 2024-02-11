@@ -1,31 +1,47 @@
 ---
 title: P站访问方法整理（入门级）
 date: 2023-03-18 09:45
-updated: 2023-06-15
+updated: 2024-02-11
 tags:
   - 个人/备忘录
 aliases:
 ---
 
-## 加速
+> 我不知道现在还有没有“加速器”，而之前用的代理网站很多也不太行了，可能还是要另寻VPN吧。
 
-~~[Watt Toolkit「原名 Steam++」](../2022/Watt%20Toolkit「原名%20Steam++」介绍.md)~~（2023年底已失效）
+## 镜像、代理网站？
 
-## 国内网站、镜像网站
-
-> **这些网站速度似乎很有限，甚至失效了。**
-
-### pixiv-viewer
-
-https://pixiv.obfs.dev （慢，我打不开大图）
-### Pixiviz
-
-[Pixiviz pixiv镜像网站，热门图库](https://pixiviz.pwp.app/)（我访问不了）
-
-### pixiv.cat
+### pixiv.cat（查看单张图片）
 
 https://pixiv.nl/
 https://pixiv.re/
+
+使用方法见网站首页（或后面的附录），例如: https://pixiv.nl/82775556.jpg
+
+### pixiv-viewer
+
+https://pixiv.obfs.dev （大概可以随机逛逛）
+
+### Pixiviz
+
+[Pixiviz pixiv镜像网站，热门图库](https://pixiviz.pwp.app/)（我打不开了）
+
+## 已失效的
+
+~~[Watt Toolkit「原名 Steam++」](../2022/Watt%20Toolkit「原名%20Steam++」介绍.md)~~（2023年底已失效）
+
+### pixiv.moe
+
+https://pixiv.moe/
+
+> Our website is temporarily unavailable due to server expiration.
+
+需要登录。
+我还是问AI才知道这个的。
+
+## 附录
+
+###  pixiv.cat使用方法
 
 > [!note]- 网站首页说明
 > 本站主域名在中国大陆被墙，中国大陆用户请改用 pixiv.re (反向代理: i.pixiv.re (imgaz.pixiv.net 暂无法直接访问))
@@ -55,9 +71,3 @@ https://pixiv.re/
 > ※ 若您的項目需要存取Pixiv上的圖片，且可以直接向Pixiv API抓取原始圖片網址，請使用[反向代理](https://pixiv.cat/reverseproxy.html)。
 >
 
-### pixiv.moe
-
-https://pixiv.moe/
-
-需要登录。
-我还是问AI才知道这个的。
