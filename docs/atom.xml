@@ -6,7 +6,7 @@
   <link href="https://sine1995.gitee.io/atom.xml" rel="self"/>
   
   <link href="https://sine1995.gitee.io/"/>
-  <updated>2024-01-20T11:34:00.000Z</updated>
+  <updated>2024-06-09T14:44:00.000Z</updated>
   <id>https://sine1995.gitee.io/</id>
   
   <author>
@@ -15,6 +15,79 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>循环删除大量文件与文件夹（脚本代码）</title>
+    <link href="https://sine1995.gitee.io/2024/%E5%BE%AA%E7%8E%AF%E5%88%A0%E9%99%A4%E5%A4%A7%E9%87%8F%E6%96%87%E4%BB%B6%E4%B8%8E%E6%96%87%E4%BB%B6%E5%A4%B9%EF%BC%88%E8%84%9A%E6%9C%AC%E4%BB%A3%E7%A0%81%EF%BC%89.html"/>
+    <id>https://sine1995.gitee.io/2024/%E5%BE%AA%E7%8E%AF%E5%88%A0%E9%99%A4%E5%A4%A7%E9%87%8F%E6%96%87%E4%BB%B6%E4%B8%8E%E6%96%87%E4%BB%B6%E5%A4%B9%EF%BC%88%E8%84%9A%E6%9C%AC%E4%BB%A3%E7%A0%81%EF%BC%89.html</id>
+    <published>2024-06-09T14:44:00.000Z</published>
+    <updated>2024-06-09T14:44:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="代码存档" scheme="https://sine1995.gitee.io/categories/%E4%BB%A3%E7%A0%81%E5%AD%98%E6%A1%A3/"/>
+    
+    <category term="node脚本" scheme="https://sine1995.gitee.io/categories/%E4%BB%A3%E7%A0%81%E5%AD%98%E6%A1%A3/node%E8%84%9A%E6%9C%AC/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>暗黑破坏神2若水暗月MOD与D2SE安装与游玩心得</title>
+    <link href="https://sine1995.gitee.io/2024/%E6%9A%97%E9%BB%91%E7%A0%B4%E5%9D%8F%E7%A5%9E2%E8%8B%A5%E6%B0%B4%E6%9A%97%E6%9C%88MOD%E4%B8%8ED2SE%E5%AE%89%E8%A3%85%E4%B8%8E%E6%B8%B8%E7%8E%A9%E5%BF%83%E5%BE%97.html"/>
+    <id>https://sine1995.gitee.io/2024/%E6%9A%97%E9%BB%91%E7%A0%B4%E5%9D%8F%E7%A5%9E2%E8%8B%A5%E6%B0%B4%E6%9A%97%E6%9C%88MOD%E4%B8%8ED2SE%E5%AE%89%E8%A3%85%E4%B8%8E%E6%B8%B8%E7%8E%A9%E5%BF%83%E5%BE%97.html</id>
+    <published>2024-03-09T01:15:00.000Z</published>
+    <updated>2024-04-22T16:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="游戏" scheme="https://sine1995.gitee.io/categories/%E6%B8%B8%E6%88%8F/"/>
+    
+    <category term="暗黑破坏神2" scheme="https://sine1995.gitee.io/categories/%E6%B8%B8%E6%88%8F/%E6%9A%97%E9%BB%91%E7%A0%B4%E5%9D%8F%E7%A5%9E2/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo渲染Markdown脚注语法的插件优化研究</title>
+    <link href="https://sine1995.gitee.io/2024/Hexo%E6%B8%B2%E6%9F%93Markdown%E8%84%9A%E6%B3%A8%E8%AF%AD%E6%B3%95%E7%9A%84%E6%96%B9%E6%B3%95%EF%BC%88%E6%8F%92%E4%BB%B6%EF%BC%89%E7%A0%94%E7%A9%B6.html"/>
+    <id>https://sine1995.gitee.io/2024/Hexo%E6%B8%B2%E6%9F%93Markdown%E8%84%9A%E6%B3%A8%E8%AF%AD%E6%B3%95%E7%9A%84%E6%96%B9%E6%B3%95%EF%BC%88%E6%8F%92%E4%BB%B6%EF%BC%89%E7%A0%94%E7%A9%B6.html</id>
+    <published>2024-01-20T11:34:00.000Z</published>
+    <updated>2024-01-20T11:34:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2</summary>
+        
+      
+    
+    
+    
+    
+    <category term="Hexo" scheme="https://sine1995.gitee.io/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Markdown语法测试</title>
@@ -41,29 +114,6 @@
     
     <category term="静态博客单元测试" scheme="https://sine1995.gitee.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%AE%9E%E8%B7%B5/%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo渲染Markdown脚注语法的插件优化研究</title>
-    <link href="https://sine1995.gitee.io/2024/Hexo%E6%B8%B2%E6%9F%93Markdown%E8%84%9A%E6%B3%A8%E8%AF%AD%E6%B3%95%E7%9A%84%E6%96%B9%E6%B3%95%EF%BC%88%E6%8F%92%E4%BB%B6%EF%BC%89%E7%A0%94%E7%A9%B6.html"/>
-    <id>https://sine1995.gitee.io/2024/Hexo%E6%B8%B2%E6%9F%93Markdown%E8%84%9A%E6%B3%A8%E8%AF%AD%E6%B3%95%E7%9A%84%E6%96%B9%E6%B3%95%EF%BC%88%E6%8F%92%E4%BB%B6%EF%BC%89%E7%A0%94%E7%A9%B6.html</id>
-    <published>2024-01-20T11:34:00.000Z</published>
-    <updated>2024-01-20T11:34:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2</summary>
-        
-      
-    
-    
-    
-    
-    <category term="Hexo" scheme="https://sine1995.gitee.io/tags/Hexo/"/>
     
   </entry>
   
@@ -156,7 +206,7 @@
     <link href="https://sine1995.gitee.io/2023/%E7%BD%91%E9%A1%B5%E4%BF%9D%E5%AD%98%E6%96%B9%E6%A1%88%EF%BC%88%E6%96%87%E7%AB%A0%E4%BF%9D%E5%AD%98%EF%BC%89.html"/>
     <id>https://sine1995.gitee.io/2023/%E7%BD%91%E9%A1%B5%E4%BF%9D%E5%AD%98%E6%96%B9%E6%A1%88%EF%BC%88%E6%96%87%E7%AB%A0%E4%BF%9D%E5%AD%98%EF%BC%89.html</id>
     <published>2023-12-10T02:13:00.000Z</published>
-    <updated>2023-12-31T11:37:00.000Z</updated>
+    <updated>2024-04-18T12:10:00.000Z</updated>
     
     
       
@@ -300,7 +350,9 @@
 &lt;li&gt;知识库维护：Obsidian&lt;/li&gt;
 &lt;li&gt;博客发布：hexo + butterfly 主题 + 若干自定义插件脚本做优化调整&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2</summary>
+&lt;p&gt;其他内容：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a</summary>
         
       
     
@@ -363,7 +415,7 @@
     <link href="https://sine1995.gitee.io/2023/Markdown%E7%9F%A5%E8%AF%86%E5%BA%93%E7%AC%94%E8%AE%B0%E5%90%8C%E6%AD%A5%E6%89%8B%E6%9C%BA%E7%AB%AF%E9%98%85%E8%AF%BB%E6%96%B9%E6%A1%88.html"/>
     <id>https://sine1995.gitee.io/2023/Markdown%E7%9F%A5%E8%AF%86%E5%BA%93%E7%AC%94%E8%AE%B0%E5%90%8C%E6%AD%A5%E6%89%8B%E6%9C%BA%E7%AB%AF%E9%98%85%E8%AF%BB%E6%96%B9%E6%A1%88.html</id>
     <published>2023-11-19T03:33:00.000Z</published>
-    <updated>2024-01-21T08:06:00.000Z</updated>
+    <updated>2024-09-17T05:17:00.000Z</updated>
     
     
       
@@ -526,70 +578,6 @@ Haier&lt;br&gt;
     
     
     <category term="扫描件" scheme="https://sine1995.gitee.io/tags/%E6%89%AB%E6%8F%8F%E4%BB%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>直接下载Steam创意工坊Mod方法</title>
-    <link href="https://sine1995.gitee.io/2023/%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BDSteam%E5%88%9B%E6%84%8F%E5%B7%A5%E5%9D%8AMod%E6%96%B9%E6%B3%95.html"/>
-    <id>https://sine1995.gitee.io/2023/%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BDSteam%E5%88%9B%E6%84%8F%E5%B7%A5%E5%9D%8AMod%E6%96%B9%E6%B3%95.html</id>
-    <published>2023-08-05T01:55:00.000Z</published>
-    <updated>2023-08-05T01:55:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://steamworkshopdownloader.io&quot;&gt;Steam Workshop Downloader :: IO 下载mod&lt;/a&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;安装steamcmd，输入命令&lt;code&gt;login</summary>
-        
-      
-    
-    
-    
-    <category term="个人" scheme="https://sine1995.gitee.io/categories/%E4%B8%AA%E4%BA%BA/"/>
-    
-    <category term="备忘录" scheme="https://sine1995.gitee.io/categories/%E4%B8%AA%E4%BA%BA/%E5%A4%87%E5%BF%98%E5%BD%95/"/>
-    
-    
-    <category term="Steam" scheme="https://sine1995.gitee.io/tags/Steam/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>视频码率换算（速记备忘）</title>
-    <link href="https://sine1995.gitee.io/2023/%E8%A7%86%E9%A2%91%E7%A0%81%E7%8E%87%E6%8D%A2%E7%AE%97%EF%BC%88%E9%80%9F%E8%AE%B0%E5%A4%87%E5%BF%98%EF%BC%89.html"/>
-    <id>https://sine1995.gitee.io/2023/%E8%A7%86%E9%A2%91%E7%A0%81%E7%8E%87%E6%8D%A2%E7%AE%97%EF%BC%88%E9%80%9F%E8%AE%B0%E5%A4%87%E5%BF%98%EF%BC%89.html</id>
-    <published>2023-07-23T09:45:00.000Z</published>
-    <updated>2023-07-23T09:45:00.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;ul&gt;
-&lt;li&gt;1Mbps、1000kbps
-&lt;ul&gt;
-&lt;li&gt;1MB / 8s&lt;/li&gt;
-&lt;li&gt;7.5MB / min&lt;/li&gt;
-&lt;li&gt;450MB / hour&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;2Mbps、2000kbps
-&lt;ul&gt;
-&lt;li&gt;MB /</summary>
-        
-      
-    
-    
-    
-    <category term="个人" scheme="https://sine1995.gitee.io/categories/%E4%B8%AA%E4%BA%BA/"/>
-    
-    <category term="备忘录" scheme="https://sine1995.gitee.io/categories/%E4%B8%AA%E4%BA%BA/%E5%A4%87%E5%BF%98%E5%BD%95/"/>
-    
     
   </entry>
   
