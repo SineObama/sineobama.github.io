@@ -5,7 +5,8 @@ const path = require('path');
 const crypto = require('crypto');
 
 const sourceFolder = 'D:\\ob_main\\主笔记本';
-const targetFolder = 'D:\\iCloudDrive\\主笔记本';
+//const targetFolder = 'D:\\iCloudDrive\\主笔记本';
+const targetFolder = 'D:\\iCloudDrive\\iCloud~md~obsidian\\ob_main\\主笔记本';
 
 // 简单实现忽略文件夹与文件，不做删除
 const ignoreFolders = [];

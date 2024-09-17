@@ -8,6 +8,8 @@ tags:
 aliases:
 ---
 
+> 本文只是为了日常试用所以大都使用国内网站，而**国外**的网站以及GPT的入门介绍推荐参考 [Hello-AI](https://github.com/xxxily/hello-ai) （一个帮助更多人链接到AI世界的项目，提供各种AI相关的内容）
+
 ## 最新GPT免费体验汇总
 
 > 1. 注意不要滥用。

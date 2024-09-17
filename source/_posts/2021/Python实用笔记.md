@@ -94,3 +94,14 @@ from concurrent.futures import ThreadPoolExecutor # 官方线程池
 # functools 模块可以说主要是为函数式编程而设计，用于增强函数功能。
 from tqdm import tqdm # 快速，可扩展的进度条，可以在长循环中添加一个进度提示信息
 ```
+
+## 环境基础
+
+### pip安装、升级
+
+```
+python -m ensurepip
+pip install --upgrade pip --user
+```
+
+Windows系统不加--user可能报错，没有权限什么的
