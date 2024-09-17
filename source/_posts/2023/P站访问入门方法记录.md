@@ -1,5 +1,5 @@
 ---
-title: P站访问方法整理（入门级）
+title: 2023年P站访问方法整理（基础级）
 date: 2023-03-18 09:45
 updated: 2024-02-11
 tags:
@@ -7,16 +7,18 @@ tags:
 aliases:
 ---
 
-> 我不知道现在还有没有“加速器”，而之前用的代理网站很多也不太行了，可能还是要另寻VPN吧。
+## 写在前面
+
+**2023年之前的方法很多都不好用了，不如上github搜免费节点。**
 
 ## 镜像、代理网站？
 
-### pixiv.cat（查看单张图片）
+### pixiv.cat（只能查看单张图片）
 
 https://pixiv.nl/
 https://pixiv.re/
 
-使用方法见网站首页（或后面的附录），例如: https://pixiv.nl/82775556.jpg
+使用方法可直接进入网站查看（或后面的附录），例如: https://pixiv.nl/82775556.jpg
 
 ### pixiv-viewer
 
@@ -25,6 +27,8 @@ https://pixiv.obfs.dev （大概可以随机逛逛）
 ### Pixiviz
 
 [Pixiviz pixiv镜像网站，热门图库](https://pixiviz.pwp.app/)（我打不开了）
+
+---
 
 ## 已失效的
 
@@ -46,9 +50,9 @@ https://pixiv.moe/
 > [!note]- 网站首页说明
 > 本站主域名在中国大陆被墙，中国大陆用户请改用 pixiv.re (反向代理: i.pixiv.re (imgaz.pixiv.net 暂无法直接访问))
 >
-> ## 使用方式
+> #### 使用方式
 >
-> ### 單張作品
+> ##### 單張作品
 >
 > 適用於一個[作品ID](https://www.pixiv.help/hc/articles/235585168-What-is-Content-ID-)中只有一張圖片的作品
 >
@@ -56,7 +60,7 @@ https://pixiv.moe/
 >
 > 例如: https://pixiv.cat/82775556.jpg
 >
-> ### 多張作品 (漫畫模式)
+> ##### 多張作品 (漫畫模式)
 >
 > 適用於一個作品ID中有多張圖片的作品
 >
